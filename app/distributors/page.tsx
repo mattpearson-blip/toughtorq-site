@@ -47,9 +47,7 @@ export default function DistributorsPage() {
               <p className="mt-4 max-w-3xl text-base leading-8 text-white/80">
                 We are creating a distributor structure designed for industrial
                 markets that value dependable tools, practical product support,
-                and clear territory growth. This launch version establishes the
-                distributor section of the site now, while deeper workflows and
-                protected partner tools are added over time.
+                and clear territory growth.
               </p>
 
               <div className="mt-10 grid gap-4">
@@ -104,16 +102,18 @@ export default function DistributorsPage() {
 
               <div className="rounded-3xl border border-white/10 bg-neutral-950 p-8 transition hover:border-red-600">
                 <p className="text-sm uppercase tracking-[0.24em] text-red-600">
-                  Launch Reality
+                  Regional Opportunity
                 </p>
                 <h3 className="mt-3 text-2xl font-semibold text-[#666666]">
-                  Publish now, expand after
+                  Built for long-term market development
                 </h3>
                 <p className="mt-4 leading-8 text-white/75">
-                  This page is meant to be strong enough for launch today. It
-                  gives the distributor section legitimacy immediately, even
-                  before account systems, approvals, and backend routing are
-                  fully connected.
+                  ToughTorq is focused on building strong distributor
+                  relationships in markets where product knowledge, dependable
+                  support, and practical industrial solutions matter. The goal
+                  is to create lasting regional partnerships that help expand
+                  market coverage and strengthen customer confidence in the
+                  brand.
                 </p>
               </div>
 
