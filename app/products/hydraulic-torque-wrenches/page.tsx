@@ -1,310 +1,441 @@
+import Image from "next/image";
+import Link from "next/link";
 import { PageHero } from "@/components/page-hero";
 
-const hydraulicFamilies = [
+const squareDriveModels = [
   {
-    title: "Low Clearance Cassette Wrenches",
-    text: "Built for flange and joint applications where overhead, radial, or surrounding clearance limits the use of a standard square-drive wrench.",
+    model: "TT1XTA",
+    minTorque: "121",
+    maxTorque: "1,298",
+    drive: '3/4"',
+    weight: "4.41",
   },
   {
-    title: "Square Drive Hydraulic Wrenches",
-    text: "A versatile hydraulic torque platform for general bolting work, shutdowns, production maintenance, and heavy industrial service.",
+    model: "TT3XTA",
+    minTorque: "319",
+    maxTorque: "3,195",
+    drive: '1"',
+    weight: "8.82",
   },
   {
-    title: "Lightweight Alloy Construction",
-    text: "Engineered to reduce fatigue and improve handling without giving up the rugged feel expected in serious bolting environments.",
+    model: "TT5XTA",
+    minTorque: "547",
+    maxTorque: "5,473",
+    drive: '1-1/2"',
+    weight: "15.43",
   },
   {
-    title: "Industrial-Grade Repeatability",
-    text: "Designed for torque-critical applications where output consistency, tool durability, and serviceability matter over the long run.",
+    model: "TT8XTA",
+    minTorque: "749",
+    maxTorque: "7,693",
+    drive: '1-1/2"',
+    weight: "23.37",
+  },
+  {
+    model: "TT10XTA",
+    minTorque: "1,113",
+    maxTorque: "11,130",
+    drive: '2-1/2"',
+    weight: "28.44",
+  },
+  {
+    model: "TT15XTA",
+    minTorque: "1,431",
+    maxTorque: "14,315",
+    drive: '2-1/2"',
+    weight: "44.09",
+  },
+  {
+    model: "TT20XTA",
+    minTorque: "1,847",
+    maxTorque: "19,506",
+    drive: '2-1/2"',
+    weight: "55.12",
+  },
+  {
+    model: "TT25XTA",
+    minTorque: "2,441",
+    maxTorque: "25,539",
+    drive: '2-1/2"',
+    weight: "74.52",
+  },
+  {
+    model: "TT35XTA",
+    minTorque: "3,497",
+    maxTorque: "34,971",
+    drive: '2-1/2"',
+    weight: "94.80",
+  },
+  {
+    model: "TT50XTA",
+    minTorque: "5,108",
+    maxTorque: "51,074",
+    drive: '2-1/2"',
+    weight: "114.64",
   },
 ];
 
-const hydraulicApplications = [
-  "Turnarounds and shutdowns",
-  "Refining and petrochemical",
-  "Power generation",
-  "Steel and heavy manufacturing",
-  "Wind and renewable energy",
-  "General industrial bolting",
+const cassetteModels = [
+  {
+    model: "TT2LCT",
+    minTorque: "180",
+    maxTorque: "1,869",
+    cassette: "2LC-50",
+    weight: "4.85",
+  },
+  {
+    model: "TT4LCT",
+    minTorque: "361",
+    maxTorque: "3,977",
+    cassette: "4LC-65",
+    weight: "11.02",
+  },
+  {
+    model: "TT8LCT",
+    minTorque: "750",
+    maxTorque: "7,709",
+    cassette: "8LC-90",
+    weight: "21.16",
+  },
+  {
+    model: "TT14LCT",
+    minTorque: "1,272",
+    maxTorque: "11,982",
+    cassette: "14LC-115",
+    weight: "37.26",
+  },
+  {
+    model: "TT18LCT",
+    minTorque: "1,657",
+    maxTorque: "16,889",
+    cassette: "18LC-135",
+    weight: "50.49",
+  },
+  {
+    model: "TT30LCT",
+    minTorque: "2,779",
+    maxTorque: "29,196",
+    cassette: "30LC-155",
+    weight: "83.78",
+  },
 ];
 
-const hydraulicAdvantages = [
-  {
-    title: "High-output torque performance",
-    text: "Hydraulic torque wrenches remain one of the strongest solutions for large fasteners and torque-critical bolting where dependable force delivery matters.",
-  },
-  {
-    title: "Broad application fit",
-    text: "From square-drive models to low-clearance cassette systems, the platform can be positioned around a wide range of joints, access limits, and industrial bolting programs.",
-  },
-  {
-    title: "Serviceable tool platform",
-    text: "ToughTorq hydraulic tools should be presented as durable, rebuildable, and supportable rather than disposable or difficult to maintain.",
-  },
-  {
-    title: "Distributor-ready product family",
-    text: "The platform is built to support quoting, rental conversations, planned maintenance, and long-term distributor growth across industrial accounts.",
-  },
+const squareDriveFeatures = [
+  "10,000 PSI maximum working pressure",
+  "High-strength lightweight TITAL-919 alloy construction",
+  "360° swivel hose coupler",
+  "360° adjustable reaction arm",
+  "Quick-operating trigger lock",
+  "3% accuracy",
+  "Square or hexagonal drive shaft options",
 ];
 
-const hydraulicFaqs = [
-  {
-    q: "Where do hydraulic torque wrenches fit best?",
-    a: "They are best positioned for higher-output bolting, shutdown work, flange applications, and torque-critical industrial tasks where reliability and repeatability are essential.",
-  },
-  {
-    q: "Why include both square-drive and low-clearance options?",
-    a: "Different jobs demand different access solutions. A stronger hydraulic platform gives distributors and end users the flexibility to match the tool to the application rather than forcing one tool style onto every job.",
-  },
-  {
-    q: "How should these be quoted?",
-    a: "They should be quoted through the distributor network with the right discussion around access, torque range, pump compatibility, sockets, and application requirements.",
-  },
-  {
-    q: "What makes the ToughTorq hydraulic family different?",
-    a: "It should be positioned around durability, industrial fit, long-term serviceability, and a cleaner alternative to generic tooling that is expensive to own and frustrating to support.",
-  },
+const cassetteFeatures = [
+  "Low-profile pancake design",
+  "Lightweight TITAL-919 construction",
+  "360° swivel hose coupler",
+  "Interchangeable working heads",
+  "Multiple cassette and reducer configurations",
+  "Designed for restricted-access applications",
 ];
 
 export default function HydraulicTorqueWrenchesPage() {
   return (
     <>
       <PageHero
-        eyebrow="Hydraulic Torque Wrenches"
-        title="Hydraulic torque wrench systems built for serious industrial bolting."
-        text="ToughTorq hydraulic torque wrenches are positioned for shutdowns, turnarounds, production maintenance, and torque-critical field applications where reliability, repeatability, and long-term durability matter."
+        eyebrow="Hydraulic Bolting"
+        title="Hydraulic Torque Wrenches"
+        text="Square-drive and low-profile cassette hydraulic torque wrench systems for controlled industrial bolting."
       />
 
-      <section className="border-b border-white/10 bg-neutral-950">
-        <div className="mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[1.05fr_0.95fr]">
-          <div>
-            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-red-600">
-              Hydraulic Platform
-            </div>
-            <h2 className="mt-3 text-3xl font-black uppercase tracking-tight text-[#666666] md:text-4xl lg:text-5xl">
-              Built for higher-output bolting and torque-critical work.
-            </h2>
-            <p className="mt-5 max-w-3xl text-lg leading-8 text-white/85">
-              ToughTorq hydraulic torque wrench systems should be positioned as
-              a premium industrial solution for applications where larger
-              fasteners, tighter joints, and more demanding conditions require
-              dependable force delivery and repeatable torque output.
-            </p>
-            <p className="mt-4 max-w-3xl text-lg leading-8 text-white/85">
-              This product family should anchor the brand in the industrial
-              bolting market. It needs to feel durable, serviceable, and ready
-              for the kinds of applications where generic tooling quickly
-              becomes a liability.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-4">
-              <a
-                href="/contact"
-                className="rounded-xl border border-red-600 bg-red-600 px-6 py-3 text-sm font-bold uppercase text-white hover:opacity-90"
-              >
-                Request Hydraulic Tool Quote
-              </a>
-              <a
-                href="/distributors"
-                className="rounded-xl border border-white/15 bg-white/5 px-6 py-3 text-sm font-bold uppercase text-white hover:bg-white/10"
-              >
-                Become a Distributor
-              </a>
-            </div>
-          </div>
+      <main className="bg-[#f2f2f2] text-[#292929]">
+        {/* Square Drive */}
+        <section className="border-b border-[#d6d6d6]">
+          <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 lg:px-12">
+            <div className="grid items-center gap-10 lg:grid-cols-2">
+              <div>
+                <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#ed1c24]">
+                  Square Drive Series
+                </p>
 
-          <div className="border border-red-600/30 bg-black p-8 transition hover:border-red-600/60">
-            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-[#666666]">
-              Positioning Snapshot
-            </div>
-            <div className="mt-6 grid gap-4">
-              <div className="border border-white/10 bg-neutral-950 p-5 text-white/85 transition hover:border-red-600/60">
-                Premium hydraulic torque solutions for industrial bolting environments.
-              </div>
-              <div className="border border-white/10 bg-neutral-950 p-5 text-white/85 transition hover:border-red-600/60">
-                Built for shutdowns, turnarounds, flange work, and planned maintenance.
-              </div>
-              <div className="border border-white/10 bg-neutral-950 p-5 text-white/85 transition hover:border-red-600/60">
-                Designed to support distributor-led quoting, rentals, and application guidance.
-              </div>
-              <div className="border border-white/10 bg-neutral-950 p-5 text-white/85 transition hover:border-red-600/60">
-                A cleaner alternative to generic built-to-break hydraulic tooling.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+                <h2 className="mt-3 text-3xl font-semibold text-[#666666] md:text-4xl">
+                  Square Drive Hydraulic Torque Wrenches
+                </h2>
 
-      <section className="border-b border-white/10 bg-black">
-        <div className="mx-auto max-w-7xl px-6 py-20">
-          <div className="max-w-4xl">
-            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-red-600">
-              Product Families
-            </div>
-            <h2 className="mt-3 text-3xl font-black uppercase tracking-tight text-[#666666] md:text-4xl lg:text-5xl">
-              A hydraulic platform built around access, torque range, and industrial fit.
-            </h2>
-          </div>
+                <p className="mt-5 max-w-2xl leading-8 text-[#444444]">
+                  Compact hydraulic torque wrenches for controlled high-torque
+                  bolting applications. The series covers output from 121 to
+                  51,074 ft-lb.
+                </p>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-            {hydraulicFamilies.map((item) => (
-              <div
-                key={item.title}
-                className="border border-white/10 bg-neutral-950 p-6 transition hover:border-red-600/60"
-              >
-                <div className="text-lg font-black uppercase tracking-tight text-[#666666]">
-                  {item.title}
+                <div className="mt-7 grid gap-3 sm:grid-cols-2">
+                  {squareDriveFeatures.map((feature) => (
+                    <div
+                      key={feature}
+                      className="rounded-xl border border-[#d6d6d6] bg-white px-4 py-3 text-sm text-[#444444]"
+                    >
+                      {feature}
+                    </div>
+                  ))}
                 </div>
-                <p className="mt-4 text-sm leading-7 text-white/85">
-                  {item.text}
+              </div>
+
+              <div className="flex justify-center">
+                <div className="relative min-h-[300px] w-full max-w-[520px] overflow-hidden rounded-3xl border border-[#d6d6d6] bg-white p-6">
+                  <Image
+                    src="/square-drive-hydraulic-torque-wrench.png"
+                    alt="ToughTorq square drive hydraulic torque wrench"
+                    fill
+                    className="object-contain p-5"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-12 overflow-hidden rounded-3xl border border-[#d6d6d6] bg-white">
+              <div className="border-b border-[#d6d6d6] px-5 py-5 md:px-7">
+                <h3 className="text-2xl font-semibold text-[#666666]">
+                  Square Drive Models
+                </h3>
+              </div>
+
+              <div className="overflow-x-auto">
+                <table className="min-w-[720px] w-full text-left text-sm">
+                  <thead className="bg-[#ed1c24] text-white">
+                    <tr>
+                      <th className="px-5 py-4 font-semibold">Model</th>
+                      <th className="px-5 py-4 font-semibold">
+                        Min Torque
+                      </th>
+                      <th className="px-5 py-4 font-semibold">
+                        Max Torque
+                      </th>
+                      <th className="px-5 py-4 font-semibold">
+                        Square Drive
+                      </th>
+                      <th className="px-5 py-4 font-semibold">Weight</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    {squareDriveModels.map((tool, index) => (
+                      <tr
+                        key={tool.model}
+                        className={
+                          index % 2 === 0 ? "bg-white" : "bg-[#f4f4f4]"
+                        }
+                      >
+                        <td className="px-5 py-4 font-semibold text-[#333333]">
+                          {tool.model}
+                        </td>
+                        <td className="px-5 py-4">
+                          {tool.minTorque} ft-lb
+                        </td>
+                        <td className="px-5 py-4">
+                          {tool.maxTorque} ft-lb
+                        </td>
+                        <td className="px-5 py-4">{tool.drive}</td>
+                        <td className="px-5 py-4">{tool.weight} lb</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Cassette */}
+        <section className="border-b border-[#d6d6d6] bg-white">
+          <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 lg:px-12">
+            <div className="grid items-center gap-10 lg:grid-cols-2">
+              <div className="order-2 lg:order-1 flex justify-center">
+                <div className="relative min-h-[300px] w-full max-w-[540px] overflow-hidden rounded-3xl border border-[#d6d6d6] bg-[#f7f7f7] p-6">
+                  <Image
+                    src="/ratchet-cassette-hydraulic-torque-wrench.png"
+                    alt="ToughTorq ratchet cassette hydraulic torque wrench"
+                    fill
+                    className="object-contain p-5"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+                </div>
+              </div>
+
+              <div className="order-1 lg:order-2">
+                <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#ed1c24]">
+                  Low Profile Series
+                </p>
+
+                <h2 className="mt-3 text-3xl font-semibold text-[#666666] md:text-4xl">
+                  Ratchet Cassette Hydraulic Torque Wrenches
+                </h2>
+
+                <p className="mt-5 max-w-2xl leading-8 text-[#444444]">
+                  Ultra-thin hydraulic torque wrench systems designed for
+                  applications where conventional square-drive tools cannot
+                  easily access the fastener.
+                </p>
+
+                <div className="mt-7 grid gap-3 sm:grid-cols-2">
+                  {cassetteFeatures.map((feature) => (
+                    <div
+                      key={feature}
+                      className="rounded-xl border border-[#d6d6d6] bg-[#f7f7f7] px-4 py-3 text-sm text-[#444444]"
+                    >
+                      {feature}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-12 overflow-hidden rounded-3xl border border-[#d6d6d6] bg-white">
+              <div className="border-b border-[#d6d6d6] px-5 py-5 md:px-7">
+                <h3 className="text-2xl font-semibold text-[#666666]">
+                  Cassette Models
+                </h3>
+              </div>
+
+              <div className="overflow-x-auto">
+                <table className="min-w-[720px] w-full text-left text-sm">
+                  <thead className="bg-[#ed1c24] text-white">
+                    <tr>
+                      <th className="px-5 py-4 font-semibold">Model</th>
+                      <th className="px-5 py-4 font-semibold">
+                        Min Torque
+                      </th>
+                      <th className="px-5 py-4 font-semibold">
+                        Max Torque
+                      </th>
+                      <th className="px-5 py-4 font-semibold">Cassette</th>
+                      <th className="px-5 py-4 font-semibold">Weight</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    {cassetteModels.map((tool, index) => (
+                      <tr
+                        key={tool.model}
+                        className={
+                          index % 2 === 0 ? "bg-white" : "bg-[#f4f4f4]"
+                        }
+                      >
+                        <td className="px-5 py-4 font-semibold text-[#333333]">
+                          {tool.model}
+                        </td>
+                        <td className="px-5 py-4">
+                          {tool.minTorque} ft-lb
+                        </td>
+                        <td className="px-5 py-4">
+                          {tool.maxTorque} ft-lb
+                        </td>
+                        <td className="px-5 py-4">{tool.cassette}</td>
+                        <td className="px-5 py-4">{tool.weight} lb</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Equipment */}
+        <section className="border-b border-[#d6d6d6]">
+          <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 lg:px-12">
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#ed1c24]">
+              Complete Hydraulic System
+            </p>
+
+            <h2 className="mt-3 text-3xl font-semibold text-[#666666] md:text-4xl">
+              Related equipment
+            </h2>
+
+            <div className="mt-8 grid gap-5 md:grid-cols-3">
+              <Link
+                href="/products/pumps-tensioners-rams"
+                className="rounded-3xl border border-[#d6d6d6] bg-white p-6 transition hover:border-[#ed1c24]"
+              >
+                <h3 className="text-xl font-semibold text-[#666666]">
+                  Hydraulic Pumps
+                </h3>
+                <p className="mt-3 leading-7 text-[#444444]">
+                  Electric, pneumatic, battery, and hydraulic power units.
+                </p>
+              </Link>
+
+              <div className="rounded-3xl border border-[#d6d6d6] bg-white p-6">
+                <h3 className="text-xl font-semibold text-[#666666]">
+                  Sockets & Drives
+                </h3>
+                <p className="mt-3 leading-7 text-[#444444]">
+                  Square drives, hexagonal drives, sockets, and cassette
+                  accessories.
                 </p>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      <section className="border-b border-white/10 bg-neutral-950">
-        <div className="mx-auto grid max-w-7xl gap-10 px-6 py-20 lg:grid-cols-2">
-          <div>
-            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-red-600">
-              Ideal Applications
-            </div>
-            <h2 className="mt-3 text-3xl font-black uppercase tracking-tight text-[#666666] md:text-4xl lg:text-5xl">
-              Where hydraulic torque wrenches create the most value.
-            </h2>
-            <div className="mt-8 grid gap-4 sm:grid-cols-2">
-              {hydraulicApplications.map((item) => (
-                <div
-                  key={item}
-                  className="border border-white/10 bg-black px-5 py-5 text-sm font-semibold uppercase tracking-wide text-white/85 transition hover:border-red-600/60"
-                >
-                  {item}
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-red-600">
-              Why Hydraulic
-            </div>
-            <h2 className="mt-3 text-3xl font-black uppercase tracking-tight text-[#666666] md:text-4xl lg:text-5xl">
-              Built for jobs where failure is expensive.
-            </h2>
-            <p className="mt-8 text-lg leading-8 text-white/85">
-              Hydraulic torque wrench systems should be presented as a
-              foundational industrial bolting solution for users who need
-              dependable output, proven field performance, and a product family
-              that can scale across torque ranges, access conditions, and
-              long-term maintenance programs.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="border-b border-white/10 bg-black">
-        <div className="mx-auto max-w-7xl px-6 py-20">
-          <div className="max-w-4xl">
-            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-red-600">
-              Why Choose ToughTorq Hydraulic
-            </div>
-            <h2 className="mt-3 text-3xl font-black uppercase tracking-tight text-[#666666] md:text-4xl lg:text-5xl">
-              Built for long-term industrial ownership, not short-term convenience.
-            </h2>
-          </div>
-
-          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-            {hydraulicAdvantages.map((item) => (
-              <div
-                key={item.title}
-                className="border border-white/10 bg-neutral-950 p-6 transition hover:border-red-600/60"
-              >
-                <div className="text-lg font-black uppercase tracking-tight text-[#666666]">
-                  {item.title}
-                </div>
-                <p className="mt-4 text-sm leading-7 text-white/85">
-                  {item.text}
+              <div className="rounded-3xl border border-[#d6d6d6] bg-white p-6">
+                <h3 className="text-xl font-semibold text-[#666666]">
+                  Reaction Arms
+                </h3>
+                <p className="mt-3 leading-7 text-[#444444]">
+                  Standard, angled, double-ended, sliding, and custom reaction
+                  configurations.
                 </p>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="border-b border-white/10 bg-neutral-950">
-        <div className="mx-auto grid max-w-7xl gap-10 px-6 py-20 lg:grid-cols-[1fr_0.95fr]">
-          <div>
-            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-red-600">
-              Support Model
-            </div>
-            <h2 className="mt-3 text-3xl font-black uppercase tracking-tight text-[#666666] md:text-4xl lg:text-5xl">
-              Built for distributor-led quoting, application fit, and support.
-            </h2>
-            <p className="mt-5 max-w-3xl text-lg leading-8 text-white/85">
-              Hydraulic torque wrench systems should be quoted and supported
-              through the right distributor relationship. That allows the
-              customer to discuss access conditions, torque range, pumps,
-              sockets, hoses, and application requirements with the right level
-              of guidance.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-4">
-              <a
-                href="/contact"
-                className="rounded-xl border border-red-600 bg-red-600 px-6 py-3 text-sm font-bold uppercase text-white hover:opacity-90"
-              >
-                Request Quote
-              </a>
-              <a
-                href="/find-a-distributor"
-                className="rounded-xl border border-white/15 bg-white/5 px-6 py-3 text-sm font-bold uppercase text-white hover:bg-white/10"
-              >
-                Find Distribution Partner
-              </a>
             </div>
           </div>
+        </section>
 
-          <div className="border border-white/10 bg-black p-8 transition hover:border-red-600/60">
-            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-red-600">
-              Typical Fit
-            </div>
-            <div className="mt-4 space-y-4 text-white/85">
-              <p>• Shutdown and turnaround contractors.</p>
-              <p>• Plants with recurring bolting programs.</p>
-              <p>• Refinery, power, and heavy manufacturing maintenance teams.</p>
-              <p>• Distributors supporting torque-critical industrial customers.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+        {/* Downloads */}
+        <section className="bg-white">
+          <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 lg:px-12">
+            <div className="grid gap-8 lg:grid-cols-2">
+              <div>
+                <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#ed1c24]">
+                  Technical Resources
+                </p>
 
-      <section className="bg-black">
-        <div className="mx-auto max-w-7xl px-6 py-20">
-          <div className="max-w-4xl">
-            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-red-600">
-              Hydraulic Torque Wrenches FAQ
-            </div>
-            <h2 className="mt-3 text-3xl font-black uppercase tracking-tight text-[#666666] md:text-4xl lg:text-5xl">
-              Clear answers for distributors and end users.
-            </h2>
-          </div>
+                <h2 className="mt-3 text-3xl font-semibold text-[#666666] md:text-4xl">
+                  Cutsheets & operational charts
+                </h2>
 
-          <div className="mt-12 grid gap-6 lg:grid-cols-2">
-            {hydraulicFaqs.map((item) => (
-              <div
-                key={item.q}
-                className="border border-white/10 bg-neutral-950 p-6 transition hover:border-red-600/60"
-              >
-                <div className="text-lg font-black uppercase tracking-tight text-[#666666]">
-                  {item.q}
-                </div>
-                <p className="mt-4 text-sm leading-7 text-white/85">
-                  {item.a}
+                <p className="mt-5 max-w-2xl leading-8 text-[#444444]">
+                  Product cutsheets will include complete dimensions and
+                  technical specifications. Hydraulic operational charts will
+                  provide model-specific pressure-to-torque values.
                 </p>
               </div>
-            ))}
+
+              <div className="rounded-3xl border border-[#d6d6d6] bg-[#f7f7f7] p-6 md:p-8">
+                <h3 className="text-xl font-semibold text-[#666666]">
+                  Hydraulic Torque Wrench Downloads
+                </h3>
+
+                <p className="mt-4 text-sm leading-7 text-[#555555]">
+                  Pressure-to-torque charts will be added from validated
+                  ToughTorq operating data.
+                </p>
+
+                <p className="mt-4 text-sm leading-7 text-[#555555]">
+                  We will not generate operating torque values from assumptions.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-10 flex flex-col gap-3 sm:flex-row">
+              <Link href="/contact" className="tt-button-primary">
+                Request Product Information
+              </Link>
+
+              <Link href="/products" className="tt-button-secondary">
+                Back to Products
+              </Link>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
     </>
   );
 }
