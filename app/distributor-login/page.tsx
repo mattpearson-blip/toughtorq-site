@@ -1,12 +1,12 @@
 import Link from "next/link";
 import { PageHero } from "@/components/page-hero";
 
-const upcomingFeatures = [
+const portalFeatures = [
   "Distributor pricing access",
   "Marketing and product resources",
   "Cut sheets and product documentation",
-  "Territory and lead-routing tools",
-  "Future protected distributor content",
+  "Territory and lead support tools",
+  "Centralized partner resources",
 ];
 
 export default function DistributorLoginPage() {
@@ -14,8 +14,8 @@ export default function DistributorLoginPage() {
     <>
       <PageHero
         eyebrow="Distributor Login"
-        title="Distributor portal coming soon."
-        text="This page serves as the placeholder landing page for future distributor access, protected resources, and partner support tools."
+        title="Partner access for the ToughTorq network."
+        text="The distributor portal is designed to support approved partners with product resources, account access, and ongoing brand support."
       />
 
       <section className="border-b border-white/10 bg-black">
@@ -23,24 +23,23 @@ export default function DistributorLoginPage() {
           <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr]">
             <div className="rounded-3xl border border-white/10 bg-neutral-950 p-8 transition hover:border-red-600 md:p-10">
               <p className="text-sm uppercase tracking-[0.24em] text-red-600">
-                Coming Soon
+                Partner Portal
               </p>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#666666] md:text-4xl">
-                Distributor access is being built now
+                Built to support distributor growth
               </h2>
               <p className="mt-4 max-w-3xl text-base leading-8 text-white/80">
-                ToughTorq is building a dedicated distributor portal for approved
-                partners. This launch version keeps the route live and
-                intentional today while protected access, account workflows, and
-                partner resources are finalized.
+                ToughTorq is building a distributor-focused access point for
+                partners who need cleaner access to product information,
+                literature, brand resources, and ongoing support tools.
               </p>
 
               <div className="mt-8 rounded-3xl border border-white/10 bg-black p-6 transition hover:border-red-600">
                 <p className="text-sm uppercase tracking-[0.24em] text-red-600">
-                  Planned Portal Features
+                  Partner Resources
                 </p>
                 <div className="mt-5 grid gap-3 sm:grid-cols-2">
-                  {upcomingFeatures.map((feature) => (
+                  {portalFeatures.map((feature) => (
                     <div
                       key={feature}
                       className="rounded-2xl border border-white/10 bg-neutral-950 px-4 py-4 text-sm text-white/80 transition hover:border-red-600"
@@ -70,29 +69,29 @@ export default function DistributorLoginPage() {
             <div className="space-y-6">
               <div className="rounded-3xl border border-white/10 bg-neutral-950 p-8 transition hover:border-red-600">
                 <p className="text-sm uppercase tracking-[0.24em] text-red-600">
-                  For Launch
+                  Distributor Access
                 </p>
                 <h3 className="mt-3 text-2xl font-semibold text-[#666666]">
-                  A clean placeholder is enough
+                  Built for approved partners
                 </h3>
                 <p className="mt-4 leading-8 text-white/75">
-                  This page does not need real authentication yet. It simply
-                  gives distributors a destination and shows that a formal
-                  partner portal is part of the platform direction.
+                  This area is intended for distributor relationships that
+                  require organized access to product information, support
+                  materials, and ongoing brand resources.
                 </p>
               </div>
 
               <div className="rounded-3xl border border-white/10 bg-neutral-950 p-8 transition hover:border-red-600">
                 <p className="text-sm uppercase tracking-[0.24em] text-red-600">
-                  Distributor Path
+                  Network Growth
                 </p>
                 <h3 className="mt-3 text-2xl font-semibold text-[#666666]">
-                  New partners start here
+                  Supporting stronger regional coverage
                 </h3>
                 <p className="mt-4 leading-8 text-white/75">
-                  Prospective partners should use the dedicated distributor
-                  application page first. Approved partners can later be given
-                  credentials and access to protected content here.
+                  ToughTorq is focused on building distributor relationships
+                  that strengthen market coverage, improve responsiveness, and
+                  help support industrial customers with greater consistency.
                 </p>
               </div>
 

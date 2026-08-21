@@ -20,9 +20,9 @@ export default function ThankYouPage() {
               We’ve got your information.
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-white/80 md:text-lg">
-              This submission has been sent to the ToughTorq support inbox for
-              review. As your workflows evolve, this page can later support more
-              advanced routing, CRM confirmation, or territory-based follow-up.
+              Your submission has been sent to the ToughTorq support inbox for
+              review. A member of the team will follow up as needed based on the
+              type of request and the information provided.
             </p>
 
             <div className="mt-10 grid gap-4 md:grid-cols-3">
