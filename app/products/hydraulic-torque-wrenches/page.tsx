@@ -122,22 +122,41 @@ const cassetteModels = [
 
 const squareDriveFeatures = [
   "10,000 PSI maximum working pressure",
-  "High-strength lightweight TITAL-919 alloy construction",
+  "High-strength lightweight alloy construction",
   "360° swivel hose coupler",
   "360° adjustable reaction arm",
   "Quick-operating trigger lock",
   "3% accuracy",
-  "Square or hexagonal drive shaft options",
+  "Square or hexagonal drive options",
 ];
 
 const cassetteFeatures = [
   "Low-profile pancake design",
-  "Lightweight TITAL-919 construction",
+  "High-strength lightweight construction",
   "360° swivel hose coupler",
   "Interchangeable working heads",
   "Multiple cassette and reducer configurations",
   "Designed for restricted-access applications",
 ];
+
+function QuoteModelLink({
+  model,
+  product,
+}: {
+  model: string;
+  product: string;
+}) {
+  return (
+    <Link
+      href={`/request-a-quote?model=${encodeURIComponent(
+        model
+      )}&product=${encodeURIComponent(product)}`}
+      className="font-semibold text-[#ed1c24] underline-offset-4 transition hover:underline"
+    >
+      {model}
+    </Link>
+  );
+}
 
 export default function HydraulicTorqueWrenchesPage() {
   return (
@@ -149,23 +168,24 @@ export default function HydraulicTorqueWrenchesPage() {
       />
 
       <main className="bg-[#f2f2f2] text-[#292929]">
-        {/* Square Drive */}
+        {/* SQUARE DRIVE */}
         <section className="border-b border-[#d6d6d6]">
-          <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 lg:px-12">
+          <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 md:py-16 lg:px-12">
             <div className="grid items-center gap-10 lg:grid-cols-2">
               <div>
-                <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#ed1c24]">
+                <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#ed1c24]">
                   Square Drive Series
                 </p>
 
-                <h2 className="mt-3 text-3xl font-semibold text-[#666666] md:text-4xl">
+                <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#666666] md:text-4xl">
                   Square Drive Hydraulic Torque Wrenches
                 </h2>
 
                 <p className="mt-5 max-w-2xl leading-8 text-[#444444]">
-                  Compact hydraulic torque wrenches for controlled high-torque
-                  bolting applications. The series covers output from 121 to
-                  51,074 ft-lb.
+                  Compact hydraulic torque wrenches designed for controlled
+                  high-torque bolting across industrial maintenance,
+                  construction, power generation, petrochemical, and heavy
+                  equipment applications.
                 </p>
 
                 <div className="mt-7 grid gap-3 sm:grid-cols-2">
@@ -181,12 +201,13 @@ export default function HydraulicTorqueWrenchesPage() {
               </div>
 
               <div className="flex justify-center">
-                <div className="relative min-h-[300px] w-full max-w-[520px] overflow-hidden rounded-3xl border border-[#d6d6d6] bg-white p-6">
+                <div className="relative min-h-[300px] w-full max-w-[540px] md:min-h-[390px]">
                   <Image
                     src="/square-drive-hydraulic-torque-wrench.png"
                     alt="ToughTorq square drive hydraulic torque wrench"
                     fill
-                    className="object-contain p-5"
+                    priority
+                    className="object-contain"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                 </div>
@@ -195,13 +216,28 @@ export default function HydraulicTorqueWrenchesPage() {
 
             <div className="mt-12 overflow-hidden rounded-3xl border border-[#d6d6d6] bg-white">
               <div className="border-b border-[#d6d6d6] px-5 py-5 md:px-7">
-                <h3 className="text-2xl font-semibold text-[#666666]">
-                  Square Drive Models
-                </h3>
+                <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+                  <div>
+                    <h3 className="text-2xl font-semibold text-[#666666]">
+                      Square Drive Models
+                    </h3>
+
+                    <p className="mt-2 text-sm text-[#666666]">
+                      Select a model to add it to your quote request.
+                    </p>
+                  </div>
+
+                  <Link
+                    href="/request-a-quote"
+                    className="text-sm font-semibold text-[#ed1c24]"
+                  >
+                    View Quote Cart →
+                  </Link>
+                </div>
               </div>
 
               <div className="overflow-x-auto">
-                <table className="min-w-[720px] w-full text-left text-sm">
+                <table className="w-full min-w-[720px] text-left text-sm">
                   <thead className="bg-[#ed1c24] text-white">
                     <tr>
                       <th className="px-5 py-4 font-semibold">Model</th>
@@ -226,17 +262,28 @@ export default function HydraulicTorqueWrenchesPage() {
                           index % 2 === 0 ? "bg-white" : "bg-[#f4f4f4]"
                         }
                       >
-                        <td className="px-5 py-4 font-semibold text-[#333333]">
-                          {tool.model}
-                        </td>
                         <td className="px-5 py-4">
+                          <QuoteModelLink
+                            model={tool.model}
+                            product="Square Drive Hydraulic Torque Wrench"
+                          />
+                        </td>
+
+                        <td className="px-5 py-4 text-[#444444]">
                           {tool.minTorque} ft-lb
                         </td>
-                        <td className="px-5 py-4">
+
+                        <td className="px-5 py-4 text-[#444444]">
                           {tool.maxTorque} ft-lb
                         </td>
-                        <td className="px-5 py-4">{tool.drive}</td>
-                        <td className="px-5 py-4">{tool.weight} lb</td>
+
+                        <td className="px-5 py-4 text-[#444444]">
+                          {tool.drive}
+                        </td>
+
+                        <td className="px-5 py-4 text-[#444444]">
+                          {tool.weight} lb
+                        </td>
                       </tr>
                     ))}
                   </tbody>
@@ -246,35 +293,35 @@ export default function HydraulicTorqueWrenchesPage() {
           </div>
         </section>
 
-        {/* Cassette */}
+        {/* CASSETTE */}
         <section className="border-b border-[#d6d6d6] bg-white">
-          <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 lg:px-12">
+          <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 md:py-16 lg:px-12">
             <div className="grid items-center gap-10 lg:grid-cols-2">
-              <div className="order-2 lg:order-1 flex justify-center">
-                <div className="relative min-h-[300px] w-full max-w-[540px] overflow-hidden rounded-3xl border border-[#d6d6d6] bg-[#f7f7f7] p-6">
+              <div className="order-2 flex justify-center lg:order-1">
+                <div className="relative min-h-[280px] w-full max-w-[560px] md:min-h-[370px]">
                   <Image
                     src="/ratchet-cassette-hydraulic-torque-wrench.png"
-                    alt="ToughTorq ratchet cassette hydraulic torque wrench"
+                    alt="ToughTorq ratchet cassette hydraulic torque wrenches"
                     fill
-                    className="object-contain p-5"
+                    className="object-contain"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                 </div>
               </div>
 
               <div className="order-1 lg:order-2">
-                <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#ed1c24]">
+                <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#ed1c24]">
                   Low Profile Series
                 </p>
 
-                <h2 className="mt-3 text-3xl font-semibold text-[#666666] md:text-4xl">
+                <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#666666] md:text-4xl">
                   Ratchet Cassette Hydraulic Torque Wrenches
                 </h2>
 
                 <p className="mt-5 max-w-2xl leading-8 text-[#444444]">
-                  Ultra-thin hydraulic torque wrench systems designed for
-                  applications where conventional square-drive tools cannot
-                  easily access the fastener.
+                  Low-profile hydraulic torque wrench systems for flange,
+                  pipeline, equipment, and other applications where conventional
+                  square-drive tools have limited access.
                 </p>
 
                 <div className="mt-7 grid gap-3 sm:grid-cols-2">
@@ -292,13 +339,28 @@ export default function HydraulicTorqueWrenchesPage() {
 
             <div className="mt-12 overflow-hidden rounded-3xl border border-[#d6d6d6] bg-white">
               <div className="border-b border-[#d6d6d6] px-5 py-5 md:px-7">
-                <h3 className="text-2xl font-semibold text-[#666666]">
-                  Cassette Models
-                </h3>
+                <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+                  <div>
+                    <h3 className="text-2xl font-semibold text-[#666666]">
+                      Ratchet Cassette Models
+                    </h3>
+
+                    <p className="mt-2 text-sm text-[#666666]">
+                      Select a model to add it to your quote request.
+                    </p>
+                  </div>
+
+                  <Link
+                    href="/request-a-quote"
+                    className="text-sm font-semibold text-[#ed1c24]"
+                  >
+                    View Quote Cart →
+                  </Link>
+                </div>
               </div>
 
               <div className="overflow-x-auto">
-                <table className="min-w-[720px] w-full text-left text-sm">
+                <table className="w-full min-w-[720px] text-left text-sm">
                   <thead className="bg-[#ed1c24] text-white">
                     <tr>
                       <th className="px-5 py-4 font-semibold">Model</th>
@@ -321,17 +383,28 @@ export default function HydraulicTorqueWrenchesPage() {
                           index % 2 === 0 ? "bg-white" : "bg-[#f4f4f4]"
                         }
                       >
-                        <td className="px-5 py-4 font-semibold text-[#333333]">
-                          {tool.model}
-                        </td>
                         <td className="px-5 py-4">
+                          <QuoteModelLink
+                            model={tool.model}
+                            product="Ratchet Cassette Hydraulic Torque Wrench"
+                          />
+                        </td>
+
+                        <td className="px-5 py-4 text-[#444444]">
                           {tool.minTorque} ft-lb
                         </td>
-                        <td className="px-5 py-4">
+
+                        <td className="px-5 py-4 text-[#444444]">
                           {tool.maxTorque} ft-lb
                         </td>
-                        <td className="px-5 py-4">{tool.cassette}</td>
-                        <td className="px-5 py-4">{tool.weight} lb</td>
+
+                        <td className="px-5 py-4 text-[#444444]">
+                          {tool.cassette}
+                        </td>
+
+                        <td className="px-5 py-4 text-[#444444]">
+                          {tool.weight} lb
+                        </td>
                       </tr>
                     ))}
                   </tbody>
@@ -341,15 +414,15 @@ export default function HydraulicTorqueWrenchesPage() {
           </div>
         </section>
 
-        {/* Related Equipment */}
-        <section className="border-b border-[#d6d6d6]">
-          <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 lg:px-12">
-            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#ed1c24]">
-              Complete Hydraulic System
+        {/* ACCESSORIES */}
+        <section className="border-b border-[#d6d6d6] bg-[#f2f2f2]">
+          <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 md:py-16 lg:px-12">
+            <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#ed1c24]">
+              Hydraulic Bolting Accessories
             </p>
 
             <h2 className="mt-3 text-3xl font-semibold text-[#666666] md:text-4xl">
-              Related equipment
+              Complete the system
             </h2>
 
             <div className="mt-8 grid gap-5 md:grid-cols-3">
@@ -360,40 +433,47 @@ export default function HydraulicTorqueWrenchesPage() {
                 <h3 className="text-xl font-semibold text-[#666666]">
                   Hydraulic Pumps
                 </h3>
+
                 <p className="mt-3 leading-7 text-[#444444]">
-                  Electric, pneumatic, battery, and hydraulic power units.
+                  Battery, electric, pneumatic, and hydraulic power systems.
+                </p>
+
+                <p className="mt-5 text-sm font-semibold text-[#ed1c24]">
+                  View Hydraulic Equipment →
                 </p>
               </Link>
 
-              <div className="rounded-3xl border border-[#d6d6d6] bg-white p-6">
+              <div className="rounded-3xl border border-[#d6d6d6] bg-white p-6 transition hover:border-[#ed1c24]">
                 <h3 className="text-xl font-semibold text-[#666666]">
                   Sockets & Drives
                 </h3>
+
                 <p className="mt-3 leading-7 text-[#444444]">
-                  Square drives, hexagonal drives, sockets, and cassette
-                  accessories.
+                  Heavy-duty sockets, square drives, hexagonal drives, and
+                  cassette accessories.
                 </p>
               </div>
 
-              <div className="rounded-3xl border border-[#d6d6d6] bg-white p-6">
+              <div className="rounded-3xl border border-[#d6d6d6] bg-white p-6 transition hover:border-[#ed1c24]">
                 <h3 className="text-xl font-semibold text-[#666666]">
                   Reaction Arms
                 </h3>
+
                 <p className="mt-3 leading-7 text-[#444444]">
-                  Standard, angled, double-ended, sliding, and custom reaction
-                  configurations.
+                  Standard, angled, double-ended, sliding, extension, and custom
+                  reaction configurations.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Downloads */}
+        {/* DOWNLOADS */}
         <section className="bg-white">
-          <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 lg:px-12">
-            <div className="grid gap-8 lg:grid-cols-2">
+          <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 md:py-16 lg:px-12">
+            <div className="grid gap-8 lg:grid-cols-[1fr_0.9fr]">
               <div>
-                <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#ed1c24]">
+                <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#ed1c24]">
                   Technical Resources
                 </p>
 
@@ -402,31 +482,51 @@ export default function HydraulicTorqueWrenchesPage() {
                 </h2>
 
                 <p className="mt-5 max-w-2xl leading-8 text-[#444444]">
-                  Product cutsheets will include complete dimensions and
-                  technical specifications. Hydraulic operational charts will
-                  provide model-specific pressure-to-torque values.
+                  Technical resources for the hydraulic torque wrench line will
+                  include product specifications, dimensions, accessories, and
+                  model-specific operating information.
                 </p>
               </div>
 
-              <div className="rounded-3xl border border-[#d6d6d6] bg-[#f7f7f7] p-6 md:p-8">
-                <h3 className="text-xl font-semibold text-[#666666]">
-                  Hydraulic Torque Wrench Downloads
-                </h3>
+              <div className="space-y-3">
+                <div className="rounded-2xl border border-[#d6d6d6] bg-[#f7f7f7] p-5">
+                  <p className="font-semibold text-[#555555]">
+                    Square Drive Hydraulic Wrench Cutsheet
+                  </p>
 
-                <p className="mt-4 text-sm leading-7 text-[#555555]">
-                  Pressure-to-torque charts will be added from validated
-                  ToughTorq operating data.
-                </p>
+                  <p className="mt-2 text-sm text-[#777777]">
+                    Download link will be added when the final ToughTorq
+                    cutsheet is loaded.
+                  </p>
+                </div>
 
-                <p className="mt-4 text-sm leading-7 text-[#555555]">
-                  We will not generate operating torque values from assumptions.
-                </p>
+                <div className="rounded-2xl border border-[#d6d6d6] bg-[#f7f7f7] p-5">
+                  <p className="font-semibold text-[#555555]">
+                    Ratchet Cassette Hydraulic Wrench Cutsheet
+                  </p>
+
+                  <p className="mt-2 text-sm text-[#777777]">
+                    Download link will be added when the final ToughTorq
+                    cutsheet is loaded.
+                  </p>
+                </div>
+
+                <div className="rounded-2xl border border-[#d6d6d6] bg-[#f7f7f7] p-5">
+                  <p className="font-semibold text-[#555555]">
+                    Pressure-to-Torque Operational Charts
+                  </p>
+
+                  <p className="mt-2 text-sm text-[#777777]">
+                    Model-specific pressure and torque charts will be added from
+                    validated operating data.
+                  </p>
+                </div>
               </div>
             </div>
 
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
-              <Link href="/contact" className="tt-button-primary">
-                Request Product Information
+              <Link href="/request-a-quote" className="tt-button-primary">
+                Request a Quote
               </Link>
 
               <Link href="/products" className="tt-button-secondary">
