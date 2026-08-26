@@ -1,55 +1,35 @@
-import Link from "next/link";
 import { PageHero } from "@/components/page-hero";
-
-const resources = [
-  "Product documentation",
-  "Cutsheets",
-  "Operational charts",
-  "Technical specifications",
-  "Distributor resources",
-  "Application support",
-];
+import { productLines } from "@/lib/site-data";
 
 export default function PlatformPage() {
   return (
     <>
       <PageHero
-        eyebrow="Resources"
-        title="Product information and support"
-        text="Technical information, product documentation, and support resources for ToughTorq equipment."
+        eyebrow="Platform"
+        title="A complete industrial bolting platform."
+        text="ToughTorq is being built around a broader system of product families designed to support real industrial applications, long-term distributor growth, and cleaner product positioning."
       />
 
-      <section className="bg-[#f2f2f2]">
-        <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 lg:px-12">
-          <div className="grid gap-8 lg:grid-cols-2">
-            <div>
-              <h2 className="text-3xl font-semibold text-[#666666]">
-                Technical Resources
-              </h2>
-
-              <p className="mt-5 max-w-2xl leading-8 text-[#444444]">
-                Product pages will include specifications, cutsheets,
-                dimensional information, operating data, and other technical
-                resources as they become available.
-              </p>
-            </div>
-
-            <div className="grid gap-3 sm:grid-cols-2">
-              {resources.map((item) => (
-                <div
-                  key={item}
-                  className="rounded-2xl border border-[#d6d6d6] bg-white p-5 text-sm font-semibold text-[#555555]"
-                >
-                  {item}
+      <section className="bg-neutral-950">
+        <div className="mx-auto max-w-7xl px-6 py-20">
+          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+            {productLines.map((item) => (
+              <a
+                key={item.title}
+                href={item.path}
+                className="group flex min-h-[280px] flex-col border border-white/10 bg-black p-6 text-left transition hover:border-red-600/60"
+              >
+                <div className="text-lg font-black uppercase tracking-tight text-[#666666]">
+                  {item.title}
                 </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="mt-10">
-            <Link href="/products" className="tt-button-primary">
-              View Products
-            </Link>
+                <p className="mt-4 text-sm leading-7 text-white/85">
+                  {item.text}
+                </p>
+                <div className="mt-auto pt-6 text-sm font-bold uppercase tracking-wide text-red-600 transition group-hover:text-white">
+                  View Platform
+                </div>
+              </a>
+            ))}
           </div>
         </div>
       </section>
