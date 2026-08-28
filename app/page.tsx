@@ -32,9 +32,9 @@ const primaryCategories = [
     href: "/products",
   },
   {
-    title: "Valve Tools",
-    text: "Portable valve actuator systems and supporting valve-operation accessories.",
-    href: "/products",
+    title: "Portable Valve Actuation",
+    text: "Battery, pneumatic, gas, and water-network PVA systems with dedicated heads, adaptors, reaction devices, and accessories.",
+    href: "/products/valve-actuator-tools",
   },
 ];
 
@@ -60,8 +60,8 @@ const featuredProducts = [
     href: "/products/hydraulic-cylinders-rams",
   },
   {
-    title: "Hydraulic Nuts",
-    href: "/products/hydraulic-nuts",
+    title: "Portable Valve Actuator Systems",
+    href: "/products/valve-actuator-tools",
   },
 ];
 
@@ -85,7 +85,7 @@ export default function HomePage() {
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-[#444444]">
             Torque, tensioning, lifting, hydraulic power, flange maintenance,
-            valve operation, and specialty industrial tooling.
+            portable valve actuation, and specialty industrial tooling.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -160,6 +160,7 @@ export default function HomePage() {
                 className="flex min-h-[88px] items-center justify-between gap-4 bg-[#fafafa] px-5 py-4 font-semibold text-[#444444] transition hover:bg-white hover:text-[#ed1c24]"
               >
                 <span>{product.title}</span>
+
                 <span className="text-[#ed1c24]">→</span>
               </Link>
             ))}
@@ -167,10 +168,59 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* SUPPORT */}
+      {/* PVA FEATURE */}
       <section className="border-b border-[#dedede] bg-[#f7f7f7]">
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <div className="grid gap-8 rounded-xl border border-[#dddddd] bg-white p-6 md:p-8 lg:grid-cols-[1fr_auto] lg:items-center">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+                Portable Valve Actuation
+              </p>
+
+              <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
+                Complete PVA systems
+              </h2>
+
+              <p className="mt-4 max-w-3xl leading-7 text-[#555555]">
+                Configure a system by choosing the power platform, actuator
+                head, valve adaptor, reaction device, and accessories required
+                for the application.
+              </p>
+
+              <div className="mt-6 flex flex-wrap gap-2">
+                {[
+                  "Battery PVA",
+                  "Pneumatic PVA",
+                  "Gas PVA",
+                  "Water Network PVA",
+                  "Heads & Adaptors",
+                  "Reaction Devices",
+                  "Accessories",
+                ].map((item) => (
+                  <span
+                    key={item}
+                    className="rounded-full border border-[#dddddd] bg-[#fafafa] px-3 py-2 text-xs font-semibold text-[#555555]"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <Link
+              href="/products/valve-actuator-tools"
+              className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white"
+            >
+              Explore PVA Systems
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* SUPPORT */}
+      <section className="border-b border-[#dedede] bg-white">
         <div className="mx-auto grid max-w-7xl gap-6 px-4 py-14 md:px-8 lg:grid-cols-3 lg:px-12">
-          <div className="rounded-xl border border-[#dddddd] bg-white p-6">
+          <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6">
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
               Product Selection
             </p>
@@ -181,7 +231,7 @@ export default function HomePage() {
 
             <p className="mt-4 text-sm leading-7 text-[#555555]">
               Send us the application details and we can help identify the
-              appropriate tooling and hydraulic system.
+              appropriate tooling or hydraulic system.
             </p>
 
             <Link
@@ -192,7 +242,7 @@ export default function HomePage() {
             </Link>
           </div>
 
-          <div className="rounded-xl border border-[#dddddd] bg-white p-6">
+          <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6">
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
               Distribution
             </p>
@@ -214,7 +264,7 @@ export default function HomePage() {
             </Link>
           </div>
 
-          <div className="rounded-xl border border-[#dddddd] bg-white p-6">
+          <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6">
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
               ToughTorq Network
             </p>
@@ -238,9 +288,9 @@ export default function HomePage() {
       </section>
 
       {/* FINAL CTA */}
-      <section className="bg-white">
+      <section className="bg-[#f7f7f7]">
         <div className="mx-auto max-w-7xl px-4 py-12 md:px-8 lg:px-12">
-          <div className="flex flex-col items-start justify-between gap-6 rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:flex-row md:items-center md:p-8">
+          <div className="flex flex-col items-start justify-between gap-6 rounded-xl border border-[#dddddd] bg-white p-6 md:flex-row md:items-center md:p-8">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
                 ToughTorq
