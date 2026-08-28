@@ -7,7 +7,6 @@ import { useState } from "react";
 const productGroups = [
   {
     title: "Torquing",
-    href: "/products",
     items: [
       {
         title: "Battery Torque Guns",
@@ -39,9 +38,9 @@ const productGroups = [
       },
     ],
   },
+
   {
     title: "Hydraulic Pumps & Accessories",
-    href: "/products",
     items: [
       {
         title: "Hydraulic Pumps",
@@ -57,9 +56,9 @@ const productGroups = [
       },
     ],
   },
+
   {
     title: "Tensioning",
-    href: "/products",
     items: [
       {
         title: "Bolt Tensioners",
@@ -73,11 +72,15 @@ const productGroups = [
         title: "Ultra-High-Pressure Pumps",
         href: "/products/hydraulic-pumps",
       },
+      {
+        title: "Ultra-High-Pressure Hoses",
+        href: "/products/hydraulic-hoses",
+      },
     ],
   },
+
   {
     title: "Lifting & Positioning",
-    href: "/products",
     items: [
       {
         title: "Hydraulic Cylinders & Rams",
@@ -87,11 +90,15 @@ const productGroups = [
         title: "Hydraulic Pumps",
         href: "/products/hydraulic-pumps",
       },
+      {
+        title: "Hand & Foot Pumps",
+        href: "/products/hydraulic-pumps",
+      },
     ],
   },
+
   {
     title: "Flange & Maintenance",
-    href: "/products",
     items: [
       {
         title: "Flange & Alignment Tools",
@@ -105,8 +112,42 @@ const productGroups = [
         title: "Bearing Heaters",
         href: "/products/bearing-heaters",
       },
+    ],
+  },
+
+  {
+    title: "Portable Valve Actuation",
+    items: [
       {
-        title: "Valve Tools",
+        title: "Portable Valve Actuator Systems",
+        href: "/products/valve-actuator-tools",
+      },
+      {
+        title: "Battery PVA Systems",
+        href: "/products/valve-actuator-tools",
+      },
+      {
+        title: "Pneumatic PVA Systems",
+        href: "/products/valve-actuator-tools",
+      },
+      {
+        title: "Gas PVA Systems",
+        href: "/products/valve-actuator-tools",
+      },
+      {
+        title: "Water Network PVA Systems",
+        href: "/products/valve-actuator-tools",
+      },
+      {
+        title: "PVA Heads & Adaptors",
+        href: "/products/valve-actuator-tools",
+      },
+      {
+        title: "PVA Reaction Devices",
+        href: "/products/valve-actuator-tools",
+      },
+      {
+        title: "PVA Accessories",
         href: "/products/valve-actuator-tools",
       },
     ],
@@ -151,7 +192,7 @@ export function SiteHeader() {
               <span className="text-[10px]">▼</span>
             </Link>
 
-            <div className="invisible absolute left-1/2 top-full w-[920px] -translate-x-1/2 border border-[#dddddd] bg-white opacity-0 shadow-xl transition-all duration-150 group-hover:visible group-hover:opacity-100">
+            <div className="invisible absolute left-1/2 top-full w-[980px] -translate-x-1/2 border border-[#dddddd] bg-white opacity-0 shadow-xl transition-all duration-150 group-hover:visible group-hover:opacity-100">
               <div className="grid grid-cols-3 gap-px bg-[#e5e5e5]">
                 {productGroups.map((group) => (
                   <div key={group.title} className="bg-white p-6">
@@ -172,30 +213,26 @@ export function SiteHeader() {
                     </div>
                   </div>
                 ))}
+              </div>
 
-                <div className="flex flex-col justify-between bg-[#f7f7f7] p-6">
-                  <div>
-                    <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-                      All Products
-                    </p>
+              <div className="flex items-center justify-between border-t border-[#dddddd] bg-[#f7f7f7] px-6 py-5">
+                <div>
+                  <p className="text-sm font-semibold text-[#3f4448]">
+                    Browse the full ToughTorq product range
+                  </p>
 
-                    <h3 className="mt-3 text-xl font-semibold text-[#3f4448]">
-                      Browse the full ToughTorq range
-                    </h3>
-
-                    <p className="mt-3 text-sm leading-6 text-[#666666]">
-                      Find tooling by torquing, tensioning, lifting, hydraulic,
-                      flange, maintenance, or valve application.
-                    </p>
-                  </div>
-
-                  <Link
-                    href="/products"
-                    className="mt-6 text-sm font-semibold text-[#ed1c24]"
-                  >
-                    View All Products →
-                  </Link>
+                  <p className="mt-1 text-sm text-[#666666]">
+                    Find tooling by torquing, tensioning, lifting, hydraulics,
+                    flange work, maintenance, or portable valve actuation.
+                  </p>
                 </div>
+
+                <Link
+                  href="/products"
+                  className="text-sm font-semibold text-[#ed1c24]"
+                >
+                  View All Products →
+                </Link>
               </div>
             </div>
           </div>
@@ -246,7 +283,7 @@ export function SiteHeader() {
           </Link>
         </div>
 
-        {/* MOBILE BUTTON */}
+        {/* MOBILE MENU BUTTON */}
         <button
           type="button"
           aria-label="Toggle navigation"
@@ -264,6 +301,7 @@ export function SiteHeader() {
       {mobileOpen && (
         <div className="border-t border-[#dddddd] bg-white lg:hidden">
           <div className="mx-auto max-w-7xl px-4 py-4 md:px-8">
+            {/* PRODUCTS */}
             <div className="border-b border-[#eeeeee]">
               <button
                 type="button"
@@ -271,6 +309,7 @@ export function SiteHeader() {
                 className="flex w-full items-center justify-between py-4 text-left text-base font-semibold text-[#444444]"
               >
                 <span>Products</span>
+
                 <span className="text-[#ed1c24]">
                   {productsOpen ? "−" : "+"}
                 </span>
@@ -284,7 +323,7 @@ export function SiteHeader() {
                       setMobileOpen(false);
                       setProductsOpen(false);
                     }}
-                    className="mb-4 block rounded-lg bg-[#f5f5f5] px-4 py-3 text-sm font-semibold text-[#ed1c24]"
+                    className="mb-5 block rounded-lg bg-[#f5f5f5] px-4 py-3 text-sm font-semibold text-[#ed1c24]"
                   >
                     View All Products →
                   </Link>
@@ -318,6 +357,7 @@ export function SiteHeader() {
               )}
             </div>
 
+            {/* STANDARD NAV LINKS */}
             <Link
               href="/platform"
               onClick={() => setMobileOpen(false)}
@@ -350,6 +390,7 @@ export function SiteHeader() {
               Contact
             </Link>
 
+            {/* MOBILE CTAS */}
             <div className="grid gap-3 py-5 sm:grid-cols-2">
               <Link
                 href="/find-a-distributor"
