@@ -1,143 +1,14 @@
 import Link from "next/link";
 
-const drivePlatforms = [
-  {
-    model: "MC89",
-    title: "MC89 Battery Valve Actuator",
-    power: "Battery",
-    maxTorque: "Up to 740 ft-lb",
-    description:
-      "Battery-powered portable valve actuator for elevated, obstructed, or difficult-to-reach valves.",
-    features: [
-      "Portable battery operation",
-      "Fast field deployment",
-      "Electronic torque and power limiting",
-      "Designed for difficult valve access",
-    ],
-  },
-  {
-    model: "JA73",
-    title: "JA73 Battery Valve Actuator",
-    power: "Battery",
-    maxTorque: "Up to 740 ft-lb",
-    description:
-      "Portable battery valve actuator platform for difficult valves requiring controlled force and stable positioning.",
-    features: [
-      "Battery powered",
-      "Excellent operating autonomy",
-      "Smoke-free operation",
-      "Electronic torque and power limiting",
-    ],
-  },
-  {
-    model: "HL83",
-    title: "HL83 Pneumatic Valve Actuator",
-    power: "Pneumatic",
-    maxTorque: "Up to 740 ft-lb",
-    description:
-      "Pneumatic portable valve actuator for high-cycle operation and applications where spark-free operation is required.",
-    features: [
-      "No heat, spark, or smoke",
-      "ATEX-compatible operating concept",
-      "High torque and speed",
-      "Compact and blockage resistant",
-    ],
-  },
-  {
-    model: "PY68",
-    title: "PY68 Gas Valve Actuator",
-    power: "Gas",
-    maxTorque: "Up to 740 ft-lb",
-    description:
-      "Independent fuel-powered portable actuator designed for remote environments and extended field operation.",
-    features: [
-      "Independent fuel-powered operation",
-      "Extended operating autonomy",
-      "Designed for remote locations",
-      "No external electrical supply required",
-    ],
-  },
-  {
-    model: "H2O KIT",
-    title: "H2O Water Network Kit",
-    power: "Portable System",
-    maxTorque: "Up to 630 ft-lb",
-    description:
-      "Portable valve operating system specifically configured for underground water-distribution valves.",
-    features: [
-      "Designed for underground valves",
-      "Easy transport and setup",
-      "Stable portable operation",
-      "Water-network configuration",
-    ],
-  },
-];
+import { ProductSection } from "../../../components/product-section";
 
-const actuatorHeads = [
-  {
-    title: "Straight Head",
-    text: "Straight actuator geometry for direct valve access.",
-  },
-  {
-    title: "Right-Angle Head",
-    text: "Right-angle configuration for valves where direct inline access is limited.",
-  },
-  {
-    title: "Banjo Heads",
-    text: "Standard-duty and heavy-duty banjo heads for rising-stem valve applications.",
-  },
-];
-
-const adaptors = [
-  {
-    title: "Fixed Finger Adaptor",
-    text: "Fixed interface for compatible valve handwheel configurations.",
-  },
-  {
-    title: "Self-Centering Spoke Adaptor",
-    text: "Adjustable interface for different handwheel spoke patterns.",
-  },
-  {
-    title: "Square Drive Adaptor",
-    text: "Socket-driven interface for valves operated through a square-drive connection.",
-  },
-  {
-    title: "Variable Valve Adaptors",
-    text: "Configurations for fixed, variable, flat-spoke, and tapered-spoke valve interfaces.",
-  },
-];
-
-const reactionDevices = [
-  {
-    title: "Reaction Arm",
-    text: "Standard reaction support for controlled portable valve operation.",
-  },
-  {
-    title: "Bipod",
-    text: "Stable supported reaction configuration for demanding valve positions.",
-  },
-  {
-    title: "Reaction Finger",
-    text: "Compact reaction interface for specific valve and access configurations.",
-  },
-  {
-    title: "Articulated & Custom Reaction",
-    text: "Articulated arms and made-to-order mounting flanges for application-specific requirements.",
-  },
-];
-
-const accessories = [
-  "Torque Limiter",
-  "Extensions",
-  "Air Hose",
-  "Counters",
-  "Storage Cases",
-  "Battery Packs",
-  "Universal Joints",
-  "Safety Units",
-  "Custom Mounting Flanges",
-  "Reaction Accessories",
-];
+import {
+  pvaAccessories,
+  pvaAdaptors,
+  pvaDrivePlatforms,
+  pvaHeads,
+  pvaReactionDevices,
+} from "../../../data/pva";
 
 const industries = [
   "Water",
@@ -148,24 +19,28 @@ const industries = [
   "Petrochemical",
 ];
 
-function QuoteModelLink({
-  model,
-  product,
-}: {
-  model: string;
-  product: string;
-}) {
-  return (
-    <Link
-      href={`/request-a-quote?model=${encodeURIComponent(
-        model
-      )}&product=${encodeURIComponent(product)}`}
-      className="font-semibold text-[#ed1c24] underline-offset-4 transition hover:underline"
-    >
-      {model}
-    </Link>
-  );
-}
+const configurationSteps = [
+  {
+    number: "01",
+    title: "Power",
+  },
+  {
+    number: "02",
+    title: "Head",
+  },
+  {
+    number: "03",
+    title: "Adaptor",
+  },
+  {
+    number: "04",
+    title: "Reaction",
+  },
+  {
+    number: "05",
+    title: "Options",
+  },
+];
 
 export default function ValveActuatorToolsPage() {
   return (
@@ -192,7 +67,7 @@ export default function ValveActuatorToolsPage() {
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Link
-              href="/request-a-quote?product=Portable%20Valve%20Actuator%20Systems"
+              href="#configure-system"
               className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
             >
               Configure a PVA System
@@ -226,111 +101,38 @@ export default function ValveActuatorToolsPage() {
         </div>
       </section>
 
-      {/* DRIVE PLATFORMS */}
-      <section className="border-b border-[#dedede] bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Choose Your Power Supply
-          </p>
+      {/* STEP 1 */}
+      <div id="configure-system">
+        <ProductSection
+          eyebrow="Step 1"
+          title="Choose Your Power Platform"
+          description="Select the drive platform based on the work environment, valve location, available utilities, operating frequency, and required torque."
+          items={pvaDrivePlatforms}
+          columns={2}
+          background="white"
+        />
+      </div>
 
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Five portable valve actuation platforms
-          </h2>
-
-          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
-            Select the drive platform based on the work environment, valve
-            location, available utilities, operating frequency, and required
-            torque.
-          </p>
-
-          <div className="mt-10 grid gap-6 lg:grid-cols-2">
-            {drivePlatforms.map((drive) => (
-              <div
-                key={drive.model}
-                className="overflow-hidden rounded-xl border border-[#dddddd] bg-[#fafafa] transition hover:border-[#ed1c24]"
-              >
-                <div className="border-b border-[#dddddd] bg-white p-6">
-                  <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-start">
-                    <div>
-                      <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-                        {drive.power}
-                      </p>
-
-                      <h3 className="mt-2 text-2xl font-semibold text-[#3f4448]">
-                        {drive.title}
-                      </h3>
-                    </div>
-
-                    <div className="rounded-lg bg-[#ed1c24] px-4 py-2 text-sm font-bold text-white">
-                      {drive.maxTorque}
-                    </div>
-                  </div>
-
-                  <p className="mt-4 leading-7 text-[#555555]">
-                    {drive.description}
-                  </p>
-                </div>
-
-                <div className="p-6">
-                  <div className="grid gap-2 sm:grid-cols-2">
-                    {drive.features.map((feature) => (
-                      <div
-                        key={feature}
-                        className="flex gap-3 rounded-lg border border-[#dddddd] bg-white p-3 text-sm text-[#555555]"
-                      >
-                        <span className="font-bold text-[#ed1c24]">✓</span>
-                        <span>{feature}</span>
-                      </div>
-                    ))}
-                  </div>
-
-                  <div className="mt-6 flex items-center justify-between">
-                    <QuoteModelLink
-                      model={drive.model}
-                      product="Portable Valve Actuator Systems"
-                    />
-
-                    <Link
-                      href={`/request-a-quote?model=${encodeURIComponent(
-                        drive.model
-                      )}&product=${encodeURIComponent(
-                        "Portable Valve Actuator Systems"
-                      )}`}
-                      className="text-sm font-semibold text-[#ed1c24]"
-                    >
-                      Add to Quote →
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* BUILD YOUR SYSTEM */}
+      {/* CONFIGURATION FLOW */}
       <section className="border-b border-[#dedede] bg-[#f7f7f7]">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+        <div className="mx-auto max-w-7xl px-4 py-12 md:px-8 lg:px-12">
           <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
             Configure Your System
           </p>
 
           <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Power → Head → Adaptor → Reaction → Options
+            Build the PVA system step by step
           </h2>
 
           <div className="mt-8 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-5">
-            {[
-              ["01", "Power"],
-              ["02", "Head"],
-              ["03", "Adaptor"],
-              ["04", "Reaction"],
-              ["05", "Options"],
-            ].map(([number, title]) => (
-              <div key={title} className="bg-white p-5">
-                <p className="text-xs font-bold text-[#ed1c24]">{number}</p>
+            {configurationSteps.map((step) => (
+              <div key={step.number} className="bg-white p-5">
+                <p className="text-xs font-bold text-[#ed1c24]">
+                  {step.number}
+                </p>
+
                 <p className="mt-2 text-lg font-semibold text-[#3f4448]">
-                  {title}
+                  {step.title}
                 </p>
               </div>
             ))}
@@ -338,170 +140,49 @@ export default function ValveActuatorToolsPage() {
         </div>
       </section>
 
-      {/* HEADS */}
-      <section className="border-b border-[#dedede] bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Step 2
-          </p>
+      {/* STEP 2 */}
+      <ProductSection
+        eyebrow="Step 2"
+        title="Actuator Heads"
+        description="Choose the head geometry that matches the valve position, stem configuration, and available working clearance."
+        items={pvaHeads}
+        columns={4}
+        compactCards
+        background="white"
+      />
 
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Actuator Heads
-          </h2>
+      {/* STEP 3 */}
+      <ProductSection
+        eyebrow="Step 3"
+        title="Valve Adaptors"
+        description="Match the portable actuator to the valve handwheel, spokes, stem, or drive interface."
+        items={pvaAdaptors}
+        columns={3}
+        compactCards
+        background="gray"
+      />
 
-          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
-            Choose the head geometry that matches the valve position, stem
-            configuration, and available working clearance.
-          </p>
+      {/* STEP 4 */}
+      <ProductSection
+        eyebrow="Step 4"
+        title="Reaction Management"
+        description="Stabilize the actuator using the reaction device best suited to the valve configuration and operator position."
+        items={pvaReactionDevices}
+        columns={3}
+        compactCards
+        background="white"
+      />
 
-          <div className="mt-8 grid gap-5 md:grid-cols-3">
-            {actuatorHeads.map((head) => (
-              <div
-                key={head.title}
-                className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6"
-              >
-                <h3 className="text-xl font-semibold text-[#3f4448]">
-                  {head.title}
-                </h3>
-
-                <p className="mt-3 text-sm leading-7 text-[#555555]">
-                  {head.text}
-                </p>
-
-                <Link
-                  href={`/request-a-quote?product=${encodeURIComponent(
-                    head.title
-                  )}`}
-                  className="mt-6 inline-flex text-sm font-semibold text-[#ed1c24]"
-                >
-                  Request Information →
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ADAPTORS */}
-      <section className="border-b border-[#dedede] bg-[#f7f7f7]">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Step 3
-          </p>
-
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Valve Adaptors
-          </h2>
-
-          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
-            Match the portable actuator to the valve handwheel, spokes, stem,
-            or square-drive interface.
-          </p>
-
-          <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
-            {adaptors.map((adaptor) => (
-              <div
-                key={adaptor.title}
-                className="flex flex-col rounded-xl border border-[#dddddd] bg-white p-5"
-              >
-                <h3 className="text-lg font-semibold text-[#3f4448]">
-                  {adaptor.title}
-                </h3>
-
-                <p className="mt-3 flex-1 text-sm leading-7 text-[#555555]">
-                  {adaptor.text}
-                </p>
-
-                <Link
-                  href={`/request-a-quote?product=${encodeURIComponent(
-                    adaptor.title
-                  )}`}
-                  className="mt-5 text-sm font-semibold text-[#ed1c24]"
-                >
-                  Add to Request →
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* REACTION */}
-      <section className="border-b border-[#dedede] bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Step 4
-          </p>
-
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Reaction Management
-          </h2>
-
-          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
-            Stabilize the actuator using the reaction device best suited to the
-            valve configuration and operator position.
-          </p>
-
-          <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
-            {reactionDevices.map((reaction) => (
-              <div
-                key={reaction.title}
-                className="flex flex-col rounded-xl border border-[#dddddd] bg-[#fafafa] p-5"
-              >
-                <h3 className="text-lg font-semibold text-[#3f4448]">
-                  {reaction.title}
-                </h3>
-
-                <p className="mt-3 flex-1 text-sm leading-7 text-[#555555]">
-                  {reaction.text}
-                </p>
-
-                <Link
-                  href={`/request-a-quote?product=${encodeURIComponent(
-                    reaction.title
-                  )}`}
-                  className="mt-5 text-sm font-semibold text-[#ed1c24]"
-                >
-                  Add to Request →
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* OPTIONS */}
-      <section className="border-b border-[#dedede] bg-[#f7f7f7]">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Step 5
-          </p>
-
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Options & Accessories
-          </h2>
-
-          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
-            Add torque control, reach, transport, power, reaction, or utility
-            components to complete the valve actuation package.
-          </p>
-
-          <div className="mt-8 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2 lg:grid-cols-5">
-            {accessories.map((accessory) => (
-              <Link
-                key={accessory}
-                href={`/request-a-quote?product=${encodeURIComponent(
-                  `PVA ${accessory}`
-                )}`}
-                className="flex min-h-[80px] items-center justify-between gap-3 bg-white p-5 text-sm font-semibold text-[#444444] transition hover:text-[#ed1c24]"
-              >
-                <span>{accessory}</span>
-                <span className="text-[#ed1c24]">→</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* STEP 5 */}
+      <ProductSection
+        eyebrow="Step 5"
+        title="Options & Accessories"
+        description="Add torque control, reach, transport, power, reaction, or utility components to complete the valve actuation package."
+        items={pvaAccessories}
+        columns={3}
+        compactCards
+        background="gray"
+      />
 
       {/* BENEFITS */}
       <section className="border-b border-[#dedede] bg-white">
@@ -525,8 +206,8 @@ export default function ValveActuatorToolsPage() {
               </h3>
 
               <p className="mt-3 text-sm leading-7 text-[#555555]">
-                Reduce physical effort and limit exposure around difficult or
-                repetitive valve operations.
+                Reduce physical effort and limit operator exposure during
+                difficult or repetitive valve operations.
               </p>
             </div>
 
@@ -540,8 +221,8 @@ export default function ValveActuatorToolsPage() {
               </h3>
 
               <p className="mt-3 text-sm leading-7 text-[#555555]">
-                Controlled torque helps protect valves and surrounding
-                equipment during operation.
+                Controlled valve actuation helps protect the valve and
+                surrounding equipment during operation.
               </p>
             </div>
 
@@ -569,25 +250,24 @@ export default function ValveActuatorToolsPage() {
           <div className="flex flex-col items-start justify-between gap-6 rounded-xl border border-[#dddddd] bg-white p-6 md:flex-row md:items-center md:p-8">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-                Configure a System
+                Complete Your Configuration
               </p>
 
               <h2 className="mt-2 text-2xl font-semibold text-[#3f4448]">
-                Need a complete portable valve actuator package?
+                Finished selecting your PVA system?
               </h2>
 
               <p className="mt-2 max-w-2xl text-sm leading-6 text-[#666666]">
-                Send the valve type, handwheel or stem configuration, required
-                torque, access conditions, preferred power source, and expected
-                operating environment.
+                Review the actuator, head, adaptor, reaction equipment, and
+                accessories you selected before submitting the quote request.
               </p>
             </div>
 
             <Link
-              href="/request-a-quote?product=Portable%20Valve%20Actuator%20System"
+              href="/request-a-quote"
               className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white"
             >
-              Configure PVA System
+              View Quote Cart
             </Link>
           </div>
         </div>
