@@ -3,6 +3,7 @@ import "./globals.css";
 
 import { SiteHeader } from "../components/site-header";
 import { SiteFooter } from "../components/site-footer";
+import { QuoteCartProvider } from "../components/quote-cart-provider";
 
 export const metadata: Metadata = {
   title: {
@@ -22,11 +23,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen bg-[#f2f2f2] text-[#252525] antialiased">
-        <SiteHeader />
+        <QuoteCartProvider>
+          <SiteHeader />
 
-        <div className="min-h-[70vh]">{children}</div>
+          <div className="min-h-[70vh]">
+            {children}
+          </div>
 
-        <SiteFooter />
+          <SiteFooter />
+        </QuoteCartProvider>
       </body>
     </html>
   );
