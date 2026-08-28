@@ -1,105 +1,375 @@
 "use client";
 
-import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
-const navLinks = [
-  { href: "/products", label: "Products" },
-  { href: "/platform", label: "Resources" },
-  { href: "/brand-story", label: "About" },
-  { href: "/distributors", label: "Distributors" },
-  { href: "/contact", label: "Contact" },
+const productGroups = [
+  {
+    title: "Torquing",
+    href: "/products",
+    items: [
+      {
+        title: "Battery Torque Guns",
+        href: "/products/battery-torque-guns",
+      },
+      {
+        title: "Pneumatic Torque Guns",
+        href: "/products/pneumatic-torque-guns",
+      },
+      {
+        title: "Hydraulic Torque Wrenches",
+        href: "/products/hydraulic-torque-wrenches",
+      },
+      {
+        title: "Manual & Digital Torque Wrenches",
+        href: "/products/manual-digital-torque-wrenches",
+      },
+      {
+        title: "Torque Multipliers",
+        href: "/products/torque-multipliers",
+      },
+      {
+        title: "Reaction Washers",
+        href: "/products/reaction-washers",
+      },
+      {
+        title: "Sockets & Reaction Arms",
+        href: "/products/sockets-reaction-arms",
+      },
+    ],
+  },
+  {
+    title: "Hydraulic Pumps & Accessories",
+    href: "/products",
+    items: [
+      {
+        title: "Hydraulic Pumps",
+        href: "/products/hydraulic-pumps",
+      },
+      {
+        title: "Hydraulic Hoses",
+        href: "/products/hydraulic-hoses",
+      },
+      {
+        title: "Hydraulic Fittings & Couplers",
+        href: "/products/hydraulic-fittings-couplers",
+      },
+    ],
+  },
+  {
+    title: "Tensioning",
+    href: "/products",
+    items: [
+      {
+        title: "Bolt Tensioners",
+        href: "/products/bolt-tensioners",
+      },
+      {
+        title: "Hydraulic Nuts",
+        href: "/products/hydraulic-nuts",
+      },
+      {
+        title: "Ultra-High-Pressure Pumps",
+        href: "/products/hydraulic-pumps",
+      },
+    ],
+  },
+  {
+    title: "Lifting & Positioning",
+    href: "/products",
+    items: [
+      {
+        title: "Hydraulic Cylinders & Rams",
+        href: "/products/hydraulic-cylinders-rams",
+      },
+      {
+        title: "Hydraulic Pumps",
+        href: "/products/hydraulic-pumps",
+      },
+    ],
+  },
+  {
+    title: "Flange & Maintenance",
+    href: "/products",
+    items: [
+      {
+        title: "Flange & Alignment Tools",
+        href: "/products/flange-tools",
+      },
+      {
+        title: "Pullers & Nut Splitters",
+        href: "/products/pullers-nut-splitters",
+      },
+      {
+        title: "Bearing Heaters",
+        href: "/products/bearing-heaters",
+      },
+      {
+        title: "Valve Tools",
+        href: "/products/valve-actuator-tools",
+      },
+    ],
+  },
 ];
 
 export function SiteHeader() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [productsOpen, setProductsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-[#d6d6d6] bg-white/95 backdrop-blur">
-      <div className="mx-auto max-w-7xl px-4 py-3 md:px-8 lg:px-12">
-        <div className="flex items-center justify-between gap-4">
-          <Link href="/" className="flex shrink-0 items-center">
-            <img
-              src="/TOUGHTORQ-logo.png"
-              alt="ToughTorq"
-              className="h-8 w-auto md:h-10 lg:h-11"
-            />
+    <header className="sticky top-0 z-50 border-b border-[#dddddd] bg-white">
+      <div className="mx-auto flex min-h-[78px] max-w-7xl items-center justify-between gap-6 px-4 md:px-8 lg:px-12">
+        {/* LOGO */}
+        <Link
+          href="/"
+          className="flex shrink-0 items-center"
+          onClick={() => {
+            setMobileOpen(false);
+            setProductsOpen(false);
+          }}
+        >
+          <Image
+            src="/TOUGHTORQ-logo.png"
+            alt="ToughTorq"
+            width={210}
+            height={60}
+            className="h-auto w-[170px] md:w-[190px]"
+            priority
+          />
+        </Link>
+
+        {/* DESKTOP NAV */}
+        <nav className="hidden items-center gap-7 lg:flex">
+          {/* PRODUCTS MEGA MENU */}
+          <div className="group relative">
+            <Link
+              href="/products"
+              className="flex items-center gap-1 py-7 text-sm font-semibold text-[#444444] transition hover:text-[#ed1c24]"
+            >
+              Products
+              <span className="text-[10px]">▼</span>
+            </Link>
+
+            <div className="invisible absolute left-1/2 top-full w-[920px] -translate-x-1/2 border border-[#dddddd] bg-white opacity-0 shadow-xl transition-all duration-150 group-hover:visible group-hover:opacity-100">
+              <div className="grid grid-cols-3 gap-px bg-[#e5e5e5]">
+                {productGroups.map((group) => (
+                  <div key={group.title} className="bg-white p-6">
+                    <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+                      {group.title}
+                    </p>
+
+                    <div className="mt-4 space-y-2">
+                      {group.items.map((item) => (
+                        <Link
+                          key={`${group.title}-${item.title}`}
+                          href={item.href}
+                          className="block text-sm font-medium leading-6 text-[#555555] transition hover:text-[#ed1c24]"
+                        >
+                          {item.title}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+
+                <div className="flex flex-col justify-between bg-[#f7f7f7] p-6">
+                  <div>
+                    <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+                      All Products
+                    </p>
+
+                    <h3 className="mt-3 text-xl font-semibold text-[#3f4448]">
+                      Browse the full ToughTorq range
+                    </h3>
+
+                    <p className="mt-3 text-sm leading-6 text-[#666666]">
+                      Find tooling by torquing, tensioning, lifting, hydraulic,
+                      flange, maintenance, or valve application.
+                    </p>
+                  </div>
+
+                  <Link
+                    href="/products"
+                    className="mt-6 text-sm font-semibold text-[#ed1c24]"
+                  >
+                    View All Products →
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <Link
+            href="/platform"
+            className="py-7 text-sm font-semibold text-[#444444] transition hover:text-[#ed1c24]"
+          >
+            Resources
           </Link>
 
-          <nav className="hidden items-center gap-6 md:flex">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium text-[#555555] transition hover:text-[#ed1c24]"
-              >
-                {link.label}
-              </Link>
-            ))}
-          </nav>
+          <Link
+            href="/brand-story"
+            className="py-7 text-sm font-semibold text-[#444444] transition hover:text-[#ed1c24]"
+          >
+            About
+          </Link>
 
-          <div className="hidden items-center gap-2 lg:flex">
+          <Link
+            href="/distributors"
+            className="py-7 text-sm font-semibold text-[#444444] transition hover:text-[#ed1c24]"
+          >
+            Distributors
+          </Link>
+
+          <Link
+            href="/contact"
+            className="py-7 text-sm font-semibold text-[#444444] transition hover:text-[#ed1c24]"
+          >
+            Contact
+          </Link>
+        </nav>
+
+        {/* DESKTOP CTA */}
+        <div className="hidden items-center gap-3 lg:flex">
+          <Link
+            href="/find-a-distributor"
+            className="inline-flex min-h-11 items-center justify-center rounded-lg border border-[#666666] bg-white px-4 py-2 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+          >
+            Find a Distributor
+          </Link>
+
+          <Link
+            href="/request-a-quote"
+            className="inline-flex min-h-11 items-center justify-center rounded-lg bg-[#ed1c24] px-5 py-2 text-sm font-semibold text-white transition hover:opacity-90"
+          >
+            Request a Quote
+          </Link>
+        </div>
+
+        {/* MOBILE BUTTON */}
+        <button
+          type="button"
+          aria-label="Toggle navigation"
+          aria-expanded={mobileOpen}
+          onClick={() => setMobileOpen((current) => !current)}
+          className="flex h-11 w-11 items-center justify-center rounded-lg border border-[#dddddd] bg-white text-[#444444] lg:hidden"
+        >
+          <span className="text-2xl leading-none">
+            {mobileOpen ? "×" : "☰"}
+          </span>
+        </button>
+      </div>
+
+      {/* MOBILE NAV */}
+      {mobileOpen && (
+        <div className="border-t border-[#dddddd] bg-white lg:hidden">
+          <div className="mx-auto max-w-7xl px-4 py-4 md:px-8">
+            <div className="border-b border-[#eeeeee]">
+              <button
+                type="button"
+                onClick={() => setProductsOpen((current) => !current)}
+                className="flex w-full items-center justify-between py-4 text-left text-base font-semibold text-[#444444]"
+              >
+                <span>Products</span>
+                <span className="text-[#ed1c24]">
+                  {productsOpen ? "−" : "+"}
+                </span>
+              </button>
+
+              {productsOpen && (
+                <div className="pb-5">
+                  <Link
+                    href="/products"
+                    onClick={() => {
+                      setMobileOpen(false);
+                      setProductsOpen(false);
+                    }}
+                    className="mb-4 block rounded-lg bg-[#f5f5f5] px-4 py-3 text-sm font-semibold text-[#ed1c24]"
+                  >
+                    View All Products →
+                  </Link>
+
+                  <div className="space-y-6">
+                    {productGroups.map((group) => (
+                      <div key={group.title}>
+                        <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#777777]">
+                          {group.title}
+                        </p>
+
+                        <div className="mt-2 space-y-1">
+                          {group.items.map((item) => (
+                            <Link
+                              key={`${group.title}-${item.title}`}
+                              href={item.href}
+                              onClick={() => {
+                                setMobileOpen(false);
+                                setProductsOpen(false);
+                              }}
+                              className="block rounded-md px-2 py-2 text-sm font-medium text-[#555555] transition hover:bg-[#f7f7f7] hover:text-[#ed1c24]"
+                            >
+                              {item.title}
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
             <Link
-              href="/find-a-distributor"
-              className="rounded-xl border border-[#d0d0d0] bg-white px-4 py-2 text-xs font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+              href="/platform"
+              onClick={() => setMobileOpen(false)}
+              className="block border-b border-[#eeeeee] py-4 text-base font-semibold text-[#444444]"
             >
-              Find a Distributor
+              Resources
+            </Link>
+
+            <Link
+              href="/brand-story"
+              onClick={() => setMobileOpen(false)}
+              className="block border-b border-[#eeeeee] py-4 text-base font-semibold text-[#444444]"
+            >
+              About
+            </Link>
+
+            <Link
+              href="/distributors"
+              onClick={() => setMobileOpen(false)}
+              className="block border-b border-[#eeeeee] py-4 text-base font-semibold text-[#444444]"
+            >
+              Distributors
             </Link>
 
             <Link
               href="/contact"
-              className="rounded-xl border border-[#ed1c24] bg-[#ed1c24] px-4 py-2 text-xs font-semibold text-white transition hover:opacity-90"
+              onClick={() => setMobileOpen(false)}
+              className="block border-b border-[#eeeeee] py-4 text-base font-semibold text-[#444444]"
             >
               Contact
             </Link>
-          </div>
 
-          <button
-            type="button"
-            aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
-            aria-expanded={mobileMenuOpen}
-            onClick={() => setMobileMenuOpen((prev) => !prev)}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-[#d0d0d0] bg-white text-[#444444] md:hidden"
-          >
-            <span className="text-lg leading-none">
-              {mobileMenuOpen ? "×" : "☰"}
-            </span>
-          </button>
-        </div>
-
-        {mobileMenuOpen && (
-          <div className="mt-4 border-t border-[#e0e0e0] pt-4 md:hidden">
-            <nav className="grid gap-2">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="rounded-xl border border-[#dddddd] bg-[#f7f7f7] px-4 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24]"
-                >
-                  {link.label}
-                </Link>
-              ))}
-
+            <div className="grid gap-3 py-5 sm:grid-cols-2">
               <Link
                 href="/find-a-distributor"
-                onClick={() => setMobileMenuOpen(false)}
-                className="rounded-xl border border-[#dddddd] bg-white px-4 py-3 text-sm font-semibold text-[#444444]"
+                onClick={() => setMobileOpen(false)}
+                className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#666666] bg-white px-5 py-3 text-sm font-semibold text-[#444444]"
               >
                 Find a Distributor
               </Link>
 
               <Link
-                href="/contact"
-                onClick={() => setMobileMenuOpen(false)}
-                className="rounded-xl border border-[#ed1c24] bg-[#ed1c24] px-4 py-3 text-center text-sm font-semibold text-white"
+                href="/request-a-quote"
+                onClick={() => setMobileOpen(false)}
+                className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-5 py-3 text-sm font-semibold text-white"
               >
-                Contact ToughTorq
+                Request a Quote
               </Link>
-            </nav>
+            </div>
           </div>
-        )}
-      </div>
+        </div>
+      )}
     </header>
   );
 }
