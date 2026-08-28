@@ -11,8 +11,8 @@ const productGroups = [
         href: "/products/battery-torque-guns",
       },
       {
-        title: "Pneumatic Torque Wrenches",
-        href: "/products/pneumatic-torque-wrenches",
+        title: "Pneumatic Torque Guns",
+        href: "/products/pneumatic-torque-guns",
       },
       {
         title: "Hydraulic Torque Wrenches",
@@ -95,11 +95,11 @@ const productGroups = [
         href: "/products/hydraulic-pumps",
       },
       {
-        title: "Hydraulic Hoses",
+        title: "Ultra-High-Pressure Hoses",
         href: "/products/hydraulic-hoses",
       },
       {
-        title: "Hydraulic Fittings & Couplers",
+        title: "High-Pressure Fittings & Couplers",
         href: "/products/hydraulic-fittings-couplers",
       },
     ],
@@ -147,11 +147,19 @@ const productGroups = [
       "Tools for flange spreading, lifting, alignment, and controlled maintenance work.",
     items: [
       {
-        title: "Flange Spreaders",
+        title: "Hydraulic Flange Spreaders",
         href: "/products/flange-tools",
       },
       {
-        title: "Hydraulic Spreaders",
+        title: "Mechanical Flange Spreaders",
+        href: "/products/flange-tools",
+      },
+      {
+        title: "Mini-Gap Flange Spreaders",
+        href: "/products/flange-tools",
+      },
+      {
+        title: "Zero-Gap Flange Spreaders",
         href: "/products/flange-tools",
       },
       {
@@ -179,11 +187,11 @@ const productGroups = [
         href: "/products/pullers-nut-splitters",
       },
       {
-        title: "Nut Splitters",
+        title: "Hydraulic Gear Pullers",
         href: "/products/pullers-nut-splitters",
       },
       {
-        title: "Gear Pullers",
+        title: "Nut Splitters",
         href: "/products/pullers-nut-splitters",
       },
       {
@@ -194,16 +202,40 @@ const productGroups = [
   },
 
   {
-    title: "Valve Tools",
+    title: "Portable Valve Actuation",
     description:
-      "Portable valve actuation systems for industrial, utility, and field applications.",
+      "Dedicated portable valve actuator systems, drive platforms, adaptors, reaction devices, and accessories for industrial valve operation.",
     items: [
       {
         title: "Portable Valve Actuator Systems",
         href: "/products/valve-actuator-tools",
       },
       {
-        title: "Valve Tool Accessories",
+        title: "Battery PVA Systems",
+        href: "/products/valve-actuator-tools",
+      },
+      {
+        title: "Pneumatic PVA Systems",
+        href: "/products/valve-actuator-tools",
+      },
+      {
+        title: "Gas PVA Systems",
+        href: "/products/valve-actuator-tools",
+      },
+      {
+        title: "Water Network PVA Systems",
+        href: "/products/valve-actuator-tools",
+      },
+      {
+        title: "PVA Heads & Adaptors",
+        href: "/products/valve-actuator-tools",
+      },
+      {
+        title: "PVA Reaction Devices",
+        href: "/products/valve-actuator-tools",
+      },
+      {
+        title: "PVA Accessories",
         href: "/products/valve-actuator-tools",
       },
     ],
@@ -230,7 +262,7 @@ export default function ProductsPage() {
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-[#444444]">
             Start with the type of work you are performing, then select the
-            specific ToughTorq tool or hydraulic system you need.
+            specific ToughTorq tool or system you need.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -264,8 +296,8 @@ export default function ProductsPage() {
             </h2>
 
             <p className="mt-4 leading-8 text-[#555555]">
-              Some hydraulic products appear in more than one category because
-              the same pump, hose, or fitting may support multiple applications.
+              Products are organized by application so related tools,
+              accessories, and hydraulic systems are easier to find.
             </p>
           </div>
 
@@ -308,10 +340,39 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      {/* HELP CTA */}
+      {/* PVA CALLOUT */}
       <section className="border-t border-[#dedede] bg-white">
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <div className="grid gap-8 rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:p-8 lg:grid-cols-[1fr_auto] lg:items-center">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+                Portable Valve Actuation
+              </p>
+
+              <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
+                PVA systems are a dedicated product platform
+              </h2>
+
+              <p className="mt-4 max-w-3xl leading-7 text-[#555555]">
+                Configure portable valve actuator systems by power platform,
+                actuator head, valve adaptor, reaction device, and accessories.
+              </p>
+            </div>
+
+            <Link
+              href="/products/valve-actuator-tools"
+              className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white"
+            >
+              Explore PVA Systems
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* HELP CTA */}
+      <section className="border-t border-[#dedede] bg-[#f7f7f7]">
         <div className="mx-auto max-w-7xl px-4 py-10 md:px-8 lg:px-12">
-          <div className="flex flex-col items-start justify-between gap-5 rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:flex-row md:items-center">
+          <div className="flex flex-col items-start justify-between gap-5 rounded-xl border border-[#dddddd] bg-white p-6 md:flex-row md:items-center">
             <div>
               <p className="text-lg font-semibold text-[#3f4448]">
                 Not sure which category your application fits?
@@ -319,7 +380,7 @@ export default function ProductsPage() {
 
               <p className="mt-1 text-sm leading-6 text-[#666666]">
                 Send us the application details and we can help identify the
-                appropriate tooling and hydraulic system.
+                appropriate tooling or system.
               </p>
             </div>
 
