@@ -6,15 +6,128 @@ import { FormEvent, useEffect, useMemo, useState } from "react";
 
 type QuoteItem = {
   id: string;
-  product: string;
+  kind: string;
+  name: string;
+  category?: string;
   model?: string;
+  details?: string;
   quantity: number;
 };
 
 const STORAGE_KEY = "toughtorq-quote-cart";
 
-function createItemId(product: string, model?: string) {
-  return `${product.trim()}::${model?.trim() || ""}`;
+/*
+|--------------------------------------------------------------------------
+| CREATE UNIQUE CART ID
+|--------------------------------------------------------------------------
+|
+| Different models, accessories, services, and products can all coexist.
+|
+*/
+
+function createItemId({
+  kind,
+  name,
+  category,
+  model,
+  details,
+}: {
+  kind: string;
+  name: string;
+  category?: string;
+  model?: string;
+  details?: string;
+}) {
+  return [
+    kind,
+    name,
+    category || "",
+    model || "",
+    details || "",
+  ]
+    .map((value) => value.trim().toLowerCase())
+    .join("::");
+}
+
+/*
+|--------------------------------------------------------------------------
+| NORMALIZE OLD CART ITEMS
+|--------------------------------------------------------------------------
+|
+| This keeps carts created by the earlier version of the website working.
+|
+*/
+
+function normalizeStoredItem(item: any): QuoteItem | null {
+  if (!item || typeof item !== "object") {
+    return null;
+  }
+
+  /*
+   * NEW CART FORMAT
+   */
+  if (item.name) {
+    const kind = item.kind || "Product";
+    const name = String(item.name);
+    const category = item.category
+      ? String(item.category)
+      : undefined;
+    const model = item.model
+      ? String(item.model)
+      : undefined;
+    const details = item.details
+      ? String(item.details)
+      : undefined;
+
+    return {
+      id:
+        item.id ||
+        createItemId({
+          kind,
+          name,
+          category,
+          model,
+          details,
+        }),
+      kind,
+      name,
+      category,
+      model,
+      details,
+      quantity: Math.max(1, Number(item.quantity) || 1),
+    };
+  }
+
+  /*
+   * LEGACY CART FORMAT
+   *
+   * Old items looked like:
+   * {
+   *   product: "...",
+   *   model: "...",
+   *   quantity: 1
+   * }
+   */
+  if (item.product || item.model) {
+    const name = String(item.product || item.model);
+    const model = item.model
+      ? String(item.model)
+      : undefined;
+
+    return {
+      id: createItemId({
+        kind: "Product",
+        name,
+        model,
+      }),
+      kind: "Product",
+      name,
+      model,
+      quantity: Math.max(1, Number(item.quantity) || 1),
+    };
+  }
+
+  return null;
 }
 
 export default function QuoteCart() {
@@ -25,8 +138,11 @@ export default function QuoteCart() {
   const [addedFromUrl, setAddedFromUrl] = useState(false);
 
   /*
-   * LOAD EXISTING CART
-   */
+  |--------------------------------------------------------------------------
+  | LOAD EXISTING CART
+  |--------------------------------------------------------------------------
+  */
+
   useEffect(() => {
     try {
       const savedCart = window.localStorage.getItem(STORAGE_KEY);
@@ -35,7 +151,13 @@ export default function QuoteCart() {
         const parsed = JSON.parse(savedCart);
 
         if (Array.isArray(parsed)) {
-          setItems(parsed);
+          const normalizedItems = parsed
+            .map(normalizeStoredItem)
+            .filter(
+              (item): item is QuoteItem => item !== null
+            );
+
+          setItems(normalizedItems);
         }
       }
     } catch (error) {
@@ -46,44 +168,178 @@ export default function QuoteCart() {
   }, []);
 
   /*
-   * ADD ITEM FROM URL
-   *
-   * Supports:
-   * ?model=MC89&product=Portable Valve Actuator Systems
-   *
-   * AND:
-   * ?product=PVA Torque Limiter
-   */
+  |--------------------------------------------------------------------------
+  | ADD ITEM FROM URL
+  |--------------------------------------------------------------------------
+  |
+  | UNIVERSAL PARAMETER SUPPORT
+  |
+  | Examples:
+  |
+  | ?product=Battery Torque Guns
+  |
+  | ?product=Battery Torque Guns&model=BT10-700
+  |
+  | ?accessory=PVA Torque Limiter
+  |
+  | ?service=Calibration
+  |
+  | ?category=Hydraulic Cylinders
+  |
+  | ?item=Custom Reaction Arm
+  |
+  | ?product=Hydraulic Hose&details=20 ft Twin-Line Hose
+  |
+  | ?product=BT10-700&quantity=2
+  |
+  */
+
   useEffect(() => {
     if (!loaded || addedFromUrl) {
       return;
     }
 
-    const product = searchParams.get("product")?.trim() || "";
-    const model = searchParams.get("model")?.trim() || "";
+    const category =
+      searchParams.get("category")?.trim() || "";
 
-    if (!product && !model) {
+    const product =
+      searchParams.get("product")?.trim() || "";
+
+    const accessory =
+      searchParams.get("accessory")?.trim() || "";
+
+    const service =
+      searchParams.get("service")?.trim() || "";
+
+    const genericItem =
+      searchParams.get("item")?.trim() ||
+      searchParams.get("name")?.trim() ||
+      "";
+
+    const model =
+      searchParams.get("model")?.trim() || "";
+
+    const details =
+      searchParams.get("details")?.trim() ||
+      searchParams.get("description")?.trim() ||
+      "";
+
+    const requestedKind =
+      searchParams.get("kind")?.trim() ||
+      searchParams.get("type")?.trim() ||
+      "";
+
+    const requestedQuantity =
+      Number(
+        searchParams.get("quantity") ||
+          searchParams.get("qty") ||
+          "1"
+      ) || 1;
+
+    /*
+     * Nothing to add.
+     */
+    if (
+      !category &&
+      !product &&
+      !accessory &&
+      !service &&
+      !genericItem &&
+      !model
+    ) {
       setAddedFromUrl(true);
       return;
     }
 
-    const productName = product || model;
-    const itemId = createItemId(productName, model || undefined);
+    /*
+     * DETERMINE ITEM TYPE
+     */
+    let kind = requestedKind || "Product";
+
+    if (!requestedKind) {
+      if (service) {
+        kind = "Service";
+      } else if (accessory) {
+        kind = "Accessory";
+      } else if (
+        category &&
+        !product &&
+        !model &&
+        !genericItem
+      ) {
+        kind = "Tool Category";
+      } else if (genericItem) {
+        kind = "Item";
+      }
+    }
+
+    /*
+     * DETERMINE DISPLAY NAME
+     */
+    const name =
+      product ||
+      accessory ||
+      service ||
+      genericItem ||
+      category ||
+      model;
+
+    const normalizedCategory =
+      category && category !== name
+        ? category
+        : undefined;
+
+    const normalizedModel =
+      model && model !== name
+        ? model
+        : undefined;
+
+    const normalizedDetails =
+      details || undefined;
+
+    const itemId = createItemId({
+      kind,
+      name,
+      category: normalizedCategory,
+      model: normalizedModel,
+      details: normalizedDetails,
+    });
 
     setItems((currentItems) => {
-      const existingItem = currentItems.find((item) => item.id === itemId);
+      const existingItem = currentItems.find(
+        (item) => item.id === itemId
+      );
 
+      /*
+       * If the exact item already exists,
+       * increase quantity rather than duplicate it.
+       */
       if (existingItem) {
-        return currentItems;
+        return currentItems.map((item) =>
+          item.id === itemId
+            ? {
+                ...item,
+                quantity:
+                  item.quantity +
+                  Math.max(1, requestedQuantity),
+              }
+            : item
+        );
       }
 
       return [
         ...currentItems,
         {
           id: itemId,
-          product: productName,
-          model: model || undefined,
-          quantity: 1,
+          kind,
+          name,
+          category: normalizedCategory,
+          model: normalizedModel,
+          details: normalizedDetails,
+          quantity: Math.max(
+            1,
+            requestedQuantity
+          ),
         },
       ];
     });
@@ -92,35 +348,57 @@ export default function QuoteCart() {
   }, [loaded, addedFromUrl, searchParams]);
 
   /*
-   * SAVE CART
-   */
+  |--------------------------------------------------------------------------
+  | SAVE CART
+  |--------------------------------------------------------------------------
+  */
+
   useEffect(() => {
     if (!loaded) {
       return;
     }
 
     try {
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+      window.localStorage.setItem(
+        STORAGE_KEY,
+        JSON.stringify(items)
+      );
     } catch (error) {
       console.error("Unable to save quote cart:", error);
     }
   }, [items, loaded]);
 
-  function updateQuantity(id: string, quantity: number) {
+  /*
+  |--------------------------------------------------------------------------
+  | CART ACTIONS
+  |--------------------------------------------------------------------------
+  */
+
+  function updateQuantity(
+    id: string,
+    quantity: number
+  ) {
     if (quantity < 1) {
       return;
     }
 
     setItems((currentItems) =>
       currentItems.map((item) =>
-        item.id === id ? { ...item, quantity } : item
+        item.id === id
+          ? {
+              ...item,
+              quantity,
+            }
+          : item
       )
     );
   }
 
   function removeItem(id: string) {
     setItems((currentItems) =>
-      currentItems.filter((item) => item.id !== id)
+      currentItems.filter(
+        (item) => item.id !== id
+      )
     );
   }
 
@@ -128,37 +406,95 @@ export default function QuoteCart() {
     setItems([]);
   }
 
+  /*
+  |--------------------------------------------------------------------------
+  | TOTAL QUANTITY
+  |--------------------------------------------------------------------------
+  */
+
   const totalQuantity = useMemo(() => {
-    return items.reduce((total, item) => total + item.quantity, 0);
+    return items.reduce(
+      (total, item) =>
+        total + item.quantity,
+      0
+    );
   }, [items]);
+
+  /*
+  |--------------------------------------------------------------------------
+  | EMAIL QUOTE SUMMARY
+  |--------------------------------------------------------------------------
+  */
 
   const quoteSummary = useMemo(() => {
     if (items.length === 0) {
-      return "No products selected.";
+      return "No products or services selected.";
     }
 
     return items
       .map((item, index) => {
-        const modelText = item.model ? ` | Model: ${item.model}` : "";
+        const lines = [
+          `${index + 1}. ${item.name}`,
+          `Type: ${item.kind}`,
+        ];
 
-        return `${index + 1}. ${item.product}${modelText} | Qty: ${
-          item.quantity
-        }`;
+        if (item.category) {
+          lines.push(
+            `Category: ${item.category}`
+          );
+        }
+
+        if (item.model) {
+          lines.push(
+            `Model: ${item.model}`
+          );
+        }
+
+        if (item.details) {
+          lines.push(
+            `Details: ${item.details}`
+          );
+        }
+
+        lines.push(
+          `Quantity: ${item.quantity}`
+        );
+
+        return lines.join(" | ");
       })
       .join("\n");
   }, [items]);
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  /*
+  |--------------------------------------------------------------------------
+  | SUBMIT VALIDATION
+  |--------------------------------------------------------------------------
+  */
+
+  function handleSubmit(
+    event: FormEvent<HTMLFormElement>
+  ) {
     if (items.length === 0) {
       event.preventDefault();
-      window.alert("Please add at least one product to your quote request.");
+
+      window.alert(
+        "Please add at least one product, accessory, service, or category to your quote request."
+      );
     }
   }
+
+  /*
+  |--------------------------------------------------------------------------
+  | LOADING STATE
+  |--------------------------------------------------------------------------
+  */
 
   if (!loaded) {
     return (
       <div className="rounded-xl border border-[#dddddd] bg-white p-6">
-        <p className="text-sm text-[#666666]">Loading quote cart...</p>
+        <p className="text-sm text-[#666666]">
+          Loading quote cart...
+        </p>
       </div>
     );
   }
@@ -170,7 +506,7 @@ export default function QuoteCart() {
         <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-              Selected Equipment
+              Selected Equipment & Services
             </p>
 
             <h2 className="mt-2 text-3xl font-semibold text-[#3f4448]">
@@ -178,7 +514,11 @@ export default function QuoteCart() {
             </h2>
 
             <p className="mt-2 text-sm text-[#666666]">
-              {totalQuantity} {totalQuantity === 1 ? "item" : "items"} selected
+              {totalQuantity}{" "}
+              {totalQuantity === 1
+                ? "item"
+                : "items"}{" "}
+              selected
             </p>
           </div>
 
@@ -201,8 +541,10 @@ export default function QuoteCart() {
               </h3>
 
               <p className="mt-3 max-w-xl text-sm leading-7 text-[#666666]">
-                Browse ToughTorq products and select the equipment,
-                configuration, or accessory you would like quoted.
+                Add any ToughTorq product,
+                tool category, model,
+                accessory, component, or
+                service to your request.
               </p>
 
               <Link
@@ -220,23 +562,35 @@ export default function QuoteCart() {
                   className="grid gap-5 p-5 sm:grid-cols-[1fr_auto] sm:items-center md:p-6"
                 >
                   <div>
-                    <p className="text-xs font-bold uppercase tracking-[0.1em] text-[#888888]">
-                      {item.model ? "Model" : "Product / Accessory"}
+                    <p className="text-xs font-bold uppercase tracking-[0.1em] text-[#ed1c24]">
+                      {item.kind}
+                    </p>
+
+                    <p className="mt-2 text-xl font-semibold text-[#3f4448]">
+                      {item.name}
                     </p>
 
                     {item.model && (
-                      <p className="mt-1 text-xl font-bold text-[#ed1c24]">
-                        {item.model}
+                      <p className="mt-2 text-sm text-[#555555]">
+                        Model:{" "}
+                        <strong className="text-[#ed1c24]">
+                          {item.model}
+                        </strong>
                       </p>
                     )}
 
-                    <p
-                      className={`font-semibold text-[#3f4448] ${
-                        item.model ? "mt-1 text-base" : "mt-1 text-xl"
-                      }`}
-                    >
-                      {item.product}
-                    </p>
+                    {item.category && (
+                      <p className="mt-1 text-sm text-[#666666]">
+                        Category:{" "}
+                        {item.category}
+                      </p>
+                    )}
+
+                    {item.details && (
+                      <p className="mt-2 text-sm leading-6 text-[#666666]">
+                        {item.details}
+                      </p>
+                    )}
                   </div>
 
                   <div className="flex items-center gap-4">
@@ -256,7 +610,12 @@ export default function QuoteCart() {
                         onChange={(event) =>
                           updateQuantity(
                             item.id,
-                            Math.max(1, Number(event.target.value) || 1)
+                            Math.max(
+                              1,
+                              Number(
+                                event.target.value
+                              ) || 1
+                            )
                           )
                         }
                         className="mt-1 w-20 rounded-lg border border-[#cccccc] bg-white px-3 py-2 text-sm text-[#333333] outline-none transition focus:border-[#ed1c24]"
@@ -265,7 +624,9 @@ export default function QuoteCart() {
 
                     <button
                       type="button"
-                      onClick={() => removeItem(item.id)}
+                      onClick={() =>
+                        removeItem(item.id)
+                      }
                       className="mt-5 text-sm font-semibold text-[#777777] transition hover:text-[#ed1c24]"
                     >
                       Remove
@@ -298,8 +659,12 @@ export default function QuoteCart() {
         </h2>
 
         <p className="mt-3 text-sm leading-7 text-[#666666]">
-          Submit your contact information and application details. ToughTorq
-          will review the selected equipment and follow up with pricing and
+          Submit your contact information
+          and application details.
+          ToughTorq will review the
+          selected products, accessories,
+          services, and configurations and
+          follow up with pricing and
           availability.
         </p>
 
@@ -315,7 +680,11 @@ export default function QuoteCart() {
             value="New ToughTorq Quote Request"
           />
 
-          <input type="hidden" name="_template" value="table" />
+          <input
+            type="hidden"
+            name="_template"
+            value="table"
+          />
 
           <input
             type="hidden"
@@ -323,10 +692,14 @@ export default function QuoteCart() {
             value="https://toughtorq.com/thank-you"
           />
 
-          <input type="text" name="_honey" className="hidden" />
+          <input
+            type="text"
+            name="_honey"
+            className="hidden"
+          />
 
           <textarea
-            name="Selected Equipment"
+            name="Selected Equipment and Services"
             value={quoteSummary}
             readOnly
             className="hidden"
@@ -422,14 +795,15 @@ export default function QuoteCart() {
               htmlFor="application"
               className="text-sm font-semibold text-[#444444]"
             >
-              Application / Additional Information
+              Application / Additional
+              Information
             </label>
 
             <textarea
               id="application"
               name="Application / Additional Information"
               rows={5}
-              placeholder="Tell us about the application, valve type, bolt size, torque requirements, delivery requirements, or any accessories needed."
+              placeholder="Tell us about the application, equipment, valve type, bolt size, torque requirements, hydraulic requirements, service needed, delivery requirements, or accessories."
               className="mt-2 w-full resize-y rounded-lg border border-[#cccccc] bg-white px-4 py-3 text-sm leading-6 outline-none transition focus:border-[#ed1c24]"
             />
           </div>
@@ -441,21 +815,40 @@ export default function QuoteCart() {
                 Included in Request
               </p>
 
-              <div className="mt-3 space-y-2">
+              <div className="mt-3 space-y-3">
                 {items.map((item) => (
                   <div
                     key={`summary-${item.id}`}
-                    className="flex justify-between gap-4 text-sm"
+                    className="flex justify-between gap-4 border-b border-[#e4e4e4] pb-3 text-sm last:border-b-0 last:pb-0"
                   >
-                    <span className="text-[#444444]">
-                      {item.model ? (
-                        <>
-                          <strong>{item.model}</strong> — {item.product}
-                        </>
-                      ) : (
-                        <strong>{item.product}</strong>
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#ed1c24]">
+                        {item.kind}
+                      </p>
+
+                      <p className="mt-1 font-semibold text-[#444444]">
+                        {item.name}
+                      </p>
+
+                      {item.model && (
+                        <p className="mt-1 text-xs text-[#666666]">
+                          Model: {item.model}
+                        </p>
                       )}
-                    </span>
+
+                      {item.category && (
+                        <p className="mt-1 text-xs text-[#666666]">
+                          Category:{" "}
+                          {item.category}
+                        </p>
+                      )}
+
+                      {item.details && (
+                        <p className="mt-1 text-xs text-[#666666]">
+                          {item.details}
+                        </p>
+                      )}
+                    </div>
 
                     <span className="shrink-0 text-[#777777]">
                       Qty {item.quantity}
