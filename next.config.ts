@@ -8,6 +8,16 @@ const nextConfig: NextConfig = {
         destination: "/products/pneumatic-torque-guns",
         permanent: true,
       },
+      {
+        source: "/products/pumps-tensioners-rams",
+        destination: "/products",
+        permanent: true,
+      },
+      {
+        source: "/products/torque-wrenches-specialty-tooling",
+        destination: "/products",
+        permanent: true,
+      },
     ];
   },
 };
