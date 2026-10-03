@@ -31,6 +31,33 @@ export type CatalogOperatingRequirement = {
   note?: string;
 };
 
+export type CatalogComponent = {
+  id: string;
+  group: string;
+  displayName: string;
+  description?: string;
+  images: CatalogImage[];
+  specifications: Record<string, number | string | boolean | null>;
+  active: boolean;
+  public: boolean;
+  verificationStatus: VerificationStatus;
+  sourceReference: string[];
+};
+
+export type CatalogCompatibilityStatus =
+  | "compatible"
+  | "conditional"
+  | "not-compatible"
+  | "needs-verification";
+
+export type CatalogCompatibilityEntry = {
+  modelId: string;
+  componentId: string;
+  status: CatalogCompatibilityStatus;
+  note?: string;
+  sourceReference: string[];
+};
+
 export type CatalogModel = {
   id: string;
   model: string;
@@ -69,6 +96,8 @@ export type CatalogProductFamily = {
   operatingRequirements: CatalogOperatingRequirement[];
   accessories: string[];
   compatibility: string[];
+  componentGroups?: CatalogComponent[];
+  compatibilityMatrix?: CatalogCompatibilityEntry[];
   downloads: CatalogDownload[];
   active: boolean;
   public: boolean;
