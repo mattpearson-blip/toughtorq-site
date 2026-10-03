@@ -1,0 +1,396 @@
+{
+  "id": "pneumatic-torque-guns",
+  "slug": "pneumatic-torque-guns",
+  "family": "Pneumatic Torque Guns",
+  "displayName": "PT Series Pneumatic Torque Guns",
+  "shortDescription": "Continuous-duty pneumatic torque tools for controlled industrial bolting.",
+  "longDescription": "PT Series pneumatic torque guns provide continuous non-impact torque for repetitive industrial bolting. Torque is controlled through regulated air pressure, with full reverse torque available for loosening applications.",
+  "images": [],
+  "features": [
+    "Continuous non-impact torque output",
+    "Compact planetary gearbox",
+    "Seven-vane high-performance air motor",
+    "Single-hand forward and reverse control",
+    "Full reverse torque capability for bolt removal",
+    "Designed for continuous-duty industrial operation",
+    "Standard torque accuracy ±5% with ±1% repeatability",
+    "Optional digital air regulation supports ±3% torque accuracy with ±1% repeatability",
+    "Noise level below 80 dBA at maximum power"
+  ],
+  "applications": [
+    "Industrial flange bolting",
+    "Power generation maintenance",
+    "Oil and gas service",
+    "Manufacturing and assembly",
+    "Heavy equipment maintenance",
+    "Pipeline work",
+    "Structural bolting",
+    "Shutdown and turnaround work"
+  ],
+  "models": [
+    {
+      "id": "pt05-350ss",
+      "model": "PT05-350SS",
+      "displayName": "PT05-350SS Pneumatic Torque Gun",
+      "sourceModel": "KSPW-05SS",
+      "description": "Compact PT Series pneumatic torque gun with a 74–369 ft-lb torque range.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 74,
+        "torqueMaxFtLb": 369,
+        "squareDriveIn": "3/4",
+        "maxSpeedRpm": 50,
+        "weightLb": 8.8,
+        "standardAccuracyPercent": 5,
+        "repeatabilityPercent": 1
+      },
+      "dimensions": [
+        { "key": "L", "label": "L", "value": 6.7, "unit": "in" },
+        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
+        { "key": "D", "label": "D", "value": 2.4, "unit": "in" }
+      ],
+      "operatingRequirements": [
+        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
+        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+      ],
+      "accessories": [],
+      "compatibility": [],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog pneumatic torque wrench table; PT naming mapped from KSPW-05SS"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    },
+    {
+      "id": "pt10-700ss",
+      "model": "PT10-700SS",
+      "displayName": "PT10-700SS Pneumatic Torque Gun",
+      "sourceModel": "KSPW-10SS",
+      "description": "PT Series pneumatic torque gun with a 111–738 ft-lb torque range.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 111,
+        "torqueMaxFtLb": 738,
+        "squareDriveIn": "3/4",
+        "maxSpeedRpm": 28,
+        "weightLb": 10.6,
+        "standardAccuracyPercent": 5,
+        "repeatabilityPercent": 1
+      },
+      "dimensions": [
+        { "key": "L", "label": "L", "value": 9.8, "unit": "in" },
+        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
+        { "key": "D", "label": "D", "value": 2.9, "unit": "in" }
+      ],
+      "operatingRequirements": [
+        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
+        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+      ],
+      "accessories": [],
+      "compatibility": [],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog pneumatic torque wrench table; PT naming mapped from KSPW-10SS"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    },
+    {
+      "id": "pt15-1000ss",
+      "model": "PT15-1000SS",
+      "displayName": "PT15-1000SS Pneumatic Torque Gun",
+      "sourceModel": "KSPW-15SS",
+      "description": "PT Series pneumatic torque gun with a 148–1,106 ft-lb torque range.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 148,
+        "torqueMaxFtLb": 1106,
+        "squareDriveIn": "1",
+        "maxSpeedRpm": 21,
+        "weightLb": 11.5,
+        "standardAccuracyPercent": 5,
+        "repeatabilityPercent": 1
+      },
+      "dimensions": [
+        { "key": "L", "label": "L", "value": 10.2, "unit": "in" },
+        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
+        { "key": "D", "label": "D", "value": 3.0, "unit": "in" }
+      ],
+      "operatingRequirements": [
+        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
+        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+      ],
+      "accessories": [],
+      "compatibility": [],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog pneumatic torque wrench table; PT naming mapped from KSPW-15SS"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    },
+    {
+      "id": "pt20-1500ss",
+      "model": "PT20-1500SS",
+      "displayName": "PT20-1500SS Pneumatic Torque Gun",
+      "sourceModel": "KSPW-20SS",
+      "description": "PT Series pneumatic torque gun with a 221–1,475 ft-lb torque range.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 221,
+        "torqueMaxFtLb": 1475,
+        "squareDriveIn": "1",
+        "maxSpeedRpm": 15,
+        "weightLb": 12.1,
+        "standardAccuracyPercent": 5,
+        "repeatabilityPercent": 1
+      },
+      "dimensions": [
+        { "key": "L", "label": "L", "value": 10.2, "unit": "in" },
+        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
+        { "key": "D", "label": "D", "value": 3.0, "unit": "in" }
+      ],
+      "operatingRequirements": [
+        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
+        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+      ],
+      "accessories": [],
+      "compatibility": [],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog pneumatic torque wrench table; PT naming mapped from KSPW-20SS"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    },
+    {
+      "id": "pt30-2200ss",
+      "model": "PT30-2200SS",
+      "displayName": "PT30-2200SS Pneumatic Torque Gun",
+      "sourceModel": "KSPW-30SS",
+      "description": "PT Series pneumatic torque gun with a 369–2,213 ft-lb torque range.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 369,
+        "torqueMaxFtLb": 2213,
+        "squareDriveIn": "1",
+        "maxSpeedRpm": 10,
+        "weightLb": 16.5,
+        "standardAccuracyPercent": 5,
+        "repeatabilityPercent": 1
+      },
+      "dimensions": [
+        { "key": "L", "label": "L", "value": 13.4, "unit": "in" },
+        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
+        { "key": "D", "label": "D", "value": 3.7, "unit": "in" }
+      ],
+      "operatingRequirements": [
+        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
+        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+      ],
+      "accessories": [],
+      "compatibility": [],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog pneumatic torque wrench table; PT naming mapped from KSPW-30SS"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    },
+    {
+      "id": "pt40-2900ss",
+      "model": "PT40-2900SS",
+      "displayName": "PT40-2900SS Pneumatic Torque Gun",
+      "sourceModel": "KSPW-40SS",
+      "description": "PT Series pneumatic torque gun with a 516–2,950 ft-lb torque range.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 516,
+        "torqueMaxFtLb": 2950,
+        "squareDriveIn": "1-1/2",
+        "maxSpeedRpm": 7,
+        "weightLb": 20.9,
+        "standardAccuracyPercent": 5,
+        "repeatabilityPercent": 1
+      },
+      "dimensions": [
+        { "key": "L", "label": "L", "value": 13.4, "unit": "in" },
+        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
+        { "key": "D", "label": "D", "value": 3.8, "unit": "in" }
+      ],
+      "operatingRequirements": [
+        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
+        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+      ],
+      "accessories": [],
+      "compatibility": [],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog pneumatic torque wrench table; PT naming mapped from KSPW-40SS"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    },
+    {
+      "id": "pt60-4400ss",
+      "model": "PT60-4400SS",
+      "displayName": "PT60-4400SS Pneumatic Torque Gun",
+      "sourceModel": "KSPW-60SS",
+      "description": "PT Series pneumatic torque gun with a 738–4,426 ft-lb torque range.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 738,
+        "torqueMaxFtLb": 4426,
+        "squareDriveIn": "1-1/2",
+        "maxSpeedRpm": 5,
+        "weightLb": 30.9,
+        "standardAccuracyPercent": 5,
+        "repeatabilityPercent": 1
+      },
+      "dimensions": [
+        { "key": "L", "label": "L", "value": 15.0, "unit": "in" },
+        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
+        { "key": "D", "label": "D", "value": 4.1, "unit": "in" }
+      ],
+      "operatingRequirements": [
+        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
+        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+      ],
+      "accessories": [],
+      "compatibility": [],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog pneumatic torque wrench table; PT naming mapped from KSPW-60SS"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    },
+    {
+      "id": "pt80-6000ss",
+      "model": "PT80-6000SS",
+      "displayName": "PT80-6000SS Pneumatic Torque Gun",
+      "sourceModel": "KSPW-80SS",
+      "description": "PT Series pneumatic torque gun with a 1,475–5,900 ft-lb torque range.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 1475,
+        "torqueMaxFtLb": 5900,
+        "squareDriveIn": "1-1/2",
+        "maxSpeedRpm": 4,
+        "weightLb": 39.7,
+        "standardAccuracyPercent": 5,
+        "repeatabilityPercent": 1
+      },
+      "dimensions": [
+        { "key": "L", "label": "L", "value": 15.0, "unit": "in" },
+        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
+        { "key": "D", "label": "D", "value": 4.4, "unit": "in" }
+      ],
+      "operatingRequirements": [
+        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
+        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+      ],
+      "accessories": [],
+      "compatibility": [],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog pneumatic torque wrench table; PT naming mapped from KSPW-80SS"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    }
+  ],
+  "operatingRequirements": [
+    {
+      "key": "airPressure",
+      "label": "Operating Air Pressure",
+      "value": 6,
+      "unit": "bar"
+    },
+    {
+      "key": "airConsumption",
+      "label": "Air Consumption at Max Power",
+      "value": 600,
+      "unit": "L/min",
+      "note": "Maximum-power consumption"
+    },
+    {
+      "key": "noise",
+      "label": "Noise Level at Max Power",
+      "value": "<80",
+      "unit": "dBA"
+    }
+  ],
+  "accessories": [
+    "Air regulator",
+    "Optional digital air regulator",
+    "Reaction arms",
+    "Impact-rated sockets"
+  ],
+  "compatibility": [
+    "Use sockets matching the listed square drive and fastener size.",
+    "Reaction equipment must be selected for the specific application and reaction point."
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": true,
+  "calibrationApplicable": true,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "2026 ToughTorq catalog pneumatic torque wrench table and feature copy"
+  ],
+  "lastVerifiedAt": "2026-10-03",
+  "catalogVersion": "2026.10"
+}
