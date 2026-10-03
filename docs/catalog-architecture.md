@@ -115,6 +115,6 @@ The existing quote cart may remain temporarily, but new ToughTorq product archit
 3. Portable Valve Actuation
 4. Remaining catalog families
 
-## Open verification item
+## Hydraulic torque pump naming
 
-The final pneumatic hydraulic torque pump designation must be confirmed before it is treated as canonical. Historical source material contains conflicting KAT naming.
+KAT-3000 is the approved canonical designation for the pneumatic hydraulic torque pump. The prior KAT-1000 reference is not supported by the currently verified source documents and should not be propagated into ToughTorq or JAM product data.
