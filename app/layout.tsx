@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s | ToughTorq",
   },
   description:
-    "Industrial torque tools, hydraulic bolting systems, tensioning equipment, hydraulic pumps, cylinders, flange tools, portable valve actuators, and specialty maintenance tooling.",
+    "Manufacturer technical authority for ToughTorq industrial torque tools, hydraulic bolting systems, tensioning equipment, hydraulic pumps, cylinders, flange tools, portable valve actuators, engineering data, and product resources.",
   metadataBase: new URL("https://toughtorq.com"),
 };
 
