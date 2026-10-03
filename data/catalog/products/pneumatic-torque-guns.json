@@ -45,13 +45,39 @@
         "repeatabilityPercent": 1
       },
       "dimensions": [
-        { "key": "L", "label": "L", "value": 6.7, "unit": "in" },
-        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
-        { "key": "D", "label": "D", "value": 2.4, "unit": "in" }
+        {
+          "key": "L",
+          "label": "L",
+          "value": 6.7,
+          "unit": "in"
+        },
+        {
+          "key": "E",
+          "label": "E",
+          "value": 7.3,
+          "unit": "in"
+        },
+        {
+          "key": "D",
+          "label": "D",
+          "value": 2.4,
+          "unit": "in"
+        }
       ],
       "operatingRequirements": [
-        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
-        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+        {
+          "key": "airPressure",
+          "label": "Operating Air Pressure",
+          "value": 6,
+          "unit": "bar"
+        },
+        {
+          "key": "airConsumption",
+          "label": "Air Consumption at Max Power",
+          "value": 600,
+          "unit": "L/min",
+          "note": "Maximum-power consumption"
+        }
       ],
       "accessories": [],
       "compatibility": [],
@@ -85,13 +111,39 @@
         "repeatabilityPercent": 1
       },
       "dimensions": [
-        { "key": "L", "label": "L", "value": 9.8, "unit": "in" },
-        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
-        { "key": "D", "label": "D", "value": 2.9, "unit": "in" }
+        {
+          "key": "L",
+          "label": "L",
+          "value": 9.8,
+          "unit": "in"
+        },
+        {
+          "key": "E",
+          "label": "E",
+          "value": 7.3,
+          "unit": "in"
+        },
+        {
+          "key": "D",
+          "label": "D",
+          "value": 2.9,
+          "unit": "in"
+        }
       ],
       "operatingRequirements": [
-        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
-        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+        {
+          "key": "airPressure",
+          "label": "Operating Air Pressure",
+          "value": 6,
+          "unit": "bar"
+        },
+        {
+          "key": "airConsumption",
+          "label": "Air Consumption at Max Power",
+          "value": 600,
+          "unit": "L/min",
+          "note": "Maximum-power consumption"
+        }
       ],
       "accessories": [],
       "compatibility": [],
@@ -125,13 +177,39 @@
         "repeatabilityPercent": 1
       },
       "dimensions": [
-        { "key": "L", "label": "L", "value": 10.2, "unit": "in" },
-        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
-        { "key": "D", "label": "D", "value": 3.0, "unit": "in" }
+        {
+          "key": "L",
+          "label": "L",
+          "value": 10.2,
+          "unit": "in"
+        },
+        {
+          "key": "E",
+          "label": "E",
+          "value": 7.3,
+          "unit": "in"
+        },
+        {
+          "key": "D",
+          "label": "D",
+          "value": 3,
+          "unit": "in"
+        }
       ],
       "operatingRequirements": [
-        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
-        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+        {
+          "key": "airPressure",
+          "label": "Operating Air Pressure",
+          "value": 6,
+          "unit": "bar"
+        },
+        {
+          "key": "airConsumption",
+          "label": "Air Consumption at Max Power",
+          "value": 600,
+          "unit": "L/min",
+          "note": "Maximum-power consumption"
+        }
       ],
       "accessories": [],
       "compatibility": [],
@@ -165,13 +243,39 @@
         "repeatabilityPercent": 1
       },
       "dimensions": [
-        { "key": "L", "label": "L", "value": 10.2, "unit": "in" },
-        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
-        { "key": "D", "label": "D", "value": 3.0, "unit": "in" }
+        {
+          "key": "L",
+          "label": "L",
+          "value": 10.2,
+          "unit": "in"
+        },
+        {
+          "key": "E",
+          "label": "E",
+          "value": 7.3,
+          "unit": "in"
+        },
+        {
+          "key": "D",
+          "label": "D",
+          "value": 3,
+          "unit": "in"
+        }
       ],
       "operatingRequirements": [
-        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
-        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+        {
+          "key": "airPressure",
+          "label": "Operating Air Pressure",
+          "value": 6,
+          "unit": "bar"
+        },
+        {
+          "key": "airConsumption",
+          "label": "Air Consumption at Max Power",
+          "value": 600,
+          "unit": "L/min",
+          "note": "Maximum-power consumption"
+        }
       ],
       "accessories": [],
       "compatibility": [],
@@ -205,13 +309,39 @@
         "repeatabilityPercent": 1
       },
       "dimensions": [
-        { "key": "L", "label": "L", "value": 13.4, "unit": "in" },
-        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
-        { "key": "D", "label": "D", "value": 3.7, "unit": "in" }
+        {
+          "key": "L",
+          "label": "L",
+          "value": 13.4,
+          "unit": "in"
+        },
+        {
+          "key": "E",
+          "label": "E",
+          "value": 7.3,
+          "unit": "in"
+        },
+        {
+          "key": "D",
+          "label": "D",
+          "value": 3.7,
+          "unit": "in"
+        }
       ],
       "operatingRequirements": [
-        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
-        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+        {
+          "key": "airPressure",
+          "label": "Operating Air Pressure",
+          "value": 6,
+          "unit": "bar"
+        },
+        {
+          "key": "airConsumption",
+          "label": "Air Consumption at Max Power",
+          "value": 600,
+          "unit": "L/min",
+          "note": "Maximum-power consumption"
+        }
       ],
       "accessories": [],
       "compatibility": [],
@@ -245,13 +375,39 @@
         "repeatabilityPercent": 1
       },
       "dimensions": [
-        { "key": "L", "label": "L", "value": 13.4, "unit": "in" },
-        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
-        { "key": "D", "label": "D", "value": 3.8, "unit": "in" }
+        {
+          "key": "L",
+          "label": "L",
+          "value": 13.4,
+          "unit": "in"
+        },
+        {
+          "key": "E",
+          "label": "E",
+          "value": 7.3,
+          "unit": "in"
+        },
+        {
+          "key": "D",
+          "label": "D",
+          "value": 3.8,
+          "unit": "in"
+        }
       ],
       "operatingRequirements": [
-        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
-        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+        {
+          "key": "airPressure",
+          "label": "Operating Air Pressure",
+          "value": 6,
+          "unit": "bar"
+        },
+        {
+          "key": "airConsumption",
+          "label": "Air Consumption at Max Power",
+          "value": 600,
+          "unit": "L/min",
+          "note": "Maximum-power consumption"
+        }
       ],
       "accessories": [],
       "compatibility": [],
@@ -285,13 +441,39 @@
         "repeatabilityPercent": 1
       },
       "dimensions": [
-        { "key": "L", "label": "L", "value": 15.0, "unit": "in" },
-        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
-        { "key": "D", "label": "D", "value": 4.1, "unit": "in" }
+        {
+          "key": "L",
+          "label": "L",
+          "value": 15,
+          "unit": "in"
+        },
+        {
+          "key": "E",
+          "label": "E",
+          "value": 7.3,
+          "unit": "in"
+        },
+        {
+          "key": "D",
+          "label": "D",
+          "value": 4.1,
+          "unit": "in"
+        }
       ],
       "operatingRequirements": [
-        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
-        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+        {
+          "key": "airPressure",
+          "label": "Operating Air Pressure",
+          "value": 6,
+          "unit": "bar"
+        },
+        {
+          "key": "airConsumption",
+          "label": "Air Consumption at Max Power",
+          "value": 600,
+          "unit": "L/min",
+          "note": "Maximum-power consumption"
+        }
       ],
       "accessories": [],
       "compatibility": [],
@@ -325,13 +507,39 @@
         "repeatabilityPercent": 1
       },
       "dimensions": [
-        { "key": "L", "label": "L", "value": 15.0, "unit": "in" },
-        { "key": "E", "label": "E", "value": 7.3, "unit": "in" },
-        { "key": "D", "label": "D", "value": 4.4, "unit": "in" }
+        {
+          "key": "L",
+          "label": "L",
+          "value": 15,
+          "unit": "in"
+        },
+        {
+          "key": "E",
+          "label": "E",
+          "value": 7.3,
+          "unit": "in"
+        },
+        {
+          "key": "D",
+          "label": "D",
+          "value": 4.4,
+          "unit": "in"
+        }
       ],
       "operatingRequirements": [
-        { "key": "airPressure", "label": "Operating Air Pressure", "value": 6, "unit": "bar" },
-        { "key": "airConsumption", "label": "Air Consumption at Max Power", "value": 600, "unit": "L/min", "note": "Maximum-power consumption" }
+        {
+          "key": "airPressure",
+          "label": "Operating Air Pressure",
+          "value": 6,
+          "unit": "bar"
+        },
+        {
+          "key": "airConsumption",
+          "label": "Air Consumption at Max Power",
+          "value": 600,
+          "unit": "L/min",
+          "note": "Maximum-power consumption"
+        }
       ],
       "accessories": [],
       "compatibility": [],
@@ -372,14 +580,9 @@
   ],
   "accessories": [
     "Air regulator",
-    "Optional digital air regulator",
-    "Reaction arms",
-    "Impact-rated sockets"
+    "Optional digital air regulator"
   ],
-  "compatibility": [
-    "Use sockets matching the listed square drive and fastener size.",
-    "Reaction equipment must be selected for the specific application and reaction point."
-  ],
+  "compatibility": [],
   "downloads": [],
   "active": true,
   "public": true,
