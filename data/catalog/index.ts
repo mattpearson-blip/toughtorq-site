@@ -10,7 +10,7 @@ export const pneumaticTorqueGuns =
   pneumaticTorqueGunsJson as CatalogProductFamily;
 
 export const hydraulicTorquePumps =
-  hydraulicTorquePumpsJson as CatalogProductFamily;
+  hydraulicTorquePumpsJson as unknown as CatalogProductFamily;
 
 export const catalogProducts: CatalogProductFamily[] = [
   pneumaticTorqueGuns,
