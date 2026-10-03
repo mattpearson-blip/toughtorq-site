@@ -84,8 +84,9 @@ export default function HomePage() {
           <div className="mt-6 h-[3px] w-16 bg-[#ed1c24]" />
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-[#444444]">
-            Torque, tensioning, lifting, hydraulic power, flange maintenance,
-            portable valve actuation, and specialty industrial tooling.
+            Manufacturer product information, technical specifications,
+            engineering data, applications, compatibility, and support
+            resources for ToughTorq industrial tooling.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -97,10 +98,10 @@ export default function HomePage() {
             </Link>
 
             <Link
-              href="/request-a-quote"
+              href="/platform"
               className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#666666] bg-white px-6 py-3 text-sm font-semibold text-[#333333] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
             >
-              Request a Quote
+              Technical Resources
             </Link>
           </div>
         </div>
@@ -222,23 +223,23 @@ export default function HomePage() {
         <div className="mx-auto grid max-w-7xl gap-6 px-4 py-14 md:px-8 lg:grid-cols-3 lg:px-12">
           <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6">
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-              Product Selection
+              Technical Data
             </p>
 
             <h3 className="mt-3 text-2xl font-semibold text-[#3f4448]">
-              Application support
+              Product resources
             </h3>
 
             <p className="mt-4 text-sm leading-7 text-[#555555]">
-              Send us the application details and we can help identify the
-              appropriate tooling or hydraulic system.
+              Access product specifications, engineering information,
+              applications, drawings, manuals, cutsheets, and model data.
             </p>
 
             <Link
-              href="/request-a-quote"
+              href="/platform"
               className="mt-6 inline-flex text-sm font-semibold text-[#ed1c24]"
             >
-              Request Support →
+              View Technical Resources →
             </Link>
           </div>
 
@@ -297,7 +298,7 @@ export default function HomePage() {
               </p>
 
               <h2 className="mt-2 text-2xl font-semibold text-[#3f4448]">
-                Need pricing or product information?
+                Need purchasing, rental, calibration, or service?
               </h2>
             </div>
 
@@ -309,12 +310,14 @@ export default function HomePage() {
                 Browse Products
               </Link>
 
-              <Link
-                href="/request-a-quote"
+              <a
+                href="https://jamtorque.com"
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white"
               >
-                Request a Quote
-              </Link>
+                Visit JAM Torque
+              </a>
             </div>
           </div>
         </div>

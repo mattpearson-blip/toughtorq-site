@@ -166,24 +166,27 @@ export function SiteFooter() {
             </Link>
 
             <p className="mt-5 max-w-sm text-sm leading-7 text-[#666666]">
-              Industrial torque, bolting, tensioning, hydraulic, lifting,
-              flange maintenance, and portable valve actuation equipment.
+              Manufacturer technical authority for ToughTorq industrial torque,
+              bolting, hydraulic, lifting, maintenance, and portable valve
+              actuation equipment.
             </p>
 
             <div className="mt-7 flex flex-col gap-3">
               <Link
-                href="/request-a-quote"
-                className="inline-flex min-h-11 w-fit items-center justify-center rounded-lg bg-[#ed1c24] px-5 py-2 text-sm font-semibold text-white"
-              >
-                Request a Quote
-              </Link>
-
-              <Link
                 href="/find-a-distributor"
-                className="inline-flex min-h-11 w-fit items-center justify-center rounded-lg border border-[#666666] bg-white px-5 py-2 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+                className="inline-flex min-h-11 w-fit items-center justify-center rounded-lg bg-[#ed1c24] px-5 py-2 text-sm font-semibold text-white"
               >
                 Find a Distributor
               </Link>
+
+              <a
+                href="https://jamtorque.com"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex min-h-11 w-fit items-center justify-center rounded-lg border border-[#666666] bg-white px-5 py-2 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+              >
+                Purchase, Rental & Service
+              </a>
             </div>
           </div>
 
@@ -229,10 +232,10 @@ export function SiteFooter() {
             </div>
 
             <Link
-              href="/request-a-quote"
+              href="/platform"
               className="text-sm font-semibold text-[#ed1c24]"
             >
-              Build a Quote Request →
+              Technical Resources →
             </Link>
           </div>
         </div>
