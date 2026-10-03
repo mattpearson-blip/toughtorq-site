@@ -1,3 +1,4 @@
+import hydraulicTorquePumpsJson from "./products/hydraulic-torque-pumps.json";
 import pneumaticTorqueGunsJson from "./products/pneumatic-torque-guns.json";
 
 import type {
@@ -8,8 +9,12 @@ import type {
 export const pneumaticTorqueGuns =
   pneumaticTorqueGunsJson as CatalogProductFamily;
 
+export const hydraulicTorquePumps =
+  hydraulicTorquePumpsJson as CatalogProductFamily;
+
 export const catalogProducts: CatalogProductFamily[] = [
   pneumaticTorqueGuns,
+  hydraulicTorquePumps,
 ];
 
 export const catalog: Omit<CatalogExport, "generatedAt"> = {
