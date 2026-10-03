@@ -275,12 +275,14 @@ export function SiteHeader() {
             Find a Distributor
           </Link>
 
-          <Link
-            href="/request-a-quote"
+          <a
+            href="https://jamtorque.com"
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex min-h-11 items-center justify-center rounded-lg bg-[#ed1c24] px-5 py-2 text-sm font-semibold text-white transition hover:opacity-90"
           >
-            Request a Quote
-          </Link>
+            Purchase & Service
+          </a>
         </div>
 
         {/* MOBILE MENU BUTTON */}
@@ -400,13 +402,15 @@ export function SiteHeader() {
                 Find a Distributor
               </Link>
 
-              <Link
-                href="/request-a-quote"
+              <a
+                href="https://jamtorque.com"
+                target="_blank"
+                rel="noreferrer"
                 onClick={() => setMobileOpen(false)}
                 className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-5 py-3 text-sm font-semibold text-white"
               >
-                Request a Quote
-              </Link>
+                Purchase & Service
+              </a>
             </div>
           </div>
         </div>
