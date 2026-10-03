@@ -23,7 +23,7 @@ export const catalogProducts: CatalogProductFamily[] = [
 ];
 
 export const catalog: Omit<CatalogExport, "generatedAt"> = {
-  schemaVersion: "1.0.0",
+  schemaVersion: "1.1.0",
   catalogVersion: "2026.10",
   status: "partial",
   products: catalogProducts,
