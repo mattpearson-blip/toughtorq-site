@@ -29,12 +29,34 @@ const requiredModelFields = [
   "verificationStatus",
 ];
 
+const internalOnlyKeys = new Set([
+  "sourceReference",
+  "lastVerifiedAt",
+  "sourceModel",
+]);
+
 function assertFields(record, fields, label) {
   for (const field of fields) {
     if (!(field in record)) {
       throw new Error(`${label} is missing required field "${field}".`);
     }
   }
+}
+
+function toPublicCatalogValue(value) {
+  if (Array.isArray(value)) {
+    return value.map(toPublicCatalogValue);
+  }
+
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value)
+        .filter(([key]) => !internalOnlyKeys.has(key))
+        .map(([key, nestedValue]) => [key, toPublicCatalogValue(nestedValue)])
+    );
+  }
+
+  return value;
 }
 
 const filenames = (await fs.readdir(productsDir))
@@ -62,7 +84,7 @@ for (const filename of filenames) {
     );
   }
 
-  products.push(product);
+  products.push(toPublicCatalogValue(product));
 }
 
 const catalogVersions = products
@@ -71,7 +93,7 @@ const catalogVersions = products
   .sort();
 
 const catalog = {
-  schemaVersion: "1.0.0",
+  schemaVersion: "1.1.0",
   catalogVersion:
     catalogVersions.at(-1) ?? new Date().toISOString().slice(0, 10),
   status: "partial",
@@ -83,5 +105,5 @@ await fs.mkdir(path.dirname(outputFile), { recursive: true });
 await fs.writeFile(outputFile, JSON.stringify(catalog, null, 2) + "\n");
 
 console.log(
-  `Generated public/catalog.json with ${products.length} product family${products.length === 1 ? "" : "ies"}.`
+  `Generated public/catalog.json with ${products.length} product famil${products.length === 1 ? "y" : "ies"}.`
 );
