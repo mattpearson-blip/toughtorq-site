@@ -1,0 +1,262 @@
+{
+  "id": "hydraulic-torque-pumps",
+  "slug": "hydraulic-torque-pumps",
+  "family": "Hydraulic Torque Pumps",
+  "displayName": "Hydraulic Torque Pumps",
+  "shortDescription": "Battery, electric, and pneumatic hydraulic power units for ToughTorq torque wrench systems.",
+  "longDescription": "ToughTorq hydraulic torque pumps provide portable battery power, electric high-flow operation, and pneumatic power for controlled torque wrench applications. Model selection should account for pressure, flow, reservoir capacity, available power source, connected tools, and required duty cycle.",
+  "images": [],
+  "features": [
+    "Hydraulic power options for field, plant, and shutdown bolting work",
+    "Battery, electric, and pneumatic power sources",
+    "Multi-stage flow options for fast run-down and controlled high-pressure operation",
+    "Configurations for one or multiple connected torque wrenches",
+    "Cooling and pressure-control features for demanding industrial use"
+  ],
+  "applications": [
+    "Hydraulic torque wrench operation",
+    "Industrial flange bolting",
+    "Shutdown and turnaround work",
+    "Power generation maintenance",
+    "Oil and gas maintenance",
+    "Remote field bolting"
+  ],
+  "models": [
+    {
+      "id": "ttq-batt-10k-48v",
+      "model": "TTQ-BATT-10K-48V",
+      "displayName": "TTQ-BATT-10K-48V Battery Hydraulic Torque Pump",
+      "description": "48V lithium battery hydraulic torque pump for cordless field bolting and remote torque wrench applications.",
+      "images": [],
+      "specifications": {
+        "powerSource": "48V lithium battery",
+        "maxPressurePsi": 10150,
+        "batteryVoltageV": 48,
+        "batteryCapacityAh": 26,
+        "motorPowerW": 750,
+        "firstStageFlowGpm": 1.27,
+        "flowStages": 2,
+        "runtimePerBattery": "1.5–2 hours",
+        "remoteLengthFt": 20,
+        "statedNoiseLevel": "<75 dB",
+        "tankConfigurations": "10K-1-S and 10K-1-L"
+      },
+      "dimensions": [
+        { "key": "smallWidth", "label": "10K-1-S Width", "value": 11.42, "unit": "in" },
+        { "key": "smallHeight", "label": "10K-1-S Height", "value": 16.93, "unit": "in" },
+        { "key": "smallLength", "label": "10K-1-S Length", "value": 16.14, "unit": "in" },
+        { "key": "largeWidth", "label": "10K-1-L Width", "value": 11.61, "unit": "in" },
+        { "key": "largeHeight", "label": "10K-1-L Height", "value": 19.09, "unit": "in" },
+        { "key": "largeLength", "label": "10K-1-L Length", "value": 17.32, "unit": "in" }
+      ],
+      "operatingRequirements": [
+        { "key": "battery", "label": "Battery", "value": "48V / 26 Ah lithium" },
+        { "key": "runtime", "label": "Runtime Per Battery", "value": "1.5–2 hours" },
+        { "key": "pressure", "label": "Maximum Pressure", "value": 10150, "unit": "psi" }
+      ],
+      "accessories": [
+        "Extra 48V battery",
+        "Hydraulic hose set",
+        "Hydraulic quick couplers",
+        "Remote control handle"
+      ],
+      "compatibility": [
+        "Designed for hydraulic torque wrench applications up to the pump's rated pressure.",
+        "Pump, wrench, hose-set, reservoir, and duty-cycle selection must be matched to the application."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq TTQ-BATT-10K-48V cutsheet: performance, battery, flow, runtime, controls, and dimensions"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    },
+    {
+      "id": "klw-2000",
+      "model": "KLW-2000",
+      "displayName": "KLW-2000 Electric Torque Pump",
+      "description": "Two-stage electric hydraulic torque pump with air cooling and a 5 L reservoir.",
+      "images": [],
+      "specifications": {
+        "powerSource": "Electric",
+        "flowStage1LMin": 7,
+        "flowStage2LMin": 0.7,
+        "motorPowerKw": 1.1,
+        "remoteCableM": 6,
+        "oilCapacityL": 5,
+        "coolingSystem": "Air",
+        "controlMethod": "Conventional",
+        "wrenchQuantity": "2/4",
+        "weightKg": 28
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        { "key": "power", "label": "Motor Power", "value": 1.1, "unit": "kW" },
+        { "key": "remote", "label": "Remote Cable", "value": 6, "unit": "m" },
+        { "key": "reservoir", "label": "Oil Tank Capacity", "value": 5, "unit": "L" }
+      ],
+      "accessories": [
+        "Hydraulic hose set",
+        "Hydraulic quick couplers",
+        "Remote control"
+      ],
+      "compatibility": [
+        "Configured for hydraulic torque wrench operation.",
+        "Catalog configuration supports 2/4 wrench connections."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon torque pump table: flow, motor power, remote cable, reservoir, cooling, control, wrench quantity, and weight"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    },
+    {
+      "id": "klw-3000",
+      "model": "KLW-3000",
+      "displayName": "KLW-3000 Electric Torque Pump",
+      "description": "Three-stage electric hydraulic torque pump with air cooling and an 8 L reservoir.",
+      "images": [],
+      "specifications": {
+        "powerSource": "Electric",
+        "flowStage1LMin": 7,
+        "flowStage2LMin": 1.6,
+        "flowStage3LMin": 0.8,
+        "motorPowerKw": 1.1,
+        "remoteCableM": 6,
+        "oilCapacityL": 8,
+        "coolingSystem": "Air",
+        "controlMethod": "Conventional",
+        "wrenchQuantity": "2/4",
+        "weightKg": 28
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        { "key": "power", "label": "Motor Power", "value": 1.1, "unit": "kW" },
+        { "key": "remote", "label": "Remote Cable", "value": 6, "unit": "m" },
+        { "key": "reservoir", "label": "Oil Tank Capacity", "value": 8, "unit": "L" }
+      ],
+      "accessories": [
+        "Hydraulic hose set",
+        "Hydraulic quick couplers",
+        "Remote control"
+      ],
+      "compatibility": [
+        "Configured for hydraulic torque wrench operation.",
+        "Catalog configuration supports 2/4 wrench connections."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon torque pump table: flow, motor power, remote cable, reservoir, cooling, control, wrench quantity, and weight"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    },
+    {
+      "id": "kat-3000",
+      "model": "KAT-3000",
+      "displayName": "KAT-3000 Pneumatic Torque Pump",
+      "description": "Pneumatic hydraulic torque pump with adjustable output pressure and three-stage flow for industrial bolting environments.",
+      "images": [],
+      "specifications": {
+        "powerSource": "Pneumatic",
+        "minPressureBar": 40,
+        "maxPressureBar": 700,
+        "flowAt700BarLMin": 0.63,
+        "flowAt300BarLMin": 1.26,
+        "flowAt70BarLMin": 7,
+        "powerKw": 1.1,
+        "oilCapacityL": 8,
+        "compressedAirBar": "4–8",
+        "weightKg": 22,
+        "wrenchQuantity": 2
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        { "key": "air", "label": "Compressed Air", "value": "4–8", "unit": "bar" },
+        { "key": "pressure", "label": "Adjustable Output Pressure", "value": "40–700", "unit": "bar" },
+        { "key": "reservoir", "label": "Oil Tank Capacity", "value": 8, "unit": "L" }
+      ],
+      "accessories": [
+        "Hydraulic hose set",
+        "Hydraulic quick couplers",
+        "Air supply equipment"
+      ],
+      "compatibility": [
+        "Configured for hydraulic torque wrench operation.",
+        "Catalog description supports a two-wrench load."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon pneumatic torque pump table and descriptive copy; KAT-3000 designation approved for canonical use on 2026-10-03"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    }
+  ],
+  "operatingRequirements": [
+    {
+      "key": "systemPressure",
+      "label": "System Pressure",
+      "value": "Match pump pressure rating to the connected torque wrench system"
+    },
+    {
+      "key": "flow",
+      "label": "Flow",
+      "value": "Select flow and staging for run-down speed and high-pressure operation"
+    },
+    {
+      "key": "reservoir",
+      "label": "Reservoir",
+      "value": "Size reservoir capacity for the connected tools and duty cycle"
+    }
+  ],
+  "accessories": [
+    "Hydraulic hose sets",
+    "Hydraulic quick couplers",
+    "Remote controls",
+    "Pressure gauges",
+    "Extra battery for TTQ-BATT-10K-48V"
+  ],
+  "compatibility": [
+    "Pump compatibility depends on working pressure, couplers, hoses, connected wrench requirements, and reservoir capacity."
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": true,
+  "calibrationApplicable": false,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "ToughTorq TTQ-BATT-10K-48V cutsheet",
+    "ToughTorq/Kashon electric and pneumatic torque pump tables"
+  ],
+  "lastVerifiedAt": "2026-10-03",
+  "catalogVersion": "2026.10"
+}
