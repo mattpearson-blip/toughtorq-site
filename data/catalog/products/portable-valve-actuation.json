@@ -1,0 +1,886 @@
+{
+  "id": "portable-valve-actuation",
+  "slug": "valve-actuator-tools",
+  "family": "Portable Valve Actuation",
+  "displayName": "Portable Valve Actuator Systems",
+  "shortDescription": "Portable, modular valve actuation systems for industrial valves, remote sites, hazardous areas, and water networks.",
+  "longDescription": "ToughTorq portable valve actuator systems combine a power platform, actuator head, valve adaptor, torque-reaction solution, and application-specific accessories. Selection should be based on required torque, valve geometry, access, operating environment, available utilities, and reaction strategy.",
+  "images": [],
+  "features": [
+    "Portable modular system architecture",
+    "Battery, pneumatic, gas, and water-network configurations",
+    "Controlled powered valve operation",
+    "Multiple head, adaptor, and reaction configurations",
+    "Application-specific torque control and support accessories"
+  ],
+  "applications": [
+    "Water and wastewater networks",
+    "Oil and gas facilities",
+    "Power generation",
+    "Mining",
+    "Pulp and paper",
+    "Petrochemical facilities",
+    "Remote valve operation",
+    "High-cycle manual valve operation"
+  ],
+  "models": [
+    {
+      "id": "mc89",
+      "model": "MC89",
+      "displayName": "MC89 Battery Portable Valve Actuator",
+      "description": "Compact battery-powered platform for elevated, obstructed, or difficult-to-reach valves.",
+      "images": [],
+      "specifications": {
+        "powerSource": "Battery",
+        "maximumSystemTorqueFtLb": 740,
+        "torqueControl": "Electronic torque and power limiting",
+        "operatingConcept": "Portable, smoke-free battery operation",
+        "detailedVariantDataStatus": "Variant-level speed, weight, battery, and dimensional data requires final ToughTorq configuration confirmation"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "power",
+          "label": "Power Source",
+          "value": "Battery"
+        },
+        {
+          "key": "torque",
+          "label": "Maximum System Torque",
+          "value": 740,
+          "unit": "ft-lb"
+        }
+      ],
+      "accessories": [
+        "Actuator heads",
+        "Valve adaptors",
+        "Reaction equipment",
+        "Torque limiter",
+        "Extensions",
+        "Counter",
+        "Storage case",
+        "Battery pack",
+        "Universal joint",
+        "Safety unit"
+      ],
+      "compatibility": [
+        "Head and accessory compatibility depends on selected MC89 variant and torque requirement."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure — MC89 application and maximum system torque",
+        "Current OEM technical references reviewed for head and accessory compatibility only; detailed variant specifications held pending ToughTorq configuration confirmation"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    },
+    {
+      "id": "ja73",
+      "model": "JA73",
+      "displayName": "JA73 Battery Portable Valve Actuator",
+      "description": "Battery-powered platform for demanding valves requiring controlled force and stable positioning.",
+      "images": [],
+      "specifications": {
+        "powerSource": "Battery",
+        "maximumSystemTorqueFtLb": 740,
+        "torqueControl": "Electronic torque and power limiting",
+        "operatingConcept": "High-output portable battery operation",
+        "detailedVariantDataStatus": "Variant-level speed, weight, battery, and dimensional data requires final ToughTorq configuration confirmation"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "power",
+          "label": "Power Source",
+          "value": "Battery"
+        },
+        {
+          "key": "torque",
+          "label": "Maximum System Torque",
+          "value": 740,
+          "unit": "ft-lb"
+        }
+      ],
+      "accessories": [
+        "Actuator heads",
+        "Valve adaptors",
+        "Reaction equipment",
+        "Torque limiter",
+        "Counter",
+        "Storage case",
+        "Battery pack"
+      ],
+      "compatibility": [
+        "Head and accessory compatibility depends on selected JA73 variant and torque requirement."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure — JA73 application and maximum system torque",
+        "Current OEM technical references reviewed for head and accessory compatibility only; detailed variant specifications held pending ToughTorq configuration confirmation"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    },
+    {
+      "id": "hl83",
+      "model": "HL83",
+      "displayName": "HL83 Pneumatic Portable Valve Actuator",
+      "description": "Pneumatic platform for high-cycle valve operation and environments requiring a non-electric operating concept.",
+      "images": [],
+      "specifications": {
+        "powerSource": "Pneumatic",
+        "maximumSystemTorqueFtLb": 740,
+        "operatingConcept": "Compressed-air drive",
+        "environment": "ATEX-compatible operating concept referenced in ToughTorq brochure",
+        "detailedVariantDataStatus": "Variant-level speed, weight, air-consumption, and dimensional data requires final ToughTorq configuration confirmation"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "power",
+          "label": "Power Source",
+          "value": "Compressed air"
+        },
+        {
+          "key": "torque",
+          "label": "Maximum System Torque",
+          "value": 740,
+          "unit": "ft-lb"
+        }
+      ],
+      "accessories": [
+        "Actuator heads",
+        "Valve adaptors",
+        "Reaction equipment",
+        "Air hose",
+        "Air treatment equipment",
+        "Counter",
+        "Storage case",
+        "Safety unit"
+      ],
+      "compatibility": [
+        "Air-management components are specific to the pneumatic platform.",
+        "Head compatibility depends on selected HL83 variant and torque requirement."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure — HL83 application and maximum system torque",
+        "Current OEM technical references reviewed for head/accessory compatibility and pneumatic operating requirements; detailed variant specifications held pending ToughTorq configuration confirmation"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    },
+    {
+      "id": "py68",
+      "model": "PY68",
+      "displayName": "PY68 Gas Portable Valve Actuator",
+      "description": "Independent fuel-powered platform for remote environments and extended field operation.",
+      "images": [],
+      "specifications": {
+        "powerSource": "Gas",
+        "maximumSystemTorqueFtLb": 740,
+        "operatingConcept": "Independent fuel-powered operation",
+        "detailedVariantDataStatus": "Variant-level speed, weight, fuel, and dimensional data requires final ToughTorq configuration confirmation"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "power",
+          "label": "Power Source",
+          "value": "Gas / fuel"
+        },
+        {
+          "key": "torque",
+          "label": "Maximum System Torque",
+          "value": 740,
+          "unit": "ft-lb"
+        }
+      ],
+      "accessories": [
+        "Actuator heads",
+        "Valve adaptors",
+        "Reaction equipment",
+        "Torque limiter",
+        "Counter",
+        "Storage case"
+      ],
+      "compatibility": [
+        "Head and accessory compatibility depends on selected PY68 variant and torque requirement."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure — PY68 power source and maximum system torque",
+        "Current OEM technical references reviewed for head and accessory compatibility only; detailed variant specifications held pending ToughTorq configuration confirmation"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    },
+    {
+      "id": "h2o-kit",
+      "model": "H2O KIT",
+      "displayName": "H2O Water Network Kit",
+      "description": "Portable kit configured for buried and underground water-distribution valves.",
+      "images": [],
+      "specifications": {
+        "powerSource": "Battery-based water-network kit",
+        "maximumSystemTorqueFtLb": 630,
+        "application": "Underground water-distribution valves",
+        "detailedKitDataStatus": "Detailed kit contents, socket selection, weight, and battery configuration require final ToughTorq package confirmation"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "application",
+          "label": "Primary Application",
+          "value": "Water networks"
+        },
+        {
+          "key": "torque",
+          "label": "Maximum System Torque",
+          "value": 630,
+          "unit": "ft-lb"
+        }
+      ],
+      "accessories": [
+        "Water-network valve key",
+        "Extension",
+        "Reaction equipment",
+        "Socket interface",
+        "Battery pack",
+        "Storage case"
+      ],
+      "compatibility": [
+        "H2O is a configured water-network kit and should be treated separately from the general industrial PVA compatibility matrix."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure — H2O application and maximum system torque",
+        "Current OEM water-utility kit reference reviewed; exact ToughTorq package contents held pending final configuration confirmation"
+      ],
+      "lastVerifiedAt": "2026-10-03"
+    }
+  ],
+  "operatingRequirements": [
+    {
+      "key": "torque",
+      "label": "Required Valve Torque",
+      "value": "Select the actuator and head combination for the required operating torque"
+    },
+    {
+      "key": "geometry",
+      "label": "Valve Geometry",
+      "value": "Match head and adaptor to handwheel, stem, spoke, or drive interface"
+    },
+    {
+      "key": "reaction",
+      "label": "Reaction Strategy",
+      "value": "Use an application-appropriate reaction device for controlled operation"
+    },
+    {
+      "key": "environment",
+      "label": "Operating Environment",
+      "value": "Select battery, pneumatic, gas, or water-network configuration for site conditions"
+    }
+  ],
+  "accessories": [
+    "Straight head",
+    "Right-angle head",
+    "Standard-duty banjo head",
+    "Heavy-duty banjo head",
+    "Fixed finger adaptor",
+    "Self-centering spoke adaptor",
+    "Square drive adaptor",
+    "Variable valve adaptor",
+    "Flat-spoke adaptor",
+    "Tapered-spoke adaptor",
+    "Reaction arm",
+    "Bipod",
+    "Reaction finger",
+    "Articulated reaction arm",
+    "Custom mounting flange",
+    "Torque limiter",
+    "Extension",
+    "Air hose",
+    "Counter",
+    "Storage case",
+    "Battery pack",
+    "Universal joint",
+    "Safety unit"
+  ],
+  "compatibility": [
+    "The PVA system is selected in five stages: power platform, head, adaptor, reaction equipment, and options.",
+    "Exact torque ratings and variant restrictions must be checked for the selected head and actuator combination.",
+    "H2O is treated as a configured water-network kit rather than a general-purpose power platform."
+  ],
+  "componentGroups": [
+    {
+      "id": "straight-head",
+      "group": "Actuator Heads",
+      "displayName": "Straight Head",
+      "description": "Straight actuator geometry for direct valve access.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure",
+        "Current OEM portable actuator product references"
+      ]
+    },
+    {
+      "id": "right-angle-head",
+      "group": "Actuator Heads",
+      "displayName": "Right-Angle Head",
+      "description": "Right-angle configuration for restricted inline access; torque limits depend on actuator variant.",
+      "images": [],
+      "specifications": {
+        "compatibilityNote": "Variant and torque limits apply"
+      },
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure",
+        "Current OEM RA30 compatibility tables"
+      ]
+    },
+    {
+      "id": "standard-banjo-head",
+      "group": "Actuator Heads",
+      "displayName": "Standard-Duty Banjo Head",
+      "description": "Hollow/banjo head for compatible rising-stem valve applications; actuator-variant limits apply.",
+      "images": [],
+      "specifications": {
+        "compatibilityNote": "Variant and torque limits apply"
+      },
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure",
+        "Current OEM hollow-head compatibility tables"
+      ]
+    },
+    {
+      "id": "heavy-banjo-head",
+      "group": "Actuator Heads",
+      "displayName": "Heavy-Duty Banjo Head",
+      "description": "Higher-capacity hollow/banjo head for compatible rising-stem valve applications; actuator-variant limits apply.",
+      "images": [],
+      "specifications": {
+        "compatibilityNote": "Variant and torque limits apply"
+      },
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure",
+        "Current OEM hollow-head compatibility tables"
+      ]
+    },
+    {
+      "id": "fixed-finger-adaptor",
+      "group": "Valve Adaptors",
+      "displayName": "Fixed Finger Adaptor",
+      "description": "Fixed interface for compatible valve handwheel configurations.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "id": "self-centering-spoke-adaptor",
+      "group": "Valve Adaptors",
+      "displayName": "Self-Centering Spoke Adaptor",
+      "description": "Self-centering interface for handwheel spoke configurations.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "id": "square-drive-adaptor",
+      "group": "Valve Adaptors",
+      "displayName": "Square Drive Adaptor",
+      "description": "Socket-driven interface for square-drive valve operation.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "id": "variable-valve-adaptor",
+      "group": "Valve Adaptors",
+      "displayName": "Variable Valve Adaptor",
+      "description": "Adjustable interface for varying handwheel and valve configurations.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "id": "flat-spoke-adaptor",
+      "group": "Valve Adaptors",
+      "displayName": "Flat-Spoke Adaptor",
+      "description": "Adaptor for compatible flat-spoke valve handwheels.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "id": "tapered-spoke-adaptor",
+      "group": "Valve Adaptors",
+      "displayName": "Tapered-Spoke Adaptor",
+      "description": "Adaptor for compatible tapered-spoke valve handwheels.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "id": "reaction-arm",
+      "group": "Reaction Management",
+      "displayName": "Reaction Arm",
+      "description": "Reaction support for controlled portable valve operation.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure",
+        "Current OEM torque-reaction references"
+      ]
+    },
+    {
+      "id": "bipod",
+      "group": "Reaction Management",
+      "displayName": "Bipod",
+      "description": "Supported reaction configuration for demanding valve positions.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure",
+        "Current OEM telescopic-bipod reference"
+      ]
+    },
+    {
+      "id": "reaction-finger",
+      "group": "Reaction Management",
+      "displayName": "Reaction Finger",
+      "description": "Compact reaction interface for specific valve and access configurations.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "id": "articulated-reaction-arm",
+      "group": "Reaction Management",
+      "displayName": "Articulated Reaction Arm",
+      "description": "Articulated reaction support for applications requiring flexible positioning.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure",
+        "Current OEM articulated-reaction references"
+      ]
+    },
+    {
+      "id": "custom-mounting-flange",
+      "group": "Reaction Management",
+      "displayName": "Custom Mounting Flange",
+      "description": "Made-to-order mounting interface for application-specific valve configurations.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure",
+        "Current OEM special-flange references"
+      ]
+    },
+    {
+      "id": "torque-limiter",
+      "group": "Options & Accessories",
+      "displayName": "Torque Limiter",
+      "description": "Torque-control option used where the actuator/head combination requires an operating torque cap.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure",
+        "Current OEM actuator/head compatibility warnings"
+      ]
+    },
+    {
+      "id": "extension",
+      "group": "Options & Accessories",
+      "displayName": "Extension",
+      "description": "Extension component for applications requiring additional reach.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "id": "air-hose",
+      "group": "Options & Accessories",
+      "displayName": "Air Hose",
+      "description": "Air-supply hose for pneumatic PVA systems.",
+      "images": [],
+      "specifications": {
+        "powerPlatform": "HL83"
+      },
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "id": "counter",
+      "group": "Options & Accessories",
+      "displayName": "Counter",
+      "description": "Revolution/counting option for supported actuator configurations.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "id": "storage-case",
+      "group": "Options & Accessories",
+      "displayName": "Storage Case",
+      "description": "Protective transport and storage case for PVA components.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "id": "battery-pack",
+      "group": "Options & Accessories",
+      "displayName": "Battery Pack",
+      "description": "Battery power accessory for compatible battery-operated PVA systems.",
+      "images": [],
+      "specifications": {
+        "powerPlatforms": "MC89 / JA73 / H2O kit configuration"
+      },
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure",
+        "Current OEM battery-platform and H2O kit references"
+      ]
+    },
+    {
+      "id": "universal-joint",
+      "group": "Options & Accessories",
+      "displayName": "Universal Joint",
+      "description": "Angular-flexibility accessory for supported valve-operating configurations.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "id": "safety-unit",
+      "group": "Options & Accessories",
+      "displayName": "Safety Unit",
+      "description": "Safety accessory for supported portable valve actuation configurations.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    }
+  ],
+  "compatibilityMatrix": [
+    {
+      "modelId": "mc89",
+      "componentId": "straight-head",
+      "status": "compatible",
+      "note": "Straight-head configurations are published for the MC89 platform.",
+      "sourceReference": [
+        "Current OEM MC89 technical reference"
+      ]
+    },
+    {
+      "modelId": "ja73",
+      "componentId": "straight-head",
+      "status": "compatible",
+      "note": "Straight-head configurations are published for the JA73 platform.",
+      "sourceReference": [
+        "Current OEM JA73 technical reference"
+      ]
+    },
+    {
+      "modelId": "hl83",
+      "componentId": "straight-head",
+      "status": "compatible",
+      "note": "Straight-head configurations are published for the HL83 platform.",
+      "sourceReference": [
+        "Current OEM HL83 technical reference"
+      ]
+    },
+    {
+      "modelId": "py68",
+      "componentId": "straight-head",
+      "status": "compatible",
+      "note": "Straight-head configurations are published for the PY68 platform.",
+      "sourceReference": [
+        "Current OEM PY68 technical reference"
+      ]
+    },
+    {
+      "modelId": "mc89",
+      "componentId": "right-angle-head",
+      "status": "conditional",
+      "note": "Supported with actuator/torque limits; use the applicable torque limiter where required.",
+      "sourceReference": [
+        "Current OEM MC89 RA30 compatibility table"
+      ]
+    },
+    {
+      "modelId": "ja73",
+      "componentId": "right-angle-head",
+      "status": "conditional",
+      "note": "Supported with actuator/torque limits; high-torque variants require limiting.",
+      "sourceReference": [
+        "Current OEM JA73 RA30 compatibility table"
+      ]
+    },
+    {
+      "modelId": "hl83",
+      "componentId": "right-angle-head",
+      "status": "conditional",
+      "note": "Supported on published HL83 variants; highest-output variant is restricted.",
+      "sourceReference": [
+        "Current OEM HL83 RA30 compatibility table"
+      ]
+    },
+    {
+      "modelId": "py68",
+      "componentId": "right-angle-head",
+      "status": "conditional",
+      "note": "Supported with actuator/torque limits; highest-output variant requires limiting.",
+      "sourceReference": [
+        "Current OEM PY68 RA30 compatibility table"
+      ]
+    },
+    {
+      "modelId": "mc89",
+      "componentId": "standard-banjo-head",
+      "status": "conditional",
+      "note": "Published hollow-head configuration with a maximum head torque limit.",
+      "sourceReference": [
+        "Current OEM MC89 hollow-head compatibility table"
+      ]
+    },
+    {
+      "modelId": "ja73",
+      "componentId": "standard-banjo-head",
+      "status": "conditional",
+      "note": "Published on selected variants; maximum head torque limit applies.",
+      "sourceReference": [
+        "Current OEM JA73 hollow-head compatibility table"
+      ]
+    },
+    {
+      "modelId": "hl83",
+      "componentId": "standard-banjo-head",
+      "status": "conditional",
+      "note": "Published only for selected HL83 variants.",
+      "sourceReference": [
+        "Current OEM HL83 hollow-head compatibility table"
+      ]
+    },
+    {
+      "modelId": "py68",
+      "componentId": "standard-banjo-head",
+      "status": "conditional",
+      "note": "Published only for selected PY68 variants.",
+      "sourceReference": [
+        "Current OEM PY68 hollow-head compatibility table"
+      ]
+    },
+    {
+      "modelId": "mc89",
+      "componentId": "heavy-banjo-head",
+      "status": "conditional",
+      "note": "Published hollow-head configuration; model and torque limits apply.",
+      "sourceReference": [
+        "Current OEM MC89 hollow-head compatibility table"
+      ]
+    },
+    {
+      "modelId": "ja73",
+      "componentId": "heavy-banjo-head",
+      "status": "conditional",
+      "note": "Published on selected variants; model and torque limits apply.",
+      "sourceReference": [
+        "Current OEM JA73 hollow-head compatibility table"
+      ]
+    },
+    {
+      "modelId": "hl83",
+      "componentId": "heavy-banjo-head",
+      "status": "conditional",
+      "note": "Published on selected variants; model and torque limits apply.",
+      "sourceReference": [
+        "Current OEM HL83 hollow-head compatibility table"
+      ]
+    },
+    {
+      "modelId": "py68",
+      "componentId": "heavy-banjo-head",
+      "status": "conditional",
+      "note": "Published on selected variants; model and torque limits apply.",
+      "sourceReference": [
+        "Current OEM PY68 hollow-head compatibility table"
+      ]
+    },
+    {
+      "modelId": "hl83",
+      "componentId": "air-hose",
+      "status": "compatible",
+      "note": "Pneumatic supply accessory.",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "modelId": "mc89",
+      "componentId": "battery-pack",
+      "status": "compatible",
+      "note": "Battery-platform accessory.",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "modelId": "ja73",
+      "componentId": "battery-pack",
+      "status": "compatible",
+      "note": "Battery-platform accessory.",
+      "sourceReference": [
+        "ToughTorq Portable Valve Actuator Systems brochure"
+      ]
+    },
+    {
+      "modelId": "h2o-kit",
+      "componentId": "battery-pack",
+      "status": "compatible",
+      "note": "H2O is a battery-based water-network kit configuration.",
+      "sourceReference": [
+        "Current OEM H2O kit reference"
+      ]
+    }
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": true,
+  "calibrationApplicable": false,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "ToughTorq Portable Valve Actuator Systems brochure",
+    "Current OEM technical references used only for compatibility structure; detailed variant specifications require final ToughTorq configuration confirmation"
+  ],
+  "lastVerifiedAt": "2026-10-03",
+  "catalogVersion": "2026.10"
+}
