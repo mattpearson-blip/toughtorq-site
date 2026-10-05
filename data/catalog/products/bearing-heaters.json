@@ -5,7 +5,18 @@
   "displayName": "Bearing Heaters",
   "shortDescription": "Plate and induction heating systems for controlled installation of bearings and interference-fit components.",
   "longDescription": "ToughTorq bearing heaters provide controlled thermal expansion for bearing installation and rotating-equipment maintenance. Plate heaters use conductive heating for small components, while KHG induction heaters provide direct electromagnetic heating with temperature and timing control, automatic heat preservation, demagnetization, and overheat protection.",
-  "images": [],
+  "images": [
+    {
+      "src": "/bearing-heater-plate.webp",
+      "alt": "ToughTorq plate bearing heater",
+      "type": "product"
+    },
+    {
+      "src": "/bearing-heater-induction.webp",
+      "alt": "ToughTorq KHG Series bearing induction heater",
+      "type": "product"
+    }
+  ],
   "features": [
     "Plate and electromagnetic induction heating options",
     "Controlled heating for interference-fit installation",
@@ -709,7 +720,13 @@
       "group": "Bearing Heater Family",
       "displayName": "Plate Bearing Heaters",
       "description": "Conductive plate heaters for controlled preheating of small bearings and other suitable workpieces.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bearing-heater-plate.webp",
+          "alt": "ToughTorq plate bearing heater",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "models": "KHG-12 / KHG-12P"
       },
@@ -725,7 +742,13 @@
       "group": "Bearing Heater Family",
       "displayName": "Bearing Induction Heaters",
       "description": "Electromagnetic induction heaters with temperature/timing control, heat preservation, demagnetization, and overheat protection.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bearing-heater-induction.webp",
+          "alt": "ToughTorq KHG Series bearing induction heater",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "models": "KHG-22 / KHG-40 / KHG-100 / KHG-120 / KHG-150"
       },
@@ -737,7 +760,14 @@
       ]
     }
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "Bearing Heater Series Technical Sheet",
+      "href": "/Bearing-Heater-Series-Technical-Sheet.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
