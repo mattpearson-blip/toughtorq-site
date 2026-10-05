@@ -1,0 +1,128 @@
+{
+  "id": "reaction-washers",
+  "slug": "reaction-washers",
+  "family": "Reaction Washers",
+  "displayName": "Reaction Washer Systems",
+  "shortDescription": "Reaction-arm-free bolting interfaces with wedge-locking protection against vibration-induced self-loosening.",
+  "longDescription": "ToughTorq Reaction Washers combine a gear-shaped lower washer with a matched dual socket so torque reaction is contained coaxially at the fastener instead of through an external reaction arm. The wedge-locking washer pair helps preserve preload under vibration and dynamic loading while reducing reaction-arm pinch points and surface-contact requirements.",
+  "images": [],
+  "features": [
+    "Reaction-arm-free tightening with a matched dual socket",
+    "Wedge-locking anti-loosening principle",
+    "Torque applied axially without an additional bending moment",
+    "Gear-shaped lower-washer reaction profile",
+    "Pre-assembled washer pairs for installation",
+    "Low friction variation supports controlled tightening",
+    "Protection against vibration-induced self-loosening",
+    "Matched socket and adaptor configurations for powered torque tools"
+  ],
+  "applications": [
+    "Petrochemical facilities",
+    "Renewable energy",
+    "Heavy industry",
+    "Plant construction",
+    "Large flange connections",
+    "High-cycle bolting",
+    "Restricted-access bolting",
+    "Vibration-critical bolted joints"
+  ],
+  "models": [],
+  "operatingRequirements": [
+    {
+      "key": "sizeRange",
+      "label": "Published Size Range",
+      "value": "M16–M48 / 5/8–1-3/4 in"
+    },
+    {
+      "key": "fastenerClass",
+      "label": "Fastener Strength",
+      "value": "Suitable for high-strength bolts through property class 12.9 and nuts through class 12"
+    },
+    {
+      "key": "toolInterface",
+      "label": "Tool Interface",
+      "value": "Use a matched dual socket and application-specific adaptor for the selected electric, pneumatic, or hydraulic torque tool"
+    }
+  ],
+  "accessories": [
+    "Matched dual sockets",
+    "Application-specific tool adaptors",
+    "Optional passive-side safety washer"
+  ],
+  "compatibility": [
+    "The dual socket must match both the torque tool drive/interface and the selected Reaction Washer size.",
+    "Published Reaction Washer sizes cover M16–M48 (5/8–1-3/4 in); additional nominal sizes, materials, and coatings are available on request.",
+    "For through-bolt joints where the passive side cannot be counter-held, an optional passive-side safety washer may be used."
+  ],
+  "componentGroups": [
+    {
+      "id": "reaction-washer",
+      "group": "Reaction Washer System",
+      "displayName": "Reaction Washer Pair",
+      "description": "Gear-shaped wedge-locking washer system that provides the coaxial reaction interface and helps maintain preload under vibration.",
+      "images": [],
+      "specifications": {
+        "designPrinciple": "Wedge-locking anti-loosening system designed in accordance with DIN 25201 principles",
+        "material": "1.1191 (C45E)",
+        "coating": "Black zinc flake (flZnnc)",
+        "hardness": "485 ± 25 HV 0.3",
+        "corrosionResistance": "Minimum 1,000 hours NSS testing to ISO 9227",
+        "sizeRangeMetric": "M16–M48",
+        "sizeRangeImperial": "5/8–1-3/4 in",
+        "maxBoltPropertyClass": "12.9",
+        "maxNutPropertyClass": "12"
+      },
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Reaction Washers technical data brochure"
+      ]
+    },
+    {
+      "id": "dual-socket",
+      "group": "Reaction Washer System",
+      "displayName": "Matched Dual Socket",
+      "description": "Coaxial socket system that engages the fastener and the gear-shaped Reaction Washer profile so reaction torque is contained at the joint.",
+      "images": [],
+      "specifications": {
+        "compatibility": "Matched configurations available for common powered torque tools"
+      },
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Reaction Washers technical data brochure"
+      ]
+    },
+    {
+      "id": "passive-side-safety-washer",
+      "group": "Reaction Washer System",
+      "displayName": "Optional Passive-Side Safety Washer",
+      "description": "Friction-based backup washer for through-bolt connections where the passive-side nut or bolt head cannot be physically counter-held.",
+      "images": [],
+      "specifications": {
+        "function": "Wave-shaped locking ribs on both faces resist passive-side rotation during tightening"
+      },
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq Reaction Washers design and function brochure"
+      ]
+    }
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": false,
+  "calibrationApplicable": false,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "ToughTorq Reaction Washers brochure — design, function, advantages, technical data, dual sockets, and passive-side safety washer"
+  ],
+  "lastVerifiedAt": "2026-10-05",
+  "catalogVersion": "2026.10"
+}
