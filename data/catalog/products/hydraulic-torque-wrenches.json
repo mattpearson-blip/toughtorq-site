@@ -1,0 +1,1725 @@
+{
+  "id": "hydraulic-torque-wrenches",
+  "slug": "hydraulic-torque-wrenches",
+  "family": "Hydraulic Torque Wrenches",
+  "displayName": "Hydraulic Torque Wrenches",
+  "shortDescription": "Square-drive and low-profile hydraulic torque wrench systems for controlled industrial bolting.",
+  "longDescription": "ToughTorq hydraulic torque wrench systems cover general square-drive bolting and low-profile cassette applications where access is restricted. The family combines model-level torque data, dimensions, matching sockets or cassettes, hydraulic power requirements, and related bolting accessories.",
+  "images": [
+    {
+      "src": "/square-drive-hydraulic-torque-wrench.png",
+      "alt": "ToughTorq square drive hydraulic torque wrench",
+      "type": "product"
+    },
+    {
+      "src": "/ratchet-cassette-hydraulic-torque-wrench.png",
+      "alt": "ToughTorq low-profile ratchet cassette hydraulic torque wrench",
+      "type": "product"
+    }
+  ],
+  "features": [
+    "Square-drive and low-profile cassette configurations",
+    "High-strength lightweight alloy construction",
+    "360° swivel hydraulic coupler",
+    "Square-drive series uses a 360° adjustable reaction arm",
+    "Interchangeable low-profile working heads and reducer inserts",
+    "Designed for controlled industrial bolting"
+  ],
+  "applications": [
+    "Industrial flange bolting",
+    "Power generation maintenance",
+    "Oil and gas facilities",
+    "Pipeline work",
+    "Heavy equipment maintenance",
+    "Shutdown and turnaround work",
+    "Construction and structural bolting",
+    "Restricted-access bolting"
+  ],
+  "models": [
+    {
+      "id": "tt1xta",
+      "model": "TT1XTA",
+      "displayName": "TT1XTA Square Drive Hydraulic Torque Wrench",
+      "description": "Square-drive hydraulic torque wrench rated from 121 to 1,298 ft-lb.",
+      "images": [
+        {
+          "src": "/square-drive-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT1XTA square drive hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Square Drive",
+        "torqueMinFtLb": 121,
+        "torqueMaxFtLb": 1298,
+        "squareDriveIn": "3/4",
+        "weightLb": 4.41,
+        "maxWorkingPressurePsi": 10000,
+        "maxWorkingPressureBar": 700,
+        "accuracyPercent": 3
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 5.12,
+          "unit": "in"
+        },
+        {
+          "key": "L3",
+          "label": "L3",
+          "value": 7.17,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 2.05,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 3.03,
+          "unit": "in"
+        },
+        {
+          "key": "H3",
+          "label": "H3",
+          "value": 3.78,
+          "unit": "in"
+        },
+        {
+          "key": "H4",
+          "label": "H4",
+          "value": 5.24,
+          "unit": "in"
+        },
+        {
+          "key": "R1",
+          "label": "R1",
+          "value": 1.02,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 4.02,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10000,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved 700 bar / 10,000 psi torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Matching square-drive sockets",
+        "Reaction arms",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size and fastener.",
+        "Use with an approved ToughTorq hydraulic torque pump, hose set, and couplers."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon square-drive hydraulic torque wrench table; TT model naming mapped from MXTA source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt3xta",
+      "model": "TT3XTA",
+      "displayName": "TT3XTA Square Drive Hydraulic Torque Wrench",
+      "description": "Square-drive hydraulic torque wrench rated from 319 to 3,195 ft-lb.",
+      "images": [
+        {
+          "src": "/square-drive-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT3XTA square drive hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Square Drive",
+        "torqueMinFtLb": 319,
+        "torqueMaxFtLb": 3195,
+        "squareDriveIn": "1",
+        "weightLb": 8.82,
+        "maxWorkingPressurePsi": 10000,
+        "maxWorkingPressureBar": 700,
+        "accuracyPercent": 3
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 6.69,
+          "unit": "in"
+        },
+        {
+          "key": "L3",
+          "label": "L3",
+          "value": 9.8,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 2.76,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 3.82,
+          "unit": "in"
+        },
+        {
+          "key": "H3",
+          "label": "H3",
+          "value": 5,
+          "unit": "in"
+        },
+        {
+          "key": "H4",
+          "label": "H4",
+          "value": 6.5,
+          "unit": "in"
+        },
+        {
+          "key": "R1",
+          "label": "R1",
+          "value": 1.37,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 5.51,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10000,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved 700 bar / 10,000 psi torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Matching square-drive sockets",
+        "Reaction arms",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size and fastener.",
+        "Use with an approved ToughTorq hydraulic torque pump, hose set, and couplers."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon square-drive hydraulic torque wrench table; TT model naming mapped from MXTA source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt5xta",
+      "model": "TT5XTA",
+      "displayName": "TT5XTA Square Drive Hydraulic Torque Wrench",
+      "description": "Square-drive hydraulic torque wrench rated from 547 to 5,473 ft-lb.",
+      "images": [
+        {
+          "src": "/square-drive-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT5XTA square drive hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Square Drive",
+        "torqueMinFtLb": 547,
+        "torqueMaxFtLb": 5473,
+        "squareDriveIn": "1-1/2",
+        "weightLb": 15.43,
+        "maxWorkingPressurePsi": 10000,
+        "maxWorkingPressureBar": 700,
+        "accuracyPercent": 3
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 7.95,
+          "unit": "in"
+        },
+        {
+          "key": "L3",
+          "label": "L3",
+          "value": 11.26,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 3.19,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 4.92,
+          "unit": "in"
+        },
+        {
+          "key": "H3",
+          "label": "H3",
+          "value": 5.87,
+          "unit": "in"
+        },
+        {
+          "key": "H4",
+          "label": "H4",
+          "value": 7.24,
+          "unit": "in"
+        },
+        {
+          "key": "R1",
+          "label": "R1",
+          "value": 1.57,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 6.3,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10000,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved 700 bar / 10,000 psi torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Matching square-drive sockets",
+        "Reaction arms",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size and fastener.",
+        "Use with an approved ToughTorq hydraulic torque pump, hose set, and couplers."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon square-drive hydraulic torque wrench table; TT model naming mapped from MXTA source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt8xta",
+      "model": "TT8XTA",
+      "displayName": "TT8XTA Square Drive Hydraulic Torque Wrench",
+      "description": "Square-drive hydraulic torque wrench rated from 749 to 7,693 ft-lb.",
+      "images": [
+        {
+          "src": "/square-drive-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT8XTA square drive hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Square Drive",
+        "torqueMinFtLb": 749,
+        "torqueMaxFtLb": 7693,
+        "squareDriveIn": "1-1/2",
+        "weightLb": 23.37,
+        "maxWorkingPressurePsi": 10000,
+        "maxWorkingPressureBar": 700,
+        "accuracyPercent": 3
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 8.98,
+          "unit": "in"
+        },
+        {
+          "key": "L3",
+          "label": "L3",
+          "value": 12.83,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 3.54,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 5.28,
+          "unit": "in"
+        },
+        {
+          "key": "H3",
+          "label": "H3",
+          "value": 6.77,
+          "unit": "in"
+        },
+        {
+          "key": "H4",
+          "label": "H4",
+          "value": 8.15,
+          "unit": "in"
+        },
+        {
+          "key": "R1",
+          "label": "R1",
+          "value": 1.84,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 7.24,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10000,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved 700 bar / 10,000 psi torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Matching square-drive sockets",
+        "Reaction arms",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size and fastener.",
+        "Use with an approved ToughTorq hydraulic torque pump, hose set, and couplers."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon square-drive hydraulic torque wrench table; TT model naming mapped from MXTA source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt10xta",
+      "model": "TT10XTA",
+      "displayName": "TT10XTA Square Drive Hydraulic Torque Wrench",
+      "description": "Square-drive hydraulic torque wrench rated from 1,113 to 11,130 ft-lb.",
+      "images": [
+        {
+          "src": "/square-drive-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT10XTA square drive hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Square Drive",
+        "torqueMinFtLb": 1113,
+        "torqueMaxFtLb": 11130,
+        "squareDriveIn": "1-1/2",
+        "weightLb": 28.44,
+        "maxWorkingPressurePsi": 10000,
+        "maxWorkingPressureBar": 700,
+        "accuracyPercent": 3
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 9.33,
+          "unit": "in"
+        },
+        {
+          "key": "L3",
+          "label": "L3",
+          "value": 13.23,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 3.94,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 5.67,
+          "unit": "in"
+        },
+        {
+          "key": "H3",
+          "label": "H3",
+          "value": 7.13,
+          "unit": "in"
+        },
+        {
+          "key": "H4",
+          "label": "H4",
+          "value": 8.5,
+          "unit": "in"
+        },
+        {
+          "key": "R1",
+          "label": "R1",
+          "value": 2,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 7.56,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10000,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved 700 bar / 10,000 psi torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Matching square-drive sockets",
+        "Reaction arms",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size and fastener.",
+        "Use with an approved ToughTorq hydraulic torque pump, hose set, and couplers."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon square-drive hydraulic torque wrench table; TT model naming mapped from MXTA source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt15xta",
+      "model": "TT15XTA",
+      "displayName": "TT15XTA Square Drive Hydraulic Torque Wrench",
+      "description": "Square-drive hydraulic torque wrench rated from 1,431 to 14,315 ft-lb.",
+      "images": [
+        {
+          "src": "/square-drive-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT15XTA square drive hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Square Drive",
+        "torqueMinFtLb": 1431,
+        "torqueMaxFtLb": 14315,
+        "squareDriveIn": "2-1/2",
+        "weightLb": 44.09,
+        "maxWorkingPressurePsi": 10000,
+        "maxWorkingPressureBar": 700,
+        "accuracyPercent": 3
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 10.75,
+          "unit": "in"
+        },
+        {
+          "key": "L3",
+          "label": "L3",
+          "value": 15.39,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 4.33,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 6.46,
+          "unit": "in"
+        },
+        {
+          "key": "H3",
+          "label": "H3",
+          "value": 8.11,
+          "unit": "in"
+        },
+        {
+          "key": "H4",
+          "label": "H4",
+          "value": 9.49,
+          "unit": "in"
+        },
+        {
+          "key": "R1",
+          "label": "R1",
+          "value": 2.24,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 8.78,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10000,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved 700 bar / 10,000 psi torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Matching square-drive sockets",
+        "Reaction arms",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size and fastener.",
+        "Use with an approved ToughTorq hydraulic torque pump, hose set, and couplers."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon square-drive hydraulic torque wrench table; TT model naming mapped from MXTA source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt20xta",
+      "model": "TT20XTA",
+      "displayName": "TT20XTA Square Drive Hydraulic Torque Wrench",
+      "description": "Square-drive hydraulic torque wrench rated from 1,847 to 19,506 ft-lb.",
+      "images": [
+        {
+          "src": "/square-drive-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT20XTA square drive hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Square Drive",
+        "torqueMinFtLb": 1847,
+        "torqueMaxFtLb": 19506,
+        "squareDriveIn": "2-1/2",
+        "weightLb": 55.12,
+        "maxWorkingPressurePsi": 10000,
+        "maxWorkingPressureBar": 700,
+        "accuracyPercent": 3
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 11.3,
+          "unit": "in"
+        },
+        {
+          "key": "L3",
+          "label": "L3",
+          "value": 17.05,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 4.72,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 7.36,
+          "unit": "in"
+        },
+        {
+          "key": "H3",
+          "label": "H3",
+          "value": 8.7,
+          "unit": "in"
+        },
+        {
+          "key": "H4",
+          "label": "H4",
+          "value": 10.08,
+          "unit": "in"
+        },
+        {
+          "key": "R1",
+          "label": "R1",
+          "value": 2.35,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 9.76,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10000,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved 700 bar / 10,000 psi torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Matching square-drive sockets",
+        "Reaction arms",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size and fastener.",
+        "Use with an approved ToughTorq hydraulic torque pump, hose set, and couplers."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon square-drive hydraulic torque wrench table; TT model naming mapped from MXTA source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt25xta",
+      "model": "TT25XTA",
+      "displayName": "TT25XTA Square Drive Hydraulic Torque Wrench",
+      "description": "Square-drive hydraulic torque wrench rated from 2,441 to 25,539 ft-lb.",
+      "images": [
+        {
+          "src": "/square-drive-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT25XTA square drive hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Square Drive",
+        "torqueMinFtLb": 2441,
+        "torqueMaxFtLb": 25539,
+        "squareDriveIn": "2-1/2",
+        "weightLb": 74.52,
+        "maxWorkingPressurePsi": 10000,
+        "maxWorkingPressureBar": 700,
+        "accuracyPercent": 3
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 12.72,
+          "unit": "in"
+        },
+        {
+          "key": "L3",
+          "label": "L3",
+          "value": 18.27,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 5.43,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 8.11,
+          "unit": "in"
+        },
+        {
+          "key": "H3",
+          "label": "H3",
+          "value": 10.16,
+          "unit": "in"
+        },
+        {
+          "key": "H4",
+          "label": "H4",
+          "value": 9.09,
+          "unit": "in"
+        },
+        {
+          "key": "R1",
+          "label": "R1",
+          "value": 2.79,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 10.08,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10000,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved 700 bar / 10,000 psi torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Matching square-drive sockets",
+        "Reaction arms",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size and fastener.",
+        "Use with an approved ToughTorq hydraulic torque pump, hose set, and couplers."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon square-drive hydraulic torque wrench table; TT model naming mapped from MXTA source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt35xta",
+      "model": "TT35XTA",
+      "displayName": "TT35XTA Square Drive Hydraulic Torque Wrench",
+      "description": "Square-drive hydraulic torque wrench rated from 3,497 to 34,971 ft-lb.",
+      "images": [
+        {
+          "src": "/square-drive-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT35XTA square drive hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Square Drive",
+        "torqueMinFtLb": 3497,
+        "torqueMaxFtLb": 34971,
+        "squareDriveIn": "2-1/2",
+        "weightLb": 94.8,
+        "maxWorkingPressurePsi": 10000,
+        "maxWorkingPressureBar": 700,
+        "accuracyPercent": 3
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 13.82,
+          "unit": "in"
+        },
+        {
+          "key": "L3",
+          "label": "L3",
+          "value": 19.45,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 6.02,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 8.54,
+          "unit": "in"
+        },
+        {
+          "key": "H3",
+          "label": "H3",
+          "value": 10.98,
+          "unit": "in"
+        },
+        {
+          "key": "H4",
+          "label": "H4",
+          "value": 12.4,
+          "unit": "in"
+        },
+        {
+          "key": "R1",
+          "label": "R1",
+          "value": 3.02,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 10.67,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10000,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved 700 bar / 10,000 psi torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Matching square-drive sockets",
+        "Reaction arms",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size and fastener.",
+        "Use with an approved ToughTorq hydraulic torque pump, hose set, and couplers."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon square-drive hydraulic torque wrench table; TT model naming mapped from MXTA source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt50xta",
+      "model": "TT50XTA",
+      "displayName": "TT50XTA Square Drive Hydraulic Torque Wrench",
+      "description": "Square-drive hydraulic torque wrench rated from 5,108 to 51,074 ft-lb.",
+      "images": [
+        {
+          "src": "/square-drive-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT50XTA square drive hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Square Drive",
+        "torqueMinFtLb": 5108,
+        "torqueMaxFtLb": 51074,
+        "squareDriveIn": "2-1/2",
+        "weightLb": 114.64,
+        "maxWorkingPressurePsi": 10000,
+        "maxWorkingPressureBar": 700,
+        "accuracyPercent": 3
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 14.8,
+          "unit": "in"
+        },
+        {
+          "key": "L3",
+          "label": "L3",
+          "value": 20.79,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 6.38,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 8.9,
+          "unit": "in"
+        },
+        {
+          "key": "H3",
+          "label": "H3",
+          "value": 11.46,
+          "unit": "in"
+        },
+        {
+          "key": "H4",
+          "label": "H4",
+          "value": 12.83,
+          "unit": "in"
+        },
+        {
+          "key": "R1",
+          "label": "R1",
+          "value": 3.1,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 11.61,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10000,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved 700 bar / 10,000 psi torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Matching square-drive sockets",
+        "Reaction arms",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size and fastener.",
+        "Use with an approved ToughTorq hydraulic torque pump, hose set, and couplers."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon square-drive hydraulic torque wrench table; TT model naming mapped from MXTA source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt2lct",
+      "model": "TT2LCT",
+      "displayName": "TT2LCT Low-Profile Hydraulic Torque Wrench",
+      "description": "Low-profile ratchet-cassette hydraulic torque wrench rated from 180 to 1,869 ft-lb.",
+      "images": [
+        {
+          "src": "/ratchet-cassette-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT2LCT low-profile hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Low Profile Cassette",
+        "torqueMinFtLb": 180,
+        "torqueMaxFtLb": 1869,
+        "powerUnit": "2XT",
+        "ratchetCassette": "2LC-50",
+        "weightLb": 4.85
+      },
+      "dimensions": [
+        {
+          "key": "L",
+          "label": "L",
+          "value": 7.72,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 4.96,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 4.02,
+          "unit": "in"
+        },
+        {
+          "key": "W1",
+          "label": "W1",
+          "value": 1.26,
+          "unit": "in"
+        },
+        {
+          "key": "W2",
+          "label": "W2",
+          "value": 2.01,
+          "unit": "in"
+        },
+        {
+          "key": "R",
+          "label": "R",
+          "value": 1.63,
+          "unit": "in"
+        },
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 5.79,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved ToughTorq hydraulic torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Interchangeable ratchet links",
+        "Reducer inserts",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Power unit 2XT is paired with 2LC-50 in the published reference configuration.",
+        "Additional compatible ratchet links and reducer inserts are available within the power-unit family."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon ratchet-cassette hydraulic torque wrench table; TT model naming mapped from XLCT source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt4lct",
+      "model": "TT4LCT",
+      "displayName": "TT4LCT Low-Profile Hydraulic Torque Wrench",
+      "description": "Low-profile ratchet-cassette hydraulic torque wrench rated from 361 to 3,977 ft-lb.",
+      "images": [
+        {
+          "src": "/ratchet-cassette-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT4LCT low-profile hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Low Profile Cassette",
+        "torqueMinFtLb": 361,
+        "torqueMaxFtLb": 3977,
+        "powerUnit": "4XT",
+        "ratchetCassette": "4LC-65",
+        "weightLb": 11.02
+      },
+      "dimensions": [
+        {
+          "key": "L",
+          "label": "L",
+          "value": 10.16,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 6.42,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 5.35,
+          "unit": "in"
+        },
+        {
+          "key": "W1",
+          "label": "W1",
+          "value": 1.65,
+          "unit": "in"
+        },
+        {
+          "key": "W2",
+          "label": "W2",
+          "value": 2.6,
+          "unit": "in"
+        },
+        {
+          "key": "R",
+          "label": "R",
+          "value": 2.12,
+          "unit": "in"
+        },
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 7.4,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved ToughTorq hydraulic torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Interchangeable ratchet links",
+        "Reducer inserts",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Power unit 4XT is paired with 4LC-65 in the published reference configuration.",
+        "Additional compatible ratchet links and reducer inserts are available within the power-unit family."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon ratchet-cassette hydraulic torque wrench table; TT model naming mapped from XLCT source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt8lct",
+      "model": "TT8LCT",
+      "displayName": "TT8LCT Low-Profile Hydraulic Torque Wrench",
+      "description": "Low-profile ratchet-cassette hydraulic torque wrench rated from 750 to 7,709 ft-lb.",
+      "images": [
+        {
+          "src": "/ratchet-cassette-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT8LCT low-profile hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Low Profile Cassette",
+        "torqueMinFtLb": 750,
+        "torqueMaxFtLb": 7709,
+        "powerUnit": "8XT",
+        "ratchetCassette": "8LC-90",
+        "weightLb": 21.16
+      },
+      "dimensions": [
+        {
+          "key": "L",
+          "label": "L",
+          "value": 11.81,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 7.56,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 6.61,
+          "unit": "in"
+        },
+        {
+          "key": "W1",
+          "label": "W1",
+          "value": 2.09,
+          "unit": "in"
+        },
+        {
+          "key": "W2",
+          "label": "W2",
+          "value": 3.27,
+          "unit": "in"
+        },
+        {
+          "key": "R",
+          "label": "R",
+          "value": 2.71,
+          "unit": "in"
+        },
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 9.17,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved ToughTorq hydraulic torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Interchangeable ratchet links",
+        "Reducer inserts",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Power unit 8XT is paired with 8LC-90 in the published reference configuration.",
+        "Additional compatible ratchet links and reducer inserts are available within the power-unit family."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon ratchet-cassette hydraulic torque wrench table; TT model naming mapped from XLCT source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt14lct",
+      "model": "TT14LCT",
+      "displayName": "TT14LCT Low-Profile Hydraulic Torque Wrench",
+      "description": "Low-profile ratchet-cassette hydraulic torque wrench rated from 1,272 to 11,982 ft-lb.",
+      "images": [
+        {
+          "src": "/ratchet-cassette-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT14LCT low-profile hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Low Profile Cassette",
+        "torqueMinFtLb": 1272,
+        "torqueMaxFtLb": 11982,
+        "powerUnit": "14XT",
+        "ratchetCassette": "14LC-115",
+        "weightLb": 37.26
+      },
+      "dimensions": [
+        {
+          "key": "L",
+          "label": "L",
+          "value": 14.17,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 8.86,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 8.03,
+          "unit": "in"
+        },
+        {
+          "key": "W1",
+          "label": "W1",
+          "value": 2.52,
+          "unit": "in"
+        },
+        {
+          "key": "W2",
+          "label": "W2",
+          "value": 3.9,
+          "unit": "in"
+        },
+        {
+          "key": "R",
+          "label": "R",
+          "value": 3.36,
+          "unit": "in"
+        },
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 11.14,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved ToughTorq hydraulic torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Interchangeable ratchet links",
+        "Reducer inserts",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Power unit 14XT is paired with 14LC-115 in the published reference configuration.",
+        "Additional compatible ratchet links and reducer inserts are available within the power-unit family."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon ratchet-cassette hydraulic torque wrench table; TT model naming mapped from XLCT source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt18lct",
+      "model": "TT18LCT",
+      "displayName": "TT18LCT Low-Profile Hydraulic Torque Wrench",
+      "description": "Low-profile ratchet-cassette hydraulic torque wrench rated from 1,657 to 16,889 ft-lb.",
+      "images": [
+        {
+          "src": "/ratchet-cassette-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT18LCT low-profile hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Low Profile Cassette",
+        "torqueMinFtLb": 1657,
+        "torqueMaxFtLb": 16889,
+        "powerUnit": "18XT",
+        "ratchetCassette": "18LC-135",
+        "weightLb": 50.49
+      },
+      "dimensions": [
+        {
+          "key": "L",
+          "label": "L",
+          "value": 15.28,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 10.39,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 9.09,
+          "unit": "in"
+        },
+        {
+          "key": "W1",
+          "label": "W1",
+          "value": 2.8,
+          "unit": "in"
+        },
+        {
+          "key": "W2",
+          "label": "W2",
+          "value": 4.29,
+          "unit": "in"
+        },
+        {
+          "key": "R",
+          "label": "R",
+          "value": 3.89,
+          "unit": "in"
+        },
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 12.13,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved ToughTorq hydraulic torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Interchangeable ratchet links",
+        "Reducer inserts",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Power unit 18XT is paired with 18LC-135 in the published reference configuration.",
+        "Additional compatible ratchet links and reducer inserts are available within the power-unit family."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon ratchet-cassette hydraulic torque wrench table; TT model naming mapped from XLCT source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt30lct",
+      "model": "TT30LCT",
+      "displayName": "TT30LCT Low-Profile Hydraulic Torque Wrench",
+      "description": "Low-profile ratchet-cassette hydraulic torque wrench rated from 2,779 to 29,196 ft-lb.",
+      "images": [
+        {
+          "src": "/ratchet-cassette-hydraulic-torque-wrench.png",
+          "alt": "ToughTorq TT30LCT low-profile hydraulic torque wrench",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "series": "Low Profile Cassette",
+        "torqueMinFtLb": 2779,
+        "torqueMaxFtLb": 29196,
+        "powerUnit": "30XT",
+        "ratchetCassette": "30LC-155",
+        "weightLb": 83.78
+      },
+      "dimensions": [
+        {
+          "key": "L",
+          "label": "L",
+          "value": 16.93,
+          "unit": "in"
+        },
+        {
+          "key": "H1",
+          "label": "H1",
+          "value": 11.93,
+          "unit": "in"
+        },
+        {
+          "key": "H2",
+          "label": "H2",
+          "value": 10.71,
+          "unit": "in"
+        },
+        {
+          "key": "W1",
+          "label": "W1",
+          "value": 3.35,
+          "unit": "in"
+        },
+        {
+          "key": "W2",
+          "label": "W2",
+          "value": 5.16,
+          "unit": "in"
+        },
+        {
+          "key": "R",
+          "label": "R",
+          "value": 4.56,
+          "unit": "in"
+        },
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 14.33,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with approved ToughTorq hydraulic torque-wrench pump system"
+        }
+      ],
+      "accessories": [
+        "Interchangeable ratchet links",
+        "Reducer inserts",
+        "Hydraulic hose set",
+        "Quick couplers"
+      ],
+      "compatibility": [
+        "Power unit 30XT is paired with 30LC-155 in the published reference configuration.",
+        "Additional compatible ratchet links and reducer inserts are available within the power-unit family."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon ratchet-cassette hydraulic torque wrench table; TT model naming mapped from XLCT source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    }
+  ],
+  "operatingRequirements": [
+    {
+      "key": "hydraulicPower",
+      "label": "Hydraulic Power",
+      "value": "Use an approved ToughTorq torque-wrench pump, rated hose set, and compatible couplers"
+    },
+    {
+      "key": "selection",
+      "label": "Tool Selection",
+      "value": "Select the wrench model around required torque, drive or cassette size, reaction point, and available clearance"
+    }
+  ],
+  "accessories": [
+    "Hydraulic torque pumps",
+    "Hydraulic hose sets",
+    "Quick couplers",
+    "Square-drive sockets",
+    "Hexagonal drives",
+    "Reaction arms",
+    "Ratchet links",
+    "Reducer inserts"
+  ],
+  "compatibility": [
+    "Square-drive models require sockets matching the listed drive size.",
+    "Low-profile power units accept ratchet links and reducer inserts within their published family.",
+    "Hydraulic pump, hose, coupler, wrench pressure rating, and application requirements must be matched as a complete system."
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": true,
+  "calibrationApplicable": true,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "ToughTorq/Kashon square-drive hydraulic torque wrench table",
+    "ToughTorq/Kashon ratchet-cassette hydraulic torque wrench table"
+  ],
+  "lastVerifiedAt": "2026-10-05",
+  "catalogVersion": "2026.10"
+}
