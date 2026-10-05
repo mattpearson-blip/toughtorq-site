@@ -3,6 +3,7 @@ import bearingHeatersJson from "./products/bearing-heaters.json";
 import boltTensionersJson from "./products/bolt-tensioners.json";
 import flangeToolsJson from "./products/flange-tools.json";
 import hydraulicCylindersRamsJson from "./products/hydraulic-cylinders-rams.json";
+import hydraulicFittingsCouplersJson from "./products/hydraulic-fittings-couplers.json";
 import hydraulicHosesJson from "./products/hydraulic-hoses.json";
 import hydraulicNutsJson from "./products/hydraulic-nuts.json";
 import hydraulicTorquePumpsJson from "./products/hydraulic-torque-pumps.json";
@@ -40,6 +41,9 @@ export const flangeTools =
 export const hydraulicCylindersRams =
   hydraulicCylindersRamsJson as unknown as CatalogProductFamily;
 
+export const hydraulicFittingsCouplers =
+  hydraulicFittingsCouplersJson as unknown as CatalogProductFamily;
+
 export const hydraulicHoses =
   hydraulicHosesJson as unknown as CatalogProductFamily;
 
@@ -70,6 +74,7 @@ export const catalogProducts: CatalogProductFamily[] = [
   boltTensioners,
   flangeTools,
   hydraulicCylindersRams,
+  hydraulicFittingsCouplers,
   hydraulicHoses,
   hydraulicNuts,
   pneumaticTorqueGuns,
