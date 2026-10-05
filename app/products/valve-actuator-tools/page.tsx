@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 import { portableValveActuation } from "@/data/catalog";
@@ -174,6 +175,18 @@ export default function ValveActuatorToolsPage() {
                 className="flex h-full flex-col rounded-xl border border-[#dddddd] bg-[#fafafa] p-5"
               >
                 <div>
+                  {model.images[0] && (
+                    <div className="mb-5 overflow-hidden rounded-lg border border-[#e5e5e5] bg-white">
+                      <Image
+                        src={model.images[0].src}
+                        alt={model.images[0].alt}
+                        width={480}
+                        height={480}
+                        className="aspect-square w-full object-contain"
+                      />
+                    </div>
+                  )}
+
                   <p className="text-sm font-bold text-[#ed1c24]">
                     {model.model}
                   </p>
