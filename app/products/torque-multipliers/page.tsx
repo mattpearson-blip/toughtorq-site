@@ -1,46 +1,23 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
-const multiplierGroups = [
-  {
-    title: "Z Type Manual Torque Multipliers",
-    description:
-      "Compact planetary torque multipliers for controlled high-torque fastening where additional mechanical advantage is required.",
-    models: [
-      "TM10W-4.5",
-      "TM20W-12",
-      "TM35W-15",
-      "TM55W-18.15",
-      "TM75W-20",
-      "TM100W-26.5",
-    ],
-  },
-  {
-    title: "L Type Manual Torque Multipliers",
-    description:
-      "Offset manual torque multipliers designed for high-torque applications where access and reaction clearance are limited.",
-    models: [
-      "TM10F-5",
-      "TM20F-13.3",
-      "TM35F-16",
-      "TM55F-21.5",
-      "TM75F-24",
-      "TM100F-32",
-      "TM150F-50",
-      "TM200F-72",
-    ],
-  },
-];
+import { torqueMultipliers } from "@/data/catalog";
 
-const applications = [
-  "Industrial flange bolting",
-  "Heavy equipment maintenance",
-  "Structural bolting",
-  "Large fastener installation",
-  "Restricted-access bolting",
-  "Field maintenance",
-  "Equipment assembly",
-  "Manual high-torque applications",
-];
+export const metadata: Metadata = {
+  title: "Manual Torque Multipliers",
+  description:
+    "Technical specifications, torque capacity, ratios, drive sizes, fastener ranges, applications, and support information for ToughTorq manual torque multipliers.",
+};
+
+function formatNumber(value: unknown) {
+  if (typeof value === "number") {
+    return value.toLocaleString("en-US", {
+      maximumFractionDigits: 1,
+    });
+  }
+
+  return String(value ?? "—");
+}
 
 const relatedProducts = [
   {
@@ -48,42 +25,98 @@ const relatedProducts = [
     href: "/products/battery-torque-guns",
   },
   {
-    title: "Pneumatic Torque Wrenches",
-    href: "/products/pneumatic-torque-wrenches",
+    title: "Pneumatic Torque Guns",
+    href: "/products/pneumatic-torque-guns",
   },
   {
     title: "Hydraulic Torque Wrenches",
     href: "/products/hydraulic-torque-wrenches",
   },
   {
-    title: "Manual & Digital Torque Wrenches",
+    title: "Digital Manual Torque Wrenches",
     href: "/products/manual-digital-torque-wrenches",
   },
 ];
 
-function QuoteModelLink({
-  model,
-  product,
+function MultiplierTable({
+  title,
+  description,
+  models,
 }: {
-  model: string;
-  product: string;
+  title: string;
+  description: string;
+  models: typeof torqueMultipliers.models;
 }) {
   return (
-    <Link
-      href={`/request-a-quote?model=${encodeURIComponent(
-        model
-      )}&product=${encodeURIComponent(product)}`}
-      className="font-semibold text-[#ed1c24] underline-offset-4 transition hover:underline"
-    >
-      {model}
-    </Link>
+    <div className="mt-10">
+      <h3 className="text-2xl font-semibold text-[#3f4448]">{title}</h3>
+      <p className="mt-3 max-w-3xl leading-7 text-[#555555]">{description}</p>
+
+      <div className="mt-6 overflow-x-auto rounded-xl border border-[#dddddd]">
+        <table className="min-w-[960px] w-full border-collapse text-left text-sm">
+          <thead className="bg-[#3f4448] text-white">
+            <tr>
+              <th className="px-4 py-4 font-semibold">Model</th>
+              <th className="px-4 py-4 font-semibold">Max Output Torque</th>
+              <th className="px-4 py-4 font-semibold">Nut A/F Size</th>
+              <th className="px-4 py-4 font-semibold">Bolt Diameter</th>
+              <th className="px-4 py-4 font-semibold">Ratio</th>
+              <th className="px-4 py-4 font-semibold">Input Square</th>
+              <th className="px-4 py-4 font-semibold">Output Square</th>
+              <th className="px-4 py-4 font-semibold">Weight</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            {models.map((model, index) => (
+              <tr
+                key={model.id}
+                className={index % 2 === 0 ? "bg-white" : "bg-[#f7f7f7]"}
+              >
+                <td className="border-t border-[#dddddd] px-4 py-4 font-bold text-[#ed1c24]">
+                  {model.model}
+                </td>
+                <td className="border-t border-[#dddddd] px-4 py-4 font-medium text-[#444444]">
+                  {formatNumber(model.specifications.maxTorqueFtLb)} ft-lb
+                </td>
+                <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                  {String(model.specifications.nutAfSize)}
+                </td>
+                <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                  {String(model.specifications.boltDiameter)}
+                </td>
+                <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                  {String(model.specifications.ratio)}
+                </td>
+                <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                  {String(model.specifications.inputSquareIn)} in
+                </td>
+                <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                  {String(model.specifications.outputSquareIn)} in
+                </td>
+                <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                  {formatNumber(model.specifications.weightLb)} lb
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
   );
 }
 
 export default function TorqueMultipliersPage() {
+  const family = torqueMultipliers;
+  const zTypeModels = family.models.filter(
+    (model) => model.specifications.series === "Z Type"
+  );
+  const lTypeModels = family.models.filter(
+    (model) => model.specifications.series === "L Type"
+  );
+
   return (
     <main className="bg-[#f5f5f5] text-[#2b2b2b]">
-      {/* HERO */}
       <section className="border-b border-[#dedede] bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-20 lg:px-12">
           <p className="text-sm font-bold uppercase tracking-[0.14em] text-[#ed1c24]">
@@ -91,130 +124,147 @@ export default function TorqueMultipliersPage() {
           </p>
 
           <h1 className="mt-4 max-w-5xl text-4xl font-bold uppercase leading-[1.05] tracking-tight text-[#3f4448] md:text-6xl">
-            Torque Multipliers
+            Manual Torque
+            <br />
+            Multipliers
           </h1>
 
           <div className="mt-6 h-[3px] w-16 bg-[#ed1c24]" />
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-[#444444]">
-            Manual planetary torque multipliers for controlled high-torque
-            fastening without hydraulic, pneumatic, or electric power.
+            {family.longDescription}
           </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Link
-              href="/request-a-quote?product=Torque%20Multipliers"
+              href="#technical-data"
               className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
             >
-              Request a Quote
+              View Technical Data
             </Link>
 
             <Link
-              href="/request-a-quote"
-              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#666666] bg-white px-6 py-3 text-sm font-semibold text-[#333333] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+              href="#downloads"
+              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
             >
-              View Quote Cart →
+              Downloads
+            </Link>
+
+            <Link
+              href="/find-a-distributor"
+              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+            >
+              Find a Distributor
             </Link>
           </div>
         </div>
       </section>
 
-      {/* PRODUCT FAMILIES */}
       <section className="border-b border-[#dedede] bg-[#f7f7f7]">
         <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
           <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Product Families
+            Mechanical Advantage
           </p>
 
           <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Manual torque multiplier systems
+            High torque without external power
           </h2>
 
-          <div className="mt-10 grid gap-6 lg:grid-cols-2">
-            {multiplierGroups.map((group) => (
+          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
+            Planetary gearing increases operator input torque to produce
+            controlled high-output torque for large fasteners. Selection is
+            based on the required output torque, multiplier ratio, square-drive
+            sizes, fastener range, reaction point, and working clearance.
+          </p>
+
+          <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+            {family.features.map((feature) => (
               <div
-                key={group.title}
-                className="overflow-hidden rounded-xl border border-[#dddddd] bg-white"
+                key={feature}
+                className="rounded-xl border border-[#dddddd] bg-white p-5"
               >
-                <div className="border-b border-[#dddddd] p-6 md:p-8">
-                  <h3 className="text-2xl font-semibold text-[#3f4448]">
-                    {group.title}
-                  </h3>
-
-                  <p className="mt-4 leading-7 text-[#555555]">
-                    {group.description}
-                  </p>
-                </div>
-
-                <div className="p-6 md:p-8">
-                  <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#777777]">
-                    Available Models
-                  </p>
-
-                  <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                    {group.models.map((model) => (
-                      <div
-                        key={model}
-                        className="flex min-h-[58px] items-center justify-between rounded-lg border border-[#dddddd] bg-[#fafafa] px-4 py-3"
-                      >
-                        <QuoteModelLink
-                          model={model}
-                          product={group.title}
-                        />
-
-                        <span className="text-[#ed1c24]">→</span>
-                      </div>
-                    ))}
-                  </div>
-
-                  <p className="mt-5 text-xs uppercase tracking-[0.12em] text-[#777777]">
-                    Select a model to add it to your quote
-                  </p>
-                </div>
+                <span className="font-bold text-[#ed1c24]">✓</span>
+                <p className="mt-3 text-sm leading-6 text-[#555555]">
+                  {feature}
+                </p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* HOW THEY WORK */}
-      <section className="border-b border-[#dedede] bg-white">
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 md:px-8 lg:grid-cols-[0.9fr_1.1fr] lg:px-12">
+      <section
+        id="technical-data"
+        className="scroll-mt-24 border-b border-[#dedede] bg-white"
+      >
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+            Model Specifications
+          </p>
+
+          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
+            Z Type and L Type technical data
+          </h2>
+
+          <MultiplierTable
+            title="Z Type Manual Torque Multipliers"
+            description="Compact models for confined-space applications with an adjustable reaction foot and high mechanical torque multiplication."
+            models={zTypeModels}
+          />
+
+          <MultiplierTable
+            title="L Type Manual Torque Multipliers"
+            description="Offset models for applications where working access and reaction clearance require a different multiplier geometry."
+            models={lTypeModels}
+          />
+        </div>
+      </section>
+
+      <section className="border-b border-[#dedede] bg-[#f7f7f7]">
+        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-              Mechanical Advantage
+              Applications
             </p>
 
-            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-              High torque without external power
+            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
+              Manual high-torque bolting
             </h2>
 
-            <p className="mt-5 leading-8 text-[#555555]">
-              Torque multipliers use a geared mechanical system to increase the
-              torque applied by the operator. This makes them useful where high
-              output torque is required but hydraulic, pneumatic, or battery
-              power is unavailable or unnecessary.
-            </p>
+            <div className="mt-7 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2">
+              {family.applications.map((application) => (
+                <div key={application} className="bg-white p-5">
+                  <p className="font-medium text-[#444444]">{application}</p>
+                </div>
+              ))}
+            </div>
           </div>
 
-          <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:p-8">
+          <div className="rounded-xl border border-[#dddddd] bg-white p-6 md:p-8">
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-              Typical Selection Factors
+              Selection & Compatibility
             </p>
 
-            <div className="mt-6 grid gap-px overflow-hidden rounded-lg border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2">
-              {[
-                "Required Output Torque",
-                "Input Torque",
-                "Fastener Size",
-                "Drive Size",
-                "Available Clearance",
-                "Reaction Point",
-                "Tool Weight",
-                "Application Type",
-              ].map((item) => (
-                <div key={item} className="bg-white p-4">
-                  <p className="font-medium text-[#444444]">{item}</p>
+            <h2 className="mt-3 text-2xl font-semibold text-[#3f4448]">
+              Match the complete mechanical system
+            </h2>
+
+            <div className="mt-6 space-y-4">
+              {family.compatibility.map((item) => (
+                <div key={item} className="flex gap-3 text-sm leading-7 text-[#555555]">
+                  <span className="font-bold text-[#ed1c24]">✓</span>
+                  <span>{item}</span>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-7 grid gap-3 sm:grid-cols-2">
+              {family.accessories.map((accessory) => (
+                <div
+                  key={accessory}
+                  className="rounded-lg border border-[#dddddd] bg-[#fafafa] px-4 py-3 text-sm font-medium text-[#555555]"
+                >
+                  {accessory}
                 </div>
               ))}
             </div>
@@ -222,32 +272,6 @@ export default function TorqueMultipliersPage() {
         </div>
       </section>
 
-      {/* APPLICATIONS */}
-      <section className="border-b border-[#dedede] bg-[#f7f7f7]">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Applications
-          </p>
-
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Built for industrial bolting
-          </h2>
-
-          <div className="mt-8 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2 lg:grid-cols-4">
-            {applications.map((application) => (
-              <div key={application} className="bg-white p-5">
-                <div className="flex gap-3">
-                  <span className="font-bold text-[#ed1c24]">✓</span>
-
-                  <p className="font-medium text-[#444444]">{application}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* RELATED PRODUCTS */}
       <section className="border-b border-[#dedede] bg-white">
         <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
           <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
@@ -278,61 +302,86 @@ export default function TorqueMultipliersPage() {
         </div>
       </section>
 
-      {/* TECHNICAL RESOURCES */}
-      <section className="bg-[#f7f7f7]">
+      <section
+        id="downloads"
+        className="scroll-mt-24 border-b border-[#dedede] bg-[#f7f7f7]"
+      >
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+            Downloads
+          </p>
+
+          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
+            Torque multiplier technical resources
+          </h2>
+
+          <div className="mt-8 grid gap-4 md:grid-cols-3">
+            {[
+              "Z Type Torque Multiplier Cutsheet",
+              "L Type Torque Multiplier Cutsheet",
+              "Torque Multiplier Selection Guide",
+            ].map((title) => (
+              <div
+                key={title}
+                className="rounded-xl border border-[#dddddd] bg-white p-5"
+              >
+                <p className="font-semibold text-[#3f4448]">{title}</p>
+                <p className="mt-2 text-sm text-[#777777]">
+                  Download publishing in progress
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white">
         <div className="mx-auto grid max-w-7xl gap-6 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
-          <div className="rounded-xl border border-[#dddddd] bg-white p-6 md:p-8">
+          <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:p-8">
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-              Technical Resources
+              Distribution
             </p>
 
-            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-              Torque Multiplier Cutsheets
+            <h2 className="mt-3 text-2xl font-semibold text-[#3f4448]">
+              Find a ToughTorq distributor
             </h2>
 
-            <div className="mt-6 space-y-3">
-              {[
-                "Z Type Torque Multiplier Cutsheet",
-                "L Type Torque Multiplier Cutsheet",
-                "Torque Multiplier Selection Guide",
-              ].map((item) => (
-                <div
-                  key={item}
-                  className="rounded-lg border border-[#dddddd] bg-[#fafafa] p-4"
-                >
-                  <p className="font-semibold text-[#444444]">{item}</p>
+            <p className="mt-4 leading-7 text-[#555555]">
+              Connect with the ToughTorq distribution network for local
+              availability, model selection, and technical support.
+            </p>
 
-                  <p className="mt-1 text-sm text-[#777777]">
-                    Download coming soon
-                  </p>
-                </div>
-              ))}
-            </div>
+            <Link
+              href="/find-a-distributor"
+              className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg border border-[#666666] bg-white px-5 py-2 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+            >
+              Find a Distributor
+            </Link>
           </div>
 
-          <div className="rounded-xl border border-[#dddddd] bg-white p-6 md:p-8">
+          <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:p-8">
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-              Product Selection
+              Purchase, Rental & Service
             </p>
 
-            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-              Need help selecting a multiplier?
+            <h2 className="mt-3 text-2xl font-semibold text-[#3f4448]">
+              Commercial support through JAM Torque
             </h2>
 
-            <p className="mt-5 leading-8 text-[#555555]">
-              Include the required output torque, available input torque,
-              fastener size, drive size, and available reaction clearance with
-              your request.
+            <p className="mt-4 leading-7 text-[#555555]">
+              For purchasing, rental availability, service, and application
+              support in JAM Torque&apos;s supported market, continue to
+              JAMTorque.com.
             </p>
 
-            <div className="mt-8">
-              <Link
-                href="/request-a-quote?product=Torque%20Multipliers"
-                className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white"
-              >
-                Request Torque Multiplier Support
-              </Link>
-            </div>
+            <a
+              href={family.jamMarketplaceUrl ?? "https://jamtorque.com"}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg bg-[#ed1c24] px-5 py-2 text-sm font-semibold text-white transition hover:opacity-90"
+            >
+              Visit JAM Torque →
+            </a>
           </div>
         </div>
       </section>
