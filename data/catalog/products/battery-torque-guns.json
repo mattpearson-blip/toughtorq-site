@@ -1,0 +1,648 @@
+{
+  "id": "battery-torque-guns",
+  "slug": "battery-torque-guns",
+  "family": "Battery Torque Guns",
+  "displayName": "BT Series Digital Battery Torque Guns",
+  "shortDescription": "Cordless digital torque tools for controlled industrial bolting.",
+  "longDescription": "ToughTorq BT Series digital battery torque guns combine cordless operation with digital torque and angle settings for installation, maintenance, shutdown, and field bolting applications.",
+  "images": [
+    {
+      "src": "/battery-torque-gun.png",
+      "alt": "ToughTorq BT Series digital battery torque gun",
+      "type": "product"
+    }
+  ],
+  "features": [
+    "Digital torque and angle settings",
+    "Torque tracking capability",
+    "Digital setting display",
+    "Tightening and loosening repeatability under 5%",
+    "Quick-charge function under 60 minutes",
+    "Digital torque control system",
+    "Brushless motor",
+    "Heavy-duty transport and storage case"
+  ],
+  "applications": [
+    "Industrial maintenance",
+    "Shutdowns and turnarounds",
+    "Structural bolting",
+    "Power generation",
+    "Oil and gas",
+    "Manufacturing",
+    "Mining",
+    "Heavy equipment"
+  ],
+  "models": [
+    {
+      "id": "bt05-350",
+      "model": "BT05-350",
+      "displayName": "BT05-350 Digital Battery Torque Gun",
+      "description": "Digital battery torque gun rated from 74 to 369 ft-lb.",
+      "images": [
+        {
+          "src": "/battery-torque-gun.png",
+          "alt": "ToughTorq BT05-350 digital battery torque gun",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "torqueMinFtLb": 74,
+        "torqueMaxFtLb": 369,
+        "squareDriveIn": "3/4",
+        "maxSpeedRpm": 26,
+        "weightLb": 9.5,
+        "tighteningLooseningRepeatability": "<5%",
+        "control": "Digital torque and angle"
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "D",
+          "value": 2.36,
+          "unit": "in"
+        },
+        {
+          "key": "L",
+          "label": "L",
+          "value": 10.63,
+          "unit": "in"
+        },
+        {
+          "key": "K",
+          "label": "K",
+          "value": 9.65,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [
+        "Reaction arm",
+        "Battery pack",
+        "Battery charger",
+        "Transport case"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size.",
+        "Reaction equipment must be selected for the application and reaction point."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Digital Torque Gun table; BT naming mapped from KSBEW source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bt10-700",
+      "model": "BT10-700",
+      "displayName": "BT10-700 Digital Battery Torque Gun",
+      "description": "Digital battery torque gun rated from 96 to 738 ft-lb.",
+      "images": [
+        {
+          "src": "/battery-torque-gun.png",
+          "alt": "ToughTorq BT10-700 digital battery torque gun",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "torqueMinFtLb": 96,
+        "torqueMaxFtLb": 738,
+        "squareDriveIn": "3/4",
+        "maxSpeedRpm": 18,
+        "weightLb": 10.6,
+        "tighteningLooseningRepeatability": "<5%",
+        "control": "Digital torque and angle"
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "D",
+          "value": 2.91,
+          "unit": "in"
+        },
+        {
+          "key": "L",
+          "label": "L",
+          "value": 10.91,
+          "unit": "in"
+        },
+        {
+          "key": "K",
+          "label": "K",
+          "value": 9.65,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [
+        "Reaction arm",
+        "Battery pack",
+        "Battery charger",
+        "Transport case"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size.",
+        "Reaction equipment must be selected for the application and reaction point."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Digital Torque Gun table; BT naming mapped from KSBEW source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bt15-1000",
+      "model": "BT15-1000",
+      "displayName": "BT15-1000 Digital Battery Torque Gun",
+      "description": "Digital battery torque gun rated from 133 to 1,106 ft-lb.",
+      "images": [
+        {
+          "src": "/battery-torque-gun.png",
+          "alt": "ToughTorq BT15-1000 digital battery torque gun",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "torqueMinFtLb": 133,
+        "torqueMaxFtLb": 1106,
+        "squareDriveIn": "1",
+        "maxSpeedRpm": 8,
+        "weightLb": 11.5,
+        "tighteningLooseningRepeatability": "<5%",
+        "control": "Digital torque and angle"
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "D",
+          "value": 2.99,
+          "unit": "in"
+        },
+        {
+          "key": "L",
+          "label": "L",
+          "value": 12.48,
+          "unit": "in"
+        },
+        {
+          "key": "K",
+          "label": "K",
+          "value": 9.65,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [
+        "Reaction arm",
+        "Battery pack",
+        "Battery charger",
+        "Transport case"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size.",
+        "Reaction equipment must be selected for the application and reaction point."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Digital Torque Gun table; BT naming mapped from KSBEW source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bt20-1500",
+      "model": "BT20-1500",
+      "displayName": "BT20-1500 Digital Battery Torque Gun",
+      "description": "Digital battery torque gun rated from 184 to 1,549 ft-lb.",
+      "images": [
+        {
+          "src": "/battery-torque-gun.png",
+          "alt": "ToughTorq BT20-1500 digital battery torque gun",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "torqueMinFtLb": 184,
+        "torqueMaxFtLb": 1549,
+        "squareDriveIn": "1",
+        "maxSpeedRpm": 6,
+        "weightLb": 12.1,
+        "tighteningLooseningRepeatability": "<5%",
+        "control": "Digital torque and angle"
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "D",
+          "value": 2.99,
+          "unit": "in"
+        },
+        {
+          "key": "L",
+          "label": "L",
+          "value": 12.48,
+          "unit": "in"
+        },
+        {
+          "key": "K",
+          "label": "K",
+          "value": 9.65,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [
+        "Reaction arm",
+        "Battery pack",
+        "Battery charger",
+        "Transport case"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size.",
+        "Reaction equipment must be selected for the application and reaction point."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Digital Torque Gun table; BT naming mapped from KSBEW source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bt30-2200",
+      "model": "BT30-2200",
+      "displayName": "BT30-2200 Digital Battery Torque Gun",
+      "description": "Digital battery torque gun rated from 354 to 2,286 ft-lb.",
+      "images": [
+        {
+          "src": "/battery-torque-gun.png",
+          "alt": "ToughTorq BT30-2200 digital battery torque gun",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "torqueMinFtLb": 354,
+        "torqueMaxFtLb": 2286,
+        "squareDriveIn": "1",
+        "maxSpeedRpm": 3.5,
+        "weightLb": 16.5,
+        "tighteningLooseningRepeatability": "<5%",
+        "control": "Digital torque and angle"
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "D",
+          "value": 3.39,
+          "unit": "in"
+        },
+        {
+          "key": "L",
+          "label": "L",
+          "value": 13.39,
+          "unit": "in"
+        },
+        {
+          "key": "K",
+          "label": "K",
+          "value": 9.65,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [
+        "Reaction arm",
+        "Battery pack",
+        "Battery charger",
+        "Transport case"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size.",
+        "Reaction equipment must be selected for the application and reaction point."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Digital Torque Gun table; BT naming mapped from KSBEW source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bt40-2900",
+      "model": "BT40-2900",
+      "displayName": "BT40-2900 Digital Battery Torque Gun",
+      "description": "Digital battery torque gun rated from 479 to 2,950 ft-lb.",
+      "images": [
+        {
+          "src": "/battery-torque-gun.png",
+          "alt": "ToughTorq BT40-2900 digital battery torque gun",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "torqueMinFtLb": 479,
+        "torqueMaxFtLb": 2950,
+        "squareDriveIn": "1",
+        "maxSpeedRpm": 3.2,
+        "weightLb": 20.9,
+        "tighteningLooseningRepeatability": "<5%",
+        "control": "Digital torque and angle"
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "D",
+          "value": 3.74,
+          "unit": "in"
+        },
+        {
+          "key": "L",
+          "label": "L",
+          "value": 13.78,
+          "unit": "in"
+        },
+        {
+          "key": "K",
+          "label": "K",
+          "value": 9.65,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [
+        "Reaction arm",
+        "Battery pack",
+        "Battery charger",
+        "Transport case"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size.",
+        "Reaction equipment must be selected for the application and reaction point."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Digital Torque Gun table; BT naming mapped from KSBEW source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bt50-3600",
+      "model": "BT50-3600",
+      "displayName": "BT50-3600 Digital Battery Torque Gun",
+      "description": "Digital battery torque gun rated from 627 to 3,688 ft-lb.",
+      "images": [
+        {
+          "src": "/battery-torque-gun.png",
+          "alt": "ToughTorq BT50-3600 digital battery torque gun",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "torqueMinFtLb": 627,
+        "torqueMaxFtLb": 3688,
+        "squareDriveIn": "1-1/2",
+        "maxSpeedRpm": 2.5,
+        "weightLb": 22,
+        "tighteningLooseningRepeatability": "<5%",
+        "control": "Digital torque and angle"
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "D",
+          "value": 4.06,
+          "unit": "in"
+        },
+        {
+          "key": "L",
+          "label": "L",
+          "value": 13.98,
+          "unit": "in"
+        },
+        {
+          "key": "K",
+          "label": "K",
+          "value": 9.65,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [
+        "Reaction arm",
+        "Battery pack",
+        "Battery charger",
+        "Transport case"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size.",
+        "Reaction equipment must be selected for the application and reaction point."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Digital Torque Gun table; BT naming mapped from KSBEW source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bt60-4400",
+      "model": "BT60-4400",
+      "displayName": "BT60-4400 Digital Battery Torque Gun",
+      "description": "Digital battery torque gun rated from 811 to 4,425 ft-lb.",
+      "images": [
+        {
+          "src": "/battery-torque-gun.png",
+          "alt": "ToughTorq BT60-4400 digital battery torque gun",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "torqueMinFtLb": 811,
+        "torqueMaxFtLb": 4425,
+        "squareDriveIn": "1-1/2",
+        "maxSpeedRpm": 1.8,
+        "weightLb": 26.5,
+        "tighteningLooseningRepeatability": "<5%",
+        "control": "Digital torque and angle"
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "D",
+          "value": 4.33,
+          "unit": "in"
+        },
+        {
+          "key": "L",
+          "label": "L",
+          "value": 15.75,
+          "unit": "in"
+        },
+        {
+          "key": "K",
+          "label": "K",
+          "value": 9.65,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [
+        "Reaction arm",
+        "Battery pack",
+        "Battery charger",
+        "Transport case"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size.",
+        "Reaction equipment must be selected for the application and reaction point."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Digital Torque Gun table; BT naming mapped from KSBEW source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bt80-6000",
+      "model": "BT80-6000",
+      "displayName": "BT80-6000 Digital Battery Torque Gun",
+      "description": "Digital battery torque gun rated from 1,401 to 5,900 ft-lb.",
+      "images": [
+        {
+          "src": "/battery-torque-gun.png",
+          "alt": "ToughTorq BT80-6000 digital battery torque gun",
+          "type": "product"
+        }
+      ],
+      "specifications": {
+        "torqueMinFtLb": 1401,
+        "torqueMaxFtLb": 5900,
+        "squareDriveIn": "1-1/2",
+        "maxSpeedRpm": 1.5,
+        "weightLb": 30.9,
+        "tighteningLooseningRepeatability": "<5%",
+        "control": "Digital torque and angle"
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "D",
+          "value": 4.53,
+          "unit": "in"
+        },
+        {
+          "key": "L",
+          "label": "L",
+          "value": 16.34,
+          "unit": "in"
+        },
+        {
+          "key": "K",
+          "label": "K",
+          "value": 9.65,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [
+        "Reaction arm",
+        "Battery pack",
+        "Battery charger",
+        "Transport case"
+      ],
+      "compatibility": [
+        "Use sockets matching the listed square-drive size.",
+        "Reaction equipment must be selected for the application and reaction point."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Digital Torque Gun table; BT naming mapped from KSBEW source series"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    }
+  ],
+  "operatingRequirements": [],
+  "accessories": [
+    "Reaction arms",
+    "Battery packs",
+    "Battery chargers",
+    "Sockets",
+    "Transport cases"
+  ],
+  "compatibility": [
+    "Match sockets to the listed square-drive size and fastener.",
+    "Select reaction equipment for the required torque and available reaction point."
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": true,
+  "calibrationApplicable": true,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "2026 ToughTorq Digital Torque Gun table",
+    "ToughTorq BT Series cutsheet"
+  ],
+  "lastVerifiedAt": "2026-10-05",
+  "catalogVersion": "2026.10"
+}
