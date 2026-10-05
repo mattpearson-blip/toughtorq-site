@@ -1,0 +1,1145 @@
+{
+  "id": "flange-tools",
+  "slug": "flange-tools",
+  "family": "Flange & Alignment Tools",
+  "displayName": "Flange & Alignment Tools",
+  "shortDescription": "Mechanical and hydraulic spreading, alignment, and lifting tools for industrial flange maintenance.",
+  "longDescription": "ToughTorq flange tools support controlled flange separation, alignment, lifting, gasket replacement, valve service, and shutdown maintenance. The range includes mechanical and hydraulic wedge spreaders, integral spreaders, mini-gap and zero-gap tools, alignment tools, and compact hydraulic lifting devices.",
+  "images": [],
+  "features": [
+    "Mechanical and hydraulic spreading options",
+    "Access-gap requirements as low as 2 mm",
+    "Zero-gap expanding-socket technology",
+    "Mechanical and hydraulic flange alignment",
+    "Portable integral hydraulic models",
+    "Controlled lifting and separation",
+    "Coverage for common industrial flange standards",
+    "Application-specific tool selection by gap, force, and geometry"
+  ],
+  "applications": [
+    "Pipeline maintenance",
+    "Refineries",
+    "Power generation",
+    "Chemical processing",
+    "Industrial plants",
+    "Valve replacement",
+    "Gasket replacement",
+    "Shutdowns and turnarounds"
+  ],
+  "models": [
+    {
+      "id": "fsm-8",
+      "model": "FSM-8",
+      "displayName": "FSM-8 Mechanical Flange Spreader",
+      "description": "Mechanical flange spreader requiring only a 6 mm access gap.",
+      "images": [],
+      "specifications": {
+        "series": "Flange Spreader",
+        "weightLb": 14.3,
+        "maxForceTons": 8,
+        "tipClearanceIn": 0.24,
+        "maxSpreadIn": 3.19,
+        "operationType": "Mechanical"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Flange Spreaders table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fsm-16",
+      "model": "FSM-16",
+      "displayName": "FSM-16 Dual Mechanical Flange Spreader Set",
+      "description": "Dual mechanical flange spreading set with combined 16 ton maximum force.",
+      "images": [],
+      "specifications": {
+        "series": "Flange Spreader",
+        "weightLb": 28.7,
+        "maxForceTons": 16,
+        "tipClearanceIn": 0.24,
+        "maxSpreadIn": 3.19,
+        "operationType": "Mechanical"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Flange Spreaders table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fsh-14",
+      "model": "FSH-14",
+      "displayName": "FSH-14 Hydraulic Flange Spreader",
+      "description": "Hydraulic flange spreader with 14 ton maximum force and 6 mm access gap.",
+      "images": [],
+      "specifications": {
+        "series": "Flange Spreader",
+        "weightLb": 15.4,
+        "maxWorkingPressurePsi": 10153,
+        "maxForceTons": 14,
+        "tipClearanceIn": 0.24,
+        "maxSpreadIn": 3.19,
+        "operationType": "Hydraulic",
+        "oilCapacityCm3": 78
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Flange Spreaders table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fsh-28",
+      "model": "FSH-28",
+      "displayName": "FSH-28 Dual Hydraulic Flange Spreader Set",
+      "description": "Dual hydraulic flange spreader set with combined 28 ton maximum force.",
+      "images": [],
+      "specifications": {
+        "series": "Flange Spreader",
+        "weightLb": 30.9,
+        "maxWorkingPressurePsi": 10153,
+        "maxForceTons": 28,
+        "tipClearanceIn": 0.24,
+        "maxSpreadIn": 3.19,
+        "operationType": "Hydraulic",
+        "oilCapacityCm3": 156
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Flange Spreaders table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fsc-15",
+      "model": "FSC-15",
+      "displayName": "FSC-15 Integral Hydraulic Flange Spreader",
+      "description": "Portable integral hydraulic flange spreader that does not require an external hose and pump.",
+      "images": [],
+      "specifications": {
+        "series": "Integral Hydraulic Flange Spreader",
+        "weightLb": 22,
+        "maxWorkingPressurePsi": 10153,
+        "maxForceTons": 15,
+        "tipClearanceIn": 0.24,
+        "maxSpreadIn": 3.19,
+        "operationType": "Integral hydraulic",
+        "oilCapacityCm3": 78
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon 15 ton Integral Hydraulic Flange Spreader table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fsw14tm",
+      "model": "FSW14TM",
+      "displayName": "FSW14TM Mechanical Flange Spreader",
+      "description": "14 ton mechanical flange spreader with removable handle and increased step depth.",
+      "images": [],
+      "specifications": {
+        "series": "Mechanical Flange Spreader",
+        "weightLb": 28.7,
+        "maxForceTons": 14,
+        "tipClearanceIn": 0.24,
+        "maxSpreadIn": 4.07,
+        "operationType": "Mechanical",
+        "jawWidthIn": 2.36
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon 14 ton Mechanical Flange Spreader table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fsw25te",
+      "model": "FSW25TE",
+      "displayName": "FSW25TE External Hydraulic Flange Spreader",
+      "description": "24 ton external hydraulic flange spreader requiring a 6 mm access gap.",
+      "images": [],
+      "specifications": {
+        "series": "External Hydraulic Flange Spreader",
+        "weightLb": 33.1,
+        "maxWorkingPressurePsi": 10153,
+        "maxForceTons": 24,
+        "tipClearanceIn": 0.24,
+        "maxSpreadIn": 4.07,
+        "operationType": "Hydraulic",
+        "jawWidthIn": 2.36
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon 24 ton External Hydraulic Flange Spreader table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fsw25ti",
+      "model": "FSW25TI",
+      "displayName": "FSW25TI Integral Hydraulic Flange Spreader",
+      "description": "24 ton integral hydraulic flange spreader with self-contained hydraulic operation.",
+      "images": [],
+      "specifications": {
+        "series": "Integral Hydraulic Flange Spreader",
+        "weightLb": 30.9,
+        "maxWorkingPressurePsi": 10153,
+        "maxForceTons": 24,
+        "tipClearanceIn": 0.24,
+        "maxSpreadIn": 4.07,
+        "operationType": "Integral hydraulic",
+        "jawWidthIn": 2.36
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon 24 ton Integral Hydraulic Flange Spreader table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "wr-5",
+      "model": "WR-5",
+      "displayName": "WR-5 Hydraulic Spreader",
+      "description": "Compact hydraulic spreader for very confined work areas.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Spreader",
+        "weightLb": 5.1,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 1,
+        "tipClearanceIn": 0.35,
+        "maxSpreadIn": 3.7,
+        "oilCapacityCm3": 10
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Spreader table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "wr-15",
+      "model": "WR-15",
+      "displayName": "WR-15 Long-Stroke Hydraulic Spreader",
+      "description": "Long-stroke hydraulic spreader for applications requiring extended separation.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Spreader",
+        "weightLb": 24.9,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 0.75,
+        "tipClearanceIn": 1.26,
+        "maxSpreadIn": 11.5,
+        "oilCapacityCm3": 64.1
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Spreader table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "wr-13",
+      "model": "WR-13",
+      "displayName": "WR-13 Integral Hydraulic Spreader",
+      "description": "Portable hydraulic spreader with integrated pump.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Spreader",
+        "weightLb": 26.5,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 1.5,
+        "tipClearanceIn": 0.98,
+        "maxSpreadIn": 3.7,
+        "integratedPump": true
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Spreader table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fs-56",
+      "model": "FS-56",
+      "displayName": "FS-56 Hydraulic Flange Spreader",
+      "description": "5 ton hydraulic flange spreader for 19–28 mm stud applications.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Flange Spreader",
+        "weightLb": 25.4,
+        "maxWorkingPressurePsi": 10153,
+        "studSizeMm": "19–28",
+        "capacityTons": 5,
+        "oilCapacityCm3": 24.6,
+        "strokeIn": 1.5,
+        "standardWedgeMm": "3–28"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 2.99,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 8.23,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Flange Spreader table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fs-109",
+      "model": "FS-109",
+      "displayName": "FS-109 Hydraulic Flange Spreader",
+      "description": "10 ton hydraulic flange spreader for 31–41 mm stud applications.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Flange Spreader",
+        "weightLb": 39.7,
+        "maxWorkingPressurePsi": 10153,
+        "studSizeMm": "31–41",
+        "capacityTons": 10,
+        "oilCapacityCm3": 78.7,
+        "strokeIn": 2.13,
+        "standardWedgeMm": "3–28"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 4.25,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 10.98,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Flange Spreader table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "lw-16",
+      "model": "LW-16",
+      "displayName": "LW-16 Hydraulic Lifting Device",
+      "description": "16 ton vertical lifting device for restricted spaces with 10 mm minimum installation width.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Lifting Device",
+        "weightLb": 19.8,
+        "maxWorkingPressurePsi": 10153,
+        "maxLiftingCapacityTons": 16,
+        "minWidthIn": 0.39,
+        "strokeIn": 0.83,
+        "maxSpreadIn": 3.19,
+        "oilCapacityCm3": 78
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Lifting Device table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ms7tm",
+      "model": "MS7TM",
+      "displayName": "MS7TM Mini-Gap Flange Spreader",
+      "description": "Mechanical mini-gap flange spreader requiring only a 2 mm tip clearance.",
+      "images": [],
+      "specifications": {
+        "series": "Mini-Gap Flange Spreader",
+        "weightLb": 26.5,
+        "capacityTons": 6.8,
+        "spreadRangeIn": "0.08–1.06",
+        "operationType": "Mechanical"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Mini-gap Flange Spreader table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fa1tm",
+      "model": "FA1TM",
+      "displayName": "FA1TM Mechanical Flange Alignment Tool",
+      "description": "Mechanical flange alignment tool for smaller flange bolt-hole applications.",
+      "images": [],
+      "specifications": {
+        "series": "Flange Alignment Tool",
+        "weightLb": 6.6,
+        "capacityTons": 1,
+        "capacityKn": 10,
+        "operationType": "Mechanical",
+        "minBoltSizeIn": 0.63,
+        "minBoltSizeMm": 16,
+        "flangeThicknessIn": "0.55–3.29",
+        "flangeThicknessMm": "14–82",
+        "maxReactionForceTons": 1,
+        "minBoltHoleMm": 16
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Flange Alignment Tool table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fa4tm",
+      "model": "FA4TM",
+      "displayName": "FA4TM Mechanical Flange Alignment Tool",
+      "description": "4 ton mechanical flange alignment tool for medium flange bolt-hole applications.",
+      "images": [],
+      "specifications": {
+        "series": "Flange Alignment Tool",
+        "weightLb": 19.8,
+        "capacityTons": 4,
+        "capacityKn": 40,
+        "operationType": "Mechanical",
+        "minBoltSizeIn": 0.95,
+        "minBoltSizeMm": 24,
+        "flangeThicknessIn": "1.18–5.23",
+        "flangeThicknessMm": "30–133",
+        "maxReactionForceTons": 4,
+        "minBoltHoleMm": 25
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Flange Alignment Tool table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fa9tm",
+      "model": "FA9TM",
+      "displayName": "FA9TM Mechanical Flange Alignment Tool",
+      "description": "9 ton mechanical flange alignment tool for large high-pressure flange applications.",
+      "images": [],
+      "specifications": {
+        "series": "Flange Alignment Tool",
+        "weightLb": 35.3,
+        "capacityTons": 9,
+        "capacityKn": 90,
+        "operationType": "Mechanical",
+        "minBoltSizeIn": 1.24,
+        "minBoltSizeMm": 31.5,
+        "flangeThicknessIn": "3.66–9.00",
+        "flangeThicknessMm": "93–228",
+        "maxReactionForceTons": 9,
+        "minBoltHoleMm": 31.5
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Flange Alignment Tool table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fa9te",
+      "model": "FA9TE",
+      "displayName": "FA9TE Hydraulic Flange Alignment Tool",
+      "description": "9 ton hydraulic flange alignment tool for large high-pressure flange applications.",
+      "images": [],
+      "specifications": {
+        "series": "Flange Alignment Tool",
+        "weightLb": 35.3,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 9,
+        "capacityKn": 90,
+        "operationType": "Hydraulic",
+        "minBoltSizeIn": 1.24,
+        "minBoltSizeMm": 31.5,
+        "flangeThicknessIn": "3.66–9.00",
+        "flangeThicknessMm": "93–228",
+        "maxReactionForceTons": 9,
+        "minBoltHoleMm": 31.5
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Flange Alignment Tool table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt-zg13te",
+      "model": "TT-ZG13TE",
+      "displayName": "TT-ZG13TE Zero-Gap Hydraulic Flange Spreader",
+      "description": "13 ton zero-gap hydraulic flange spreader using expanding-socket technology for little or no initial access gap.",
+      "images": [],
+      "specifications": {
+        "series": "Zero-Gap Hydraulic Flange Spreader",
+        "weightLb": 88.2,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 13,
+        "separatingDistanceIn": 4.53,
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Zero-Gap Hydraulic Flange Spreader table; KS-ZG source prefix mapped to ToughTorq TT-ZG naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt-zg15te",
+      "model": "TT-ZG15TE",
+      "displayName": "TT-ZG15TE Zero-Gap Hydraulic Flange Spreader",
+      "description": "15 ton zero-gap hydraulic flange spreader for ANSI/DIN/SPO/ASME/API and BS flange applications.",
+      "images": [],
+      "specifications": {
+        "series": "Zero-Gap Hydraulic Flange Spreader",
+        "weightLb": 99.2,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 15,
+        "separatingDistanceIn": 3.94,
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Safety blocks",
+        "Hydraulic pump and hose where applicable",
+        "Application-specific flange accessories"
+      ],
+      "compatibility": [
+        "Tool selection must match flange geometry, access gap, required force, and available working clearance.",
+        "Hydraulic models require pressure-rated pumps, hoses, and couplers appropriate for the tool."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Zero-Gap Hydraulic Flange Spreader table; KS-ZG source prefix mapped to ToughTorq TT-ZG naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    }
+  ],
+  "operatingRequirements": [
+    {
+      "key": "selection",
+      "label": "Tool Selection",
+      "value": "Match flange size, access gap, required spreading or alignment force, bolt-hole geometry, flange thickness, and available clearance"
+    },
+    {
+      "key": "hydraulicSystem",
+      "label": "Hydraulic Models",
+      "value": "Use compatible 700 bar / 10,000 psi pumps, hoses, and couplers where external hydraulic power is required"
+    }
+  ],
+  "accessories": [
+    "Hydraulic pumps",
+    "Hydraulic hoses",
+    "Quick couplers",
+    "Safety blocks",
+    "Application-specific flange accessories"
+  ],
+  "compatibility": [
+    "Insertion gap and flange geometry must fall within the selected tool's published working range.",
+    "Hydraulic power components must match the tool pressure rating and connection interface.",
+    "Alignment tools must match bolt-hole diameter, flange thickness, and required reaction force."
+  ],
+  "componentGroups": [
+    {
+      "id": "flange-spreaders",
+      "group": "Flange Tool Family",
+      "displayName": "Flange Spreader",
+      "description": "Mechanical and hydraulic wedge spreaders for controlled flange separation.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon flange tools catalog pages 36–38"
+      ]
+    },
+    {
+      "id": "integral-spreaders",
+      "group": "Flange Tool Family",
+      "displayName": "Integral Hydraulic Flange Spreader",
+      "description": "Self-contained hydraulic spreaders that do not require an external pump and hose.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon flange tools catalog pages 36–38"
+      ]
+    },
+    {
+      "id": "hydraulic-spreader",
+      "group": "Flange Tool Family",
+      "displayName": "Hydraulic Spreader",
+      "description": "Compact single-acting spreaders for confined and long-stroke separation work.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon flange tools catalog pages 36–38"
+      ]
+    },
+    {
+      "id": "hydraulic-flange",
+      "group": "Flange Tool Family",
+      "displayName": "Hydraulic Flange Spreader",
+      "description": "Adjustable hydraulic flange spreaders for a range of stud and flange sizes.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon flange tools catalog pages 36–38"
+      ]
+    },
+    {
+      "id": "lifting-device",
+      "group": "Flange Tool Family",
+      "displayName": "Hydraulic Lifting Device",
+      "description": "Compact vertical hydraulic lifting tool for restricted access.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon flange tools catalog pages 36–38"
+      ]
+    },
+    {
+      "id": "mini-gap",
+      "group": "Flange Tool Family",
+      "displayName": "Mini-Gap Flange Spreader",
+      "description": "2 mm tip-clearance spreading for restricted flange gaps.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon flange tools catalog pages 36–38"
+      ]
+    },
+    {
+      "id": "alignment",
+      "group": "Flange Tool Family",
+      "displayName": "Flange Alignment Tool",
+      "description": "Mechanical and hydraulic tools for linear and rotational flange alignment.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon flange tools catalog pages 36–38"
+      ]
+    },
+    {
+      "id": "zero-gap",
+      "group": "Flange Tool Family",
+      "displayName": "Zero-Gap Hydraulic Flange Spreader",
+      "description": "Expanding-socket hydraulic spreaders for little or no initial flange gap.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon flange tools catalog pages 36–38"
+      ]
+    }
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": true,
+  "calibrationApplicable": false,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "ToughTorq/Kashon flange tools catalog pages 36–38",
+    "2026 ToughTorq flange tools tables"
+  ],
+  "lastVerifiedAt": "2026-10-05",
+  "catalogVersion": "2026.10"
+}
