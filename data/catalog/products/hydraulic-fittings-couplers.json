@@ -1,0 +1,2302 @@
+{
+  "id": "hydraulic-fittings-couplers",
+  "slug": "hydraulic-fittings-couplers",
+  "family": "Hydraulic Fittings & Couplers",
+  "displayName": "Hydraulic Fittings, Couplers & Controls",
+  "shortDescription": "Couplers, manifolds, fittings, gauges, gauge adaptors, and control valves for ToughTorq hydraulic systems.",
+  "longDescription": "ToughTorq hydraulic connection components provide pressure-rated interfaces between pumps, hoses, tools, cylinders, tensioning systems, gauges, and multi-tool circuits. The range includes 700 bar quick couplers, ultra-high-pressure couplers, oil manifolds, hydraulic fittings, pressure gauges, gauge adaptors, and hydraulic control valves.",
+  "images": [],
+  "features": [
+    "700 bar standard quick-connect couplers",
+    "150 MPa and 250 MPa ultra-high-pressure couplers",
+    "2- to 10-outlet oil manifolds",
+    "NPT and G-thread hydraulic fittings and adaptors",
+    "Dual-scale hydraulic pressure gauges",
+    "Gauge adaptors for in-line monitoring",
+    "Flow-control and load-holding valves",
+    "System-specific connection and pressure matching"
+  ],
+  "applications": [
+    "Hydraulic torque systems",
+    "Cylinder systems",
+    "Bolt tensioning",
+    "Hydraulic nuts",
+    "Multi-tool lifting",
+    "Pressure monitoring",
+    "Flow control",
+    "Hydraulic maintenance"
+  ],
+  "models": [
+    {
+      "id": "ka-npt3-8",
+      "model": "KA-NPT3/8\"",
+      "displayName": "KA-NPT3/8\" Quick Coupler Set",
+      "description": "700 bar quick-connect coupler set with NPT 3/8\" thread and 35 L/min maximum flow.",
+      "images": [],
+      "specifications": {
+        "series": "700 Bar Quick Coupler",
+        "malePart": "CH-604",
+        "femalePart": "CR-400",
+        "thread": "NPT 3/8\"",
+        "maxFlowLMin": 35,
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Dust cap"
+      ],
+      "compatibility": [
+        "Published for ToughTorq 700 bar hydraulic cylinders, flange tools, pullers, pumps, hoses, and other compatible hydraulic tools."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Quick Couplers table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ka-npt1-4",
+      "model": "KA-NPT1/4\"",
+      "displayName": "KA-NPT1/4\" Quick Coupler Set",
+      "description": "700 bar quick-connect coupler set with NPT 1/4\" thread and 7.6 L/min maximum flow.",
+      "images": [],
+      "specifications": {
+        "series": "700 Bar Quick Coupler",
+        "malePart": "AH-603",
+        "femalePart": "AR-603",
+        "thread": "NPT 1/4\"",
+        "maxFlowLMin": 7.6,
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Dust cap"
+      ],
+      "compatibility": [
+        "Published for compatible 700 bar hydraulic systems requiring NPT 1/4-inch connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Quick Couplers table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ksyj-150",
+      "model": "KSYJ-150",
+      "displayName": "KSYJ-150 Ultra-High-Pressure Coupler Set",
+      "description": "Ultra-high-pressure G1/4 coupler set rated to 150 MPa.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Coupler",
+        "malePart": "YJA-150",
+        "femalePart": "YJC-150",
+        "thread": "G1/4\"",
+        "maxWorkingPressureMpa": 150,
+        "maxWorkingPressureBar": 1500,
+        "maxWorkingPressurePsi": 21756
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Dust cap"
+      ],
+      "compatibility": [
+        "Intended for compatible bolt tensioners, hydraulic nuts, ultra-high-pressure cylinders, pumps, hoses, and fittings with G1/4 connections."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Couplers table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ksyj-250",
+      "model": "KSYJ-250",
+      "displayName": "KSYJ-250 Ultra-High-Pressure Coupler Set",
+      "description": "Ultra-high-pressure G1/4 coupler set rated to 250 MPa.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Coupler",
+        "malePart": "YJA-250",
+        "femalePart": "YJC-250",
+        "thread": "G1/4\"",
+        "maxWorkingPressureMpa": 250,
+        "maxWorkingPressureBar": 2500,
+        "maxWorkingPressurePsi": 36259
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 36259,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Dust cap"
+      ],
+      "compatibility": [
+        "Intended for compatible bolt tensioners, hydraulic nuts, ultra-high-pressure cylinders, pumps, hoses, and fittings with G1/4 connections."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Couplers table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ksa-2",
+      "model": "KSA-2",
+      "displayName": "KSA-2 2-Outlet Oil Manifold",
+      "description": "700 bar hydraulic oil manifold with 2 outlets and NPT 3/8-inch ports.",
+      "images": [],
+      "specifications": {
+        "series": "Oil Manifold",
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153,
+        "outlets": 2,
+        "thread": "NPT 3/8\""
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [],
+      "compatibility": [
+        "Used to distribute one hydraulic pump output to multiple compatible hydraulic cylinders or tools.",
+        "All connected tools and hoses must be matched for pressure, flow, and operating sequence."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Oil Manifolds table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ksa-4",
+      "model": "KSA-4",
+      "displayName": "KSA-4 4-Outlet Oil Manifold",
+      "description": "700 bar hydraulic oil manifold with 4 outlets and NPT 3/8-inch ports.",
+      "images": [],
+      "specifications": {
+        "series": "Oil Manifold",
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153,
+        "outlets": 4,
+        "thread": "NPT 3/8\""
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [],
+      "compatibility": [
+        "Used to distribute one hydraulic pump output to multiple compatible hydraulic cylinders or tools.",
+        "All connected tools and hoses must be matched for pressure, flow, and operating sequence."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Oil Manifolds table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ksa-6",
+      "model": "KSA-6",
+      "displayName": "KSA-6 6-Outlet Oil Manifold",
+      "description": "700 bar hydraulic oil manifold with 6 outlets and NPT 3/8-inch ports.",
+      "images": [],
+      "specifications": {
+        "series": "Oil Manifold",
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153,
+        "outlets": 6,
+        "thread": "NPT 3/8\""
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [],
+      "compatibility": [
+        "Used to distribute one hydraulic pump output to multiple compatible hydraulic cylinders or tools.",
+        "All connected tools and hoses must be matched for pressure, flow, and operating sequence."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Oil Manifolds table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ksa-8",
+      "model": "KSA-8",
+      "displayName": "KSA-8 8-Outlet Oil Manifold",
+      "description": "700 bar hydraulic oil manifold with 8 outlets and NPT 3/8-inch ports.",
+      "images": [],
+      "specifications": {
+        "series": "Oil Manifold",
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153,
+        "outlets": 8,
+        "thread": "NPT 3/8\""
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [],
+      "compatibility": [
+        "Used to distribute one hydraulic pump output to multiple compatible hydraulic cylinders or tools.",
+        "All connected tools and hoses must be matched for pressure, flow, and operating sequence."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Oil Manifolds table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ksa-10",
+      "model": "KSA-10",
+      "displayName": "KSA-10 10-Outlet Oil Manifold",
+      "description": "700 bar hydraulic oil manifold with 10 outlets and NPT 3/8-inch ports.",
+      "images": [],
+      "specifications": {
+        "series": "Oil Manifold",
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153,
+        "outlets": 10,
+        "thread": "NPT 3/8\""
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [],
+      "compatibility": [
+        "Used to distribute one hydraulic pump output to multiple compatible hydraulic cylinders or tools.",
+        "All connected tools and hoses must be matched for pressure, flow, and operating sequence."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Oil Manifolds table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ksa-21",
+      "model": "KSA-21",
+      "displayName": "KSA-21 2-Outlet Oil Manifold",
+      "description": "700 bar hydraulic oil manifold with 2 outlets and NPT 3/8-inch ports.",
+      "images": [],
+      "specifications": {
+        "series": "Oil Manifold",
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153,
+        "outlets": 2,
+        "thread": "NPT 3/8\""
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [],
+      "compatibility": [
+        "Used to distribute one hydraulic pump output to multiple compatible hydraulic cylinders or tools.",
+        "All connected tools and hoses must be matched for pressure, flow, and operating sequence."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Oil Manifolds table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ksa-41",
+      "model": "KSA-41",
+      "displayName": "KSA-41 4-Outlet Oil Manifold",
+      "description": "700 bar hydraulic oil manifold with 4 outlets and NPT 3/8-inch ports.",
+      "images": [],
+      "specifications": {
+        "series": "Oil Manifold",
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153,
+        "outlets": 4,
+        "thread": "NPT 3/8\""
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [],
+      "compatibility": [
+        "Used to distribute one hydraulic pump output to multiple compatible hydraulic cylinders or tools.",
+        "All connected tools and hoses must be matched for pressure, flow, and operating sequence."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Oil Manifolds table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1616",
+      "model": "FZ-1616",
+      "displayName": "FZ-1616 Street Elbow",
+      "description": "Street Elbow connecting 3/8\" NPT Male to 3/8\" NPT Female.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Street Elbow",
+        "fromConnection": "3/8\" NPT Male",
+        "toConnection": "3/8\" NPT Female"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 0.91,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 1.3,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1615",
+      "model": "FZ-1615",
+      "displayName": "FZ-1615 Reducing Connector",
+      "description": "Reducing Connector connecting 3/8\" NPT Female to 1/4\" NPT Female.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Reducing Connector",
+        "fromConnection": "3/8\" NPT Female",
+        "toConnection": "1/4\" NPT Female"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.1,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.98,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1625",
+      "model": "FZ-1625",
+      "displayName": "FZ-1625 Reducing Connector",
+      "description": "Reducing Connector connecting 1/2\" NPT Female to 3/8\" NPT Female.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Reducing Connector",
+        "fromConnection": "1/2\" NPT Female",
+        "toConnection": "3/8\" NPT Female"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.85,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 1.14,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1608",
+      "model": "FZ-1608",
+      "displayName": "FZ-1608 Hexagon Nipple",
+      "description": "Hexagon Nipple connecting 1/4\" NPT to 1/4\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Hexagon Nipple",
+        "fromConnection": "1/4\" NPT",
+        "toConnection": "1/4\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.63,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1619",
+      "model": "FZ-1619",
+      "displayName": "FZ-1619 Hexagon Nipple",
+      "description": "Hexagon Nipple connecting 3/8\" NPT to 3/8\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Hexagon Nipple",
+        "fromConnection": "3/8\" NPT",
+        "toConnection": "3/8\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 2.01,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.75,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1617",
+      "model": "FZ-1617",
+      "displayName": "FZ-1617 Hexagon Nipple",
+      "description": "Hexagon Nipple connecting 3/8\" NPT to 3/8\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Hexagon Nipple",
+        "fromConnection": "3/8\" NPT",
+        "toConnection": "3/8\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.46,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.75,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1614",
+      "model": "FZ-1614",
+      "displayName": "FZ-1614 Coupling",
+      "description": "Coupling connecting 3/8\" NPT to 3/8\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Coupling",
+        "fromConnection": "3/8\" NPT",
+        "toConnection": "3/8\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.14,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.91,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1605",
+      "model": "FZ-1605",
+      "displayName": "FZ-1605 Coupling",
+      "description": "Coupling connecting 1/4\" NPT to 1/4\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Coupling",
+        "fromConnection": "1/4\" NPT",
+        "toConnection": "1/4\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.14,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.75,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1613",
+      "model": "FZ-1613",
+      "displayName": "FZ-1613 Cross",
+      "description": "Cross connecting 3/8\" NPT Male to 3/8\" NPT Female.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Cross",
+        "fromConnection": "3/8\" NPT Male",
+        "toConnection": "3/8\" NPT Female"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.77,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.98,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1612",
+      "model": "FZ-1612",
+      "displayName": "FZ-1612 Tee",
+      "description": "Tee connecting 3/8\" NPT to 3/8\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Tee",
+        "fromConnection": "3/8\" NPT",
+        "toConnection": "3/8\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.77,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.98,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1637",
+      "model": "FZ-1637",
+      "displayName": "FZ-1637 Tee",
+      "description": "Tee connecting 1/4\" NPT to 1/4\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Tee",
+        "fromConnection": "1/4\" NPT",
+        "toConnection": "1/4\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.77,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.94,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-16312",
+      "model": "FZ-16312",
+      "displayName": "FZ-16312 Tee",
+      "description": "Tee connecting 3/8\" NPT to 3/8\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Tee",
+        "fromConnection": "3/8\" NPT",
+        "toConnection": "3/8\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 2.24,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.98,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1610",
+      "model": "FZ-1610",
+      "displayName": "FZ-1610 Elbow",
+      "description": "Elbow connecting 3/8\" NPT to 3/8\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Elbow",
+        "fromConnection": "3/8\" NPT",
+        "toConnection": "3/8\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.3,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.79,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1638",
+      "model": "FZ-1638",
+      "displayName": "FZ-1638 Elbow",
+      "description": "Elbow connecting 1/4\" NPT to 1/4\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Elbow",
+        "fromConnection": "1/4\" NPT",
+        "toConnection": "1/4\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.42,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.94,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1630",
+      "model": "FZ-1630",
+      "displayName": "FZ-1630 Reducer",
+      "description": "Reducer connecting 3/8\" NPT to 1/4\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Reducer",
+        "fromConnection": "3/8\" NPT",
+        "toConnection": "1/4\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 0.75,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.75,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bfz-1630",
+      "model": "BFZ-1630",
+      "displayName": "BFZ-1630 Reducer",
+      "description": "Reducer connecting 1/4\" NPT to 1/2\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Reducer",
+        "fromConnection": "1/4\" NPT",
+        "toConnection": "1/2\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.1,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.87,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bfz-16301",
+      "model": "BFZ-16301",
+      "displayName": "BFZ-16301 Reducer",
+      "description": "Reducer connecting 3/8\" NPT to G1/4\".",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Reducer",
+        "fromConnection": "3/8\" NPT",
+        "toConnection": "G1/4\""
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 0.75,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.75,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bfz-16411",
+      "model": "BFZ-16411",
+      "displayName": "BFZ-16411 Adaptor",
+      "description": "Adaptor connecting G1/4\" to 1/4\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Adaptor",
+        "fromConnection": "G1/4\"",
+        "toConnection": "1/4\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.38,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.75,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bfz-16421",
+      "model": "BFZ-16421",
+      "displayName": "BFZ-16421 Adaptor",
+      "description": "Adaptor connecting G1/4\" to 1/8\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Adaptor",
+        "fromConnection": "G1/4\"",
+        "toConnection": "1/8\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.22,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.75,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bfz-16323",
+      "model": "BFZ-16323",
+      "displayName": "BFZ-16323 Adaptor",
+      "description": "Adaptor connecting G3/8\" to 1/8\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Adaptor",
+        "fromConnection": "G3/8\"",
+        "toConnection": "1/8\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.69,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.94,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bfz-16324",
+      "model": "BFZ-16324",
+      "displayName": "BFZ-16324 Adaptor",
+      "description": "Adaptor connecting G3/8\" to 3/8\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Adaptor",
+        "fromConnection": "G3/8\"",
+        "toConnection": "3/8\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.69,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.94,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bfz-16322",
+      "model": "BFZ-16322",
+      "displayName": "BFZ-16322 Adaptor",
+      "description": "Adaptor connecting M14x1.5 to 3/8\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Adaptor",
+        "fromConnection": "M14x1.5",
+        "toConnection": "3/8\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.85,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.94,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1055",
+      "model": "FZ-1055",
+      "displayName": "FZ-1055 Adaptor",
+      "description": "Adaptor connecting 1/4\" NPT to 3/8\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Adaptor",
+        "fromConnection": "1/4\" NPT",
+        "toConnection": "3/8\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.73,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.91,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1642",
+      "model": "FZ-1642",
+      "displayName": "FZ-1642 Adaptor",
+      "description": "Adaptor connecting 1/4\" NPT to 1/8\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Adaptor",
+        "fromConnection": "1/4\" NPT",
+        "toConnection": "1/8\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.18,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 0.75,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "fz-1634",
+      "model": "FZ-1634",
+      "displayName": "FZ-1634 Adaptor",
+      "description": "Adaptor connecting 1/2\" NPT to 3/8\" NPT.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Fitting",
+        "productName": "Adaptor",
+        "fromConnection": "1/2\" NPT",
+        "toConnection": "3/8\" NPT"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 1.65,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 1.1,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select fitting type and thread by the exact pump, hose, gauge, manifold, valve, or tool connection."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Fittings table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "kn-63-70",
+      "model": "KN-63-70",
+      "displayName": "KN-63-70 Hydraulic Pressure Gauge",
+      "description": "Dual-scale hydraulic pressure gauge with 63 mm dial and 70 MPa working-pressure range.",
+      "images": [],
+      "specifications": {
+        "series": "Pressure Gauge",
+        "workingPressureRangeMpa": "0–70",
+        "measuringRangeMpa": "0–100",
+        "dialDiameterMm": 63,
+        "interfaceThread": "NPT 1/4"
+      },
+      "dimensions": [
+        {
+          "key": "dial",
+          "label": "Dial Diameter",
+          "value": 2.48,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select gauge measuring range and interface thread to match the hydraulic system and adaptor."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Pressure Gauge table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "kn-100-70",
+      "model": "KN-100-70",
+      "displayName": "KN-100-70 Hydraulic Pressure Gauge",
+      "description": "Dual-scale hydraulic pressure gauge with 100 mm dial and 70 MPa working-pressure range.",
+      "images": [],
+      "specifications": {
+        "series": "Pressure Gauge",
+        "workingPressureRangeMpa": "0–70",
+        "measuringRangeMpa": "0–100",
+        "dialDiameterMm": 100,
+        "interfaceThread": "G1/2"
+      },
+      "dimensions": [
+        {
+          "key": "dial",
+          "label": "Dial Diameter",
+          "value": 3.94,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select gauge measuring range and interface thread to match the hydraulic system and adaptor."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Pressure Gauge table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "kn-100-150",
+      "model": "KN-100-150",
+      "displayName": "KN-100-150 Hydraulic Pressure Gauge",
+      "description": "Dual-scale hydraulic pressure gauge with 100 mm dial and 150 MPa working-pressure range.",
+      "images": [],
+      "specifications": {
+        "series": "Pressure Gauge",
+        "workingPressureRangeMpa": "0–150",
+        "measuringRangeMpa": "0–200",
+        "dialDiameterMm": 100,
+        "interfaceThread": "G1/2"
+      },
+      "dimensions": [
+        {
+          "key": "dial",
+          "label": "Dial Diameter",
+          "value": 3.94,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select gauge measuring range and interface thread to match the hydraulic system and adaptor."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Pressure Gauge table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "kn-100-160",
+      "model": "KN-100-160",
+      "displayName": "KN-100-160 Hydraulic Pressure Gauge",
+      "description": "Dual-scale hydraulic pressure gauge with 100 mm dial and 160 MPa working-pressure range.",
+      "images": [],
+      "specifications": {
+        "series": "Pressure Gauge",
+        "workingPressureRangeMpa": "0–160",
+        "measuringRangeMpa": "0–200",
+        "dialDiameterMm": 100,
+        "interfaceThread": "G1/2"
+      },
+      "dimensions": [
+        {
+          "key": "dial",
+          "label": "Dial Diameter",
+          "value": 3.94,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select gauge measuring range and interface thread to match the hydraulic system and adaptor."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Pressure Gauge table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "kn-100-180",
+      "model": "KN-100-180",
+      "displayName": "KN-100-180 Hydraulic Pressure Gauge",
+      "description": "Dual-scale hydraulic pressure gauge with 100 mm dial and 180 MPa working-pressure range.",
+      "images": [],
+      "specifications": {
+        "series": "Pressure Gauge",
+        "workingPressureRangeMpa": "0–180",
+        "measuringRangeMpa": "0–200",
+        "dialDiameterMm": 100,
+        "interfaceThread": "G1/2"
+      },
+      "dimensions": [
+        {
+          "key": "dial",
+          "label": "Dial Diameter",
+          "value": 3.94,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select gauge measuring range and interface thread to match the hydraulic system and adaptor."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Pressure Gauge table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "kn-100-200",
+      "model": "KN-100-200",
+      "displayName": "KN-100-200 Hydraulic Pressure Gauge",
+      "description": "Dual-scale hydraulic pressure gauge with 100 mm dial and 200 MPa working-pressure range.",
+      "images": [],
+      "specifications": {
+        "series": "Pressure Gauge",
+        "workingPressureRangeMpa": "0–200",
+        "measuringRangeMpa": "0–200",
+        "dialDiameterMm": 100,
+        "interfaceThread": "G1/2"
+      },
+      "dimensions": [
+        {
+          "key": "dial",
+          "label": "Dial Diameter",
+          "value": 3.94,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select gauge measuring range and interface thread to match the hydraulic system and adaptor."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Pressure Gauge table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "kn-100-250",
+      "model": "KN-100-250",
+      "displayName": "KN-100-250 Hydraulic Pressure Gauge",
+      "description": "Dual-scale hydraulic pressure gauge with 100 mm dial and 250 MPa working-pressure range.",
+      "images": [],
+      "specifications": {
+        "series": "Pressure Gauge",
+        "workingPressureRangeMpa": "0–250",
+        "measuringRangeMpa": "0–250",
+        "dialDiameterMm": 100,
+        "interfaceThread": "G1/2"
+      },
+      "dimensions": [
+        {
+          "key": "dial",
+          "label": "Dial Diameter",
+          "value": 3.94,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select gauge measuring range and interface thread to match the hydraulic system and adaptor."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Pressure Gauge table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "kn-100-300",
+      "model": "KN-100-300",
+      "displayName": "KN-100-300 Hydraulic Pressure Gauge",
+      "description": "Dual-scale hydraulic pressure gauge with 100 mm dial and 300 MPa working-pressure range.",
+      "images": [],
+      "specifications": {
+        "series": "Pressure Gauge",
+        "workingPressureRangeMpa": "0–300",
+        "measuringRangeMpa": "0–350",
+        "dialDiameterMm": 100,
+        "interfaceThread": "G1/2"
+      },
+      "dimensions": [
+        {
+          "key": "dial",
+          "label": "Dial Diameter",
+          "value": 3.94,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Select gauge measuring range and interface thread to match the hydraulic system and adaptor."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Pressure Gauge table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ga-2",
+      "model": "GA-2",
+      "displayName": "GA-2 Gauge Adaptor",
+      "description": "Gauge adaptor with 1/2\" NPTF gauge connection and 3/8-inch NPTF hydraulic connections.",
+      "images": [],
+      "specifications": {
+        "series": "Gauge Adaptor",
+        "gaugeConnectorThread": "1/2\" NPTF",
+        "maleEndThread": "3/8\" NPTF",
+        "femaleEndThread": "3/8\" NPTF"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Male end connects to cylinder, pump station, or hydraulic tool; female end connects to hose/quick coupling; gauge port accepts the pressure gauge."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Gauge Adaptor table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ga-3",
+      "model": "GA-3",
+      "displayName": "GA-3 Gauge Adaptor",
+      "description": "Gauge adaptor with 1/4\" NPTF gauge connection and 3/8-inch NPTF hydraulic connections.",
+      "images": [],
+      "specifications": {
+        "series": "Gauge Adaptor",
+        "gaugeConnectorThread": "1/4\" NPTF",
+        "maleEndThread": "3/8\" NPTF",
+        "femaleEndThread": "3/8\" NPTF"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Male end connects to cylinder, pump station, or hydraulic tool; female end connects to hose/quick coupling; gauge port accepts the pressure gauge."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Gauge Adaptor table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "v-82",
+      "model": "V-82",
+      "displayName": "V-82 Needle Valve",
+      "description": "Cylinder speed control and temporary shut-off/load holding.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Control Valve",
+        "productName": "Needle Valve",
+        "portThread": "NPT 3/8\" female"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Valve function, port thread, acting type, flow direction, and load-holding requirement must match the hydraulic circuit."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Control Valve table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "v-182",
+      "model": "V-182",
+      "displayName": "V-182 Needle Valve",
+      "description": "Same operating concept as V-82 with NPT 1/4-inch female ports; also suitable for gauge subbing.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Control Valve",
+        "productName": "Needle Valve",
+        "portThread": "NPT 1/4\" female"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Valve function, port thread, acting type, flow direction, and load-holding requirement must match the hydraulic circuit."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Control Valve table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "v-8f",
+      "model": "V-8F",
+      "displayName": "V-8F Fine Metering Needle Valve",
+      "description": "Fine metering for precise flow control; not recommended as a shut-off valve.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Control Valve",
+        "productName": "Fine Metering Needle Valve",
+        "portThread": "NPT 3/8\" female"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Valve function, port thread, acting type, flow direction, and load-holding requirement must match the hydraulic circuit."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Control Valve table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "v-42",
+      "model": "V-42",
+      "displayName": "V-42 Check Valve",
+      "description": "Cylinder-mounted load-holding check valve; pilot pressure ratio 14% (6.5:1).",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Control Valve",
+        "productName": "Check Valve",
+        "portThread": "NPT 3/8\" female"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Valve function, port thread, acting type, flow direction, and load-holding requirement must match the hydraulic circuit."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Control Valve table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "v-66",
+      "model": "V-66",
+      "displayName": "V-66 Manual Check Valve",
+      "description": "Manual load-holding valve for single- or double-acting cylinders.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Control Valve",
+        "productName": "Manual Check Valve"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Valve function, port thread, acting type, flow direction, and load-holding requirement must match the hydraulic circuit."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Control Valve table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "v-66nv",
+      "model": "V-66NV",
+      "displayName": "V-66NV Manual Check Valve",
+      "description": "Load-holding valve with Viton seals and nickel plating.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Control Valve",
+        "productName": "Manual Check Valve"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Valve function, port thread, acting type, flow direction, and load-holding requirement must match the hydraulic circuit."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Control Valve table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "v-66f",
+      "model": "V-66F",
+      "displayName": "V-66F Fine Metering Manual Valve",
+      "description": "Fine metering flow-control valve; not designed for load holding.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Control Valve",
+        "productName": "Fine Metering Manual Valve"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Valve function, port thread, acting type, flow direction, and load-holding requirement must match the hydraulic circuit."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": false,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Control Valve table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    }
+  ],
+  "operatingRequirements": [
+    {
+      "key": "pressure",
+      "label": "Pressure Matching",
+      "value": "All components in a hydraulic circuit must be rated for the system working pressure"
+    },
+    {
+      "key": "thread",
+      "label": "Connection Matching",
+      "value": "Match NPT, NPTF, G-thread, metric thread, male/female interface, and flow requirement exactly"
+    }
+  ],
+  "accessories": [
+    "Hydraulic hoses",
+    "Hydraulic pumps",
+    "Pressure gauges",
+    "Gauge adaptors",
+    "Control valves",
+    "Manifolds"
+  ],
+  "compatibility": [
+    "Do not connect components with incompatible pressure ratings.",
+    "Thread type, size, gender, flow capacity, and sealing method must match the connected equipment.",
+    "Ultra-high-pressure couplers and fittings must be used only with appropriately rated ultra-high-pressure systems."
+  ],
+  "componentGroups": [
+    {
+      "id": "quick-couplers",
+      "group": "Hydraulic Accessory Family",
+      "displayName": "Quick Couplers",
+      "description": "700 bar quick-connect couplers for standard hydraulic tooling.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon hydraulic accessory catalog pages 53–56"
+      ]
+    },
+    {
+      "id": "uhp-couplers",
+      "group": "Hydraulic Accessory Family",
+      "displayName": "Ultra-High-Pressure Couplers",
+      "description": "150 and 250 MPa couplers for bolt tensioning, hydraulic nuts, and ultra-high-pressure systems.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon hydraulic accessory catalog pages 53–56"
+      ]
+    },
+    {
+      "id": "manifolds",
+      "group": "Hydraulic Accessory Family",
+      "displayName": "Oil Manifolds",
+      "description": "700 bar NPT 3/8-inch manifolds for distributing one pump output to multiple tools.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon hydraulic accessory catalog pages 53–56"
+      ]
+    },
+    {
+      "id": "fittings",
+      "group": "Hydraulic Accessory Family",
+      "displayName": "Hydraulic Fittings",
+      "description": "Elbows, tees, crosses, couplings, reducers, nipples, and adaptors for hydraulic system configuration.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon hydraulic accessory catalog pages 53–56"
+      ]
+    },
+    {
+      "id": "gauges",
+      "group": "Hydraulic Accessory Family",
+      "displayName": "Pressure Gauges",
+      "description": "Dual-scale pressure gauges with model-specific pressure ranges and connection threads.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon hydraulic accessory catalog pages 53–56"
+      ]
+    },
+    {
+      "id": "gauge-adaptors",
+      "group": "Hydraulic Accessory Family",
+      "displayName": "Gauge Adaptors",
+      "description": "Three-port adaptors for connecting gauges, tools, hoses, and quick couplers.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon hydraulic accessory catalog pages 53–56"
+      ]
+    },
+    {
+      "id": "control-valves",
+      "group": "Hydraulic Accessory Family",
+      "displayName": "Hydraulic Control Valves",
+      "description": "Needle, check, and manual valves for flow control and load-holding functions.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon hydraulic accessory catalog pages 53–56"
+      ]
+    }
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": false,
+  "calibrationApplicable": false,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "ToughTorq/Kashon Quick Couplers, Ultra High Pressure Hydraulic Couplers, Oil Manifolds, Hydraulic Fittings, Pressure Gauge, Gauge Adaptor, and Hydraulic Control Valve tables"
+  ],
+  "lastVerifiedAt": "2026-10-05",
+  "catalogVersion": "2026.10"
+}
