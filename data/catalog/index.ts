@@ -1,4 +1,5 @@
 import batteryTorqueGunsJson from "./products/battery-torque-guns.json";
+import boltTensionersJson from "./products/bolt-tensioners.json";
 import hydraulicTorquePumpsJson from "./products/hydraulic-torque-pumps.json";
 import manualDigitalTorqueWrenchesJson from "./products/manual-digital-torque-wrenches.json";
 import hydraulicTorqueWrenchesJson from "./products/hydraulic-torque-wrenches.json";
@@ -14,6 +15,9 @@ import type {
 
 export const batteryTorqueGuns =
   batteryTorqueGunsJson as unknown as CatalogProductFamily;
+
+export const boltTensioners =
+  boltTensionersJson as unknown as CatalogProductFamily;
 
 export const pneumaticTorqueGuns =
   pneumaticTorqueGunsJson as CatalogProductFamily;
@@ -38,6 +42,7 @@ export const socketsReactionArms =
 
 export const catalogProducts: CatalogProductFamily[] = [
   batteryTorqueGuns,
+  boltTensioners,
   pneumaticTorqueGuns,
   hydraulicTorquePumps,
   hydraulicTorqueWrenches,
