@@ -1,102 +1,203 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
-const tensionerGroups = [
-  {
-    title: "Spring Return Hydraulic Bolt Tensioners",
-    description:
-      "Hydraulic bolt tensioners with spring return for controlled preload and repeatable industrial tensioning applications.",
-    models: [
-      "TT-ST1",
-      "TT-ST2",
-      "TT-ST3",
-      "TT-ST4",
-      "TT-ST5",
-      "TT-ST6",
-      "TT-ST7",
-    ],
-  },
-  {
-    title: "Load Return Hydraulic Bolt Tensioners",
-    description:
-      "Hydraulic tensioners designed for high-load bolting applications with controlled return under load.",
-    models: [
-      "TTQT4-LR",
-      "TTQT5-LR",
-      "TTQT6-LR",
-      "TTQT7-LR",
-      "TTQT8-LR",
-    ],
-  },
-  {
-    title: "Multistage Hydraulic Bolt Tensioners",
-    description:
-      "Multistage tensioning systems designed to generate high bolt load where radial or dimensional clearance is limited.",
-    models: [],
-  },
-];
+import { boltTensioners } from "@/data/catalog";
 
-const benefits = [
-  "Controlled bolt preload",
-  "Reduced reliance on torque-friction relationships",
-  "Suitable for simultaneous multi-bolt tensioning",
-  "Repeatable loading for critical joints",
-  "Available for large industrial fasteners",
-  "Compatible with ultra-high-pressure hydraulic systems",
-];
+export const metadata: Metadata = {
+  title: "Hydraulic Bolt Tensioners",
+  description:
+    "Technical specifications, bolt ranges, load capacities, stroke, pressure requirements, accessories, and application data for ToughTorq hydraulic bolt tensioners.",
+};
 
-const applications = [
-  "Flange joints",
-  "Power generation",
-  "Wind turbine bolting",
-  "Oil & gas equipment",
-  "Pressure vessels",
-  "Heavy structural connections",
-  "Large rotating equipment",
-  "Shutdown and turnaround work",
-];
+function formatNumber(value: unknown) {
+  if (typeof value === "number") {
+    return value.toLocaleString("en-US", {
+      maximumFractionDigits: 2,
+    });
+  }
 
-const relatedProducts = [
-  {
-    title: "Hydraulic Nuts",
-    href: "/products/hydraulic-nuts",
-  },
-  {
-    title: "Ultra-High-Pressure Pumps",
-    href: "/products/hydraulic-pumps",
-  },
-  {
-    title: "Hydraulic Hoses",
-    href: "/products/hydraulic-hoses",
-  },
-  {
-    title: "Hydraulic Fittings & Couplers",
-    href: "/products/hydraulic-fittings-couplers",
-  },
-];
+  return String(value ?? "—");
+}
 
-function QuoteModelLink({
-  model,
-  product,
+function SpringReturnTable({
+  models,
 }: {
-  model: string;
-  product: string;
+  models: typeof boltTensioners.models;
 }) {
   return (
-    <Link
-      href={`/request-a-quote?model=${encodeURIComponent(
-        model
-      )}&product=${encodeURIComponent(product)}`}
-      className="font-semibold text-[#ed1c24] underline-offset-4 transition hover:underline"
-    >
-      {model}
-    </Link>
+    <div className="mt-8 overflow-x-auto rounded-xl border border-[#dddddd]">
+      <table className="min-w-[820px] w-full border-collapse text-left text-sm">
+        <thead className="bg-[#3f4448] text-white">
+          <tr>
+            <th className="px-4 py-4 font-semibold">Model</th>
+            <th className="px-4 py-4 font-semibold">Thread Range</th>
+            <th className="px-4 py-4 font-semibold">Max Tension Force</th>
+            <th className="px-4 py-4 font-semibold">Effective Area</th>
+            <th className="px-4 py-4 font-semibold">Max Stroke</th>
+            <th className="px-4 py-4 font-semibold">Return</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {models.map((model, index) => (
+            <tr
+              key={model.id}
+              className={index % 2 === 0 ? "bg-white" : "bg-[#f7f7f7]"}
+            >
+              <td className="border-t border-[#dddddd] px-4 py-4 font-bold text-[#ed1c24]">
+                {model.model}
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                {String(model.specifications.threadRange)}
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 font-medium text-[#444444]">
+                {formatNumber(model.specifications.maxTensionForceLbf)} lbf
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                {formatNumber(model.specifications.effectiveAreaIn2)} in²
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                {formatNumber(model.specifications.maxStrokeIn)} in
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                Automatic spring return
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function LoadReturnTable({
+  models,
+}: {
+  models: typeof boltTensioners.models;
+}) {
+  return (
+    <div className="mt-8 overflow-x-auto rounded-xl border border-[#dddddd]">
+      <table className="min-w-[920px] w-full border-collapse text-left text-sm">
+        <thead className="bg-[#3f4448] text-white">
+          <tr>
+            <th className="px-4 py-4 font-semibold">Model</th>
+            <th className="px-4 py-4 font-semibold">Thread Range</th>
+            <th className="px-4 py-4 font-semibold">Max Load</th>
+            <th className="px-4 py-4 font-semibold">Working Pressure</th>
+            <th className="px-4 py-4 font-semibold">Effective Area</th>
+            <th className="px-4 py-4 font-semibold">Stroke</th>
+            <th className="px-4 py-4 font-semibold">Weight</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {models.map((model, index) => (
+            <tr
+              key={model.id}
+              className={index % 2 === 0 ? "bg-white" : "bg-[#f7f7f7]"}
+            >
+              <td className="border-t border-[#dddddd] px-4 py-4 font-bold text-[#ed1c24]">
+                {model.model}
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                {String(model.specifications.threadRange)}
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 font-medium text-[#444444]">
+                {formatNumber(model.specifications.maxLoadLbf)} lbf
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                {formatNumber(model.specifications.maxWorkingPressurePsi)} psi
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                {formatNumber(model.specifications.effectiveAreaIn2)} in²
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                {formatNumber(model.specifications.strokeIn)} in
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                {formatNumber(model.specifications.weightLb)} lb
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function MultistageTable({
+  models,
+}: {
+  models: typeof boltTensioners.models;
+}) {
+  return (
+    <div className="mt-8 overflow-x-auto rounded-xl border border-[#dddddd]">
+      <table className="min-w-[980px] w-full border-collapse text-left text-sm">
+        <thead className="bg-[#3f4448] text-white">
+          <tr>
+            <th className="px-4 py-4 font-semibold">Model</th>
+            <th className="px-4 py-4 font-semibold">Bolt</th>
+            <th className="px-4 py-4 font-semibold">Max Pulling Capacity</th>
+            <th className="px-4 py-4 font-semibold">Working Pressure</th>
+            <th className="px-4 py-4 font-semibold">Stroke</th>
+            <th className="px-4 py-4 font-semibold">Effective Area</th>
+            <th className="px-4 py-4 font-semibold">Outside Diameter</th>
+            <th className="px-4 py-4 font-semibold">Weight</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {models.map((model, index) => (
+            <tr
+              key={model.id}
+              className={index % 2 === 0 ? "bg-white" : "bg-[#f7f7f7]"}
+            >
+              <td className="border-t border-[#dddddd] px-4 py-4 font-bold text-[#ed1c24]">
+                {model.model}
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                {String(model.specifications.boltDiameter)}
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 font-medium text-[#444444]">
+                {formatNumber(model.specifications.maxPullingCapacityLbf)} lbf
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                {formatNumber(model.specifications.maxWorkingPressurePsi)} psi
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                {formatNumber(model.specifications.strokeIn)} in
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                {formatNumber(model.specifications.cylinderEffectiveAreaIn2)} in²
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                {formatNumber(model.specifications.outsideDiameterIn)} in
+              </td>
+              <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                {formatNumber(model.specifications.weightLb)} lb
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 
 export default function BoltTensionersPage() {
+  const family = boltTensioners;
+  const springReturn = family.models.filter(
+    (model) => model.specifications.series === "Spring Return"
+  );
+  const loadReturn = family.models.filter(
+    (model) => model.specifications.series === "Load Return"
+  );
+  const multistage = family.models.filter(
+    (model) => model.specifications.series === "Multistage"
+  );
+
   return (
     <main className="bg-[#f5f5f5] text-[#2b2b2b]">
-      {/* HERO */}
       <section className="border-b border-[#dedede] bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-20 lg:px-12">
           <p className="text-sm font-bold uppercase tracking-[0.14em] text-[#ed1c24]">
@@ -110,182 +211,213 @@ export default function BoltTensionersPage() {
           <div className="mt-6 h-[3px] w-16 bg-[#ed1c24]" />
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-[#444444]">
-            Hydraulic bolt tensioning systems for controlled preload, critical
-            joints, and simultaneous multi-bolt tensioning applications.
+            {family.longDescription}
           </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Link
-              href="/request-a-quote?product=Bolt%20Tensioners"
+              href="#technical-data"
               className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
             >
-              Request a Quote
+              View Technical Data
             </Link>
 
             <Link
-              href="/request-a-quote"
-              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#666666] bg-white px-6 py-3 text-sm font-semibold text-[#333333] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+              href="#selection"
+              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
             >
-              View Quote Cart →
+              Selection Guidance
+            </Link>
+
+            <Link
+              href="/find-a-distributor"
+              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+            >
+              Find a Distributor
             </Link>
           </div>
         </div>
       </section>
 
-      {/* PRODUCT FAMILIES */}
       <section className="border-b border-[#dedede] bg-[#f7f7f7]">
         <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
           <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Product Families
+            Controlled Preload
           </p>
 
           <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Hydraulic tensioning systems
+            Apply hydraulic load directly to the stud
           </h2>
 
-          <div className="mt-10 space-y-6">
-            {tensionerGroups.map((group) => (
-              <section
-                key={group.title}
-                className="overflow-hidden rounded-xl border border-[#dddddd] bg-white"
+          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
+            Hydraulic bolt tensioning stretches the stud axially so the nut can
+            be positioned while the bolt is under controlled load. This reduces
+            dependence on torque-friction relationships and supports repeatable
+            loading on critical joints.
+          </p>
+
+          <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+            {family.features.map((feature) => (
+              <div
+                key={feature}
+                className="rounded-xl border border-[#dddddd] bg-white p-5"
               >
-                <div className="border-b border-[#dddddd] p-6 md:p-8">
-                  <h3 className="text-2xl font-semibold text-[#3f4448]">
-                    {group.title}
-                  </h3>
-
-                  <p className="mt-4 max-w-4xl leading-7 text-[#555555]">
-                    {group.description}
-                  </p>
-                </div>
-
-                <div className="p-6 md:p-8">
-                  {group.models.length > 0 ? (
-                    <>
-                      <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#777777]">
-                        Available Models
-                      </p>
-
-                      <div className="mt-4 grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                        {group.models.map((model) => (
-                          <div
-                            key={model}
-                            className="flex min-h-[58px] items-center justify-between rounded-lg border border-[#dddddd] bg-[#fafafa] px-4 py-3"
-                          >
-                            <QuoteModelLink
-                              model={model}
-                              product={group.title}
-                            />
-
-                            <span className="text-[#ed1c24]">→</span>
-                          </div>
-                        ))}
-                      </div>
-
-                      <p className="mt-5 text-xs uppercase tracking-[0.12em] text-[#777777]">
-                        Select a model to add it to your quote
-                      </p>
-                    </>
-                  ) : (
-                    <div className="flex flex-col items-start justify-between gap-4 rounded-lg border border-[#dddddd] bg-[#fafafa] p-5 sm:flex-row sm:items-center">
-                      <p className="text-sm text-[#555555]">
-                        Contact ToughTorq for available models and sizing.
-                      </p>
-
-                      <Link
-                        href={`/request-a-quote?product=${encodeURIComponent(
-                          group.title
-                        )}`}
-                        className="text-sm font-semibold text-[#ed1c24]"
-                      >
-                        Request Information →
-                      </Link>
-                    </div>
-                  )}
-                </div>
-              </section>
+                <span className="font-bold text-[#ed1c24]">✓</span>
+                <p className="mt-3 text-sm leading-6 text-[#555555]">
+                  {feature}
+                </p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* BENEFITS */}
+      <section
+        id="technical-data"
+        className="scroll-mt-24 border-b border-[#dedede] bg-white"
+      >
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+            Spring-Return Series
+          </p>
+
+          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
+            Automatic spring-return tensioners
+          </h2>
+
+          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
+            Spring-return models cover a broad thread range and are designed
+            for fast repeated operation, quick hydraulic connection, and
+            simultaneous multiple-tool tensioning.
+          </p>
+
+          <SpringReturnTable models={springReturn} />
+        </div>
+      </section>
+
+      <section className="border-b border-[#dedede] bg-[#f7f7f7]">
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+            Load-Return Series
+          </p>
+
+          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
+            Modular load-return tensioners
+          </h2>
+
+          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
+            Load-return models use modular adaptor kits, detachable rotational
+            bridges, twin hydraulic ports, and a piston stroke indicator for
+            demanding threaded connections and multi-tool operation.
+          </p>
+
+          <LoadReturnTable models={loadReturn} />
+        </div>
+      </section>
+
       <section className="border-b border-[#dedede] bg-white">
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 md:px-8 lg:grid-cols-[0.9fr_1.1fr] lg:px-12">
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+            Multistage Series
+          </p>
+
+          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
+            Compact high-capacity tensioning
+          </h2>
+
+          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
+            TTE multistage tensioners operate at up to 21,756 psi and combine a
+            compact outside diameter with high pulling capacity for applications
+            where radial clearance is restricted.
+          </p>
+
+          <MultistageTable models={multistage} />
+        </div>
+      </section>
+
+      <section
+        id="selection"
+        className="scroll-mt-24 border-b border-[#dedede] bg-[#f7f7f7]"
+      >
+        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-              Controlled Preload
+              System Selection
             </p>
 
-            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-              Apply load directly to the bolt
+            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
+              Size the tensioner to the joint
             </h2>
 
             <p className="mt-5 leading-8 text-[#555555]">
-              Hydraulic tensioners stretch the bolt axially using hydraulic
-              pressure. The nut can then be positioned while the bolt is under
-              load, allowing controlled preload without relying only on applied
-              rotational torque.
+              Tensioner selection depends on the bolt and thread specification,
+              required preload, available stud projection, nut dimensions,
+              radial clearance, working pressure, joint geometry, and whether
+              tools will be operated individually or simultaneously.
             </p>
-          </div>
 
-          <div className="grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2">
-            {benefits.map((benefit) => (
-              <div key={benefit} className="bg-[#fafafa] p-5">
-                <div className="flex gap-3">
-                  <span className="font-bold text-[#ed1c24]">✓</span>
-
-                  <p className="font-medium text-[#444444]">{benefit}</p>
+            <div className="mt-7 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2">
+              {[
+                "Bolt diameter",
+                "Thread pitch",
+                "Required bolt load",
+                "Stud projection",
+                "Nut size",
+                "Radial clearance",
+                "Working pressure",
+                "Joint geometry",
+              ].map((item) => (
+                <div key={item} className="bg-white p-4">
+                  <p className="font-medium text-[#444444]">{item}</p>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+          </div>
+
+          <div className="rounded-xl border border-[#dddddd] bg-white p-6 md:p-8">
+            <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+              Complete System
+            </p>
+
+            <h2 className="mt-3 text-2xl font-semibold text-[#3f4448]">
+              Match all ultra-high-pressure components
+            </h2>
+
+            <div className="mt-6 grid gap-3 sm:grid-cols-2">
+              {family.accessories.map((accessory) => (
+                <div
+                  key={accessory}
+                  className="rounded-lg border border-[#dddddd] bg-[#fafafa] px-4 py-3 text-sm font-medium text-[#555555]"
+                >
+                  {accessory}
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-6 space-y-4">
+              {family.compatibility.map((item) => (
+                <div key={item} className="flex gap-3 text-sm leading-7 text-[#555555]">
+                  <span className="font-bold text-[#ed1c24]">✓</span>
+                  <span>{item}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
-      {/* SYSTEM COMPONENTS */}
-      <section className="border-b border-[#dedede] bg-[#f7f7f7]">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Complete System
-          </p>
-
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Bolt tensioning system components
-          </h2>
-
-          <div className="mt-8 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              "Bolt Tensioner",
-              "Ultra-High-Pressure Pump",
-              "Ultra-High-Pressure Hose",
-              "Quick Couplers",
-              "Pressure Gauge",
-              "Hydraulic Fittings",
-              "Bridge / Nut Rotator",
-              "Application Accessories",
-            ].map((item) => (
-              <div key={item} className="bg-white p-5">
-                <p className="font-semibold text-[#444444]">{item}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* APPLICATIONS */}
       <section className="border-b border-[#dedede] bg-white">
         <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
           <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
             Applications
           </p>
 
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
+          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
             Critical bolted joints
           </h2>
 
           <div className="mt-8 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2 lg:grid-cols-4">
-            {applications.map((application) => (
+            {family.applications.map((application) => (
               <div key={application} className="bg-[#fafafa] p-5">
                 <p className="font-medium text-[#444444]">{application}</p>
               </div>
@@ -294,130 +426,87 @@ export default function BoltTensionersPage() {
         </div>
       </section>
 
-      {/* SELECTION */}
-      <section className="border-b border-[#dedede] bg-[#f7f7f7]">
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
-          <div>
-            <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-              Tool Selection
-            </p>
+      <section
+        id="downloads"
+        className="scroll-mt-24 border-b border-[#dedede] bg-[#f7f7f7]"
+      >
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+            Downloads
+          </p>
 
-            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-              Size the tensioner to the joint
-            </h2>
+          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
+            Bolt tensioner technical resources
+          </h2>
 
-            <p className="mt-5 leading-8 text-[#555555]">
-              Tensioner selection depends on bolt diameter, thread pitch,
-              required preload, available stud projection, radial clearance,
-              working pressure, and joint geometry.
-            </p>
-          </div>
-
-          <div className="grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2">
+          <div className="mt-8 grid gap-4 md:grid-cols-4">
             {[
-              "Bolt Diameter",
-              "Thread Pitch",
-              "Required Bolt Load",
-              "Stud Projection",
-              "Radial Clearance",
-              "Working Pressure",
-              "Nut Size",
-              "Joint Configuration",
-            ].map((item) => (
-              <div key={item} className="bg-white p-5">
-                <p className="font-semibold text-[#444444]">{item}</p>
+              "Spring-Return Tensioner Cutsheet",
+              "Load-Return Tensioner Cutsheet",
+              "Multistage Tensioner Cutsheet",
+              "Bolt Tensioner Selection Guide",
+            ].map((title) => (
+              <div
+                key={title}
+                className="rounded-xl border border-[#dddddd] bg-white p-5"
+              >
+                <p className="font-semibold text-[#3f4448]">{title}</p>
+                <p className="mt-2 text-sm text-[#777777]">
+                  Download publishing in progress
+                </p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* RELATED PRODUCTS */}
-      <section className="border-b border-[#dedede] bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Related Equipment
-          </p>
-
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-            Complete the tensioning system
-          </h2>
-
-          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {relatedProducts.map((product) => (
-              <Link
-                key={product.title}
-                href={product.href}
-                className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-5 transition hover:border-[#ed1c24]"
-              >
-                <p className="font-semibold text-[#3f4448]">
-                  {product.title}
-                </p>
-
-                <p className="mt-5 text-sm font-semibold text-[#ed1c24]">
-                  View Products →
-                </p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* DOWNLOADS */}
-      <section className="bg-[#f7f7f7]">
+      <section className="bg-white">
         <div className="mx-auto grid max-w-7xl gap-6 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
-          <div className="rounded-xl border border-[#dddddd] bg-white p-6 md:p-8">
+          <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:p-8">
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-              Technical Resources
+              Distribution
             </p>
 
-            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-              Bolt Tensioner Downloads
+            <h2 className="mt-3 text-2xl font-semibold text-[#3f4448]">
+              Find a ToughTorq distributor
             </h2>
 
-            <div className="mt-6 space-y-3">
-              {[
-                "Spring Return Tensioner Cutsheet",
-                "Load Return Tensioner Cutsheet",
-                "Multistage Tensioner Cutsheet",
-                "Bolt Tensioner Selection Guide",
-              ].map((item) => (
-                <div
-                  key={item}
-                  className="rounded-lg border border-[#dddddd] bg-[#fafafa] p-4"
-                >
-                  <p className="font-semibold text-[#444444]">{item}</p>
+            <p className="mt-4 leading-7 text-[#555555]">
+              Connect with the ToughTorq distribution network for tensioner
+              sizing, hydraulic-system selection, and technical support.
+            </p>
 
-                  <p className="mt-1 text-sm text-[#777777]">
-                    Download coming soon
-                  </p>
-                </div>
-              ))}
-            </div>
+            <Link
+              href="/find-a-distributor"
+              className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg border border-[#666666] bg-white px-5 py-2 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+            >
+              Find a Distributor
+            </Link>
           </div>
 
-          <div className="rounded-xl border border-[#dddddd] bg-white p-6 md:p-8">
+          <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:p-8">
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-              Application Support
+              Purchase, Rental & Service
             </p>
 
-            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-              Need help sizing a tensioner?
+            <h2 className="mt-3 text-2xl font-semibold text-[#3f4448]">
+              Commercial support through JAM Torque
             </h2>
 
-            <p className="mt-5 leading-8 text-[#555555]">
-              Send the bolt diameter, thread pitch, required preload, stud
-              projection, available clearance, and application information.
+            <p className="mt-4 leading-7 text-[#555555]">
+              For purchasing, rental availability, service, and application
+              support in JAM Torque&apos;s supported market, continue to
+              JAMTorque.com.
             </p>
 
-            <div className="mt-8">
-              <Link
-                href="/request-a-quote?product=Bolt%20Tensioners"
-                className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white"
-              >
-                Request Tensioner Support
-              </Link>
-            </div>
+            <a
+              href={family.jamMarketplaceUrl ?? "https://jamtorque.com"}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg bg-[#ed1c24] px-5 py-2 text-sm font-semibold text-white transition hover:opacity-90"
+            >
+              Visit JAM Torque →
+            </a>
           </div>
         </div>
       </section>

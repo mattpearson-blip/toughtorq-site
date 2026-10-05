@@ -1,0 +1,1649 @@
+{
+  "id": "bolt-tensioners",
+  "slug": "bolt-tensioners",
+  "family": "Bolt Tensioners",
+  "displayName": "Hydraulic Bolt Tensioners",
+  "shortDescription": "Spring-return, load-return, and multistage hydraulic tensioners for controlled bolt preload.",
+  "longDescription": "ToughTorq hydraulic bolt tensioners apply axial load directly to the stud for controlled preload on critical bolted joints. The range includes spring-return systems, load-return systems with modular adaptor kits, and compact multistage tensioners for high-capacity applications with restricted radial clearance.",
+  "images": [],
+  "features": [
+    "Direct hydraulic bolt preload",
+    "Spring-return, load-return, and multistage configurations",
+    "Simultaneous multi-bolt tensioning capability",
+    "Quick-connect hydraulic interfaces",
+    "Wide tooling coverage for multiple bolt and stud sizes",
+    "Ultra-high-pressure hydraulic operation",
+    "Application-specific adaptors and bridges",
+    "Custom configurations available for joint requirements"
+  ],
+  "applications": [
+    "Flange joints",
+    "Power generation",
+    "Wind turbine bolting",
+    "Oil and gas equipment",
+    "Pressure vessels",
+    "Heavy structural connections",
+    "Large rotating equipment",
+    "Shutdown and turnaround work"
+  ],
+  "models": [
+    {
+      "id": "tt-st1",
+      "model": "TT-ST1",
+      "displayName": "TT-ST1 Spring-Return Hydraulic Bolt Tensioner",
+      "description": "Spring-return bolt tensioner covering M24 through M27 thread applications with maximum tension force of 63,396 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Spring Return",
+        "metricThreads": [
+          "M24",
+          "M27"
+        ],
+        "inchThreads": [
+          "1",
+          "1-1/8"
+        ],
+        "threadRange": "M24–M27",
+        "maxTensionForceLbf": 63396,
+        "effectiveAreaIn2": 2.92,
+        "maxStrokeIn": 0.31,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with a compatible ultra-high-pressure tensioning pump, hose, and couplers"
+        }
+      ],
+      "accessories": [
+        "Puller / threaded adaptor",
+        "Bridge",
+        "Nut rotator",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Thread adaptor and bridge must match the bolt/stud size and joint geometry.",
+        "Pump, hose, couplers, and pressure rating must be matched as a complete ultra-high-pressure tensioning system."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Spring Return Hydraulic Bolt Tensioner table; KS model prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt-st2",
+      "model": "TT-ST2",
+      "displayName": "TT-ST2 Spring-Return Hydraulic Bolt Tensioner",
+      "description": "Spring-return bolt tensioner covering M24 through M36 thread applications with maximum tension force of 101,614 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Spring Return",
+        "metricThreads": [
+          "M24",
+          "M27",
+          "M30",
+          "M33",
+          "M36"
+        ],
+        "inchThreads": [
+          "1",
+          "1-1/8",
+          "1-1/8",
+          "1-1/4",
+          "1-3/8"
+        ],
+        "threadRange": "M24–M36",
+        "maxTensionForceLbf": 101614,
+        "effectiveAreaIn2": 4.67,
+        "maxStrokeIn": 0.39,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with a compatible ultra-high-pressure tensioning pump, hose, and couplers"
+        }
+      ],
+      "accessories": [
+        "Puller / threaded adaptor",
+        "Bridge",
+        "Nut rotator",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Thread adaptor and bridge must match the bolt/stud size and joint geometry.",
+        "Pump, hose, couplers, and pressure rating must be matched as a complete ultra-high-pressure tensioning system."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Spring Return Hydraulic Bolt Tensioner table; KS model prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt-st3",
+      "model": "TT-ST3",
+      "displayName": "TT-ST3 Spring-Return Hydraulic Bolt Tensioner",
+      "description": "Spring-return bolt tensioner covering M39 through M48 thread applications with maximum tension force of 150,847 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Spring Return",
+        "metricThreads": [
+          "M39",
+          "M42",
+          "M45",
+          "M48"
+        ],
+        "inchThreads": [
+          "1-1/2",
+          "1-5/8",
+          "1-3/4",
+          "1-7/8"
+        ],
+        "threadRange": "M39–M48",
+        "maxTensionForceLbf": 150847,
+        "effectiveAreaIn2": 6.94,
+        "maxStrokeIn": 0.39,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with a compatible ultra-high-pressure tensioning pump, hose, and couplers"
+        }
+      ],
+      "accessories": [
+        "Puller / threaded adaptor",
+        "Bridge",
+        "Nut rotator",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Thread adaptor and bridge must match the bolt/stud size and joint geometry.",
+        "Pump, hose, couplers, and pressure rating must be matched as a complete ultra-high-pressure tensioning system."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Spring Return Hydraulic Bolt Tensioner table; KS model prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt-st4",
+      "model": "TT-ST4",
+      "displayName": "TT-ST4 Spring-Return Hydraulic Bolt Tensioner",
+      "description": "Spring-return bolt tensioner covering M39 through M48 thread applications with maximum tension force of 226,832 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Spring Return",
+        "metricThreads": [
+          "M39",
+          "M42",
+          "M45",
+          "M48"
+        ],
+        "inchThreads": [
+          "1-1/2",
+          "1-5/8",
+          "1-3/4",
+          "1-7/8"
+        ],
+        "threadRange": "M39–M48",
+        "maxTensionForceLbf": 226832,
+        "effectiveAreaIn2": 10.43,
+        "maxStrokeIn": 0.39,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with a compatible ultra-high-pressure tensioning pump, hose, and couplers"
+        }
+      ],
+      "accessories": [
+        "Puller / threaded adaptor",
+        "Bridge",
+        "Nut rotator",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Thread adaptor and bridge must match the bolt/stud size and joint geometry.",
+        "Pump, hose, couplers, and pressure rating must be matched as a complete ultra-high-pressure tensioning system."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Spring Return Hydraulic Bolt Tensioner table; KS model prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt-st5",
+      "model": "TT-ST5",
+      "displayName": "TT-ST5 Spring-Return Hydraulic Bolt Tensioner",
+      "description": "Spring-return bolt tensioner covering M52 through M68 thread applications with maximum tension force of 345,756 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Spring Return",
+        "metricThreads": [
+          "M52",
+          "M56",
+          "M60",
+          "M64",
+          "M68"
+        ],
+        "inchThreads": [
+          "2",
+          "2-1/4",
+          "2-3/8",
+          "2-1/2",
+          "2-3/4"
+        ],
+        "threadRange": "M52–M68",
+        "maxTensionForceLbf": 345756,
+        "effectiveAreaIn2": 15.89,
+        "maxStrokeIn": 0.39,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with a compatible ultra-high-pressure tensioning pump, hose, and couplers"
+        }
+      ],
+      "accessories": [
+        "Puller / threaded adaptor",
+        "Bridge",
+        "Nut rotator",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Thread adaptor and bridge must match the bolt/stud size and joint geometry.",
+        "Pump, hose, couplers, and pressure rating must be matched as a complete ultra-high-pressure tensioning system."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Spring Return Hydraulic Bolt Tensioner table; KS model prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt-st6",
+      "model": "TT-ST6",
+      "displayName": "TT-ST6 Spring-Return Hydraulic Bolt Tensioner",
+      "description": "Spring-return bolt tensioner covering M72 through M90 thread applications with maximum tension force of 571,914 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Spring Return",
+        "metricThreads": [
+          "M72",
+          "M76",
+          "M80",
+          "M85",
+          "M90"
+        ],
+        "inchThreads": [
+          "2-1/2",
+          "2-3/4",
+          "3-1/4",
+          "3-3/8",
+          "3-1/2"
+        ],
+        "threadRange": "M72–M90",
+        "maxTensionForceLbf": 571914,
+        "effectiveAreaIn2": 26.3,
+        "maxStrokeIn": 0.47,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with a compatible ultra-high-pressure tensioning pump, hose, and couplers"
+        }
+      ],
+      "accessories": [
+        "Puller / threaded adaptor",
+        "Bridge",
+        "Nut rotator",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Thread adaptor and bridge must match the bolt/stud size and joint geometry.",
+        "Pump, hose, couplers, and pressure rating must be matched as a complete ultra-high-pressure tensioning system."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Spring Return Hydraulic Bolt Tensioner table; KS model prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tt-st7",
+      "model": "TT-ST7",
+      "displayName": "TT-ST7 Spring-Return Hydraulic Bolt Tensioner",
+      "description": "Spring-return bolt tensioner covering M90 through M100 thread applications with maximum tension force of 722,986 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Spring Return",
+        "metricThreads": [
+          "M90",
+          "M95",
+          "M100"
+        ],
+        "inchThreads": [
+          "3-1/2",
+          "3-3/4",
+          "4"
+        ],
+        "threadRange": "M90–M100",
+        "maxTensionForceLbf": 722986,
+        "effectiveAreaIn2": 33.23,
+        "maxStrokeIn": 0.47,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with a compatible ultra-high-pressure tensioning pump, hose, and couplers"
+        }
+      ],
+      "accessories": [
+        "Puller / threaded adaptor",
+        "Bridge",
+        "Nut rotator",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Thread adaptor and bridge must match the bolt/stud size and joint geometry.",
+        "Pump, hose, couplers, and pressure rating must be matched as a complete ultra-high-pressure tensioning system."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Spring Return Hydraulic Bolt Tensioner table; KS model prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttgt1-lcb",
+      "model": "TTGT1-LCB",
+      "displayName": "TTGT1-LCB Load-Return Hydraulic Bolt Tensioner",
+      "description": "Load-return bolt tensioner covering M16-M30 with maximum load of 50,425 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Load Return",
+        "threadRange": "M16-M30",
+        "threadSpecs": [
+          "M16x2",
+          "M18x2.5",
+          "M20x2.5",
+          "M24x3",
+          "M27x3",
+          "M30x3.5"
+        ],
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 50425,
+        "effectiveAreaIn2": 2.32,
+        "strokeIn": 0.39,
+        "weightLb": 6.6,
+        "returnMethod": "Load return"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 5.31,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 4.45,
+          "unit": "in"
+        },
+        {
+          "key": "C",
+          "label": "C",
+          "value": 1.06,
+          "unit": "in"
+        },
+        {
+          "key": "D",
+          "label": "D",
+          "value": 3.39,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with compatible ultra-high-pressure tensioning pump, hose, and couplers"
+        }
+      ],
+      "accessories": [
+        "Adaptor kits",
+        "Bridge",
+        "Nut rotator",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Adaptor kit and bridge selection must match the thread specification and joint geometry.",
+        "Twin hydraulic ports support quick connection of multiple compatible tensioners."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Load Return Hydraulic Bolt Tensioner table; KSGT source prefix mapped to ToughTorq TTGT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttgt2-lcb",
+      "model": "TTGT2-LCB",
+      "displayName": "TTGT2-LCB Load-Return Hydraulic Bolt Tensioner",
+      "description": "Load-return bolt tensioner covering M30-M39 with maximum load of 90,261 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Load Return",
+        "threadRange": "M30-M39",
+        "threadSpecs": [
+          "M30x2.5",
+          "M33x3.5",
+          "M36x4",
+          "M39x4"
+        ],
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 90261,
+        "effectiveAreaIn2": 4.15,
+        "strokeIn": 0.39,
+        "weightLb": 9,
+        "returnMethod": "Load return"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 5.35,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 4.37,
+          "unit": "in"
+        },
+        {
+          "key": "C",
+          "label": "C",
+          "value": 1.38,
+          "unit": "in"
+        },
+        {
+          "key": "D",
+          "label": "D",
+          "value": 4.21,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with compatible ultra-high-pressure tensioning pump, hose, and couplers"
+        }
+      ],
+      "accessories": [
+        "Adaptor kits",
+        "Bridge",
+        "Nut rotator",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Adaptor kit and bridge selection must match the thread specification and joint geometry.",
+        "Twin hydraulic ports support quick connection of multiple compatible tensioners."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Load Return Hydraulic Bolt Tensioner table; KSGT source prefix mapped to ToughTorq TTGT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttgt3-lcb",
+      "model": "TTGT3-LCB",
+      "displayName": "TTGT3-LCB Load-Return Hydraulic Bolt Tensioner",
+      "description": "Load-return bolt tensioner covering M39-M52 with maximum load of 172,856 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Load Return",
+        "threadRange": "M39-M52",
+        "threadSpecs": [
+          "M39x4",
+          "M42x4.5",
+          "M45x4.5",
+          "M48x5",
+          "M52x5"
+        ],
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 172856,
+        "effectiveAreaIn2": 7.95,
+        "strokeIn": 0.39,
+        "weightLb": 15.4,
+        "returnMethod": "Load return"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 6.3,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 4.96,
+          "unit": "in"
+        },
+        {
+          "key": "C",
+          "label": "C",
+          "value": 1.81,
+          "unit": "in"
+        },
+        {
+          "key": "D",
+          "label": "D",
+          "value": 5.43,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with compatible ultra-high-pressure tensioning pump, hose, and couplers"
+        }
+      ],
+      "accessories": [
+        "Adaptor kits",
+        "Bridge",
+        "Nut rotator",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Adaptor kit and bridge selection must match the thread specification and joint geometry.",
+        "Twin hydraulic ports support quick connection of multiple compatible tensioners."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Load Return Hydraulic Bolt Tensioner table; KSGT source prefix mapped to ToughTorq TTGT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttgt4-lcb",
+      "model": "TTGT4-LCB",
+      "displayName": "TTGT4-LCB Load-Return Hydraulic Bolt Tensioner",
+      "description": "Load-return bolt tensioner covering M52-M68 with maximum load of 329,772 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Load Return",
+        "threadRange": "M52-M68",
+        "threadSpecs": [
+          "M52x5",
+          "M56x5.5",
+          "M60x5.5",
+          "M64x6",
+          "M68x6"
+        ],
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 329772,
+        "effectiveAreaIn2": 15.16,
+        "strokeIn": 0.39,
+        "weightLb": 26.9,
+        "returnMethod": "Load return"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 7.09,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 5.55,
+          "unit": "in"
+        },
+        {
+          "key": "C",
+          "label": "C",
+          "value": 2.44,
+          "unit": "in"
+        },
+        {
+          "key": "D",
+          "label": "D",
+          "value": 6.85,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with compatible ultra-high-pressure tensioning pump, hose, and couplers"
+        }
+      ],
+      "accessories": [
+        "Adaptor kits",
+        "Bridge",
+        "Nut rotator",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Adaptor kit and bridge selection must match the thread specification and joint geometry.",
+        "Twin hydraulic ports support quick connection of multiple compatible tensioners."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Load Return Hydraulic Bolt Tensioner table; KSGT source prefix mapped to ToughTorq TTGT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttgt5-lcb",
+      "model": "TTGT5-LCB",
+      "displayName": "TTGT5-LCB Load-Return Hydraulic Bolt Tensioner",
+      "description": "Load-return bolt tensioner covering M68-M80 with maximum load of 508,383 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Load Return",
+        "threadRange": "M68-M80",
+        "threadSpecs": [
+          "M68x6",
+          "M72x6",
+          "M76x6",
+          "M80x6"
+        ],
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 508383,
+        "effectiveAreaIn2": 23.37,
+        "strokeIn": 0.39,
+        "weightLb": 41.2,
+        "returnMethod": "Load return"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 7.95,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 6.18,
+          "unit": "in"
+        },
+        {
+          "key": "C",
+          "label": "C",
+          "value": 3.07,
+          "unit": "in"
+        },
+        {
+          "key": "D",
+          "label": "D",
+          "value": 8.27,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with compatible ultra-high-pressure tensioning pump, hose, and couplers"
+        }
+      ],
+      "accessories": [
+        "Adaptor kits",
+        "Bridge",
+        "Nut rotator",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Adaptor kit and bridge selection must match the thread specification and joint geometry.",
+        "Twin hydraulic ports support quick connection of multiple compatible tensioners."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Load Return Hydraulic Bolt Tensioner table; KSGT source prefix mapped to ToughTorq TTGT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttgt6-lcb",
+      "model": "TTGT6-LCB",
+      "displayName": "TTGT6-LCB Load-Return Hydraulic Bolt Tensioner",
+      "description": "Load-return bolt tensioner covering M80-M95 with maximum load of 639,604 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Load Return",
+        "threadRange": "M80-M95",
+        "threadSpecs": [
+          "M80x6",
+          "M85x6",
+          "M90x6",
+          "M95x6"
+        ],
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 639604,
+        "effectiveAreaIn2": 29.41,
+        "strokeIn": 0.39,
+        "weightLb": 61.3,
+        "returnMethod": "Load return"
+      },
+      "dimensions": [
+        {
+          "key": "A",
+          "label": "A",
+          "value": 8.62,
+          "unit": "in"
+        },
+        {
+          "key": "B",
+          "label": "B",
+          "value": 6.81,
+          "unit": "in"
+        },
+        {
+          "key": "C",
+          "label": "C",
+          "value": 3.23,
+          "unit": "in"
+        },
+        {
+          "key": "D",
+          "label": "D",
+          "value": 9.45,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with compatible ultra-high-pressure tensioning pump, hose, and couplers"
+        }
+      ],
+      "accessories": [
+        "Adaptor kits",
+        "Bridge",
+        "Nut rotator",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Adaptor kit and bridge selection must match the thread specification and joint geometry.",
+        "Twin hydraulic ports support quick connection of multiple compatible tensioners."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Load Return Hydraulic Bolt Tensioner table; KSGT source prefix mapped to ToughTorq TTGT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tte-24",
+      "model": "TTE-24",
+      "displayName": "TTE-24 Multistage Hydraulic Bolt Tensioner",
+      "description": "Multistage bolt tensioner for M24 applications with maximum pulling capacity of 69,016 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Multistage",
+        "boltDiameter": "M24",
+        "maxWorkingPressurePsi": 21756,
+        "maxPullingCapacityLbf": 69016,
+        "cylinderEffectiveAreaIn2": 3.52,
+        "outsideDiameterIn": 2.32,
+        "nutSizeIn": 1.42,
+        "weightLb": 11,
+        "strokeIn": 0.28,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 2.32,
+          "unit": "in"
+        },
+        {
+          "key": "nutSize",
+          "label": "Nut Size",
+          "value": 1.42,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Compatible ultra-high-pressure manual, electric, or pneumatic pump"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Ultra-high-pressure hose and couplers",
+        "Application-specific tensioning accessories"
+      ],
+      "compatibility": [
+        "Designed for high-capacity tensioning where a compact outside diameter is required.",
+        "Hydraulic supply components must be rated for the 21,756 psi maximum working pressure."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 — Multistage Bolt Tensioners"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tte-30",
+      "model": "TTE-30",
+      "displayName": "TTE-30 Multistage Hydraulic Bolt Tensioner",
+      "description": "Multistage bolt tensioner for M30 applications with maximum pulling capacity of 103,637 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Multistage",
+        "boltDiameter": "M30",
+        "maxWorkingPressurePsi": 21756,
+        "maxPullingCapacityLbf": 103637,
+        "cylinderEffectiveAreaIn2": 5.3,
+        "outsideDiameterIn": 2.83,
+        "nutSizeIn": 1.81,
+        "weightLb": 14.6,
+        "strokeIn": 0.28,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 2.83,
+          "unit": "in"
+        },
+        {
+          "key": "nutSize",
+          "label": "Nut Size",
+          "value": 1.81,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Compatible ultra-high-pressure manual, electric, or pneumatic pump"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Ultra-high-pressure hose and couplers",
+        "Application-specific tensioning accessories"
+      ],
+      "compatibility": [
+        "Designed for high-capacity tensioning where a compact outside diameter is required.",
+        "Hydraulic supply components must be rated for the 21,756 psi maximum working pressure."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 — Multistage Bolt Tensioners"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tte-33",
+      "model": "TTE-33",
+      "displayName": "TTE-33 Multistage Hydraulic Bolt Tensioner",
+      "description": "Multistage bolt tensioner for M33 applications with maximum pulling capacity of 133,761 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Multistage",
+        "boltDiameter": "M33",
+        "maxWorkingPressurePsi": 21756,
+        "maxPullingCapacityLbf": 133761,
+        "cylinderEffectiveAreaIn2": 6.83,
+        "outsideDiameterIn": 3.11,
+        "nutSizeIn": 1.97,
+        "weightLb": 17.6,
+        "strokeIn": 0.28,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 3.11,
+          "unit": "in"
+        },
+        {
+          "key": "nutSize",
+          "label": "Nut Size",
+          "value": 1.97,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Compatible ultra-high-pressure manual, electric, or pneumatic pump"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Ultra-high-pressure hose and couplers",
+        "Application-specific tensioning accessories"
+      ],
+      "compatibility": [
+        "Designed for high-capacity tensioning where a compact outside diameter is required.",
+        "Hydraulic supply components must be rated for the 21,756 psi maximum working pressure."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 — Multistage Bolt Tensioners"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tte-36",
+      "model": "TTE-36",
+      "displayName": "TTE-36 Multistage Hydraulic Bolt Tensioner",
+      "description": "Multistage bolt tensioner for M36 applications with maximum pulling capacity of 152,870 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Multistage",
+        "boltDiameter": "M36",
+        "maxWorkingPressurePsi": 21756,
+        "maxPullingCapacityLbf": 152870,
+        "cylinderEffectiveAreaIn2": 7.81,
+        "outsideDiameterIn": 3.33,
+        "nutSizeIn": 2.17,
+        "weightLb": 23.6,
+        "strokeIn": 0.39,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 3.33,
+          "unit": "in"
+        },
+        {
+          "key": "nutSize",
+          "label": "Nut Size",
+          "value": 2.17,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Compatible ultra-high-pressure manual, electric, or pneumatic pump"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Ultra-high-pressure hose and couplers",
+        "Application-specific tensioning accessories"
+      ],
+      "compatibility": [
+        "Designed for high-capacity tensioning where a compact outside diameter is required.",
+        "Hydraulic supply components must be rated for the 21,756 psi maximum working pressure."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 — Multistage Bolt Tensioners"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tte-39",
+      "model": "TTE-39",
+      "displayName": "TTE-39 Multistage Hydraulic Bolt Tensioner",
+      "description": "Multistage bolt tensioner for M39 applications with maximum pulling capacity of 179,847 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Multistage",
+        "boltDiameter": "M39",
+        "maxWorkingPressurePsi": 21756,
+        "maxPullingCapacityLbf": 179847,
+        "cylinderEffectiveAreaIn2": 9.19,
+        "outsideDiameterIn": 3.6,
+        "nutSizeIn": 2.36,
+        "weightLb": 28.2,
+        "strokeIn": 0.39,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 3.6,
+          "unit": "in"
+        },
+        {
+          "key": "nutSize",
+          "label": "Nut Size",
+          "value": 2.36,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Compatible ultra-high-pressure manual, electric, or pneumatic pump"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Ultra-high-pressure hose and couplers",
+        "Application-specific tensioning accessories"
+      ],
+      "compatibility": [
+        "Designed for high-capacity tensioning where a compact outside diameter is required.",
+        "Hydraulic supply components must be rated for the 21,756 psi maximum working pressure."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 — Multistage Bolt Tensioners"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tte-42",
+      "model": "TTE-42",
+      "displayName": "TTE-42 Multistage Hydraulic Bolt Tensioner",
+      "description": "Multistage bolt tensioner for M42 applications with maximum pulling capacity of 207,274 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Multistage",
+        "boltDiameter": "M42",
+        "maxWorkingPressurePsi": 21756,
+        "maxPullingCapacityLbf": 207274,
+        "cylinderEffectiveAreaIn2": 10.59,
+        "outsideDiameterIn": 3.88,
+        "nutSizeIn": 2.56,
+        "weightLb": 35.3,
+        "strokeIn": 0.39,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 3.88,
+          "unit": "in"
+        },
+        {
+          "key": "nutSize",
+          "label": "Nut Size",
+          "value": 2.56,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Compatible ultra-high-pressure manual, electric, or pneumatic pump"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Ultra-high-pressure hose and couplers",
+        "Application-specific tensioning accessories"
+      ],
+      "compatibility": [
+        "Designed for high-capacity tensioning where a compact outside diameter is required.",
+        "Hydraulic supply components must be rated for the 21,756 psi maximum working pressure."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 — Multistage Bolt Tensioners"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tte-45",
+      "model": "TTE-45",
+      "displayName": "TTE-45 Multistage Hydraulic Bolt Tensioner",
+      "description": "Multistage bolt tensioner for M45 applications with maximum pulling capacity of 244,143 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Multistage",
+        "boltDiameter": "M45",
+        "maxWorkingPressurePsi": 21756,
+        "maxPullingCapacityLbf": 244143,
+        "cylinderEffectiveAreaIn2": 12.47,
+        "outsideDiameterIn": 4.21,
+        "nutSizeIn": 2.76,
+        "weightLb": 46.3,
+        "strokeIn": 0.39,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 4.21,
+          "unit": "in"
+        },
+        {
+          "key": "nutSize",
+          "label": "Nut Size",
+          "value": 2.76,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Compatible ultra-high-pressure manual, electric, or pneumatic pump"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Ultra-high-pressure hose and couplers",
+        "Application-specific tensioning accessories"
+      ],
+      "compatibility": [
+        "Designed for high-capacity tensioning where a compact outside diameter is required.",
+        "Hydraulic supply components must be rated for the 21,756 psi maximum working pressure."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 — Multistage Bolt Tensioners"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tte-48",
+      "model": "TTE-48",
+      "displayName": "TTE-48 Multistage Hydraulic Bolt Tensioner",
+      "description": "Multistage bolt tensioner for M48 applications with maximum pulling capacity of 291,352 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Multistage",
+        "boltDiameter": "M48",
+        "maxWorkingPressurePsi": 21756,
+        "maxPullingCapacityLbf": 291352,
+        "cylinderEffectiveAreaIn2": 14.89,
+        "outsideDiameterIn": 4.57,
+        "nutSizeIn": 2.95,
+        "weightLb": 48.5,
+        "strokeIn": 0.39,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 4.57,
+          "unit": "in"
+        },
+        {
+          "key": "nutSize",
+          "label": "Nut Size",
+          "value": 2.95,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Compatible ultra-high-pressure manual, electric, or pneumatic pump"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Ultra-high-pressure hose and couplers",
+        "Application-specific tensioning accessories"
+      ],
+      "compatibility": [
+        "Designed for high-capacity tensioning where a compact outside diameter is required.",
+        "Hydraulic supply components must be rated for the 21,756 psi maximum working pressure."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 — Multistage Bolt Tensioners"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tte-56",
+      "model": "TTE-56",
+      "displayName": "TTE-56 Multistage Hydraulic Bolt Tensioner",
+      "description": "Multistage bolt tensioner for M56 applications with maximum pulling capacity of 373,183 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Multistage",
+        "boltDiameter": "M56",
+        "maxWorkingPressurePsi": 21756,
+        "maxPullingCapacityLbf": 373183,
+        "cylinderEffectiveAreaIn2": 19.06,
+        "outsideDiameterIn": 5.16,
+        "nutSizeIn": 3.35,
+        "weightLb": 52.9,
+        "strokeIn": 0.39,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 5.16,
+          "unit": "in"
+        },
+        {
+          "key": "nutSize",
+          "label": "Nut Size",
+          "value": 3.35,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Compatible ultra-high-pressure manual, electric, or pneumatic pump"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Ultra-high-pressure hose and couplers",
+        "Application-specific tensioning accessories"
+      ],
+      "compatibility": [
+        "Designed for high-capacity tensioning where a compact outside diameter is required.",
+        "Hydraulic supply components must be rated for the 21,756 psi maximum working pressure."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 — Multistage Bolt Tensioners"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tte-64",
+      "model": "TTE-64",
+      "displayName": "TTE-64 Multistage Hydraulic Bolt Tensioner",
+      "description": "Multistage bolt tensioner for M64 applications with maximum pulling capacity of 528,301 lbf.",
+      "images": [],
+      "specifications": {
+        "series": "Multistage",
+        "boltDiameter": "M64",
+        "maxWorkingPressurePsi": 21756,
+        "maxPullingCapacityLbf": 528301,
+        "cylinderEffectiveAreaIn2": 29.14,
+        "outsideDiameterIn": 5.82,
+        "nutSizeIn": 3.74,
+        "weightLb": 103.6,
+        "strokeIn": 0.39,
+        "returnMethod": "Automatic spring return"
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 5.82,
+          "unit": "in"
+        },
+        {
+          "key": "nutSize",
+          "label": "Nut Size",
+          "value": 3.74,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Compatible ultra-high-pressure manual, electric, or pneumatic pump"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Ultra-high-pressure hose and couplers",
+        "Application-specific tensioning accessories"
+      ],
+      "compatibility": [
+        "Designed for high-capacity tensioning where a compact outside diameter is required.",
+        "Hydraulic supply components must be rated for the 21,756 psi maximum working pressure."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 — Multistage Bolt Tensioners"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    }
+  ],
+  "operatingRequirements": [
+    {
+      "key": "system",
+      "label": "Hydraulic System",
+      "value": "Use a compatible ultra-high-pressure pump, hose, couplers, gauge, and tensioner components rated for the selected system"
+    },
+    {
+      "key": "selection",
+      "label": "Tensioner Selection",
+      "value": "Match bolt diameter, thread pitch, required preload, stud projection, nut size, radial clearance, and working pressure"
+    }
+  ],
+  "accessories": [
+    "Ultra-high-pressure pumps",
+    "Ultra-high-pressure hoses",
+    "Quick couplers",
+    "Pressure gauges",
+    "Pullers and threaded adaptors",
+    "Bridges",
+    "Nut rotators",
+    "Application accessories"
+  ],
+  "compatibility": [
+    "Threaded adaptors, pullers, and bridges must match the bolt/stud specification and joint geometry.",
+    "Hydraulic components must share compatible pressure ratings and connection interfaces.",
+    "Multiple tensioners may be connected for simultaneous tensioning when the hydraulic system and application are configured accordingly."
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": true,
+  "calibrationApplicable": false,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "2026 ToughTorq catalog pages 38–40",
+    "ToughTorq/Kashon Spring Return, Load Return, and Multistage Hydraulic Bolt Tensioner tables"
+  ],
+  "lastVerifiedAt": "2026-10-05",
+  "catalogVersion": "2026.10"
+}
