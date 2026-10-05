@@ -1,0 +1,754 @@
+{
+  "id": "bearing-heaters",
+  "slug": "bearing-heaters",
+  "family": "Bearing Heaters",
+  "displayName": "Bearing Heaters",
+  "shortDescription": "Plate and induction heating systems for controlled installation of bearings and interference-fit components.",
+  "longDescription": "ToughTorq bearing heaters provide controlled thermal expansion for bearing installation and rotating-equipment maintenance. Plate heaters use conductive heating for small components, while KHG induction heaters provide direct electromagnetic heating with temperature and timing control, automatic heat preservation, demagnetization, and overheat protection.",
+  "images": [],
+  "features": [
+    "Plate and electromagnetic induction heating options",
+    "Controlled heating for interference-fit installation",
+    "Induction models support constant-temperature and timing modes",
+    "Automatic heat preservation on induction models",
+    "Manual and automatic demagnetization",
+    "Overheat protection",
+    "Workpiece capacity from small bearings through large industrial components",
+    "Model-specific electrical and dimensional data"
+  ],
+  "applications": [
+    "Bearing installation",
+    "Gear installation",
+    "Coupling installation",
+    "Rotating equipment maintenance",
+    "Motor repair",
+    "Pump maintenance",
+    "Industrial assembly",
+    "Maintenance shops"
+  ],
+  "models": [
+    {
+      "id": "khg-12",
+      "model": "KHG-12",
+      "displayName": "KHG-12 Plate Bearing Heater",
+      "description": "Plate bearing heater with 1.32 kW heating power and 60–320 °C operating temperature range.",
+      "images": [],
+      "specifications": {
+        "series": "Plate Bearing Heater",
+        "ratedVoltageV": "220",
+        "ratedFrequencyHz": 50,
+        "heatingPowerKw": 1.32,
+        "heatingTemperatureMinC": 60,
+        "heatingTemperatureMaxC": 320,
+        "controlAccuracyC": "±3",
+        "temperatureFluctuationC": "±4",
+        "plateSizeMm": "390 × 190",
+        "overallSizeMm": "400 × 220 × 145",
+        "weightLb": 14.3
+      },
+      "dimensions": [
+        {
+          "key": "plateLength",
+          "label": "Plate Length",
+          "value": 15.35,
+          "unit": "in"
+        },
+        {
+          "key": "plateWidth",
+          "label": "Plate Width",
+          "value": 7.48,
+          "unit": "in"
+        },
+        {
+          "key": "length",
+          "label": "Overall Length",
+          "value": 15.75,
+          "unit": "in"
+        },
+        {
+          "key": "width",
+          "label": "Overall Width",
+          "value": 8.66,
+          "unit": "in"
+        },
+        {
+          "key": "height",
+          "label": "Overall Height",
+          "value": 5.71,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "voltage",
+          "label": "Rated Voltage",
+          "value": "220",
+          "unit": "V"
+        },
+        {
+          "key": "frequency",
+          "label": "Rated Frequency",
+          "value": 50,
+          "unit": "Hz"
+        },
+        {
+          "key": "power",
+          "label": "Heating Power",
+          "value": 1.32,
+          "unit": "kW"
+        }
+      ],
+      "accessories": [],
+      "compatibility": [
+        "Plate heating is intended for controlled preheating of small bearings and other suitable workpieces.",
+        "Verify available supply voltage and workpiece temperature requirements before use."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Plate Bearing Heater table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "khg-12p",
+      "model": "KHG-12P",
+      "displayName": "KHG-12P Plate Bearing Heater",
+      "description": "Plate bearing heater with 1.32 kW heating power and 30–350 °C operating temperature range.",
+      "images": [],
+      "specifications": {
+        "series": "Plate Bearing Heater",
+        "ratedVoltageV": "110/220",
+        "ratedFrequencyHz": 50,
+        "heatingPowerKw": 1.32,
+        "heatingTemperatureMinC": 30,
+        "heatingTemperatureMaxC": 350,
+        "controlAccuracyC": "±3",
+        "temperatureFluctuationC": "±4",
+        "plateSizeMm": "390 × 190",
+        "overallSizeMm": "400 × 220 × 145",
+        "weightLb": 15
+      },
+      "dimensions": [
+        {
+          "key": "plateLength",
+          "label": "Plate Length",
+          "value": 15.35,
+          "unit": "in"
+        },
+        {
+          "key": "plateWidth",
+          "label": "Plate Width",
+          "value": 7.48,
+          "unit": "in"
+        },
+        {
+          "key": "length",
+          "label": "Overall Length",
+          "value": 15.75,
+          "unit": "in"
+        },
+        {
+          "key": "width",
+          "label": "Overall Width",
+          "value": 8.66,
+          "unit": "in"
+        },
+        {
+          "key": "height",
+          "label": "Overall Height",
+          "value": 5.71,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "voltage",
+          "label": "Rated Voltage",
+          "value": "110/220",
+          "unit": "V"
+        },
+        {
+          "key": "frequency",
+          "label": "Rated Frequency",
+          "value": 50,
+          "unit": "Hz"
+        },
+        {
+          "key": "power",
+          "label": "Heating Power",
+          "value": 1.32,
+          "unit": "kW"
+        }
+      ],
+      "accessories": [],
+      "compatibility": [
+        "Plate heating is intended for controlled preheating of small bearings and other suitable workpieces.",
+        "Verify available supply voltage and workpiece temperature requirements before use."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Plate Bearing Heater table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "khg-22",
+      "model": "KHG-22",
+      "displayName": "KHG-22 Bearing Induction Heater",
+      "description": "Induction heater with 2.2 kW power and published bearing capacity up to 15 kg.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Induction Heater",
+        "ratedVoltageV": "220",
+        "ratedCurrentA": 10,
+        "ratedFrequencyHz": 50,
+        "powerKw": 2.2,
+        "minWorkpieceIdHangMm": 15,
+        "minWorkpieceIdLevelMm": 60,
+        "maxWorkpieceOdMm": 220,
+        "maxWorkpieceWidthHangMm": 65,
+        "maxWorkpieceWidthLevelMm": 100,
+        "maxBearingWeightKg": 15,
+        "maxOtherWorkpieceWeightKg": 9,
+        "maxTemperatureC": 245,
+        "overallSizeMm": "300 × 210 × 300",
+        "weightLb": 35.3
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Overall Length",
+          "value": 11.81,
+          "unit": "in"
+        },
+        {
+          "key": "width",
+          "label": "Overall Width",
+          "value": 8.27,
+          "unit": "in"
+        },
+        {
+          "key": "height",
+          "label": "Overall Height",
+          "value": 11.81,
+          "unit": "in"
+        },
+        {
+          "key": "maxOd",
+          "label": "Max Workpiece OD",
+          "value": 8.66,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "voltage",
+          "label": "Rated Voltage",
+          "value": "220",
+          "unit": "V"
+        },
+        {
+          "key": "current",
+          "label": "Rated Current",
+          "value": 10,
+          "unit": "A"
+        },
+        {
+          "key": "frequency",
+          "label": "Rated Frequency",
+          "value": 50,
+          "unit": "Hz"
+        },
+        {
+          "key": "power",
+          "label": "Power",
+          "value": 2.2,
+          "unit": "kW"
+        }
+      ],
+      "accessories": [
+        "Heating rods"
+      ],
+      "compatibility": [
+        "Select the heater around workpiece ID, OD, width, weight, required temperature, and available electrical supply.",
+        "Published hanging and level workpiece limits differ by model and mounting orientation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq / ToughTorq-Kashon Bearing Induction Heater table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "khg-40",
+      "model": "KHG-40",
+      "displayName": "KHG-40 Bearing Induction Heater",
+      "description": "Induction heater with 4 kW power and published bearing capacity up to 50 kg.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Induction Heater",
+        "ratedVoltageV": "220",
+        "ratedCurrentA": 18,
+        "ratedFrequencyHz": 50,
+        "powerKw": 4,
+        "minWorkpieceIdHangMm": 20,
+        "minWorkpieceIdLevelMm": 120,
+        "maxWorkpieceOdMm": 480,
+        "maxWorkpieceWidthHangMm": 130,
+        "maxWorkpieceWidthLevelMm": 205,
+        "maxBearingWeightKg": 50,
+        "maxOtherWorkpieceWeightKg": 35,
+        "maxTemperatureC": 245,
+        "overallSizeMm": "480 × 270 × 340",
+        "weightLb": 57.3
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Overall Length",
+          "value": 18.9,
+          "unit": "in"
+        },
+        {
+          "key": "width",
+          "label": "Overall Width",
+          "value": 10.63,
+          "unit": "in"
+        },
+        {
+          "key": "height",
+          "label": "Overall Height",
+          "value": 13.39,
+          "unit": "in"
+        },
+        {
+          "key": "maxOd",
+          "label": "Max Workpiece OD",
+          "value": 18.9,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "voltage",
+          "label": "Rated Voltage",
+          "value": "220",
+          "unit": "V"
+        },
+        {
+          "key": "current",
+          "label": "Rated Current",
+          "value": 18,
+          "unit": "A"
+        },
+        {
+          "key": "frequency",
+          "label": "Rated Frequency",
+          "value": 50,
+          "unit": "Hz"
+        },
+        {
+          "key": "power",
+          "label": "Power",
+          "value": 4,
+          "unit": "kW"
+        }
+      ],
+      "accessories": [
+        "Heating rods"
+      ],
+      "compatibility": [
+        "Select the heater around workpiece ID, OD, width, weight, required temperature, and available electrical supply.",
+        "Published hanging and level workpiece limits differ by model and mounting orientation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq / ToughTorq-Kashon Bearing Induction Heater table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "khg-100",
+      "model": "KHG-100",
+      "displayName": "KHG-100 Bearing Induction Heater",
+      "description": "Induction heater with 10 kW power and published bearing capacity up to 150 kg.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Induction Heater",
+        "ratedVoltageV": "Two Phase 380",
+        "ratedCurrentA": 25,
+        "ratedFrequencyHz": 50,
+        "powerKw": 10,
+        "minWorkpieceIdHangMm": 45,
+        "minWorkpieceIdLevelMm": 140,
+        "maxWorkpieceOdMm": 720,
+        "maxWorkpieceWidthHangMm": 210,
+        "maxWorkpieceWidthLevelMm": 260,
+        "maxBearingWeightKg": 150,
+        "maxOtherWorkpieceWeightKg": 100,
+        "maxTemperatureC": 245,
+        "overallSizeMm": "540 × 330 × 500",
+        "weightLb": 88.2
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Overall Length",
+          "value": 21.26,
+          "unit": "in"
+        },
+        {
+          "key": "width",
+          "label": "Overall Width",
+          "value": 12.99,
+          "unit": "in"
+        },
+        {
+          "key": "height",
+          "label": "Overall Height",
+          "value": 19.69,
+          "unit": "in"
+        },
+        {
+          "key": "maxOd",
+          "label": "Max Workpiece OD",
+          "value": 28.35,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "voltage",
+          "label": "Rated Voltage",
+          "value": "Two Phase 380",
+          "unit": "V"
+        },
+        {
+          "key": "current",
+          "label": "Rated Current",
+          "value": 25,
+          "unit": "A"
+        },
+        {
+          "key": "frequency",
+          "label": "Rated Frequency",
+          "value": 50,
+          "unit": "Hz"
+        },
+        {
+          "key": "power",
+          "label": "Power",
+          "value": 10,
+          "unit": "kW"
+        }
+      ],
+      "accessories": [
+        "Heating rods"
+      ],
+      "compatibility": [
+        "Select the heater around workpiece ID, OD, width, weight, required temperature, and available electrical supply.",
+        "Published hanging and level workpiece limits differ by model and mounting orientation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq / ToughTorq-Kashon Bearing Induction Heater table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "khg-120",
+      "model": "KHG-120",
+      "displayName": "KHG-120 Bearing Induction Heater",
+      "description": "Induction heater with 12 kW power and published bearing capacity up to 350 kg.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Induction Heater",
+        "ratedVoltageV": "Two Phase 380",
+        "ratedCurrentA": 30,
+        "ratedFrequencyHz": 50,
+        "powerKw": 12,
+        "minWorkpieceIdHangMm": 45,
+        "minWorkpieceIdLevelMm": 110,
+        "maxWorkpieceOdMm": 860,
+        "maxWorkpieceWidthHangMm": 300,
+        "maxWorkpieceWidthLevelMm": 320,
+        "maxBearingWeightKg": 350,
+        "maxOtherWorkpieceWeightKg": 240,
+        "maxTemperatureC": 245,
+        "overallSizeMm": "920 × 450 × 930",
+        "weightLb": 396.8
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Overall Length",
+          "value": 36.22,
+          "unit": "in"
+        },
+        {
+          "key": "width",
+          "label": "Overall Width",
+          "value": 17.72,
+          "unit": "in"
+        },
+        {
+          "key": "height",
+          "label": "Overall Height",
+          "value": 36.61,
+          "unit": "in"
+        },
+        {
+          "key": "maxOd",
+          "label": "Max Workpiece OD",
+          "value": 33.86,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "voltage",
+          "label": "Rated Voltage",
+          "value": "Two Phase 380",
+          "unit": "V"
+        },
+        {
+          "key": "current",
+          "label": "Rated Current",
+          "value": 30,
+          "unit": "A"
+        },
+        {
+          "key": "frequency",
+          "label": "Rated Frequency",
+          "value": 50,
+          "unit": "Hz"
+        },
+        {
+          "key": "power",
+          "label": "Power",
+          "value": 12,
+          "unit": "kW"
+        }
+      ],
+      "accessories": [
+        "Heating rods"
+      ],
+      "compatibility": [
+        "Select the heater around workpiece ID, OD, width, weight, required temperature, and available electrical supply.",
+        "Published hanging and level workpiece limits differ by model and mounting orientation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq / ToughTorq-Kashon Bearing Induction Heater table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "khg-150",
+      "model": "KHG-150",
+      "displayName": "KHG-150 Bearing Induction Heater",
+      "description": "Induction heater with 15 kW power and published bearing capacity up to 450 kg.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Induction Heater",
+        "ratedVoltageV": "Two Phase 380",
+        "ratedCurrentA": 38,
+        "ratedFrequencyHz": 50,
+        "powerKw": 15,
+        "minWorkpieceIdHangMm": 60,
+        "minWorkpieceIdLevelMm": 180,
+        "maxWorkpieceOdMm": 1020,
+        "maxWorkpieceWidthHangMm": 390,
+        "maxWorkpieceWidthLevelMm": 340,
+        "maxBearingWeightKg": 450,
+        "maxOtherWorkpieceWeightKg": 600,
+        "maxTemperatureC": 245,
+        "overallSizeMm": "1460 × 700 × 1100",
+        "weightLb": 606.3
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Overall Length",
+          "value": 57.48,
+          "unit": "in"
+        },
+        {
+          "key": "width",
+          "label": "Overall Width",
+          "value": 27.56,
+          "unit": "in"
+        },
+        {
+          "key": "height",
+          "label": "Overall Height",
+          "value": 43.31,
+          "unit": "in"
+        },
+        {
+          "key": "maxOd",
+          "label": "Max Workpiece OD",
+          "value": 40.16,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "voltage",
+          "label": "Rated Voltage",
+          "value": "Two Phase 380",
+          "unit": "V"
+        },
+        {
+          "key": "current",
+          "label": "Rated Current",
+          "value": 38,
+          "unit": "A"
+        },
+        {
+          "key": "frequency",
+          "label": "Rated Frequency",
+          "value": 50,
+          "unit": "Hz"
+        },
+        {
+          "key": "power",
+          "label": "Power",
+          "value": 15,
+          "unit": "kW"
+        }
+      ],
+      "accessories": [
+        "Heating rods"
+      ],
+      "compatibility": [
+        "Select the heater around workpiece ID, OD, width, weight, required temperature, and available electrical supply.",
+        "Published hanging and level workpiece limits differ by model and mounting orientation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq / ToughTorq-Kashon Bearing Induction Heater table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    }
+  ],
+  "operatingRequirements": [
+    {
+      "key": "selection",
+      "label": "Heater Selection",
+      "value": "Match workpiece ID, OD, width, weight, temperature target, heating method, and available electrical supply"
+    },
+    {
+      "key": "electrical",
+      "label": "Electrical Supply",
+      "value": "Confirm voltage, current, frequency, and phase requirements for the selected model before operation"
+    }
+  ],
+  "accessories": [
+    "Heating rods",
+    "Temperature-control accessories",
+    "Workpiece support accessories"
+  ],
+  "compatibility": [
+    "Induction heater capacity is limited by the published workpiece dimensions and weight for the selected model.",
+    "Plate heaters must be used within their rated temperature range and electrical supply.",
+    "Electrical supply requirements vary from 110/220 V plate models through two-phase 380 V induction models."
+  ],
+  "componentGroups": [
+    {
+      "id": "plate-bearing-heaters",
+      "group": "Bearing Heater Family",
+      "displayName": "Plate Bearing Heaters",
+      "description": "Conductive plate heaters for controlled preheating of small bearings and other suitable workpieces.",
+      "images": [],
+      "specifications": {
+        "models": "KHG-12 / KHG-12P"
+      },
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Plate Bearing Heater table"
+      ]
+    },
+    {
+      "id": "bearing-induction-heaters",
+      "group": "Bearing Heater Family",
+      "displayName": "Bearing Induction Heaters",
+      "description": "Electromagnetic induction heaters with temperature/timing control, heat preservation, demagnetization, and overheat protection.",
+      "images": [],
+      "specifications": {
+        "models": "KHG-22 / KHG-40 / KHG-100 / KHG-120 / KHG-150"
+      },
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Bearing Induction Heater table"
+      ]
+    }
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": true,
+  "calibrationApplicable": false,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "2026 ToughTorq Plate Bearing Heater table",
+    "ToughTorq/Kashon Bearing Induction Heater table"
+  ],
+  "lastVerifiedAt": "2026-10-05",
+  "catalogVersion": "2026.10"
+}
