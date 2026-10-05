@@ -1,0 +1,2408 @@
+{
+  "id": "sockets-reaction-arms",
+  "slug": "sockets-reaction-arms",
+  "family": "Sockets & Reaction Arms",
+  "displayName": "Torque Wrench Sockets & Reaction Solutions",
+  "shortDescription": "Heavy-duty sockets, drive accessories, and application-specific reaction solutions for ToughTorq bolting systems.",
+  "longDescription": "ToughTorq sockets and reaction equipment complete the mechanical connection between the torque tool, fastener, and reaction point. The published socket range covers 3/4-inch, 1-inch, and 1-1/2-inch square-drive hydraulic wrench applications, while reaction equipment can be selected or customized around tool position and available geometry.",
+  "images": [],
+  "features": [
+    "Socket range matched to published ToughTorq hydraulic wrench models",
+    "3/4-inch, 1-inch, and 1-1/2-inch square-drive coverage",
+    "Metric fastener reference from M16 through M90",
+    "Socket, hexagon socket, square drive, hexagonal drive, and castle socket configurations shown in the manufacturer system",
+    "Square-drive hydraulic reaction arm can be positioned 360° on its support",
+    "Custom reaction equipment available for application-specific requirements"
+  ],
+  "applications": [
+    "Hydraulic torque wrench bolting",
+    "Battery torque tool bolting",
+    "Pneumatic torque tool bolting",
+    "Manual torque multiplier applications",
+    "Industrial flange bolting",
+    "Heavy equipment maintenance",
+    "Restricted-access bolting",
+    "Custom reaction applications"
+  ],
+  "models": [
+    {
+      "id": "tx-75-24",
+      "model": "TX-75-24",
+      "displayName": "TX-75-24 Torque Wrench Socket",
+      "description": "Heavy-duty 3/4-inch drive socket for M16 fasteners with 24 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT1XTA",
+        "squareDriveIn": "3/4",
+        "boltDiameter": "M16",
+        "nutAfMm": 24,
+        "nutAfIn": 0.94
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.13,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.26,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 1.57,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 1.57,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT1XTA.",
+        "Square drive: 3/4 in.",
+        "Fastener reference: M16 / 24 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-75-27",
+      "model": "TX-75-27",
+      "displayName": "TX-75-27 Torque Wrench Socket",
+      "description": "Heavy-duty 3/4-inch drive socket for M18 fasteners with 27 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT1XTA",
+        "squareDriveIn": "3/4",
+        "boltDiameter": "M18",
+        "nutAfMm": 27,
+        "nutAfIn": 1.06
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.13,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.26,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 1.65,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 1.65,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT1XTA.",
+        "Square drive: 3/4 in.",
+        "Fastener reference: M18 / 27 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-75-30",
+      "model": "TX-75-30",
+      "displayName": "TX-75-30 Torque Wrench Socket",
+      "description": "Heavy-duty 3/4-inch drive socket for M20 fasteners with 30 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT1XTA",
+        "squareDriveIn": "3/4",
+        "boltDiameter": "M20",
+        "nutAfMm": 30,
+        "nutAfIn": 1.18
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.13,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.3,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 1.81,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 1.73,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT1XTA.",
+        "Square drive: 3/4 in.",
+        "Fastener reference: M20 / 30 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-75-34",
+      "model": "TX-75-34",
+      "displayName": "TX-75-34 Torque Wrench Socket",
+      "description": "Heavy-duty 3/4-inch drive socket for M22 fasteners with 34 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT1XTA",
+        "squareDriveIn": "3/4",
+        "boltDiameter": "M22",
+        "nutAfMm": 34,
+        "nutAfIn": 1.34
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.13,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.26,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 1.89,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 1.73,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT1XTA.",
+        "Square drive: 3/4 in.",
+        "Fastener reference: M22 / 34 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-75-36",
+      "model": "TX-75-36",
+      "displayName": "TX-75-36 Torque Wrench Socket",
+      "description": "Heavy-duty 3/4-inch drive socket for M24 fasteners with 36 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT1XTA",
+        "squareDriveIn": "3/4",
+        "boltDiameter": "M24",
+        "nutAfMm": 36,
+        "nutAfIn": 1.42
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.24,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.26,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 2.09,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 1.73,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT1XTA.",
+        "Square drive: 3/4 in.",
+        "Fastener reference: M24 / 36 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-75-41",
+      "model": "TX-75-41",
+      "displayName": "TX-75-41 Torque Wrench Socket",
+      "description": "Heavy-duty 3/4-inch drive socket for M27 fasteners with 41 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT1XTA",
+        "squareDriveIn": "3/4",
+        "boltDiameter": "M27",
+        "nutAfMm": 41,
+        "nutAfIn": 1.61
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.28,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.3,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 2.36,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 1.73,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT1XTA.",
+        "Square drive: 3/4 in.",
+        "Fastener reference: M27 / 41 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-75-46",
+      "model": "TX-75-46",
+      "displayName": "TX-75-46 Torque Wrench Socket",
+      "description": "Heavy-duty 3/4-inch drive socket for M30 fasteners with 46 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT1XTA",
+        "squareDriveIn": "3/4",
+        "boltDiameter": "M30",
+        "nutAfMm": 46,
+        "nutAfIn": 1.81
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.48,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 2.6,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 1.73,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT1XTA.",
+        "Square drive: 3/4 in.",
+        "Fastener reference: M30 / 46 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-75-50",
+      "model": "TX-75-50",
+      "displayName": "TX-75-50 Torque Wrench Socket",
+      "description": "Heavy-duty 3/4-inch drive socket for M33 fasteners with 50 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT1XTA",
+        "squareDriveIn": "3/4",
+        "boltDiameter": "M33",
+        "nutAfMm": 50,
+        "nutAfIn": 1.97
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.56,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.57,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 2.8,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 1.73,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT1XTA.",
+        "Square drive: 3/4 in.",
+        "Fastener reference: M33 / 50 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-75-55",
+      "model": "TX-75-55",
+      "displayName": "TX-75-55 Torque Wrench Socket",
+      "description": "Heavy-duty 3/4-inch drive socket for M36 fasteners with 55 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT1XTA",
+        "squareDriveIn": "3/4",
+        "boltDiameter": "M36",
+        "nutAfMm": 55,
+        "nutAfIn": 2.17
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.76,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.77,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 3.03,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.13,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT1XTA.",
+        "Square drive: 3/4 in.",
+        "Fastener reference: M36 / 55 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-100-30",
+      "model": "TX-100-30",
+      "displayName": "TX-100-30 Torque Wrench Socket",
+      "description": "Heavy-duty 1-inch drive socket for M20 fasteners with 30 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT3XTA",
+        "squareDriveIn": "1",
+        "boltDiameter": "M20",
+        "nutAfMm": 30,
+        "nutAfIn": 1.18
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.32,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.26,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 2.13,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.13,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT3XTA.",
+        "Square drive: 1 in.",
+        "Fastener reference: M20 / 30 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-100-34",
+      "model": "TX-100-34",
+      "displayName": "TX-100-34 Torque Wrench Socket",
+      "description": "Heavy-duty 1-inch drive socket for M22 fasteners with 34 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT3XTA",
+        "squareDriveIn": "1",
+        "boltDiameter": "M22",
+        "nutAfMm": 34,
+        "nutAfIn": 1.34
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.32,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.26,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 2.28,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.28,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT3XTA.",
+        "Square drive: 1 in.",
+        "Fastener reference: M22 / 34 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-100-36",
+      "model": "TX-100-36",
+      "displayName": "TX-100-36 Torque Wrench Socket",
+      "description": "Heavy-duty 1-inch drive socket for M24 fasteners with 36 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT3XTA",
+        "squareDriveIn": "1",
+        "boltDiameter": "M24",
+        "nutAfMm": 36,
+        "nutAfIn": 1.42
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.44,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.26,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 2.32,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.32,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT3XTA.",
+        "Square drive: 1 in.",
+        "Fastener reference: M24 / 36 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-100-41",
+      "model": "TX-100-41",
+      "displayName": "TX-100-41 Torque Wrench Socket",
+      "description": "Heavy-duty 1-inch drive socket for M27 fasteners with 41 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT3XTA",
+        "squareDriveIn": "1",
+        "boltDiameter": "M27",
+        "nutAfMm": 41,
+        "nutAfIn": 1.61
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.56,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 2.64,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.13,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT3XTA.",
+        "Square drive: 1 in.",
+        "Fastener reference: M27 / 41 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-100-46",
+      "model": "TX-100-46",
+      "displayName": "TX-100-46 Torque Wrench Socket",
+      "description": "Heavy-duty 1-inch drive socket for M30 fasteners with 46 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT3XTA",
+        "squareDriveIn": "1",
+        "boltDiameter": "M30",
+        "nutAfMm": 46,
+        "nutAfIn": 1.81
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.56,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 2.91,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.13,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT3XTA.",
+        "Square drive: 1 in.",
+        "Fastener reference: M30 / 46 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-100-50",
+      "model": "TX-100-50",
+      "displayName": "TX-100-50 Torque Wrench Socket",
+      "description": "Heavy-duty 1-inch drive socket for M33 fasteners with 50 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT3XTA",
+        "squareDriveIn": "1",
+        "boltDiameter": "M33",
+        "nutAfMm": 50,
+        "nutAfIn": 1.97
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 2.76,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.69,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 3.11,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.36,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT3XTA.",
+        "Square drive: 1 in.",
+        "Fastener reference: M33 / 50 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-100-55",
+      "model": "TX-100-55",
+      "displayName": "TX-100-55 Torque Wrench Socket",
+      "description": "Heavy-duty 1-inch drive socket for M36 fasteners with 55 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT3XTA",
+        "squareDriveIn": "1",
+        "boltDiameter": "M36",
+        "nutAfMm": 55,
+        "nutAfIn": 2.17
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 3.15,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 2.05,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 3.31,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.36,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT3XTA.",
+        "Square drive: 1 in.",
+        "Fastener reference: M36 / 55 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-100-60",
+      "model": "TX-100-60",
+      "displayName": "TX-100-60 Torque Wrench Socket",
+      "description": "Heavy-duty 1-inch drive socket for M39 fasteners with 60 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT3XTA",
+        "squareDriveIn": "1",
+        "boltDiameter": "M39",
+        "nutAfMm": 60,
+        "nutAfIn": 2.36
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 3.35,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 2.24,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 3.5,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.36,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT3XTA.",
+        "Square drive: 1 in.",
+        "Fastener reference: M39 / 60 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-100-65",
+      "model": "TX-100-65",
+      "displayName": "TX-100-65 Torque Wrench Socket",
+      "description": "Heavy-duty 1-inch drive socket for M42 fasteners with 65 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT3XTA",
+        "squareDriveIn": "1",
+        "boltDiameter": "M42",
+        "nutAfMm": 65,
+        "nutAfIn": 2.56
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 3.35,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 2.28,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 3.86,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.76,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT3XTA.",
+        "Square drive: 1 in.",
+        "Fastener reference: M42 / 65 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-100-70",
+      "model": "TX-100-70",
+      "displayName": "TX-100-70 Torque Wrench Socket",
+      "description": "Heavy-duty 1-inch drive socket for M45 fasteners with 70 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT3XTA",
+        "squareDriveIn": "1",
+        "boltDiameter": "M45",
+        "nutAfMm": 70,
+        "nutAfIn": 2.76
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 3.54,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 2.44,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 4.09,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.76,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT3XTA.",
+        "Square drive: 1 in.",
+        "Fastener reference: M45 / 70 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-100-75",
+      "model": "TX-100-75",
+      "displayName": "TX-100-75 Torque Wrench Socket",
+      "description": "Heavy-duty 1-inch drive socket for M48 fasteners with 75 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT3XTA",
+        "squareDriveIn": "1",
+        "boltDiameter": "M48",
+        "nutAfMm": 75,
+        "nutAfIn": 2.95
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 3.74,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 2.56,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 4.25,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.76,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT3XTA.",
+        "Square drive: 1 in.",
+        "Fastener reference: M48 / 75 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-36",
+      "model": "TX-150-36",
+      "displayName": "TX-150-36 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M24 fasteners with 36 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M24",
+        "nutAfMm": 36,
+        "nutAfIn": 1.42
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 3.35,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.73,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 2.91,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.91,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M24 / 36 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-41",
+      "model": "TX-150-41",
+      "displayName": "TX-150-41 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M27 fasteners with 41 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M27",
+        "nutAfMm": 41,
+        "nutAfIn": 1.61
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 3.35,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.73,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 2.91,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.91,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M27 / 41 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-46",
+      "model": "TX-150-46",
+      "displayName": "TX-150-46 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M30 fasteners with 46 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M30",
+        "nutAfMm": 46,
+        "nutAfIn": 1.81
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 3.35,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.73,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 2.91,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 2.91,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M30 / 46 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-50",
+      "model": "TX-150-50",
+      "displayName": "TX-150-50 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M33 fasteners with 50 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M33",
+        "nutAfMm": 50,
+        "nutAfIn": 1.97
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 3.54,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.77,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 3.11,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.11,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M33 / 50 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-55",
+      "model": "TX-150-55",
+      "displayName": "TX-150-55 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M36 fasteners with 55 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M36",
+        "nutAfMm": 55,
+        "nutAfIn": 2.17
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 3.54,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.77,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 3.31,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.31,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M36 / 55 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-60",
+      "model": "TX-150-60",
+      "displayName": "TX-150-60 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M39 fasteners with 60 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M39",
+        "nutAfMm": 60,
+        "nutAfIn": 2.36
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 3.94,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.77,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 3.7,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.7,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M39 / 60 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-65",
+      "model": "TX-150-65",
+      "displayName": "TX-150-65 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M42 fasteners with 65 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M42",
+        "nutAfMm": 65,
+        "nutAfIn": 2.56
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 3.94,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.77,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 3.86,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.15,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M42 / 65 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-70",
+      "model": "TX-150-70",
+      "displayName": "TX-150-70 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M45 fasteners with 70 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M45",
+        "nutAfMm": 70,
+        "nutAfIn": 2.76
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 4.13,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.97,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 4.09,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.15,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M45 / 70 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-75",
+      "model": "TX-150-75",
+      "displayName": "TX-150-75 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M48 fasteners with 75 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M48",
+        "nutAfMm": 75,
+        "nutAfIn": 2.95
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 4.33,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 1.97,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 4.65,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.35,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M48 / 75 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-80",
+      "model": "TX-150-80",
+      "displayName": "TX-150-80 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M52 fasteners with 80 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M52",
+        "nutAfMm": 80,
+        "nutAfIn": 3.15
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 4.53,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 2.17,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 4.65,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.54,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M52 / 80 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-85",
+      "model": "TX-150-85",
+      "displayName": "TX-150-85 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M56 fasteners with 85 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M56",
+        "nutAfMm": 85,
+        "nutAfIn": 3.35
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 4.92,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 2.36,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 5.04,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.54,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M56 / 85 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-90",
+      "model": "TX-150-90",
+      "displayName": "TX-150-90 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M60 fasteners with 90 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M60",
+        "nutAfMm": 90,
+        "nutAfIn": 3.54
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 4.92,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 2.36,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 5.47,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.54,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M60 / 90 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-95",
+      "model": "TX-150-95",
+      "displayName": "TX-150-95 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M64 fasteners with 95 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M64",
+        "nutAfMm": 95,
+        "nutAfIn": 3.74
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 5.12,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 2.56,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 5.47,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.54,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M64 / 95 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-100",
+      "model": "TX-150-100",
+      "displayName": "TX-150-100 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M68 fasteners with 100 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M68",
+        "nutAfMm": 100,
+        "nutAfIn": 3.94
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 5.31,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 2.76,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 5.67,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.54,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M68 / 100 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-105",
+      "model": "TX-150-105",
+      "displayName": "TX-150-105 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M72 fasteners with 105 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M72",
+        "nutAfMm": 105,
+        "nutAfIn": 4.13
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 5.31,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 2.76,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 5.87,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.54,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M72 / 105 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-110",
+      "model": "TX-150-110",
+      "displayName": "TX-150-110 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M76 fasteners with 110 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M76",
+        "nutAfMm": 110,
+        "nutAfIn": 4.33
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 5.31,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 2.76,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 6.22,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.54,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M76 / 110 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-115",
+      "model": "TX-150-115",
+      "displayName": "TX-150-115 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M80 fasteners with 115 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M80",
+        "nutAfMm": 115,
+        "nutAfIn": 4.53
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 5.31,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 2.76,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 6.26,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.54,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M80 / 115 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-120",
+      "model": "TX-150-120",
+      "displayName": "TX-150-120 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M85 fasteners with 120 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M85",
+        "nutAfMm": 120,
+        "nutAfIn": 4.72
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 5.31,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 2.76,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 6.61,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.74,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M85 / 120 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tx-150-130",
+      "model": "TX-150-130",
+      "displayName": "TX-150-130 Torque Wrench Socket",
+      "description": "Heavy-duty 1-1/2-inch drive socket for M90 fasteners with 130 mm nut A/F size.",
+      "images": [],
+      "specifications": {
+        "accessoryType": "Socket",
+        "compatibleWrenchModel": "TT5XTA / TT8XTA / TT10XTA",
+        "squareDriveIn": "1-1/2",
+        "boltDiameter": "M90",
+        "nutAfMm": 130,
+        "nutAfIn": 5.12
+      },
+      "dimensions": [
+        {
+          "key": "L1",
+          "label": "L1",
+          "value": 6.1,
+          "unit": "in"
+        },
+        {
+          "key": "L2",
+          "label": "L2",
+          "value": 3.66,
+          "unit": "in"
+        },
+        {
+          "key": "D1",
+          "label": "D1",
+          "value": 7.44,
+          "unit": "in"
+        },
+        {
+          "key": "D2",
+          "label": "D2",
+          "value": 3.54,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [],
+      "accessories": [],
+      "compatibility": [
+        "Published wrench compatibility: TT5XTA / TT8XTA / TT10XTA.",
+        "Square drive: 1-1/2 in.",
+        "Fastener reference: M90 / 130 mm A/F."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Socket for Torque Wrench table; MX source model prefix converted to ToughTorq TX naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    }
+  ],
+  "operatingRequirements": [
+    {
+      "key": "selection",
+      "label": "Socket Selection",
+      "value": "Match square drive, fastener size, wrench model, required torque, socket clearance, and application geometry"
+    },
+    {
+      "key": "reaction",
+      "label": "Reaction Selection",
+      "value": "Reaction equipment must bear against a suitable reaction point and be matched to the torque tool and application geometry"
+    }
+  ],
+  "accessories": [
+    "Hexagon sockets",
+    "Square drives",
+    "Hexagonal drives",
+    "Castle sockets",
+    "Standard reaction equipment",
+    "Custom reaction arms"
+  ],
+  "compatibility": [
+    "Published socket-to-wrench compatibility is maintained at model level in the canonical data.",
+    "Reaction-arm selection depends on the torque tool, reaction point, fastener position, and available clearance.",
+    "Custom reaction arms may be required where standard reaction geometry cannot safely engage the application."
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": true,
+  "calibrationApplicable": false,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "ToughTorq/Kashon Socket for Torque Wrench table",
+    "ToughTorq/Kashon Square Drive Hydraulic Torque Wrench reaction-arm notes"
+  ],
+  "lastVerifiedAt": "2026-10-05",
+  "catalogVersion": "2026.10"
+}
