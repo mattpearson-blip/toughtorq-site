@@ -631,7 +631,26 @@
     "Match sockets to the listed square-drive size and fastener.",
     "Select reaction equipment for the required torque and available reaction point."
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "BT Series Product Cutsheet",
+      "href": "/BT-Series-Cut-Sheet.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    },
+    {
+      "title": "BT Series Dimension Drawing",
+      "href": "",
+      "type": "drawing",
+      "status": "coming-soon"
+    },
+    {
+      "title": "BT Series Operating Guide",
+      "href": "",
+      "type": "manual",
+      "status": "coming-soon"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
