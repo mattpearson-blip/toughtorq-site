@@ -1,115 +1,118 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
-const toolGroups = [
-  {
-    title: "Hydraulic Puller Sets",
-    description:
-      "Hydraulic puller systems for controlled removal of bearings, gears, couplings, and other press-fit components.",
-    applications: [
-      "Bearing removal",
-      "Gear removal",
-      "Coupling removal",
-      "Heavy equipment maintenance",
-    ],
-  },
-  {
-    title: "Grip Puller Sets",
-    description:
-      "Grip-style puller systems for secure engagement and controlled component removal.",
-    applications: [
-      "Bearing service",
-      "Shaft components",
-      "Maintenance work",
-      "Field repair",
-    ],
-  },
-  {
-    title: "Hydraulic Coupler Pullers",
-    description:
-      "Hydraulic pullers designed for controlled removal of couplings and similar shaft-mounted components.",
-    applications: [
-      "Coupling removal",
-      "Rotating equipment",
-      "Plant maintenance",
-      "Industrial machinery",
-    ],
-  },
-  {
-    title: "Hydraulic Gear Pullers",
-    description:
-      "Adjustable hydraulic gear pullers for high-force removal of gears, bearings, and mounted components.",
-    applications: [
-      "Gear removal",
-      "Bearing removal",
-      "Heavy machinery",
-      "Shutdown maintenance",
-    ],
-  },
-  {
-    title: "Mechanical Gear Pullers",
-    description:
-      "Mechanical puller systems for controlled removal without a hydraulic power source.",
-    applications: [
-      "General maintenance",
-      "Gear removal",
-      "Bearing removal",
-      "Field service",
-    ],
-  },
-  {
-    title: "Nut Splitters",
-    description:
-      "Mechanical and hydraulic nut splitting tools for removing seized, corroded, or damaged nuts without damaging the bolt.",
-    applications: [
-      "Corroded fasteners",
-      "Seized nuts",
-      "Flange maintenance",
-      "Shutdown and turnaround work",
-    ],
-  },
-];
+import { pullersNutSplitters } from "@/data/catalog";
 
-const nutSplitterTypes = [
-  "Mechanical Nut Splitters",
-  "Integral Hydraulic Nut Splitters",
-  "Separator Hydraulic Nut Splitters",
-  "Heavy-Duty Hydraulic Nut Splitters",
-];
+export const metadata: Metadata = {
+  title: "Pullers & Nut Splitters",
+  description:
+    "Technical data, capacities, nut ranges, puller configurations, applications, and support information for ToughTorq pullers and nut splitters.",
+};
 
-const selectionFactors = [
-  "Component Diameter",
-  "Required Pulling Force",
-  "Available Clearance",
-  "Reach",
-  "Spread",
-  "Hydraulic or Mechanical Operation",
-  "Component Geometry",
-  "Application Environment",
-];
+function formatNumber(value: unknown) {
+  if (typeof value === "number") {
+    return value.toLocaleString("en-US", { maximumFractionDigits: 2 });
+  }
 
-const relatedProducts = [
-  {
-    title: "Hydraulic Pumps",
-    href: "/products/hydraulic-pumps",
-  },
-  {
-    title: "Hydraulic Hoses",
-    href: "/products/hydraulic-hoses",
-  },
-  {
-    title: "Hydraulic Fittings & Couplers",
-    href: "/products/hydraulic-fittings-couplers",
-  },
-  {
-    title: "Bearing Heaters",
-    href: "/products/bearing-heaters",
-  },
-];
+  return String(value ?? "—");
+}
+
+function ToolTable({
+  title,
+  models,
+}: {
+  title: string;
+  models: typeof pullersNutSplitters.models;
+}) {
+  return (
+    <details className="overflow-hidden rounded-xl border border-[#dddddd] bg-white">
+      <summary className="cursor-pointer px-5 py-4 text-lg font-semibold text-[#3f4448]">
+        {title}{" "}
+        <span className="ml-2 text-sm font-normal text-[#777777]">
+          ({models.length} models)
+        </span>
+      </summary>
+
+      <div className="overflow-x-auto border-t border-[#dddddd]">
+        <table className="min-w-[980px] w-full border-collapse text-left text-sm">
+          <thead className="bg-[#3f4448] text-white">
+            <tr>
+              <th className="px-4 py-4 font-semibold">Model</th>
+              <th className="px-4 py-4 font-semibold">Capacity</th>
+              <th className="px-4 py-4 font-semibold">Nut / Component Range</th>
+              <th className="px-4 py-4 font-semibold">Spread</th>
+              <th className="px-4 py-4 font-semibold">Stroke</th>
+              <th className="px-4 py-4 font-semibold">Weight</th>
+              <th className="px-4 py-4 font-semibold">Operation</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            {models.map((model, index) => {
+              const s = model.specifications;
+
+              const range =
+                s.nutAfSize ??
+                s.boltDiameter ??
+                s.matchedModuleSpecification ??
+                s.hydraulicCylinder ??
+                "—";
+
+              return (
+                <tr
+                  key={model.id}
+                  className={index % 2 === 0 ? "bg-white" : "bg-[#f7f7f7]"}
+                >
+                  <td className="border-t border-[#dddddd] px-4 py-4 font-bold text-[#ed1c24]">
+                    {model.model}
+                  </td>
+                  <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                    {s.capacityTons
+                      ? `${formatNumber(s.capacityTons)} ton`
+                      : "—"}
+                  </td>
+                  <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                    {String(range)}
+                  </td>
+                  <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                    {s.maxSpreadIn
+                      ? `${formatNumber(s.maxSpreadIn)} in`
+                      : "—"}
+                  </td>
+                  <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                    {s.strokeIn
+                      ? `${formatNumber(s.strokeIn)} in`
+                      : "—"}
+                  </td>
+                  <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                    {s.weightLb
+                      ? `${formatNumber(s.weightLb)} lb`
+                      : s.setWeightLb
+                      ? `${formatNumber(s.setWeightLb)} lb set`
+                      : "—"}
+                  </td>
+                  <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                    {String(s.operationType ?? "Hydraulic")}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </details>
+  );
+}
 
 export default function PullersNutSplittersPage() {
+  const family = pullersNutSplitters;
+  const families = family.componentGroups ?? [];
+  const seriesNames = Array.from(
+    new Set(family.models.map((model) => String(model.specifications.series)))
+  );
+
   return (
     <main className="bg-[#f5f5f5] text-[#2b2b2b]">
-      {/* HERO */}
       <section className="border-b border-[#dedede] bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-20 lg:px-12">
           <p className="text-sm font-bold uppercase tracking-[0.14em] text-[#ed1c24]">
@@ -125,29 +128,34 @@ export default function PullersNutSplittersPage() {
           <div className="mt-6 h-[3px] w-16 bg-[#ed1c24]" />
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-[#444444]">
-            Hydraulic and mechanical removal tools for bearings, gears,
-            couplings, seized fasteners, and industrial maintenance work.
+            {family.longDescription}
           </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Link
-              href="/request-a-quote?product=Pullers%20%26%20Nut%20Splitters"
+              href="#technical-data"
               className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
             >
-              Request a Quote
+              View Technical Data
             </Link>
 
             <Link
-              href="/request-a-quote"
-              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#666666] bg-white px-6 py-3 text-sm font-semibold text-[#333333] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+              href="#selection"
+              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
             >
-              View Quote Cart →
+              Selection Guidance
+            </Link>
+
+            <Link
+              href="/find-a-distributor"
+              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+            >
+              Find a Distributor
             </Link>
           </div>
         </div>
       </section>
 
-      {/* PRODUCT FAMILIES */}
       <section className="border-b border-[#dedede] bg-[#f7f7f7]">
         <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
           <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
@@ -155,228 +163,232 @@ export default function PullersNutSplittersPage() {
           </p>
 
           <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Removal tooling
+            Controlled removal tooling
           </h2>
 
-          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {toolGroups.map((group) => (
-              <div
-                key={group.title}
-                className="flex flex-col rounded-xl border border-[#dddddd] bg-white p-6 transition hover:border-[#ed1c24]"
+          <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            {families.map((item) => (
+              <article
+                key={item.id}
+                className="rounded-xl border border-[#dddddd] bg-white p-5"
               >
-                <h3 className="text-xl font-semibold text-[#3f4448]">
-                  {group.title}
+                <h3 className="text-lg font-semibold text-[#3f4448]">
+                  {item.displayName}
                 </h3>
-
-                <p className="mt-4 flex-1 text-sm leading-7 text-[#555555]">
-                  {group.description}
-                </p>
-
-                <div className="mt-6">
-                  <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#777777]">
-                    Applications
+                {item.description && (
+                  <p className="mt-3 text-sm leading-7 text-[#555555]">
+                    {item.description}
                   </p>
-
-                  <ul className="mt-3 space-y-2">
-                    {group.applications.map((application) => (
-                      <li
-                        key={application}
-                        className="flex gap-3 text-sm text-[#555555]"
-                      >
-                        <span className="font-bold text-[#ed1c24]">✓</span>
-                        <span>{application}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <Link
-                  href={`/request-a-quote?product=${encodeURIComponent(
-                    group.title
-                  )}`}
-                  className="mt-7 text-sm font-semibold text-[#ed1c24]"
-                >
-                  Request Information →
-                </Link>
-              </div>
+                )}
+              </article>
             ))}
           </div>
         </div>
       </section>
 
-      {/* NUT SPLITTER TYPES */}
-      <section className="border-b border-[#dedede] bg-white">
+      <section
+        id="technical-data"
+        className="scroll-mt-24 border-b border-[#dedede] bg-white"
+      >
         <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
           <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Nut Removal
+            Technical Data
           </p>
 
           <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Nut splitter configurations
+            Verified puller and splitter models
           </h2>
 
-          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
-            ToughTorq nut splitters provide controlled removal of damaged,
-            seized, or corroded nuts while helping preserve the stud or bolt.
+          <p className="mt-4 max-w-4xl leading-8 text-[#555555]">
+            Open a family below to review the published capacity, nut or
+            component range, spread, stroke, weight, and operating method.
           </p>
 
-          <div className="mt-8 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2 lg:grid-cols-4">
-            {nutSplitterTypes.map((type) => (
-              <div key={type} className="bg-[#fafafa] p-5">
-                <p className="font-semibold text-[#444444]">{type}</p>
-              </div>
+          <div className="mt-8 space-y-4">
+            {seriesNames.map((seriesName) => (
+              <ToolTable
+                key={seriesName}
+                title={seriesName}
+                models={family.models.filter(
+                  (model) => String(model.specifications.series) === seriesName
+                )}
+              />
             ))}
           </div>
         </div>
       </section>
 
-      {/* SELECTION */}
-      <section className="border-b border-[#dedede] bg-[#f7f7f7]">
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 md:px-8 lg:grid-cols-[0.9fr_1.1fr] lg:px-12">
+      <section
+        id="selection"
+        className="scroll-mt-24 border-b border-[#dedede] bg-[#f7f7f7]"
+      >
+        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
               Product Selection
             </p>
 
-            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-              Match the removal tool to the job
+            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
+              Match the removal tool to the component
             </h2>
 
             <p className="mt-5 leading-8 text-[#555555]">
-              Puller selection should account for component diameter, required
-              pulling force, reach, spread, available clearance, and whether
-              hydraulic or mechanical operation is preferred.
-            </p>
-          </div>
-
-          <div className="grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2">
-            {selectionFactors.map((factor) => (
-              <div key={factor} className="bg-white p-5">
-                <p className="font-semibold text-[#444444]">{factor}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* HYDRAULIC SYSTEM */}
-      <section className="border-b border-[#dedede] bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Hydraulic Pulling Systems
-          </p>
-
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Complete the hydraulic setup
-          </h2>
-
-          <div className="mt-8 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              "Hydraulic Puller",
-              "Hydraulic Cylinder",
-              "Hydraulic Pump",
-              "Hydraulic Hose",
-              "Quick Couplers",
-              "Pressure Gauge",
-              "Hydraulic Fittings",
-              "Puller Accessories",
-            ].map((item) => (
-              <div key={item} className="bg-[#fafafa] p-5">
-                <p className="font-semibold text-[#444444]">{item}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* RELATED PRODUCTS */}
-      <section className="border-b border-[#dedede] bg-[#f7f7f7]">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Related Equipment
-          </p>
-
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-            Complete the maintenance setup
-          </h2>
-
-          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {relatedProducts.map((product) => (
-              <Link
-                key={product.title}
-                href={product.href}
-                className="rounded-xl border border-[#dddddd] bg-white p-5 transition hover:border-[#ed1c24]"
-              >
-                <p className="font-semibold text-[#3f4448]">
-                  {product.title}
-                </p>
-
-                <p className="mt-5 text-sm font-semibold text-[#ed1c24]">
-                  View Products →
-                </p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* TECHNICAL RESOURCES */}
-      <section className="bg-white">
-        <div className="mx-auto grid max-w-7xl gap-6 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
-          <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:p-8">
-            <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-              Technical Resources
+              Puller selection should account for component size, required
+              force, reach, spread, jaw engagement, available clearance, and
+              whether the work calls for a puller, coupler tool, or nut
+              splitter.
             </p>
 
-            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-              Removal Tool Downloads
-            </h2>
-
-            <div className="mt-6 space-y-3">
+            <div className="mt-7 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2">
               {[
-                "Hydraulic Puller Cutsheet",
-                "Grip Puller Cutsheet",
-                "Hydraulic Gear Puller Cutsheet",
-                "Mechanical Gear Puller Cutsheet",
-                "Nut Splitter Cutsheet",
+                "Component diameter",
+                "Required pulling force",
+                "Reach",
+                "Spread",
+                "Jaw configuration",
+                "Available clearance",
+                "Nut A/F size",
+                "Bolt diameter",
               ].map((item) => (
-                <div
-                  key={item}
-                  className="rounded-lg border border-[#dddddd] bg-white p-4"
-                >
-                  <p className="font-semibold text-[#444444]">{item}</p>
-
-                  <p className="mt-1 text-sm text-[#777777]">
-                    Download coming soon
-                  </p>
+                <div key={item} className="bg-white p-4">
+                  <p className="font-medium text-[#444444]">{item}</p>
                 </div>
               ))}
             </div>
           </div>
 
+          <div className="rounded-xl border border-[#dddddd] bg-white p-6 md:p-8">
+            <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+              System Matching
+            </p>
+
+            <div className="mt-6 space-y-4">
+              {family.compatibility.map((item) => (
+                <div
+                  key={item}
+                  className="flex gap-3 text-sm leading-7 text-[#555555]"
+                >
+                  <span className="font-bold text-[#ed1c24]">✓</span>
+                  <span>{item}</span>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-7 grid gap-3 sm:grid-cols-2">
+              {family.accessories.map((accessory) => (
+                <div
+                  key={accessory}
+                  className="rounded-lg border border-[#dddddd] bg-[#fafafa] px-4 py-3 text-sm font-medium text-[#555555]"
+                >
+                  {accessory}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-b border-[#dedede] bg-white">
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+            Applications
+          </p>
+
+          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
+            Industrial component removal
+          </h2>
+
+          <div className="mt-8 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2 lg:grid-cols-4">
+            {family.applications.map((application) => (
+              <div key={application} className="bg-[#fafafa] p-5">
+                <p className="font-medium text-[#444444]">{application}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="downloads"
+        className="scroll-mt-24 border-b border-[#dedede] bg-[#f7f7f7]"
+      >
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+            Downloads
+          </p>
+
+          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
+            Removal-tool technical resources
+          </h2>
+
+          <div className="mt-8 grid gap-4 md:grid-cols-4">
+            {[
+              "Nut Splitter Cutsheet",
+              "Hydraulic Puller Set Guide",
+              "Adjustable Gear Puller Cutsheet",
+              "Removal Tool Selection Guide",
+            ].map((title) => (
+              <div
+                key={title}
+                className="rounded-xl border border-[#dddddd] bg-white p-5"
+              >
+                <p className="font-semibold text-[#3f4448]">{title}</p>
+                <p className="mt-2 text-sm text-[#777777]">
+                  Download publishing in progress
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white">
+        <div className="mx-auto grid max-w-7xl gap-6 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
           <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:p-8">
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-              Application Support
+              Distribution
             </p>
 
-            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-              Need help selecting a removal tool?
+            <h2 className="mt-3 text-2xl font-semibold text-[#3f4448]">
+              Find a ToughTorq distributor
             </h2>
 
-            <p className="mt-5 leading-8 text-[#555555]">
-              Include the component diameter, available clearance, reach,
-              spread, estimated force requirement, and application details with
-              your request.
+            <p className="mt-4 leading-7 text-[#555555]">
+              Connect with the ToughTorq distribution network for puller and
+              nut-splitter selection and technical support.
             </p>
 
-            <div className="mt-8">
-              <Link
-                href="/request-a-quote?product=Pullers%20%26%20Nut%20Splitters"
-                className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white"
-              >
-                Request Removal Tool Support
-              </Link>
-            </div>
+            <Link
+              href="/find-a-distributor"
+              className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg border border-[#666666] bg-white px-5 py-2 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+            >
+              Find a Distributor
+            </Link>
+          </div>
+
+          <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:p-8">
+            <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+              Purchase, Rental & Service
+            </p>
+
+            <h2 className="mt-3 text-2xl font-semibold text-[#3f4448]">
+              Commercial support through JAM Torque
+            </h2>
+
+            <p className="mt-4 leading-7 text-[#555555]">
+              For purchasing, rental availability, service, and application
+              support in JAM Torque&apos;s supported market, continue to
+              JAMTorque.com.
+            </p>
+
+            <a
+              href={family.jamMarketplaceUrl ?? "https://jamtorque.com"}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg bg-[#ed1c24] px-5 py-2 text-sm font-semibold text-white transition hover:opacity-90"
+            >
+              Visit JAM Torque →
+            </a>
           </div>
         </div>
       </section>
