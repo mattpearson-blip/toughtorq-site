@@ -1,541 +1,490 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { PageHero } from "@/components/page-hero";
 
-const squareDriveModels = [
-  {
-    model: "TT1XTA",
-    minTorque: "121",
-    maxTorque: "1,298",
-    drive: '3/4"',
-    weight: "4.41",
-  },
-  {
-    model: "TT3XTA",
-    minTorque: "319",
-    maxTorque: "3,195",
-    drive: '1"',
-    weight: "8.82",
-  },
-  {
-    model: "TT5XTA",
-    minTorque: "547",
-    maxTorque: "5,473",
-    drive: '1-1/2"',
-    weight: "15.43",
-  },
-  {
-    model: "TT8XTA",
-    minTorque: "749",
-    maxTorque: "7,693",
-    drive: '1-1/2"',
-    weight: "23.37",
-  },
-  {
-    model: "TT10XTA",
-    minTorque: "1,113",
-    maxTorque: "11,130",
-    drive: '2-1/2"',
-    weight: "28.44",
-  },
-  {
-    model: "TT15XTA",
-    minTorque: "1,431",
-    maxTorque: "14,315",
-    drive: '2-1/2"',
-    weight: "44.09",
-  },
-  {
-    model: "TT20XTA",
-    minTorque: "1,847",
-    maxTorque: "19,506",
-    drive: '2-1/2"',
-    weight: "55.12",
-  },
-  {
-    model: "TT25XTA",
-    minTorque: "2,441",
-    maxTorque: "25,539",
-    drive: '2-1/2"',
-    weight: "74.52",
-  },
-  {
-    model: "TT35XTA",
-    minTorque: "3,497",
-    maxTorque: "34,971",
-    drive: '2-1/2"',
-    weight: "94.80",
-  },
-  {
-    model: "TT50XTA",
-    minTorque: "5,108",
-    maxTorque: "51,074",
-    drive: '2-1/2"',
-    weight: "114.64",
-  },
-];
+import { hydraulicTorqueWrenches } from "@/data/catalog";
 
-const cassetteModels = [
-  {
-    model: "TT2LCT",
-    minTorque: "180",
-    maxTorque: "1,869",
-    cassette: "2LC-50",
-    weight: "4.85",
-  },
-  {
-    model: "TT4LCT",
-    minTorque: "361",
-    maxTorque: "3,977",
-    cassette: "4LC-65",
-    weight: "11.02",
-  },
-  {
-    model: "TT8LCT",
-    minTorque: "750",
-    maxTorque: "7,709",
-    cassette: "8LC-90",
-    weight: "21.16",
-  },
-  {
-    model: "TT14LCT",
-    minTorque: "1,272",
-    maxTorque: "11,982",
-    cassette: "14LC-115",
-    weight: "37.26",
-  },
-  {
-    model: "TT18LCT",
-    minTorque: "1,657",
-    maxTorque: "16,889",
-    cassette: "18LC-135",
-    weight: "50.49",
-  },
-  {
-    model: "TT30LCT",
-    minTorque: "2,779",
-    maxTorque: "29,196",
-    cassette: "30LC-155",
-    weight: "83.78",
-  },
-];
+export const metadata: Metadata = {
+  title: "Hydraulic Torque Wrenches",
+  description:
+    "Technical specifications, torque ranges, dimensions, accessories, and application data for ToughTorq square-drive and low-profile hydraulic torque wrenches.",
+};
 
-const squareDriveFeatures = [
-  "10,000 PSI maximum working pressure",
-  "High-strength lightweight alloy construction",
-  "360° swivel hose coupler",
-  "360° adjustable reaction arm",
-  "Quick-operating trigger lock",
-  "3% accuracy",
-  "Square or hexagonal drive options",
-];
+function formatNumber(value: unknown) {
+  if (typeof value === "number") {
+    return value.toLocaleString("en-US");
+  }
 
-const cassetteFeatures = [
-  "Low-profile pancake design",
-  "High-strength lightweight construction",
-  "360° swivel hose coupler",
-  "Interchangeable working heads",
-  "Multiple cassette and reducer configurations",
-  "Designed for restricted-access applications",
-];
+  return String(value ?? "—");
+}
 
-function QuoteModelLink({
-  model,
-  product,
-}: {
-  model: string;
-  product: string;
-}) {
-  return (
-    <Link
-      href={`/request-a-quote?model=${encodeURIComponent(
-        model
-      )}&product=${encodeURIComponent(product)}`}
-      className="font-semibold text-[#ed1c24] underline-offset-4 transition hover:underline"
-    >
-      {model}
-    </Link>
-  );
+function getDimension(
+  dimensions: typeof hydraulicTorqueWrenches.models[number]["dimensions"],
+  key: string
+) {
+  const item = dimensions.find((dimension) => dimension.key === key);
+  if (!item) return "—";
+  return `${item.value}${item.unit ? ` ${item.unit}` : ""}`;
 }
 
 export default function HydraulicTorqueWrenchesPage() {
+  const family = hydraulicTorqueWrenches;
+  const squareDriveModels = family.models.filter(
+    (model) => model.specifications.series === "Square Drive"
+  );
+  const cassetteModels = family.models.filter(
+    (model) => model.specifications.series === "Low Profile Cassette"
+  );
+
   return (
-    <>
-      <PageHero
-        eyebrow="Hydraulic Bolting"
-        title="Hydraulic Torque Wrenches"
-        text="Square-drive and low-profile cassette hydraulic torque wrench systems for controlled industrial bolting."
-      />
+    <main className="bg-[#f5f5f5] text-[#2b2b2b]">
+      <section className="border-b border-[#dedede] bg-white">
+        <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-20 lg:px-12">
+          <p className="text-sm font-bold uppercase tracking-[0.14em] text-[#ed1c24]">
+            Hydraulic Bolting
+          </p>
 
-      <main className="bg-[#f2f2f2] text-[#292929]">
-        {/* SQUARE DRIVE */}
-        <section className="border-b border-[#d6d6d6]">
-          <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 md:py-16 lg:px-12">
-            <div className="grid items-center gap-10 lg:grid-cols-2">
-              <div>
-                <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#ed1c24]">
-                  Square Drive Series
-                </p>
+          <h1 className="mt-4 max-w-5xl text-4xl font-bold uppercase leading-[1.05] tracking-tight text-[#3f4448] md:text-6xl">
+            Hydraulic
+            <br />
+            Torque Wrenches
+          </h1>
 
-                <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#666666] md:text-4xl">
-                  Square Drive Hydraulic Torque Wrenches
-                </h2>
+          <div className="mt-6 h-[3px] w-16 bg-[#ed1c24]" />
 
-                <p className="mt-5 max-w-2xl leading-8 text-[#444444]">
-                  Compact hydraulic torque wrenches designed for controlled
-                  high-torque bolting across industrial maintenance,
-                  construction, power generation, petrochemical, and heavy
-                  equipment applications.
-                </p>
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-[#444444]">
+            {family.longDescription}
+          </p>
 
-                <div className="mt-7 grid gap-3 sm:grid-cols-2">
-                  {squareDriveFeatures.map((feature) => (
-                    <div
-                      key={feature}
-                      className="rounded-xl border border-[#d6d6d6] bg-white px-4 py-3 text-sm text-[#444444]"
-                    >
-                      {feature}
-                    </div>
-                  ))}
-                </div>
-              </div>
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <Link
+              href="#square-drive"
+              className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
+            >
+              Square Drive Data
+            </Link>
 
-              <div className="flex justify-center">
-                <div className="relative min-h-[300px] w-full max-w-[540px] md:min-h-[390px]">
-                  <Image
-                    src="/square-drive-hydraulic-torque-wrench.png"
-                    alt="ToughTorq square drive hydraulic torque wrench"
-                    fill
-                    priority
-                    className="object-contain"
-                    sizes="(max-width: 1024px) 100vw, 50vw"
-                  />
-                </div>
+            <Link
+              href="#low-profile"
+              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+            >
+              Low-Profile Data
+            </Link>
+
+            <Link
+              href="#downloads"
+              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+            >
+              Downloads
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-b border-[#dedede] bg-[#f7f7f7]">
+        <div className="mx-auto grid max-w-7xl gap-6 px-4 py-12 md:px-8 lg:grid-cols-3 lg:px-12">
+          <div className="rounded-xl border border-[#dddddd] bg-white p-6">
+            <p className="text-xs font-bold uppercase tracking-[0.1em] text-[#888888]">
+              Square Drive
+            </p>
+            <p className="mt-2 text-2xl font-semibold text-[#3f4448]">
+              121–51,074 ft-lb
+            </p>
+          </div>
+
+          <div className="rounded-xl border border-[#dddddd] bg-white p-6">
+            <p className="text-xs font-bold uppercase tracking-[0.1em] text-[#888888]">
+              Low Profile
+            </p>
+            <p className="mt-2 text-2xl font-semibold text-[#3f4448]">
+              180–29,196 ft-lb
+            </p>
+          </div>
+
+          <div className="rounded-xl border border-[#dddddd] bg-white p-6">
+            <p className="text-xs font-bold uppercase tracking-[0.1em] text-[#888888]">
+              Square-Drive Accuracy
+            </p>
+            <p className="mt-2 text-2xl font-semibold text-[#3f4448]">
+              ±3%
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="square-drive"
+        className="scroll-mt-24 border-b border-[#dedede] bg-white"
+      >
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <div className="grid items-center gap-10 lg:grid-cols-2">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+                Square Drive Series
+              </p>
+
+              <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
+                Controlled high-torque bolting
+              </h2>
+
+              <p className="mt-5 max-w-2xl leading-8 text-[#555555]">
+                The square-drive series operates at up to 10,000 psi and uses
+                a lightweight alloy body, 360° swivel hydraulic connection,
+                adjustable reaction arm, and precision ratchet system.
+              </p>
+
+              <div className="mt-7 grid gap-3 sm:grid-cols-2">
+                {[
+                  "10,000 psi maximum working pressure",
+                  "360° swivel hose coupler",
+                  "360° adjustable reaction arm",
+                  "3% accuracy",
+                  "Square or hexagonal drive options",
+                  "Custom reaction configurations available",
+                ].map((feature) => (
+                  <div
+                    key={feature}
+                    className="rounded-lg border border-[#dddddd] bg-[#fafafa] px-4 py-3 text-sm text-[#555555]"
+                  >
+                    {feature}
+                  </div>
+                ))}
               </div>
             </div>
 
-            <div className="mt-12 overflow-hidden rounded-3xl border border-[#d6d6d6] bg-white">
-              <div className="border-b border-[#d6d6d6] px-5 py-5 md:px-7">
-                <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-                  <div>
-                    <h3 className="text-2xl font-semibold text-[#666666]">
-                      Square Drive Models
-                    </h3>
-
-                    <p className="mt-2 text-sm text-[#666666]">
-                      Select a model to add it to your quote request.
-                    </p>
-                  </div>
-
-                  <Link
-                    href="/request-a-quote"
-                    className="text-sm font-semibold text-[#ed1c24]"
-                  >
-                    View Quote Cart →
-                  </Link>
-                </div>
-              </div>
-
-              <div className="overflow-x-auto">
-                <table className="w-full min-w-[720px] text-left text-sm">
-                  <thead className="bg-[#ed1c24] text-white">
-                    <tr>
-                      <th className="px-5 py-4 font-semibold">Model</th>
-                      <th className="px-5 py-4 font-semibold">
-                        Min Torque
-                      </th>
-                      <th className="px-5 py-4 font-semibold">
-                        Max Torque
-                      </th>
-                      <th className="px-5 py-4 font-semibold">
-                        Square Drive
-                      </th>
-                      <th className="px-5 py-4 font-semibold">Weight</th>
-                    </tr>
-                  </thead>
-
-                  <tbody>
-                    {squareDriveModels.map((tool, index) => (
-                      <tr
-                        key={tool.model}
-                        className={
-                          index % 2 === 0 ? "bg-white" : "bg-[#f4f4f4]"
-                        }
-                      >
-                        <td className="px-5 py-4">
-                          <QuoteModelLink
-                            model={tool.model}
-                            product="Square Drive Hydraulic Torque Wrench"
-                          />
-                        </td>
-
-                        <td className="px-5 py-4 text-[#444444]">
-                          {tool.minTorque} ft-lb
-                        </td>
-
-                        <td className="px-5 py-4 text-[#444444]">
-                          {tool.maxTorque} ft-lb
-                        </td>
-
-                        <td className="px-5 py-4 text-[#444444]">
-                          {tool.drive}
-                        </td>
-
-                        <td className="px-5 py-4 text-[#444444]">
-                          {tool.weight} lb
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+            <div className="flex justify-center">
+              <div className="relative min-h-[320px] w-full max-w-[560px] md:min-h-[420px]">
+                <Image
+                  src="/square-drive-hydraulic-torque-wrench.png"
+                  alt="ToughTorq square drive hydraulic torque wrench"
+                  fill
+                  priority
+                  className="object-contain"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
               </div>
             </div>
           </div>
-        </section>
 
-        {/* CASSETTE */}
-        <section className="border-b border-[#d6d6d6] bg-white">
-          <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 md:py-16 lg:px-12">
-            <div className="grid items-center gap-10 lg:grid-cols-2">
-              <div className="order-2 flex justify-center lg:order-1">
-                <div className="relative min-h-[280px] w-full max-w-[560px] md:min-h-[370px]">
-                  <Image
-                    src="/ratchet-cassette-hydraulic-torque-wrench.png"
-                    alt="ToughTorq ratchet cassette hydraulic torque wrenches"
-                    fill
-                    className="object-contain"
-                    sizes="(max-width: 1024px) 100vw, 50vw"
-                  />
-                </div>
-              </div>
+          <div className="mt-10 overflow-x-auto rounded-xl border border-[#dddddd]">
+            <table className="min-w-[1040px] w-full border-collapse text-left text-sm">
+              <thead className="bg-[#3f4448] text-white">
+                <tr>
+                  <th className="px-4 py-4 font-semibold">Model</th>
+                  <th className="px-4 py-4 font-semibold">Torque Range</th>
+                  <th className="px-4 py-4 font-semibold">Square Drive</th>
+                  <th className="px-4 py-4 font-semibold">Weight</th>
+                  <th className="px-4 py-4 font-semibold">L1</th>
+                  <th className="px-4 py-4 font-semibold">L3</th>
+                  <th className="px-4 py-4 font-semibold">H1</th>
+                  <th className="px-4 py-4 font-semibold">H2</th>
+                  <th className="px-4 py-4 font-semibold">R1</th>
+                  <th className="px-4 py-4 font-semibold">L2</th>
+                </tr>
+              </thead>
 
-              <div className="order-1 lg:order-2">
-                <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#ed1c24]">
-                  Low Profile Series
-                </p>
+              <tbody>
+                {squareDriveModels.map((model, index) => (
+                  <tr
+                    key={model.id}
+                    className={index % 2 === 0 ? "bg-white" : "bg-[#f7f7f7]"}
+                  >
+                    <td className="border-t border-[#dddddd] px-4 py-4 font-bold text-[#ed1c24]">
+                      {model.model}
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 font-medium text-[#444444]">
+                      {formatNumber(model.specifications.torqueMinFtLb)}–
+                      {formatNumber(model.specifications.torqueMaxFtLb)} ft-lb
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {String(model.specifications.squareDriveIn)} in
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {formatNumber(model.specifications.weightLb)} lb
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {getDimension(model.dimensions, "L1")}
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {getDimension(model.dimensions, "L3")}
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {getDimension(model.dimensions, "H1")}
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {getDimension(model.dimensions, "H2")}
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {getDimension(model.dimensions, "R1")}
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {getDimension(model.dimensions, "L2")}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
 
-                <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#666666] md:text-4xl">
-                  Ratchet Cassette Hydraulic Torque Wrenches
-                </h2>
+          <p className="mt-4 text-sm leading-6 text-[#777777]">
+            Dimension letters follow the ToughTorq manufacturer drawing
+            convention. Full dimensional drawings will be added to the download
+            section as finalized.
+          </p>
+        </div>
+      </section>
 
-                <p className="mt-5 max-w-2xl leading-8 text-[#444444]">
-                  Low-profile hydraulic torque wrench systems for flange,
-                  pipeline, equipment, and other applications where conventional
-                  square-drive tools have limited access.
-                </p>
-
-                <div className="mt-7 grid gap-3 sm:grid-cols-2">
-                  {cassetteFeatures.map((feature) => (
-                    <div
-                      key={feature}
-                      className="rounded-xl border border-[#d6d6d6] bg-[#f7f7f7] px-4 py-3 text-sm text-[#444444]"
-                    >
-                      {feature}
-                    </div>
-                  ))}
-                </div>
+      <section
+        id="low-profile"
+        className="scroll-mt-24 border-b border-[#dedede] bg-[#f7f7f7]"
+      >
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <div className="grid items-center gap-10 lg:grid-cols-2">
+            <div className="order-2 flex justify-center lg:order-1">
+              <div className="relative min-h-[300px] w-full max-w-[560px] md:min-h-[400px]">
+                <Image
+                  src="/ratchet-cassette-hydraulic-torque-wrench.png"
+                  alt="ToughTorq low-profile ratchet cassette hydraulic torque wrench"
+                  fill
+                  className="object-contain"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
               </div>
             </div>
 
-            <div className="mt-12 overflow-hidden rounded-3xl border border-[#d6d6d6] bg-white">
-              <div className="border-b border-[#d6d6d6] px-5 py-5 md:px-7">
-                <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-                  <div>
-                    <h3 className="text-2xl font-semibold text-[#666666]">
-                      Ratchet Cassette Models
-                    </h3>
+            <div className="order-1 lg:order-2">
+              <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+                Low Profile Series
+              </p>
 
-                    <p className="mt-2 text-sm text-[#666666]">
-                      Select a model to add it to your quote request.
-                    </p>
-                  </div>
+              <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
+                Ratchet cassette hydraulic torque wrenches
+              </h2>
 
-                  <Link
-                    href="/request-a-quote"
-                    className="text-sm font-semibold text-[#ed1c24]"
+              <p className="mt-5 max-w-2xl leading-8 text-[#555555]">
+                Low-profile power units use interchangeable ratchet links and
+                reducer inserts to cover multiple fastener sizes while keeping
+                the working envelope compact for restricted-access bolting.
+              </p>
+
+              <div className="mt-7 grid gap-3 sm:grid-cols-2">
+                {[
+                  "Pancake low-profile design",
+                  "Interchangeable working heads",
+                  "Multiple ratchet-link sizes",
+                  "Reducer inserts available",
+                  "360° swivel hose coupler",
+                  "Designed for restricted access",
+                ].map((feature) => (
+                  <div
+                    key={feature}
+                    className="rounded-lg border border-[#dddddd] bg-white px-4 py-3 text-sm text-[#555555]"
                   >
-                    View Quote Cart →
-                  </Link>
-                </div>
-              </div>
-
-              <div className="overflow-x-auto">
-                <table className="w-full min-w-[720px] text-left text-sm">
-                  <thead className="bg-[#ed1c24] text-white">
-                    <tr>
-                      <th className="px-5 py-4 font-semibold">Model</th>
-                      <th className="px-5 py-4 font-semibold">
-                        Min Torque
-                      </th>
-                      <th className="px-5 py-4 font-semibold">
-                        Max Torque
-                      </th>
-                      <th className="px-5 py-4 font-semibold">Cassette</th>
-                      <th className="px-5 py-4 font-semibold">Weight</th>
-                    </tr>
-                  </thead>
-
-                  <tbody>
-                    {cassetteModels.map((tool, index) => (
-                      <tr
-                        key={tool.model}
-                        className={
-                          index % 2 === 0 ? "bg-white" : "bg-[#f4f4f4]"
-                        }
-                      >
-                        <td className="px-5 py-4">
-                          <QuoteModelLink
-                            model={tool.model}
-                            product="Ratchet Cassette Hydraulic Torque Wrench"
-                          />
-                        </td>
-
-                        <td className="px-5 py-4 text-[#444444]">
-                          {tool.minTorque} ft-lb
-                        </td>
-
-                        <td className="px-5 py-4 text-[#444444]">
-                          {tool.maxTorque} ft-lb
-                        </td>
-
-                        <td className="px-5 py-4 text-[#444444]">
-                          {tool.cassette}
-                        </td>
-
-                        <td className="px-5 py-4 text-[#444444]">
-                          {tool.weight} lb
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+                    {feature}
+                  </div>
+                ))}
               </div>
             </div>
           </div>
-        </section>
 
-        {/* ACCESSORIES */}
-        <section className="border-b border-[#d6d6d6] bg-[#f2f2f2]">
-          <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 md:py-16 lg:px-12">
-            <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#ed1c24]">
-              Hydraulic Bolting Accessories
+          <div className="mt-10 overflow-x-auto rounded-xl border border-[#dddddd]">
+            <table className="min-w-[1040px] w-full border-collapse text-left text-sm">
+              <thead className="bg-[#3f4448] text-white">
+                <tr>
+                  <th className="px-4 py-4 font-semibold">Model</th>
+                  <th className="px-4 py-4 font-semibold">Torque Range</th>
+                  <th className="px-4 py-4 font-semibold">Power Unit</th>
+                  <th className="px-4 py-4 font-semibold">Reference Cassette</th>
+                  <th className="px-4 py-4 font-semibold">Weight</th>
+                  <th className="px-4 py-4 font-semibold">L</th>
+                  <th className="px-4 py-4 font-semibold">H1</th>
+                  <th className="px-4 py-4 font-semibold">H2</th>
+                  <th className="px-4 py-4 font-semibold">W1</th>
+                  <th className="px-4 py-4 font-semibold">W2</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {cassetteModels.map((model, index) => (
+                  <tr
+                    key={model.id}
+                    className={index % 2 === 0 ? "bg-white" : "bg-[#f1f1f1]"}
+                  >
+                    <td className="border-t border-[#dddddd] px-4 py-4 font-bold text-[#ed1c24]">
+                      {model.model}
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 font-medium text-[#444444]">
+                      {formatNumber(model.specifications.torqueMinFtLb)}–
+                      {formatNumber(model.specifications.torqueMaxFtLb)} ft-lb
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {String(model.specifications.powerUnit)}
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {String(model.specifications.ratchetCassette)}
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {formatNumber(model.specifications.weightLb)} lb
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {getDimension(model.dimensions, "L")}
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {getDimension(model.dimensions, "H1")}
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {getDimension(model.dimensions, "H2")}
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {getDimension(model.dimensions, "W1")}
+                    </td>
+                    <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                      {getDimension(model.dimensions, "W2")}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <p className="mt-4 text-sm leading-6 text-[#777777]">
+            The listed cassette is the published reference configuration for
+            each power unit. Additional ratchet links and reducer inserts are
+            available within the compatible power-unit family.
+          </p>
+        </div>
+      </section>
+
+      <section className="border-b border-[#dedede] bg-white">
+        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
+          <div>
+            <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+              Accessories & Compatibility
             </p>
 
-            <h2 className="mt-3 text-3xl font-semibold text-[#666666] md:text-4xl">
-              Complete the system
+            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
+              Build the complete hydraulic bolting system
             </h2>
 
-            <div className="mt-8 grid gap-5 md:grid-cols-3">
-              <Link
-                href="/products/pumps-tensioners-rams"
-                className="rounded-3xl border border-[#d6d6d6] bg-white p-6 transition hover:border-[#ed1c24]"
+            <div className="mt-7 grid gap-3 sm:grid-cols-2">
+              {family.accessories.map((accessory) => (
+                <div
+                  key={accessory}
+                  className="rounded-lg border border-[#dddddd] bg-[#fafafa] px-4 py-3 text-sm font-medium text-[#555555]"
+                >
+                  {accessory}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:p-8">
+            <h3 className="text-2xl font-semibold text-[#3f4448]">
+              System matching
+            </h3>
+
+            <div className="mt-5 space-y-4">
+              {family.compatibility.map((item) => (
+                <div key={item} className="flex gap-3 text-sm leading-7 text-[#555555]">
+                  <span className="font-bold text-[#ed1c24]">✓</span>
+                  <span>{item}</span>
+                </div>
+              ))}
+            </div>
+
+            <Link
+              href="/products/hydraulic-pumps"
+              className="mt-7 inline-flex min-h-11 items-center justify-center rounded-lg border border-[#666666] bg-white px-5 py-2 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+            >
+              View Hydraulic Torque Pumps
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="downloads"
+        className="scroll-mt-24 border-b border-[#dedede] bg-[#f7f7f7]"
+      >
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+            Downloads
+          </p>
+
+          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
+            Hydraulic torque wrench technical resources
+          </h2>
+
+          <div className="mt-8 grid gap-4 md:grid-cols-3">
+            {[
+              "Square Drive Cutsheet",
+              "Low-Profile Cassette Cutsheet",
+              "Pressure-to-Torque Operational Charts",
+            ].map((title) => (
+              <div
+                key={title}
+                className="rounded-xl border border-[#dddddd] bg-white p-5"
               >
-                <h3 className="text-xl font-semibold text-[#666666]">
-                  Hydraulic Pumps
-                </h3>
-
-                <p className="mt-3 leading-7 text-[#444444]">
-                  Battery, electric, pneumatic, and hydraulic power systems.
-                </p>
-
-                <p className="mt-5 text-sm font-semibold text-[#ed1c24]">
-                  View Hydraulic Equipment →
-                </p>
-              </Link>
-
-              <div className="rounded-3xl border border-[#d6d6d6] bg-white p-6 transition hover:border-[#ed1c24]">
-                <h3 className="text-xl font-semibold text-[#666666]">
-                  Sockets & Drives
-                </h3>
-
-                <p className="mt-3 leading-7 text-[#444444]">
-                  Heavy-duty sockets, square drives, hexagonal drives, and
-                  cassette accessories.
+                <p className="font-semibold text-[#3f4448]">{title}</p>
+                <p className="mt-2 text-sm text-[#777777]">
+                  Download publishing in progress
                 </p>
               </div>
-
-              <div className="rounded-3xl border border-[#d6d6d6] bg-white p-6 transition hover:border-[#ed1c24]">
-                <h3 className="text-xl font-semibold text-[#666666]">
-                  Reaction Arms
-                </h3>
-
-                <p className="mt-3 leading-7 text-[#444444]">
-                  Standard, angled, double-ended, sliding, extension, and custom
-                  reaction configurations.
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* DOWNLOADS */}
-        <section className="bg-white">
-          <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 md:py-16 lg:px-12">
-            <div className="grid gap-8 lg:grid-cols-[1fr_0.9fr]">
-              <div>
-                <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#ed1c24]">
-                  Technical Resources
-                </p>
+      <section className="bg-white">
+        <div className="mx-auto grid max-w-7xl gap-6 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
+          <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:p-8">
+            <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+              Distribution
+            </p>
 
-                <h2 className="mt-3 text-3xl font-semibold text-[#666666] md:text-4xl">
-                  Cutsheets & operational charts
-                </h2>
+            <h2 className="mt-3 text-2xl font-semibold text-[#3f4448]">
+              Find a ToughTorq distributor
+            </h2>
 
-                <p className="mt-5 max-w-2xl leading-8 text-[#444444]">
-                  Technical resources for the hydraulic torque wrench line will
-                  include product specifications, dimensions, accessories, and
-                  model-specific operating information.
-                </p>
-              </div>
+            <p className="mt-4 leading-7 text-[#555555]">
+              Connect with the ToughTorq distribution network for local product
+              availability, system selection, and technical support.
+            </p>
 
-              <div className="space-y-3">
-                <div className="rounded-2xl border border-[#d6d6d6] bg-[#f7f7f7] p-5">
-                  <p className="font-semibold text-[#555555]">
-                    Square Drive Hydraulic Wrench Cutsheet
-                  </p>
-
-                  <p className="mt-2 text-sm text-[#777777]">
-                    Download link will be added when the final ToughTorq
-                    cutsheet is loaded.
-                  </p>
-                </div>
-
-                <div className="rounded-2xl border border-[#d6d6d6] bg-[#f7f7f7] p-5">
-                  <p className="font-semibold text-[#555555]">
-                    Ratchet Cassette Hydraulic Wrench Cutsheet
-                  </p>
-
-                  <p className="mt-2 text-sm text-[#777777]">
-                    Download link will be added when the final ToughTorq
-                    cutsheet is loaded.
-                  </p>
-                </div>
-
-                <div className="rounded-2xl border border-[#d6d6d6] bg-[#f7f7f7] p-5">
-                  <p className="font-semibold text-[#555555]">
-                    Pressure-to-Torque Operational Charts
-                  </p>
-
-                  <p className="mt-2 text-sm text-[#777777]">
-                    Model-specific pressure and torque charts will be added from
-                    validated operating data.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-10 flex flex-col gap-3 sm:flex-row">
-              <Link href="/request-a-quote" className="tt-button-primary">
-                Request a Quote
-              </Link>
-
-              <Link href="/products" className="tt-button-secondary">
-                Back to Products
-              </Link>
-            </div>
+            <Link
+              href="/find-a-distributor"
+              className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg border border-[#666666] bg-white px-5 py-2 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+            >
+              Find a Distributor
+            </Link>
           </div>
-        </section>
-      </main>
-    </>
+
+          <div className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:p-8">
+            <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+              Purchase, Rental, Calibration & Service
+            </p>
+
+            <h2 className="mt-3 text-2xl font-semibold text-[#3f4448]">
+              Commercial support through JAM Torque
+            </h2>
+
+            <p className="mt-4 leading-7 text-[#555555]">
+              For purchasing, rental availability, calibration, repair, and
+              field support in JAM Torque&apos;s supported market, continue to
+              JAMTorque.com.
+            </p>
+
+            <a
+              href={family.jamMarketplaceUrl ?? "https://jamtorque.com"}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg bg-[#ed1c24] px-5 py-2 text-sm font-semibold text-white transition hover:opacity-90"
+            >
+              Visit JAM Torque →
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }
