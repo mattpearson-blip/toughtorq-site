@@ -5,7 +5,28 @@
   "displayName": "Portable Valve Actuator Systems",
   "shortDescription": "Portable, modular valve actuation systems for industrial valves, remote sites, hazardous areas, and water networks.",
   "longDescription": "ToughTorq portable valve actuator systems combine a power platform, actuator head, valve adaptor, torque-reaction solution, and application-specific accessories. Selection should be based on required torque, valve geometry, access, operating environment, available utilities, and reaction strategy.",
-  "images": [],
+  "images": [
+    {
+      "src": "/pva/mc89.jpg",
+      "alt": "MC89 portable valve actuator",
+      "type": "product"
+    },
+    {
+      "src": "/pva/ja73.jpg",
+      "alt": "JA73 portable valve actuator",
+      "type": "product"
+    },
+    {
+      "src": "/pva/hl83.jpg",
+      "alt": "HL83 portable valve actuator",
+      "type": "product"
+    },
+    {
+      "src": "/pva/h2o-kit.jpg",
+      "alt": "H2O water network portable valve actuator kit",
+      "type": "product"
+    }
+  ],
   "features": [
     "Portable modular system architecture",
     "Battery, pneumatic, gas, and water-network configurations",
@@ -29,7 +50,13 @@
       "model": "MC89",
       "displayName": "MC89 Battery Portable Valve Actuator",
       "description": "Compact battery-powered platform for elevated, obstructed, or difficult-to-reach valves.",
-      "images": [],
+      "images": [
+        {
+          "src": "/pva/mc89.jpg",
+          "alt": "MC89 Battery Portable Valve Actuator",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "powerSource": "Battery",
         "maximumSystemTorqueFtLb": 740,
@@ -85,7 +112,13 @@
       "model": "JA73",
       "displayName": "JA73 Battery Portable Valve Actuator",
       "description": "Battery-powered platform for demanding valves requiring controlled force and stable positioning.",
-      "images": [],
+      "images": [
+        {
+          "src": "/pva/ja73.jpg",
+          "alt": "JA73 Battery Portable Valve Actuator",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "powerSource": "Battery",
         "maximumSystemTorqueFtLb": 740,
@@ -138,7 +171,13 @@
       "model": "HL83",
       "displayName": "HL83 Pneumatic Portable Valve Actuator",
       "description": "Pneumatic platform for high-cycle valve operation and environments requiring a non-electric operating concept.",
-      "images": [],
+      "images": [
+        {
+          "src": "/pva/hl83.jpg",
+          "alt": "HL83 Pneumatic Portable Valve Actuator",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "powerSource": "Pneumatic",
         "maximumSystemTorqueFtLb": 740,
@@ -193,7 +232,13 @@
       "model": "PY68",
       "displayName": "PY68 Gas Portable Valve Actuator",
       "description": "Independent fuel-powered platform for remote environments and extended field operation.",
-      "images": [],
+      "images": [
+        {
+          "src": "/pva/py68.jpg",
+          "alt": "PY68 Gas Portable Valve Actuator",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "powerSource": "Gas",
         "maximumSystemTorqueFtLb": 740,
@@ -244,7 +289,13 @@
       "model": "H2O KIT",
       "displayName": "H2O Water Network Kit",
       "description": "Portable kit configured for buried and underground water-distribution valves.",
-      "images": [],
+      "images": [
+        {
+          "src": "/pva/h2o-kit.jpg",
+          "alt": "H2O Water Network Kit",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "powerSource": "Battery-based water-network kit",
         "maximumSystemTorqueFtLb": 630,
