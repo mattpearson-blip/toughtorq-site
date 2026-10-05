@@ -1,0 +1,1437 @@
+{
+  "id": "hydraulic-hoses",
+  "slug": "hydraulic-hoses",
+  "family": "Hydraulic Hoses",
+  "displayName": "Hydraulic Hoses",
+  "shortDescription": "700 bar and ultra-high-pressure hydraulic hose assemblies for bolting, lifting, tensioning, and maintenance systems.",
+  "longDescription": "ToughTorq hydraulic hose assemblies connect pumps, tools, cylinders, pullers, flange equipment, torque wrenches, tensioners, and hydraulic nuts. The catalog includes standard 700 bar hoses and ultra-high-pressure hose families rated to 1000, 1800, and 2800 bar, with model-specific lengths and connection threads.",
+  "images": [],
+  "features": [
+    "700 bar general hydraulic hose range",
+    "Ultra-high-pressure hose ratings to 2800 bar",
+    "Polyurethane outer jacket for abrasion resistance",
+    "Low volumetric expansion",
+    "Ultra-high-pressure four-layer construction with steel-wire reinforcement",
+    "Model-specific lengths and end-fitting threads",
+    "Custom hose length availability on standard 700 bar hose",
+    "Pressure-specific system compatibility"
+  ],
+  "applications": [
+    "Hydraulic torque wrenches",
+    "Hydraulic cylinders",
+    "Hydraulic pullers",
+    "Flange tools",
+    "Nut splitters",
+    "Bolt tensioners",
+    "Hydraulic nuts",
+    "Ultra-high-pressure hydraulic systems"
+  ],
+  "models": [
+    {
+      "id": "hx-6-2sp-2",
+      "model": "HX-6-2SP-2",
+      "displayName": "HX-6-2SP-2 700 Bar Hydraulic Hose",
+      "description": "700 bar hydraulic hose assembly, 1.8 m (5.9 ft) long, for ToughTorq hydraulic tools.",
+      "images": [],
+      "specifications": {
+        "series": "700 Bar Hydraulic Hose",
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153,
+        "lengthM": 1.8,
+        "lengthFt": 5.9,
+        "insideDiameterMm": 6.4,
+        "endFitting": "CH604",
+        "endFittingThread": "NPT 3/8\"",
+        "weightLb": 2.2,
+        "safetyFactor": "4:1",
+        "temperatureMinC": -40,
+        "temperatureMaxC": 100
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 5.9,
+          "unit": "ft"
+        },
+        {
+          "key": "insideDiameter",
+          "label": "Inside Diameter",
+          "value": 0.252,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Temperature Range",
+          "value": "-40 to 100",
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "CH604 end fittings",
+        "Compatible 700 bar quick couplers"
+      ],
+      "compatibility": [
+        "Supports hydraulic cylinders, pullers, flange tools, torque wrenches, nut splitters, and other 700 bar hydraulic tools.",
+        "Pump, hose, couplers, and tool must share compatible pressure ratings and connection interfaces."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "hx-6-2sp-3",
+      "model": "HX-6-2SP-3",
+      "displayName": "HX-6-2SP-3 700 Bar Hydraulic Hose",
+      "description": "700 bar hydraulic hose assembly, 3 m (9.8 ft) long, for ToughTorq hydraulic tools.",
+      "images": [],
+      "specifications": {
+        "series": "700 Bar Hydraulic Hose",
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153,
+        "lengthM": 3,
+        "lengthFt": 9.8,
+        "insideDiameterMm": 6.4,
+        "endFitting": "CH604",
+        "endFittingThread": "NPT 3/8\"",
+        "weightLb": 3.3,
+        "safetyFactor": "4:1",
+        "temperatureMinC": -40,
+        "temperatureMaxC": 100
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 9.8,
+          "unit": "ft"
+        },
+        {
+          "key": "insideDiameter",
+          "label": "Inside Diameter",
+          "value": 0.252,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Temperature Range",
+          "value": "-40 to 100",
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "CH604 end fittings",
+        "Compatible 700 bar quick couplers"
+      ],
+      "compatibility": [
+        "Supports hydraulic cylinders, pullers, flange tools, torque wrenches, nut splitters, and other 700 bar hydraulic tools.",
+        "Pump, hose, couplers, and tool must share compatible pressure ratings and connection interfaces."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "hx-6-2sp-5",
+      "model": "HX-6-2SP-5",
+      "displayName": "HX-6-2SP-5 700 Bar Hydraulic Hose",
+      "description": "700 bar hydraulic hose assembly, 5 m (16.4 ft) long, for ToughTorq hydraulic tools.",
+      "images": [],
+      "specifications": {
+        "series": "700 Bar Hydraulic Hose",
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153,
+        "lengthM": 5,
+        "lengthFt": 16.4,
+        "insideDiameterMm": 6.4,
+        "endFitting": "CH604",
+        "endFittingThread": "NPT 3/8\"",
+        "weightLb": 5.5,
+        "safetyFactor": "4:1",
+        "temperatureMinC": -40,
+        "temperatureMaxC": 100
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 16.4,
+          "unit": "ft"
+        },
+        {
+          "key": "insideDiameter",
+          "label": "Inside Diameter",
+          "value": 0.252,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Temperature Range",
+          "value": "-40 to 100",
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "CH604 end fittings",
+        "Compatible 700 bar quick couplers"
+      ],
+      "compatibility": [
+        "Supports hydraulic cylinders, pullers, flange tools, torque wrenches, nut splitters, and other 700 bar hydraulic tools.",
+        "Pump, hose, couplers, and tool must share compatible pressure ratings and connection interfaces."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "hx-6-2sp-6",
+      "model": "HX-6-2SP-6",
+      "displayName": "HX-6-2SP-6 700 Bar Hydraulic Hose",
+      "description": "700 bar hydraulic hose assembly, 6 m (19.7 ft) long, for ToughTorq hydraulic tools.",
+      "images": [],
+      "specifications": {
+        "series": "700 Bar Hydraulic Hose",
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153,
+        "lengthM": 6,
+        "lengthFt": 19.7,
+        "insideDiameterMm": 6.4,
+        "endFitting": "CH604",
+        "endFittingThread": "NPT 3/8\"",
+        "weightLb": 6.6,
+        "safetyFactor": "4:1",
+        "temperatureMinC": -40,
+        "temperatureMaxC": 100
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 19.7,
+          "unit": "ft"
+        },
+        {
+          "key": "insideDiameter",
+          "label": "Inside Diameter",
+          "value": 0.252,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Temperature Range",
+          "value": "-40 to 100",
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "CH604 end fittings",
+        "Compatible 700 bar quick couplers"
+      ],
+      "compatibility": [
+        "Supports hydraulic cylinders, pullers, flange tools, torque wrenches, nut splitters, and other 700 bar hydraulic tools.",
+        "Pump, hose, couplers, and tool must share compatible pressure ratings and connection interfaces."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "hx-6-2sp-10",
+      "model": "HX-6-2SP-10",
+      "displayName": "HX-6-2SP-10 700 Bar Hydraulic Hose",
+      "description": "700 bar hydraulic hose assembly, 10 m (32.8 ft) long, for ToughTorq hydraulic tools.",
+      "images": [],
+      "specifications": {
+        "series": "700 Bar Hydraulic Hose",
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153,
+        "lengthM": 10,
+        "lengthFt": 32.8,
+        "insideDiameterMm": 6.4,
+        "endFitting": "CH604",
+        "endFittingThread": "NPT 3/8\"",
+        "weightLb": 11,
+        "safetyFactor": "4:1",
+        "temperatureMinC": -40,
+        "temperatureMaxC": 100
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 32.8,
+          "unit": "ft"
+        },
+        {
+          "key": "insideDiameter",
+          "label": "Inside Diameter",
+          "value": 0.252,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Temperature Range",
+          "value": "-40 to 100",
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "CH604 end fittings",
+        "Compatible 700 bar quick couplers"
+      ],
+      "compatibility": [
+        "Supports hydraulic cylinders, pullers, flange tools, torque wrenches, nut splitters, and other 700 bar hydraulic tools.",
+        "Pump, hose, couplers, and tool must share compatible pressure ratings and connection interfaces."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "hx-6-2sp-15",
+      "model": "HX-6-2SP-15",
+      "displayName": "HX-6-2SP-15 700 Bar Hydraulic Hose",
+      "description": "700 bar hydraulic hose assembly, 15 m (49.2 ft) long, for ToughTorq hydraulic tools.",
+      "images": [],
+      "specifications": {
+        "series": "700 Bar Hydraulic Hose",
+        "maxWorkingPressureBar": 700,
+        "maxWorkingPressurePsi": 10153,
+        "lengthM": 15,
+        "lengthFt": 49.2,
+        "insideDiameterMm": 6.4,
+        "endFitting": "CH604",
+        "endFittingThread": "NPT 3/8\"",
+        "weightLb": 15.4,
+        "safetyFactor": "4:1",
+        "temperatureMinC": -40,
+        "temperatureMaxC": 100
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 49.2,
+          "unit": "ft"
+        },
+        {
+          "key": "insideDiameter",
+          "label": "Inside Diameter",
+          "value": 0.252,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Temperature Range",
+          "value": "-40 to 100",
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "CH604 end fittings",
+        "Compatible 700 bar quick couplers"
+      ],
+      "compatibility": [
+        "Supports hydraulic cylinders, pullers, flange tools, torque wrenches, nut splitters, and other 700 bar hydraulic tools.",
+        "Pump, hose, couplers, and tool must share compatible pressure ratings and connection interfaces."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh7418",
+      "model": "JH7418",
+      "displayName": "JH7418 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1000 bar with 1/4\" NPT end-fitting thread and 1.8 m (5.9 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1000,
+        "maxWorkingPressurePsi": 14504,
+        "endFittingThread": "1/4\" NPT",
+        "lengthM": 1.8,
+        "lengthFt": 5.9,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 5.9,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 14504,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh7430",
+      "model": "JH7430",
+      "displayName": "JH7430 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1000 bar with 1/4\" NPT end-fitting thread and 3 m (9.8 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1000,
+        "maxWorkingPressurePsi": 14504,
+        "endFittingThread": "1/4\" NPT",
+        "lengthM": 3,
+        "lengthFt": 9.8,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 9.8,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 14504,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh7445",
+      "model": "JH7445",
+      "displayName": "JH7445 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1000 bar with 1/4\" NPT end-fitting thread and 4.5 m (14.8 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1000,
+        "maxWorkingPressurePsi": 14504,
+        "endFittingThread": "1/4\" NPT",
+        "lengthM": 4.5,
+        "lengthFt": 14.8,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 14.8,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 14504,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh7460",
+      "model": "JH7460",
+      "displayName": "JH7460 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1000 bar with 1/4\" NPT end-fitting thread and 6 m (19.7 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1000,
+        "maxWorkingPressurePsi": 14504,
+        "endFittingThread": "1/4\" NPT",
+        "lengthM": 6,
+        "lengthFt": 19.7,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 19.7,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 14504,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh7490",
+      "model": "JH7490",
+      "displayName": "JH7490 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1000 bar with 1/4\" NPT end-fitting thread and 9 m (29.5 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1000,
+        "maxWorkingPressurePsi": 14504,
+        "endFittingThread": "1/4\" NPT",
+        "lengthM": 9,
+        "lengthFt": 29.5,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 29.5,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 14504,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh74120",
+      "model": "JH74120",
+      "displayName": "JH74120 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1000 bar with 1/4\" NPT end-fitting thread and 12 m (39.4 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1000,
+        "maxWorkingPressurePsi": 14504,
+        "endFittingThread": "1/4\" NPT",
+        "lengthM": 12,
+        "lengthFt": 39.4,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 39.4,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 14504,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh7818",
+      "model": "JH7818",
+      "displayName": "JH7818 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1000 bar with 3/8\" NPT end-fitting thread and 1.8 m (5.9 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1000,
+        "maxWorkingPressurePsi": 14504,
+        "endFittingThread": "3/8\" NPT",
+        "lengthM": 1.8,
+        "lengthFt": 5.9,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 5.9,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 14504,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh7830",
+      "model": "JH7830",
+      "displayName": "JH7830 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1000 bar with 3/8\" NPT end-fitting thread and 3 m (9.8 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1000,
+        "maxWorkingPressurePsi": 14504,
+        "endFittingThread": "3/8\" NPT",
+        "lengthM": 3,
+        "lengthFt": 9.8,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 9.8,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 14504,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh7845",
+      "model": "JH7845",
+      "displayName": "JH7845 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1000 bar with 3/8\" NPT end-fitting thread and 4.5 m (14.8 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1000,
+        "maxWorkingPressurePsi": 14504,
+        "endFittingThread": "3/8\" NPT",
+        "lengthM": 4.5,
+        "lengthFt": 14.8,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 14.8,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 14504,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh7860",
+      "model": "JH7860",
+      "displayName": "JH7860 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1000 bar with 3/8\" NPT end-fitting thread and 6 m (19.7 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1000,
+        "maxWorkingPressurePsi": 14504,
+        "endFittingThread": "3/8\" NPT",
+        "lengthM": 6,
+        "lengthFt": 19.7,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 19.7,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 14504,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh7890",
+      "model": "JH7890",
+      "displayName": "JH7890 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1000 bar with 3/8\" NPT end-fitting thread and 9 m (29.5 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1000,
+        "maxWorkingPressurePsi": 14504,
+        "endFittingThread": "3/8\" NPT",
+        "lengthM": 9,
+        "lengthFt": 29.5,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 29.5,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 14504,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh78120",
+      "model": "JH78120",
+      "displayName": "JH78120 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1000 bar with 3/8\" NPT end-fitting thread and 12 m (39.4 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1000,
+        "maxWorkingPressurePsi": 14504,
+        "endFittingThread": "3/8\" NPT",
+        "lengthM": 12,
+        "lengthFt": 39.4,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 39.4,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 14504,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh8430",
+      "model": "JH8430",
+      "displayName": "JH8430 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1800 bar with G1/4\" end-fitting thread and 3 m (9.8 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1800,
+        "maxWorkingPressurePsi": 26107,
+        "endFittingThread": "G1/4\"",
+        "lengthM": 3,
+        "lengthFt": 9.8,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 9.8,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 26107,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh8460",
+      "model": "JH8460",
+      "displayName": "JH8460 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1800 bar with G1/4\" end-fitting thread and 6 m (19.7 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1800,
+        "maxWorkingPressurePsi": 26107,
+        "endFittingThread": "G1/4\"",
+        "lengthM": 6,
+        "lengthFt": 19.7,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 19.7,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 26107,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh8490",
+      "model": "JH8490",
+      "displayName": "JH8490 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 1800 bar with G1/4\" end-fitting thread and 9 m (29.5 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 1800,
+        "maxWorkingPressurePsi": 26107,
+        "endFittingThread": "G1/4\"",
+        "lengthM": 9,
+        "lengthFt": 29.5,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 29.5,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 26107,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh9430",
+      "model": "JH9430",
+      "displayName": "JH9430 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 2800 bar with G1/4\" end-fitting thread and 3 m (9.8 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 2800,
+        "maxWorkingPressurePsi": 40611,
+        "endFittingThread": "G1/4\"",
+        "lengthM": 3,
+        "lengthFt": 9.8,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 9.8,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 40611,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh9460",
+      "model": "JH9460",
+      "displayName": "JH9460 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 2800 bar with G1/4\" end-fitting thread and 6 m (19.7 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 2800,
+        "maxWorkingPressurePsi": 40611,
+        "endFittingThread": "G1/4\"",
+        "lengthM": 6,
+        "lengthFt": 19.7,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 19.7,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 40611,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "jh9490",
+      "model": "JH9490",
+      "displayName": "JH9490 Ultra-High-Pressure Hydraulic Hose",
+      "description": "Ultra-high-pressure hydraulic hose rated to 2800 bar with G1/4\" end-fitting thread and 9 m (29.5 ft) length.",
+      "images": [],
+      "specifications": {
+        "series": "Ultra-High-Pressure Hydraulic Hose",
+        "maxWorkingPressureBar": 2800,
+        "maxWorkingPressurePsi": 40611,
+        "endFittingThread": "G1/4\"",
+        "lengthM": 9,
+        "lengthFt": 29.5,
+        "construction": "Four-layer design with two high-strength steel wire braids"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 29.5,
+          "unit": "ft"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 40611,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Compatible ultra-high-pressure couplers"
+      ],
+      "compatibility": [
+        "Use only with pumps, couplers, tensioners, hydraulic nuts, cylinders, and tools rated for the selected hose working pressure.",
+        "End-fitting thread must match the connected ultra-high-pressure components."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    }
+  ],
+  "operatingRequirements": [
+    {
+      "key": "selection",
+      "label": "Hose Selection",
+      "value": "Match maximum working pressure, length, fitting thread, tool connection, pump connection, and application environment"
+    },
+    {
+      "key": "system",
+      "label": "System Compatibility",
+      "value": "Never mix hose, coupler, pump, or tool components with incompatible pressure ratings or connection standards"
+    }
+  ],
+  "accessories": [
+    "Quick couplers",
+    "Ultra-high-pressure couplers",
+    "Hydraulic fittings",
+    "Manifolds",
+    "Pressure gauges"
+  ],
+  "compatibility": [
+    "700 bar HX hose assemblies are intended for standard 700 bar hydraulic tooling.",
+    "JH ultra-high-pressure hose families must be paired with components rated for the published 1000, 1800, or 2800 bar working pressure.",
+    "Connection thread and coupler selection must match both ends of the hydraulic system."
+  ],
+  "componentGroups": [
+    {
+      "id": "700-bar-hose",
+      "group": "Hydraulic Hose Family",
+      "displayName": "700 Bar Hydraulic Hoses",
+      "description": "General-purpose high-pressure hose assemblies for standard ToughTorq 700 bar hydraulic tooling.",
+      "images": [],
+      "specifications": {
+        "modelSeries": "HX-6-2SP",
+        "pressureBar": 700
+      },
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Hose table"
+      ]
+    },
+    {
+      "id": "uhp-hose",
+      "group": "Hydraulic Hose Family",
+      "displayName": "Ultra-High-Pressure Hydraulic Hoses",
+      "description": "Reinforced hose assemblies for ultra-high-pressure tensioning, hydraulic nut, and specialty hydraulic systems.",
+      "images": [],
+      "specifications": {
+        "modelSeries": "JH",
+        "pressureRangeBar": "1000–2800"
+      },
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Ultra High Pressure Hydraulic Hose table"
+      ]
+    }
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": true,
+  "calibrationApplicable": false,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "2026 ToughTorq hydraulic hose table",
+    "ToughTorq/Kashon Hydraulic Hose and Ultra High Pressure Hydraulic Hose tables"
+  ],
+  "lastVerifiedAt": "2026-10-05",
+  "catalogVersion": "2026.10"
+}
