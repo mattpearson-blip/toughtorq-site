@@ -176,13 +176,13 @@ export default function ValveActuatorToolsPage() {
               >
                 <div>
                   {model.images[0] && (
-                    <div className="mb-5 overflow-hidden rounded-lg border border-[#e5e5e5] bg-white">
+                    <div className="mb-5 flex aspect-square items-center justify-center overflow-hidden rounded-lg border border-[#e5e5e5] bg-white p-5">
                       <Image
                         src={model.images[0].src}
                         alt={model.images[0].alt}
                         width={480}
                         height={480}
-                        className="aspect-square w-full object-contain"
+                        className="h-[78%] w-[78%] rotate-90 object-contain"
                       />
                     </div>
                   )}
