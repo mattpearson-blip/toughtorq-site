@@ -1,5 +1,6 @@
 import hydraulicTorquePumpsJson from "./products/hydraulic-torque-pumps.json";
 import pneumaticTorqueGunsJson from "./products/pneumatic-torque-guns.json";
+import portableValveActuationJson from "./products/portable-valve-actuation.json";
 
 import type {
   CatalogExport,
@@ -12,13 +13,17 @@ export const pneumaticTorqueGuns =
 export const hydraulicTorquePumps =
   hydraulicTorquePumpsJson as unknown as CatalogProductFamily;
 
+export const portableValveActuation =
+  portableValveActuationJson as unknown as CatalogProductFamily;
+
 export const catalogProducts: CatalogProductFamily[] = [
   pneumaticTorqueGuns,
   hydraulicTorquePumps,
+  portableValveActuation,
 ];
 
 export const catalog: Omit<CatalogExport, "generatedAt"> = {
-  schemaVersion: "1.0.0",
+  schemaVersion: "1.1.0",
   catalogVersion: "2026.10",
   status: "partial",
   products: catalogProducts,
@@ -29,6 +34,9 @@ export function getCatalogProductBySlug(slug: string) {
 }
 
 export type {
+  CatalogCompatibilityEntry,
+  CatalogCompatibilityStatus,
+  CatalogComponent,
   CatalogDimension,
   CatalogDownload,
   CatalogExport,
