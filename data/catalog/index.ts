@@ -1,5 +1,6 @@
 import batteryTorqueGunsJson from "./products/battery-torque-guns.json";
 import boltTensionersJson from "./products/bolt-tensioners.json";
+import flangeToolsJson from "./products/flange-tools.json";
 import hydraulicCylindersRamsJson from "./products/hydraulic-cylinders-rams.json";
 import hydraulicNutsJson from "./products/hydraulic-nuts.json";
 import hydraulicTorquePumpsJson from "./products/hydraulic-torque-pumps.json";
@@ -23,6 +24,9 @@ export const boltTensioners =
 
 export const pneumaticTorqueGuns =
   pneumaticTorqueGunsJson as CatalogProductFamily;
+
+export const flangeTools =
+  flangeToolsJson as unknown as CatalogProductFamily;
 
 export const hydraulicCylindersRams =
   hydraulicCylindersRamsJson as unknown as CatalogProductFamily;
@@ -51,6 +55,7 @@ export const socketsReactionArms =
 export const catalogProducts: CatalogProductFamily[] = [
   batteryTorqueGuns,
   boltTensioners,
+  flangeTools,
   hydraulicCylindersRams,
   hydraulicNuts,
   pneumaticTorqueGuns,
