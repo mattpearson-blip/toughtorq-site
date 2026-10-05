@@ -11,6 +11,7 @@ import manualDigitalTorqueWrenchesJson from "./products/manual-digital-torque-wr
 import hydraulicTorqueWrenchesJson from "./products/hydraulic-torque-wrenches.json";
 import pneumaticTorqueGunsJson from "./products/pneumatic-torque-guns.json";
 import pullersNutSplittersJson from "./products/pullers-nut-splitters.json";
+import reactionWashersJson from "./products/reaction-washers.json";
 import portableValveActuationJson from "./products/portable-valve-actuation.json";
 import torqueMultipliersJson from "./products/torque-multipliers.json";
 import socketsReactionArmsJson from "./products/sockets-reaction-arms.json";
@@ -34,6 +35,9 @@ export const pneumaticTorqueGuns =
 
 export const pullersNutSplitters =
   pullersNutSplittersJson as unknown as CatalogProductFamily;
+
+export const reactionWashers =
+  reactionWashersJson as unknown as CatalogProductFamily;
 
 export const flangeTools =
   flangeToolsJson as unknown as CatalogProductFamily;
