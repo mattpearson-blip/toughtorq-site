@@ -1,0 +1,669 @@
+{
+  "id": "manual-digital-torque-wrenches",
+  "slug": "manual-digital-torque-wrenches",
+  "family": "Manual & Digital Torque Wrenches",
+  "displayName": "DMT Series Digital Manual Torque Wrenches",
+  "shortDescription": "Electronic torque measurement and controlled manual tightening from 0.75 to 737 ft-lb.",
+  "longDescription": "ToughTorq DMT Series digital manual torque wrenches provide electronic torque measurement and controlled tightening for assembly, inspection, verification, maintenance, and field service. The range supports clockwise and counterclockwise operation, optional interchangeable heads, and model-specific torque capacities up to 737 ft-lb.",
+  "images": [],
+  "features": [
+    "2% accuracy throughout the operating range",
+    "Optional interchangeable heads",
+    "Ratchet design supports precise working angles",
+    "Clockwise and counterclockwise operation",
+    "Third-party QA tested for drops and impacts",
+    "Electronic torque measurement",
+    "Portable manual operation"
+  ],
+  "applications": [
+    "Industrial assembly",
+    "Maintenance and repair",
+    "Quality control",
+    "Torque verification",
+    "Flange bolting",
+    "Equipment installation",
+    "Production environments",
+    "Field service"
+  ],
+  "models": [
+    {
+      "id": "ttdmt-20",
+      "model": "TTDMT-20",
+      "displayName": "TTDMT-20 Digital Manual Torque Wrench",
+      "description": "Digital manual torque wrench rated from 0.75 to 15 ft-lb with 1/4-inch square drive.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 0.75,
+        "torqueMaxFtLb": 15,
+        "squareDriveIn": "1/4",
+        "weightLb": 2.03,
+        "ratchetTeeth": 45,
+        "accuracyPercent": 2,
+        "direction": "CW & CCW"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 15.4,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual"
+        },
+        {
+          "key": "accuracy",
+          "label": "Accuracy",
+          "value": 2,
+          "unit": "%"
+        }
+      ],
+      "accessories": [
+        "Optional interchangeable heads"
+      ],
+      "compatibility": [
+        "Use interchangeable heads and drive accessories appropriate for the selected model, torque range, and application."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 29 — DMT Series Digital Manual Torque Wrench model table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttdmt-30",
+      "model": "TTDMT-30",
+      "displayName": "TTDMT-30 Digital Manual Torque Wrench",
+      "description": "Digital manual torque wrench rated from 1 to 22 ft-lb with 1/4-inch square drive.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 1,
+        "torqueMaxFtLb": 22,
+        "squareDriveIn": "1/4",
+        "weightLb": 2.03,
+        "ratchetTeeth": 45,
+        "accuracyPercent": 2,
+        "direction": "CW & CCW"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 15.4,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual"
+        },
+        {
+          "key": "accuracy",
+          "label": "Accuracy",
+          "value": 2,
+          "unit": "%"
+        }
+      ],
+      "accessories": [
+        "Optional interchangeable heads"
+      ],
+      "compatibility": [
+        "Use interchangeable heads and drive accessories appropriate for the selected model, torque range, and application."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 29 — DMT Series Digital Manual Torque Wrench model table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttdmt-60",
+      "model": "TTDMT-60",
+      "displayName": "TTDMT-60 Digital Manual Torque Wrench",
+      "description": "Digital manual torque wrench rated from 2 to 44 ft-lb with 3/8-inch square drive.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 2,
+        "torqueMaxFtLb": 44,
+        "squareDriveIn": "3/8",
+        "weightLb": 2.03,
+        "ratchetTeeth": 45,
+        "accuracyPercent": 2,
+        "direction": "CW & CCW"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 15.4,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual"
+        },
+        {
+          "key": "accuracy",
+          "label": "Accuracy",
+          "value": 2,
+          "unit": "%"
+        }
+      ],
+      "accessories": [
+        "Optional interchangeable heads"
+      ],
+      "compatibility": [
+        "Use interchangeable heads and drive accessories appropriate for the selected model, torque range, and application."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 29 — DMT Series Digital Manual Torque Wrench model table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttdmt-135",
+      "model": "TTDMT-135",
+      "displayName": "TTDMT-135 Digital Manual Torque Wrench",
+      "description": "Digital manual torque wrench rated from 5 to 100 ft-lb with 3/8-inch square drive.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 5,
+        "torqueMaxFtLb": 100,
+        "squareDriveIn": "3/8",
+        "weightLb": 2.09,
+        "ratchetTeeth": 45,
+        "accuracyPercent": 2,
+        "direction": "CW & CCW"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 16.7,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual"
+        },
+        {
+          "key": "accuracy",
+          "label": "Accuracy",
+          "value": 2,
+          "unit": "%"
+        }
+      ],
+      "accessories": [
+        "Optional interchangeable heads"
+      ],
+      "compatibility": [
+        "Use interchangeable heads and drive accessories appropriate for the selected model, torque range, and application."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 29 — DMT Series Digital Manual Torque Wrench model table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttdmt-135-l",
+      "model": "TTDMT-135-L",
+      "displayName": "TTDMT-135-L Digital Manual Torque Wrench",
+      "description": "Digital manual torque wrench rated from 5 to 100 ft-lb with 1/2-inch square drive.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 5,
+        "torqueMaxFtLb": 100,
+        "squareDriveIn": "1/2",
+        "weightLb": 2.27,
+        "ratchetTeeth": 45,
+        "accuracyPercent": 2,
+        "direction": "CW & CCW"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 16.7,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual"
+        },
+        {
+          "key": "accuracy",
+          "label": "Accuracy",
+          "value": 2,
+          "unit": "%"
+        }
+      ],
+      "accessories": [
+        "Optional interchangeable heads"
+      ],
+      "compatibility": [
+        "Use interchangeable heads and drive accessories appropriate for the selected model, torque range, and application."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 29 — DMT Series Digital Manual Torque Wrench model table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttdmt-200",
+      "model": "TTDMT-200",
+      "displayName": "TTDMT-200 Digital Manual Torque Wrench",
+      "description": "Digital manual torque wrench rated from 7 to 147 ft-lb with 1/2-inch square drive.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 7,
+        "torqueMaxFtLb": 147,
+        "squareDriveIn": "1/2",
+        "weightLb": 3.64,
+        "ratchetTeeth": 45,
+        "accuracyPercent": 2,
+        "direction": "CW & CCW"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 20.9,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual"
+        },
+        {
+          "key": "accuracy",
+          "label": "Accuracy",
+          "value": 2,
+          "unit": "%"
+        }
+      ],
+      "accessories": [
+        "Optional interchangeable heads"
+      ],
+      "compatibility": [
+        "Use interchangeable heads and drive accessories appropriate for the selected model, torque range, and application."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 29 — DMT Series Digital Manual Torque Wrench model table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttdmt-340",
+      "model": "TTDMT-340",
+      "displayName": "TTDMT-340 Digital Manual Torque Wrench",
+      "description": "Digital manual torque wrench rated from 12 to 250 ft-lb with 1/2-inch square drive.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 12,
+        "torqueMaxFtLb": 250,
+        "squareDriveIn": "1/2",
+        "weightLb": 5.6,
+        "ratchetTeeth": 45,
+        "accuracyPercent": 2,
+        "direction": "CW & CCW"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 26,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual"
+        },
+        {
+          "key": "accuracy",
+          "label": "Accuracy",
+          "value": 2,
+          "unit": "%"
+        }
+      ],
+      "accessories": [
+        "Optional interchangeable heads"
+      ],
+      "compatibility": [
+        "Use interchangeable heads and drive accessories appropriate for the selected model, torque range, and application."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 29 — DMT Series Digital Manual Torque Wrench model table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttdmt-400",
+      "model": "TTDMT-400",
+      "displayName": "TTDMT-400 Digital Manual Torque Wrench",
+      "description": "Digital manual torque wrench rated from 14 to 295 ft-lb with 1/2-inch square drive.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 14,
+        "torqueMaxFtLb": 295,
+        "squareDriveIn": "1/2",
+        "weightLb": 5.6,
+        "ratchetTeeth": 45,
+        "accuracyPercent": 2,
+        "direction": "CW & CCW"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 26,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual"
+        },
+        {
+          "key": "accuracy",
+          "label": "Accuracy",
+          "value": 2,
+          "unit": "%"
+        }
+      ],
+      "accessories": [
+        "Optional interchangeable heads"
+      ],
+      "compatibility": [
+        "Use interchangeable heads and drive accessories appropriate for the selected model, torque range, and application."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 29 — DMT Series Digital Manual Torque Wrench model table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttdmt-550",
+      "model": "TTDMT-550",
+      "displayName": "TTDMT-550 Digital Manual Torque Wrench",
+      "description": "Digital manual torque wrench rated from 18 to 405 ft-lb with 3/4-inch square drive.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 18,
+        "torqueMaxFtLb": 405,
+        "squareDriveIn": "3/4",
+        "weightLb": 8.77,
+        "ratchetTeeth": 45,
+        "accuracyPercent": 2,
+        "direction": "CW & CCW"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 37.2,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual"
+        },
+        {
+          "key": "accuracy",
+          "label": "Accuracy",
+          "value": 2,
+          "unit": "%"
+        }
+      ],
+      "accessories": [
+        "Optional interchangeable heads"
+      ],
+      "compatibility": [
+        "Use interchangeable heads and drive accessories appropriate for the selected model, torque range, and application."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 29 — DMT Series Digital Manual Torque Wrench model table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttdmt-850",
+      "model": "TTDMT-850",
+      "displayName": "TTDMT-850 Digital Manual Torque Wrench",
+      "description": "Digital manual torque wrench rated from 30 to 630 ft-lb with 3/4-inch square drive.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 30,
+        "torqueMaxFtLb": 630,
+        "squareDriveIn": "3/4",
+        "weightLb": 9.5,
+        "ratchetTeeth": 45,
+        "accuracyPercent": 2,
+        "direction": "CW & CCW"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 47.2,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual"
+        },
+        {
+          "key": "accuracy",
+          "label": "Accuracy",
+          "value": 2,
+          "unit": "%"
+        }
+      ],
+      "accessories": [
+        "Optional interchangeable heads"
+      ],
+      "compatibility": [
+        "Use interchangeable heads and drive accessories appropriate for the selected model, torque range, and application."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 29 — DMT Series Digital Manual Torque Wrench model table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttdmt-1000",
+      "model": "TTDMT-1000",
+      "displayName": "TTDMT-1000 Digital Manual Torque Wrench",
+      "description": "Digital manual torque wrench rated from 73 to 737 ft-lb with 3/4-inch square drive.",
+      "images": [],
+      "specifications": {
+        "torqueMinFtLb": 73,
+        "torqueMaxFtLb": 737,
+        "squareDriveIn": "3/4",
+        "weightLb": 16.53,
+        "ratchetTeeth": 45,
+        "accuracyPercent": 2,
+        "direction": "CW & CCW"
+      },
+      "dimensions": [
+        {
+          "key": "length",
+          "label": "Length",
+          "value": 47.2,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual"
+        },
+        {
+          "key": "accuracy",
+          "label": "Accuracy",
+          "value": 2,
+          "unit": "%"
+        }
+      ],
+      "accessories": [
+        "Optional interchangeable heads"
+      ],
+      "compatibility": [
+        "Use interchangeable heads and drive accessories appropriate for the selected model, torque range, and application."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": true,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 29 — DMT Series Digital Manual Torque Wrench model table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    }
+  ],
+  "operatingRequirements": [
+    {
+      "key": "operation",
+      "label": "Power Requirement",
+      "value": "Manual operation — no hydraulic, pneumatic, or battery power required"
+    },
+    {
+      "key": "selection",
+      "label": "Selection",
+      "value": "Match torque range, square drive, tool length, interchangeable head, and access requirements to the application"
+    }
+  ],
+  "accessories": [
+    "Optional interchangeable heads",
+    "Drive accessories",
+    "Protective storage"
+  ],
+  "compatibility": [
+    "Head and drive selection must match the wrench model and application.",
+    "Calibration applicability is tracked for the DMT family because these are measuring torque tools."
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": true,
+  "calibrationApplicable": true,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "2026 ToughTorq catalog page 29 — DMT Series Digital Manual Torque Wrench"
+  ],
+  "lastVerifiedAt": "2026-10-05",
+  "catalogVersion": "2026.10"
+}
