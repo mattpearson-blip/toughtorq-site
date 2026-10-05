@@ -1,0 +1,3860 @@
+{
+  "id": "hydraulic-nuts",
+  "slug": "hydraulic-nuts",
+  "family": "Hydraulic Nuts",
+  "displayName": "Hydraulic Nuts",
+  "shortDescription": "Upper-locking and bearing-assembly hydraulic nuts for controlled axial loading, retention, installation, and removal.",
+  "longDescription": "ToughTorq hydraulic nuts use hydraulic pressure to apply controlled axial force for large-fastener loading and bearing installation or removal. The range includes upper-locking hydraulic nuts for mechanically retained load and ultra-high-pressure bearing-assembly nuts for shafts, tapered seats, bushings, flywheels, propellers, and rotating-equipment maintenance.",
+  "images": [],
+  "features": [
+    "Controlled axial loading through hydraulic pressure",
+    "Upper-locking models mechanically retain load after pressurization",
+    "Bearing-assembly models simplify installation and removal on tapered shafts and bushings",
+    "Ultra-high-pressure hydraulic operation",
+    "Quick-connect hydraulic interfaces",
+    "Wide metric and trapezoidal thread coverage",
+    "Application-specific sealing and washer options",
+    "Designed for heavy industrial maintenance and assembly"
+  ],
+  "applications": [
+    "Critical bolted connections",
+    "Large structural joints",
+    "Heavy equipment",
+    "Industrial machinery",
+    "Bearing installation",
+    "Bearing removal",
+    "Shaft assembly",
+    "Rotating equipment maintenance"
+  ],
+  "models": [
+    {
+      "id": "ttnm-m33",
+      "model": "TTNM-M33",
+      "displayName": "TTNM-M33 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M33 applications with maximum hydraulic load of 48,559 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M33",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 48559,
+        "outsideDiameterIn": 2.91,
+        "heightIn": 2.52,
+        "strokeIn": 0.24,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 2.91,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 2.52,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.24,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m36",
+      "model": "TTNM-M36",
+      "displayName": "TTNM-M36 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M36 applications with maximum hydraulic load of 55,303 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M36",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 55303,
+        "outsideDiameterIn": 3.15,
+        "heightIn": 2.8,
+        "strokeIn": 0.16,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 3.15,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 2.8,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.16,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m39",
+      "model": "TTNM-M39",
+      "displayName": "TTNM-M39 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M39 applications with maximum hydraulic load of 66,543 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M39",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 66543,
+        "outsideDiameterIn": 3.43,
+        "heightIn": 2.95,
+        "strokeIn": 0.16,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 3.43,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 2.95,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.16,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m42",
+      "model": "TTNM-M42",
+      "displayName": "TTNM-M42 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M42 applications with maximum hydraulic load of 76,435 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M42",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 76435,
+        "outsideDiameterIn": 3.7,
+        "heightIn": 3.19,
+        "strokeIn": 0.24,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 3.7,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 3.19,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.24,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m45",
+      "model": "TTNM-M45",
+      "displayName": "TTNM-M45 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M45 applications with maximum hydraulic load of 91,272 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M45",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 91272,
+        "outsideDiameterIn": 3.98,
+        "heightIn": 3.46,
+        "strokeIn": 0.24,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 3.98,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 3.46,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.24,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m48",
+      "model": "TTNM-M48",
+      "displayName": "TTNM-M48 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M48 applications with maximum hydraulic load of 102,738 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M48",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 102738,
+        "outsideDiameterIn": 4.21,
+        "heightIn": 3.5,
+        "strokeIn": 0.31,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 4.21,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 3.5,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.31,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m52",
+      "model": "TTNM-M52",
+      "displayName": "TTNM-M52 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M52 applications with maximum hydraulic load of 124,319 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M52",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 124319,
+        "outsideDiameterIn": 4.61,
+        "heightIn": 3.78,
+        "strokeIn": 0.31,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 4.61,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 3.78,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.31,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m56",
+      "model": "TTNM-M56",
+      "displayName": "TTNM-M56 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M56 applications with maximum hydraulic load of 147,475 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M56",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 147475,
+        "outsideDiameterIn": 5.04,
+        "heightIn": 3.94,
+        "strokeIn": 0.31,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 5.04,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 3.94,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.31,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m64",
+      "model": "TTNM-M64",
+      "displayName": "TTNM-M64 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M64 applications with maximum hydraulic load of 183,669 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M64",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 183669,
+        "outsideDiameterIn": 5.67,
+        "heightIn": 4.45,
+        "strokeIn": 0.39,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 5.67,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 4.45,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.39,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m68",
+      "model": "TTNM-M68",
+      "displayName": "TTNM-M68 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M68 applications with maximum hydraulic load of 226,607 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M68",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 226607,
+        "outsideDiameterIn": 6.18,
+        "heightIn": 4.69,
+        "strokeIn": 0.39,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 6.18,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 4.69,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.39,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m72",
+      "model": "TTNM-M72",
+      "displayName": "TTNM-M72 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M72 applications with maximum hydraulic load of 236,274 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M72",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 236274,
+        "outsideDiameterIn": 6.42,
+        "heightIn": 4.84,
+        "strokeIn": 0.47,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 6.42,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 4.84,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.47,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m80",
+      "model": "TTNM-M80",
+      "displayName": "TTNM-M80 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M80 applications with maximum hydraulic load of 327,996 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M80",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 327996,
+        "outsideDiameterIn": 7.36,
+        "heightIn": 5.59,
+        "strokeIn": 0.47,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 7.36,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 5.59,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.47,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m90",
+      "model": "TTNM-M90",
+      "displayName": "TTNM-M90 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M90 applications with maximum hydraulic load of 388,245 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M90",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 388245,
+        "outsideDiameterIn": 8.15,
+        "heightIn": 6.22,
+        "strokeIn": 0.47,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 8.15,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 6.22,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.47,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m95",
+      "model": "TTNM-M95",
+      "displayName": "TTNM-M95 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M95 applications with maximum hydraulic load of 441,750 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M95",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 441750,
+        "outsideDiameterIn": 8.62,
+        "heightIn": 6.54,
+        "strokeIn": 0.47,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 8.62,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 6.54,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.47,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m100",
+      "model": "TTNM-M100",
+      "displayName": "TTNM-M100 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M100 applications with maximum hydraulic load of 501,998 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M100",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 501998,
+        "outsideDiameterIn": 9.21,
+        "heightIn": 6.77,
+        "strokeIn": 0.59,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 9.21,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 6.77,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.59,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m110",
+      "model": "TTNM-M110",
+      "displayName": "TTNM-M110 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M110 applications with maximum hydraulic load of 604,286 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M110",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 604286,
+        "outsideDiameterIn": 10.04,
+        "heightIn": 7.24,
+        "strokeIn": 0.59,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 10.04,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 7.24,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.59,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m125",
+      "model": "TTNM-M125",
+      "displayName": "TTNM-M125 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M125 applications with maximum hydraulic load of 817,405 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M125",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 817405,
+        "outsideDiameterIn": 11.65,
+        "heightIn": 8.27,
+        "strokeIn": 0.59,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 11.65,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 8.27,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.59,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m140",
+      "model": "TTNM-M140",
+      "displayName": "TTNM-M140 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M140 applications with maximum hydraulic load of 982,640 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M140",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 982640,
+        "outsideDiameterIn": 12.91,
+        "heightIn": 9.37,
+        "strokeIn": 0.59,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 12.91,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 9.37,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.59,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttnm-m150",
+      "model": "TTNM-M150",
+      "displayName": "TTNM-M150 Upper-Locking Hydraulic Nut",
+      "description": "Upper-locking hydraulic nut for M150 applications with maximum hydraulic load of 1,184,294 lbf at 21,756 psi.",
+      "images": [],
+      "specifications": {
+        "series": "Upper Locking",
+        "boltDiameter": "M150",
+        "maxWorkingPressurePsi": 21756,
+        "maxLoadLbf": 1184294,
+        "outsideDiameterIn": 14.02,
+        "heightIn": 10.04,
+        "strokeIn": 0.71,
+        "maxStandardTemperatureC": 100
+      },
+      "dimensions": [
+        {
+          "key": "OD",
+          "label": "Outside Diameter",
+          "value": 14.02,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height",
+          "value": 10.04,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.71,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 21756,
+          "unit": "psi"
+        },
+        {
+          "key": "temperature",
+          "label": "Standard Temperature Capability",
+          "value": 100,
+          "unit": "°C"
+        }
+      ],
+      "accessories": [
+        "Spherical washers",
+        "Ultra-high-pressure hose and couplers",
+        "Ultra-high-pressure hydraulic pump"
+      ],
+      "compatibility": [
+        "Spherical washers may be used where the interface is not at right angles.",
+        "Special seals are available when operating temperature exceeds 100°C.",
+        "Hydraulic supply components must be compatible with 21,756 psi operation."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 40 / ToughTorq upper-locking hydraulic nut table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-10e",
+      "model": "TTHMV-10E",
+      "displayName": "TTHMV-10E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M50x1.5 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M50x1.5",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 5.23,
+        "weightLb": 6
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 4.49,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 1.99,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 4.09,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.16,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.2,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-12e",
+      "model": "TTHMV-12E",
+      "displayName": "TTHMV-12E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M60x2 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M60x2",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 6.57,
+        "weightLb": 6.2
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 4.92,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 2.38,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 4.53,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.2,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.2,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-14e",
+      "model": "TTHMV-14E",
+      "displayName": "TTHMV-14E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M70x2 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M70x2",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 7.3,
+        "weightLb": 7.1
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 5.31,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 2.78,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 5,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.2,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.2,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-16e",
+      "model": "TTHMV-16E",
+      "displayName": "TTHMV-16E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M80x2 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M80x2",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 8.03,
+        "weightLb": 8.2
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 5.75,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 3.17,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 5.39,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.2,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.2,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-18e",
+      "model": "TTHMV-18E",
+      "displayName": "TTHMV-18E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M90x2 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M90x2",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 8.76,
+        "weightLb": 8.8
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 6.14,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 3.56,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 5.79,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.2,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.2,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-20e",
+      "model": "TTHMV-20E",
+      "displayName": "TTHMV-20E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M100x2 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M100x2",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 9.28,
+        "weightLb": 9.7
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 6.54,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 3.96,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 6.22,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.24,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.2,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-22e",
+      "model": "TTHMV-22E",
+      "displayName": "TTHMV-22E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M110x2 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M110x2",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 9.74,
+        "weightLb": 10.9
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 7.01,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 4.35,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 6.65,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.24,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.2,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-24e",
+      "model": "TTHMV-24E",
+      "displayName": "TTHMV-24E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M120x2 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M120x2",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 13.28,
+        "weightLb": 11.6
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 7.4,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 4.74,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 7.05,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.24,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.2,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-26e",
+      "model": "TTHMV-26E",
+      "displayName": "TTHMV-26E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M130x2 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M130x2",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 11.11,
+        "weightLb": 12.5
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 7.8,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 5.14,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 7.48,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.24,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.2,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-28e",
+      "model": "TTHMV-28E",
+      "displayName": "TTHMV-28E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M140x2 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M140x2",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 11.79,
+        "weightLb": 13.2
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 8.19,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 5.53,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 7.87,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.54,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.28,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.2,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-30e",
+      "model": "TTHMV-30E",
+      "displayName": "TTHMV-30E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M150x2 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M150x2",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 11.99,
+        "weightLb": 14.6
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 8.66,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 5.93,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 8.31,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.54,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.28,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.24,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-32e",
+      "model": "TTHMV-32E",
+      "displayName": "TTHMV-32E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M160x3 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M160x3",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 12.4,
+        "weightLb": 16.8
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 9.13,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 6.32,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 8.82,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.57,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.28,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.24,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-34e",
+      "model": "TTHMV-34E",
+      "displayName": "TTHMV-34E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M170x3 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M170x3",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 13.44,
+        "weightLb": 18.5
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 9.61,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 6.71,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 9.25,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.61,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.28,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.24,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-36e",
+      "model": "TTHMV-36E",
+      "displayName": "TTHMV-36E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M180x3 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M180x3",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 15.97,
+        "weightLb": 20.2
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 10.08,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 7.11,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 9.72,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.61,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.28,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.24,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-38e",
+      "model": "TTHMV-38E",
+      "displayName": "TTHMV-38E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M190x3 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M190x3",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 14.36,
+        "weightLb": 23.1
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 10.63,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 7.52,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 10.2,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.65,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.31,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.31,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-40e",
+      "model": "TTHMV-40E",
+      "displayName": "TTHMV-40E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with M200x3 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "M200x3",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 13.35,
+        "weightLb": 25.4
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 11.1,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 7.91,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 10.67,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.69,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.31,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.31,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-42e",
+      "model": "TTHMV-42E",
+      "displayName": "TTHMV-42E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with Tr210x4 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "Tr210x4",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 18.18,
+        "weightLb": 27.6
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 11.57,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 8.35,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 11.1,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.73,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.31,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.35,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-44e",
+      "model": "TTHMV-44E",
+      "displayName": "TTHMV-44E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with Tr220x4 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "Tr220x4",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 18.31,
+        "weightLb": 29.8
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 12.05,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 8.74,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 11.54,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.73,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.31,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.35,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-46e",
+      "model": "TTHMV-46E",
+      "displayName": "TTHMV-46E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with Tr230x4 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "Tr230x4",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 19.02,
+        "weightLb": 33.1
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 12.52,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 9.13,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 12.01,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.77,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.31,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.35,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-50e",
+      "model": "TTHMV-50E",
+      "displayName": "TTHMV-50E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with Tr250x4 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "Tr250x4",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 20.64,
+        "weightLb": 37.5
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 13.46,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 9.92,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 12.95,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.81,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.35,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.39,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-56e",
+      "model": "TTHMV-56E",
+      "displayName": "TTHMV-56E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with Tr280x4 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "Tr280x4",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 22.76,
+        "weightLb": 48.5
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 14.96,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 11.1,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 14.29,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 1.93,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.35,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.47,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-60e",
+      "model": "TTHMV-60E",
+      "displayName": "TTHMV-60E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with Tr300x4 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "Tr300x4",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 24.24,
+        "weightLb": 55.1
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 15.91,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 11.89,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 15.2,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 2.01,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.39,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.51,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-68e",
+      "model": "TTHMV-68E",
+      "displayName": "TTHMV-68E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with Tr340x5 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "Tr340x5",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 44.02,
+        "weightLb": 69.4
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 17.72,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 13.46,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 16.93,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 2.13,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.39,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.55,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-76e",
+      "model": "TTHMV-76E",
+      "displayName": "TTHMV-76E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with Tr380x5 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "Tr380x5",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 51.93,
+        "weightLb": 89.3
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 19.61,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 15.04,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 18.74,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 2.28,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.43,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.63,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-80e",
+      "model": "TTHMV-80E",
+      "displayName": "TTHMV-80E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with Tr400x5 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "Tr400x5",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 31.93,
+        "weightLb": 100.3
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 20.55,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 15.83,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 19.65,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 2.36,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.43,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.67,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-100e",
+      "model": "TTHMV-100E",
+      "displayName": "TTHMV-100E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with Tr500x5 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "Tr500x5",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 37.72,
+        "weightLb": 154.3
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 25.04,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 19.76,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 23.98,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 2.64,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.47,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.75,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-142e",
+      "model": "TTHMV-142E",
+      "displayName": "TTHMV-142E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with Tr710x7 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "Tr710x7",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 47.63,
+        "weightLb": 297.6
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 34.25,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 28.03,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 33.07,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 3.07,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.59,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.98,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "tthmv-160e",
+      "model": "TTHMV-160E",
+      "displayName": "TTHMV-160E Hydraulic Nut for Bearing Assembly",
+      "description": "Ultra-high-pressure hydraulic bearing nut with Tr800x7 thread for controlled bearing installation and removal.",
+      "images": [],
+      "specifications": {
+        "series": "Bearing Assembly",
+        "thread": "Tr800x7",
+        "operatingPressureMinPsi": 10153,
+        "operatingPressureMaxPsi": 21756,
+        "effectiveAreaIn2": 49.24,
+        "weightLb": 354.9
+      },
+      "dimensions": [
+        {
+          "key": "D",
+          "label": "Diameter D",
+          "value": 37.99,
+          "unit": "in"
+        },
+        {
+          "key": "d1",
+          "label": "Diameter d1",
+          "value": 31.57,
+          "unit": "in"
+        },
+        {
+          "key": "d2",
+          "label": "Diameter d2",
+          "value": 36.85,
+          "unit": "in"
+        },
+        {
+          "key": "H",
+          "label": "Height H",
+          "value": 3.15,
+          "unit": "in"
+        },
+        {
+          "key": "B1",
+          "label": "B1",
+          "value": 0.63,
+          "unit": "in"
+        },
+        {
+          "key": "stroke",
+          "label": "Stroke",
+          "value": 0.98,
+          "unit": "in"
+        }
+      ],
+      "operatingRequirements": [
+        {
+          "key": "pressureRange",
+          "label": "Operating Pressure",
+          "value": "10,153–21,756 psi"
+        },
+        {
+          "key": "hydraulicPower",
+          "label": "Hydraulic Power",
+          "value": "Use with an ultra-high-pressure hydraulic pump and compatible quick-connect components"
+        }
+      ],
+      "accessories": [
+        "Ultra-high-pressure pump",
+        "Quick-connect head",
+        "Ultra-high-pressure hose and couplers"
+      ],
+      "compatibility": [
+        "Select the hydraulic nut thread to match the shaft or sleeve thread.",
+        "All bearing-assembly hydraulic nuts are designed for connection to compatible ultra-high-pressure hydraulic pumps."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 41 / ToughTorq-Kashon hydraulic nut for bearing assembling and disassembling table; KS prefix mapped to ToughTorq TT naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    }
+  ],
+  "operatingRequirements": [
+    {
+      "key": "system",
+      "label": "Hydraulic System",
+      "value": "Match pump, hose, couplers, pressure rating, thread, and application geometry to the selected hydraulic nut"
+    }
+  ],
+  "accessories": [
+    "Ultra-high-pressure pumps",
+    "Ultra-high-pressure hoses",
+    "Quick couplers",
+    "Pressure gauges",
+    "Spherical washers",
+    "Application-specific seals"
+  ],
+  "compatibility": [
+    "Thread form and size must match the bolt, shaft, or sleeve.",
+    "Hydraulic power components must be rated for the operating pressure of the selected nut.",
+    "Application geometry, available clearance, and retained-load requirements determine whether an upper-locking or bearing-assembly hydraulic nut is appropriate."
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": true,
+  "calibrationApplicable": false,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "2026 ToughTorq catalog pages 40–41",
+    "ToughTorq/Kashon Upper Locking Type Hydraulic Nut and Hydraulic Nut for Bearing Assembling and Disassembling tables"
+  ],
+  "lastVerifiedAt": "2026-10-05",
+  "catalogVersion": "2026.10"
+}
