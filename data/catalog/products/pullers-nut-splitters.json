@@ -1,0 +1,2152 @@
+{
+  "id": "pullers-nut-splitters",
+  "slug": "pullers-nut-splitters",
+  "family": "Pullers & Nut Splitters",
+  "displayName": "Pullers & Nut Splitters",
+  "shortDescription": "Mechanical and hydraulic removal tools for bearings, gears, couplings, and seized fasteners.",
+  "longDescription": "ToughTorq removal tooling includes mechanical and hydraulic nut splitters, adjustable hydraulic gear pullers, coupler pullers, and matched hydraulic puller sets for controlled removal of bearings, gears, couplings, and press-fit components.",
+  "images": [],
+  "features": [
+    "Mechanical and hydraulic nut splitting",
+    "Hydraulic gear and bearing removal",
+    "Matched puller sets with pumps, cylinders, hoses, and gauges",
+    "2- and 3-jaw puller configurations",
+    "High-capacity heavy-duty nut splitter range",
+    "Application-specific coupler connectors",
+    "Spring-return hydraulic splitting tools",
+    "Forged puller components for industrial service"
+  ],
+  "applications": [
+    "Bearing removal",
+    "Gear removal",
+    "Coupling removal",
+    "Seized nut removal",
+    "Flange maintenance",
+    "Rotating equipment",
+    "Heavy machinery maintenance",
+    "Shutdown and turnaround work"
+  ],
+  "models": [
+    {
+      "id": "nt-1",
+      "model": "NT-1",
+      "displayName": "NT-1 Mechanical Nut Splitter",
+      "description": "Drop-forged mechanical nut splitter for 9–12 mm nut A/F range.",
+      "images": [],
+      "specifications": {
+        "series": "Mechanical Nut Splitter",
+        "nutAfSize": "9–12 mm",
+        "setWeightLb": 3.5,
+        "setQuantity": 4,
+        "operationType": "Mechanical"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [
+        "Chrome-vanadium splitter blade"
+      ],
+      "compatibility": [
+        "Select the splitter by nut A/F dimension and available access around the fastener."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Mechanical Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "nt-2",
+      "model": "NT-2",
+      "displayName": "NT-2 Mechanical Nut Splitter",
+      "description": "Drop-forged mechanical nut splitter for 12–16 mm nut A/F range.",
+      "images": [],
+      "specifications": {
+        "series": "Mechanical Nut Splitter",
+        "nutAfSize": "12–16 mm",
+        "setWeightLb": 3.5,
+        "setQuantity": 4,
+        "operationType": "Mechanical"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [
+        "Chrome-vanadium splitter blade"
+      ],
+      "compatibility": [
+        "Select the splitter by nut A/F dimension and available access around the fastener."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Mechanical Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "nt-3",
+      "model": "NT-3",
+      "displayName": "NT-3 Mechanical Nut Splitter",
+      "description": "Drop-forged mechanical nut splitter for 16–22 mm nut A/F range.",
+      "images": [],
+      "specifications": {
+        "series": "Mechanical Nut Splitter",
+        "nutAfSize": "16–22 mm",
+        "setWeightLb": 3.5,
+        "setQuantity": 4,
+        "operationType": "Mechanical"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [
+        "Chrome-vanadium splitter blade"
+      ],
+      "compatibility": [
+        "Select the splitter by nut A/F dimension and available access around the fastener."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Mechanical Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "nt-4",
+      "model": "NT-4",
+      "displayName": "NT-4 Mechanical Nut Splitter",
+      "description": "Drop-forged mechanical nut splitter for 19–24 mm nut A/F range.",
+      "images": [],
+      "specifications": {
+        "series": "Mechanical Nut Splitter",
+        "nutAfSize": "19–24 mm",
+        "setWeightLb": 3.5,
+        "setQuantity": 4,
+        "operationType": "Mechanical"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [
+        "Chrome-vanadium splitter blade"
+      ],
+      "compatibility": [
+        "Select the splitter by nut A/F dimension and available access around the fastener."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Mechanical Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ni2432",
+      "model": "NI2432",
+      "displayName": "NI2432 Integral Hydraulic Nut Splitter",
+      "description": "Integral hydraulic nut splitter for 24–32 mm nuts and M16–22 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Integral Hydraulic Nut Splitter",
+        "capacityTons": 15,
+        "nutAfSize": "24–32 mm",
+        "boltDiameter": "M16–22",
+        "operationType": "Integral hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [
+        "Integral hydraulic power mechanism"
+      ],
+      "compatibility": [
+        "Match nut A/F size and bolt diameter to the published tool range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Integral Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ni3241",
+      "model": "NI3241",
+      "displayName": "NI3241 Integral Hydraulic Nut Splitter",
+      "description": "Integral hydraulic nut splitter for 32–41 mm nuts and M22–27 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Integral Hydraulic Nut Splitter",
+        "capacityTons": 20,
+        "nutAfSize": "32–41 mm",
+        "boltDiameter": "M22–27",
+        "operationType": "Integral hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [
+        "Integral hydraulic power mechanism"
+      ],
+      "compatibility": [
+        "Match nut A/F size and bolt diameter to the published tool range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Integral Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ni4150",
+      "model": "NI4150",
+      "displayName": "NI4150 Integral Hydraulic Nut Splitter",
+      "description": "Integral hydraulic nut splitter for 41–50 mm nuts and M27–33 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Integral Hydraulic Nut Splitter",
+        "capacityTons": 35,
+        "nutAfSize": "41–50 mm",
+        "boltDiameter": "M27–33",
+        "operationType": "Integral hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [],
+      "accessories": [
+        "Integral hydraulic power mechanism"
+      ],
+      "compatibility": [
+        "Match nut A/F size and bolt diameter to the published tool range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Integral Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "nc-1319",
+      "model": "NC-1319",
+      "displayName": "NC-1319 Separated Hydraulic Nut Splitter",
+      "description": "Separated hydraulic nut splitter for 10–19 mm nuts and M6–12 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Separated Hydraulic Nut Splitter",
+        "weightLb": 2.6,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 5,
+        "nutAfSize": "10–19 mm",
+        "boltDiameter": "M6–12",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "700 bar hand pump",
+        "Hydraulic hose"
+      ],
+      "compatibility": [
+        "Use with a compatible 700 bar hydraulic hand pump and hose.",
+        "Match nut A/F size and bolt diameter to the published tool range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Separated Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "nc-1924",
+      "model": "NC-1924",
+      "displayName": "NC-1924 Separated Hydraulic Nut Splitter",
+      "description": "Separated hydraulic nut splitter for 19–24 mm nuts and M12–16 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Separated Hydraulic Nut Splitter",
+        "weightLb": 5.7,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 10,
+        "nutAfSize": "19–24 mm",
+        "boltDiameter": "M12–16",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "700 bar hand pump",
+        "Hydraulic hose"
+      ],
+      "compatibility": [
+        "Use with a compatible 700 bar hydraulic hand pump and hose.",
+        "Match nut A/F size and bolt diameter to the published tool range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Separated Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "nc-2432",
+      "model": "NC-2432",
+      "displayName": "NC-2432 Separated Hydraulic Nut Splitter",
+      "description": "Separated hydraulic nut splitter for 24–32 mm nuts and M16–22 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Separated Hydraulic Nut Splitter",
+        "weightLb": 8.8,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 15,
+        "nutAfSize": "24–32 mm",
+        "boltDiameter": "M16–22",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "700 bar hand pump",
+        "Hydraulic hose"
+      ],
+      "compatibility": [
+        "Use with a compatible 700 bar hydraulic hand pump and hose.",
+        "Match nut A/F size and bolt diameter to the published tool range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Separated Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "nc-3241",
+      "model": "NC-3241",
+      "displayName": "NC-3241 Separated Hydraulic Nut Splitter",
+      "description": "Separated hydraulic nut splitter for 32–41 mm nuts and M22–27 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Separated Hydraulic Nut Splitter",
+        "weightLb": 11.9,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 20,
+        "nutAfSize": "32–41 mm",
+        "boltDiameter": "M22–27",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "700 bar hand pump",
+        "Hydraulic hose"
+      ],
+      "compatibility": [
+        "Use with a compatible 700 bar hydraulic hand pump and hose.",
+        "Match nut A/F size and bolt diameter to the published tool range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Separated Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "nc-4150",
+      "model": "NC-4150",
+      "displayName": "NC-4150 Separated Hydraulic Nut Splitter",
+      "description": "Separated hydraulic nut splitter for 41–50 mm nuts and M27–33 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Separated Hydraulic Nut Splitter",
+        "weightLb": 22,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 35,
+        "nutAfSize": "41–50 mm",
+        "boltDiameter": "M27–33",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "700 bar hand pump",
+        "Hydraulic hose"
+      ],
+      "compatibility": [
+        "Use with a compatible 700 bar hydraulic hand pump and hose.",
+        "Match nut A/F size and bolt diameter to the published tool range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Separated Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "nc-5060",
+      "model": "NC-5060",
+      "displayName": "NC-5060 Separated Hydraulic Nut Splitter",
+      "description": "Separated hydraulic nut splitter for 50–60 mm nuts and M33–39 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Separated Hydraulic Nut Splitter",
+        "weightLb": 37.5,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 50,
+        "nutAfSize": "50–60 mm",
+        "boltDiameter": "M33–39",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "700 bar hand pump",
+        "Hydraulic hose"
+      ],
+      "compatibility": [
+        "Use with a compatible 700 bar hydraulic hand pump and hose.",
+        "Match nut A/F size and bolt diameter to the published tool range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Separated Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "nc-6075",
+      "model": "NC-6075",
+      "displayName": "NC-6075 Separated Hydraulic Nut Splitter",
+      "description": "Separated hydraulic nut splitter for 60–75 mm nuts and M39–48 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Separated Hydraulic Nut Splitter",
+        "weightLb": 75.2,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 90,
+        "nutAfSize": "60–75 mm",
+        "boltDiameter": "M39–48",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "700 bar hand pump",
+        "Hydraulic hose"
+      ],
+      "compatibility": [
+        "Use with a compatible 700 bar hydraulic hand pump and hose.",
+        "Match nut A/F size and bolt diameter to the published tool range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Separated Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ns-7080",
+      "model": "NS-7080",
+      "displayName": "NS-7080 Heavy-Duty Hydraulic Nut Splitter",
+      "description": "Heavy-duty spring-return hydraulic nut splitter for 70–80 mm nuts and M45–52 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Heavy-Duty Hydraulic Nut Splitter",
+        "weightLb": 81.6,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 103,
+        "nutAfSize": "70–80 mm",
+        "boltDiameter": "M45–52",
+        "operationType": "Hydraulic",
+        "bladeTechnology": "Tri-blade"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Interchangeable splitter heads",
+        "Grip handle",
+        "Hydraulic pump and hose"
+      ],
+      "compatibility": [
+        "Preset blade-extension scale is used to control blade travel and protect bolt threads.",
+        "Interchangeable heads must match the required nut range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Heavy Duty Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ns-7085",
+      "model": "NS-7085",
+      "displayName": "NS-7085 Heavy-Duty Hydraulic Nut Splitter",
+      "description": "Heavy-duty spring-return hydraulic nut splitter for 70–85 mm nuts and M45–56 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Heavy-Duty Hydraulic Nut Splitter",
+        "weightLb": 81.6,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 103,
+        "nutAfSize": "70–85 mm",
+        "boltDiameter": "M45–56",
+        "operationType": "Hydraulic",
+        "bladeTechnology": "Tri-blade"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Interchangeable splitter heads",
+        "Grip handle",
+        "Hydraulic pump and hose"
+      ],
+      "compatibility": [
+        "Preset blade-extension scale is used to control blade travel and protect bolt threads.",
+        "Interchangeable heads must match the required nut range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Heavy Duty Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ns-7095",
+      "model": "NS-7095",
+      "displayName": "NS-7095 Heavy-Duty Hydraulic Nut Splitter",
+      "description": "Heavy-duty spring-return hydraulic nut splitter for 70–95 mm nuts and M45–64 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Heavy-Duty Hydraulic Nut Splitter",
+        "weightLb": 86,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 103,
+        "nutAfSize": "70–95 mm",
+        "boltDiameter": "M45–64",
+        "operationType": "Hydraulic",
+        "bladeTechnology": "Tri-blade"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Interchangeable splitter heads",
+        "Grip handle",
+        "Hydraulic pump and hose"
+      ],
+      "compatibility": [
+        "Preset blade-extension scale is used to control blade travel and protect bolt threads.",
+        "Interchangeable heads must match the required nut range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Heavy Duty Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ns-70105",
+      "model": "NS-70105",
+      "displayName": "NS-70105 Heavy-Duty Hydraulic Nut Splitter",
+      "description": "Heavy-duty spring-return hydraulic nut splitter for 70–105 mm nuts and M45–72 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Heavy-Duty Hydraulic Nut Splitter",
+        "weightLb": 88.2,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 103,
+        "nutAfSize": "70–105 mm",
+        "boltDiameter": "M45–72",
+        "operationType": "Hydraulic",
+        "bladeTechnology": "Tri-blade"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Interchangeable splitter heads",
+        "Grip handle",
+        "Hydraulic pump and hose"
+      ],
+      "compatibility": [
+        "Preset blade-extension scale is used to control blade travel and protect bolt threads.",
+        "Interchangeable heads must match the required nut range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Heavy Duty Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ns-110115",
+      "model": "NS-110115",
+      "displayName": "NS-110115 Heavy-Duty Hydraulic Nut Splitter",
+      "description": "Heavy-duty spring-return hydraulic nut splitter for 110–115 mm nuts and M76–80 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Heavy-Duty Hydraulic Nut Splitter",
+        "weightLb": 152.1,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 193,
+        "nutAfSize": "110–115 mm",
+        "boltDiameter": "M76–80",
+        "operationType": "Hydraulic",
+        "bladeTechnology": "Tri-blade"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Interchangeable splitter heads",
+        "Grip handle",
+        "Hydraulic pump and hose"
+      ],
+      "compatibility": [
+        "Preset blade-extension scale is used to control blade travel and protect bolt threads.",
+        "Interchangeable heads must match the required nut range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Heavy Duty Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ns-110130",
+      "model": "NS-110130",
+      "displayName": "NS-110130 Heavy-Duty Hydraulic Nut Splitter",
+      "description": "Heavy-duty spring-return hydraulic nut splitter for 110–130 mm nuts and M76–90 bolt range.",
+      "images": [],
+      "specifications": {
+        "series": "Heavy-Duty Hydraulic Nut Splitter",
+        "weightLb": 158.7,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 193,
+        "nutAfSize": "110–130 mm",
+        "boltDiameter": "M76–90",
+        "operationType": "Hydraulic",
+        "bladeTechnology": "Tri-blade"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Interchangeable splitter heads",
+        "Grip handle",
+        "Hydraulic pump and hose"
+      ],
+      "compatibility": [
+        "Preset blade-extension scale is used to control blade travel and protect bolt threads.",
+        "Interchangeable heads must match the required nut range."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Heavy Duty Hydraulic Nut Splitter table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "uka-3",
+      "model": "UKA-3",
+      "displayName": "UKA-3 Adjustable Hydraulic Gear Puller",
+      "description": "Adjustable hydraulic gear puller with 3 ton capacity and 5.91 in maximum spread.",
+      "images": [],
+      "specifications": {
+        "series": "Adjustable Hydraulic Gear Puller",
+        "weightLb": 7.7,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 3,
+        "maxSpreadIn": 5.91,
+        "strokeIn": 2.36,
+        "jawConfiguration": "2/3",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Integrated hand pump",
+        "2- or 3-jaw configuration where published"
+      ],
+      "compatibility": [
+        "When a 2-jaw configuration is used on applicable models, manufacturer guidance limits force to 60% of total rated load."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Adjustable Hydraulic Gear Puller table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "uka-5",
+      "model": "UKA-5",
+      "displayName": "UKA-5 Adjustable Hydraulic Gear Puller",
+      "description": "Adjustable hydraulic gear puller with 5 ton capacity and 7.87 in maximum spread.",
+      "images": [],
+      "specifications": {
+        "series": "Adjustable Hydraulic Gear Puller",
+        "weightLb": 15.4,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 5,
+        "maxSpreadIn": 7.87,
+        "strokeIn": 2.36,
+        "jawConfiguration": "2/3",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Integrated hand pump",
+        "2- or 3-jaw configuration where published"
+      ],
+      "compatibility": [
+        "When a 2-jaw configuration is used on applicable models, manufacturer guidance limits force to 60% of total rated load."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Adjustable Hydraulic Gear Puller table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "uka-10",
+      "model": "UKA-10",
+      "displayName": "UKA-10 Adjustable Hydraulic Gear Puller",
+      "description": "Adjustable hydraulic gear puller with 10 ton capacity and 9.84 in maximum spread.",
+      "images": [],
+      "specifications": {
+        "series": "Adjustable Hydraulic Gear Puller",
+        "weightLb": 26.5,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 10,
+        "maxSpreadIn": 9.84,
+        "strokeIn": 3.15,
+        "jawConfiguration": "2/3",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Integrated hand pump",
+        "2- or 3-jaw configuration where published"
+      ],
+      "compatibility": [
+        "When a 2-jaw configuration is used on applicable models, manufacturer guidance limits force to 60% of total rated load."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Adjustable Hydraulic Gear Puller table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "uka-15",
+      "model": "UKA-15",
+      "displayName": "UKA-15 Adjustable Hydraulic Gear Puller",
+      "description": "Adjustable hydraulic gear puller with 15 ton capacity and 13.78 in maximum spread.",
+      "images": [],
+      "specifications": {
+        "series": "Adjustable Hydraulic Gear Puller",
+        "weightLb": 39.7,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 15,
+        "maxSpreadIn": 13.78,
+        "strokeIn": 3.15,
+        "jawConfiguration": "2/3",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Integrated hand pump",
+        "2- or 3-jaw configuration where published"
+      ],
+      "compatibility": [
+        "When a 2-jaw configuration is used on applicable models, manufacturer guidance limits force to 60% of total rated load."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Adjustable Hydraulic Gear Puller table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "uka-20",
+      "model": "UKA-20",
+      "displayName": "UKA-20 Adjustable Hydraulic Gear Puller",
+      "description": "Adjustable hydraulic gear puller with 20 ton capacity and 15.75 in maximum spread.",
+      "images": [],
+      "specifications": {
+        "series": "Adjustable Hydraulic Gear Puller",
+        "weightLb": 52.9,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 20,
+        "maxSpreadIn": 15.75,
+        "strokeIn": 3.15,
+        "jawConfiguration": "2/3",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Integrated hand pump",
+        "2- or 3-jaw configuration where published"
+      ],
+      "compatibility": [
+        "When a 2-jaw configuration is used on applicable models, manufacturer guidance limits force to 60% of total rated load."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Adjustable Hydraulic Gear Puller table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "uka-30",
+      "model": "UKA-30",
+      "displayName": "UKA-30 Adjustable Hydraulic Gear Puller",
+      "description": "Adjustable hydraulic gear puller with 30 ton capacity and 17.72 in maximum spread.",
+      "images": [],
+      "specifications": {
+        "series": "Adjustable Hydraulic Gear Puller",
+        "weightLb": 61.7,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 30,
+        "maxSpreadIn": 17.72,
+        "strokeIn": 3.54,
+        "jawConfiguration": "2/3",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Integrated hand pump",
+        "2- or 3-jaw configuration where published"
+      ],
+      "compatibility": [
+        "When a 2-jaw configuration is used on applicable models, manufacturer guidance limits force to 60% of total rated load."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Adjustable Hydraulic Gear Puller table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "uka-40",
+      "model": "UKA-40",
+      "displayName": "UKA-40 Adjustable Hydraulic Gear Puller",
+      "description": "Adjustable hydraulic gear puller with 40 ton capacity and 19.69 in maximum spread.",
+      "images": [],
+      "specifications": {
+        "series": "Adjustable Hydraulic Gear Puller",
+        "weightLb": 77.2,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 40,
+        "maxSpreadIn": 19.69,
+        "strokeIn": 3.94,
+        "jawConfiguration": "2/3",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Integrated hand pump",
+        "2- or 3-jaw configuration where published"
+      ],
+      "compatibility": [
+        "When a 2-jaw configuration is used on applicable models, manufacturer guidance limits force to 60% of total rated load."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Adjustable Hydraulic Gear Puller table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "uka-50",
+      "model": "UKA-50",
+      "displayName": "UKA-50 Adjustable Hydraulic Gear Puller",
+      "description": "Adjustable hydraulic gear puller with 50 ton capacity and 23.62 in maximum spread.",
+      "images": [],
+      "specifications": {
+        "series": "Adjustable Hydraulic Gear Puller",
+        "weightLb": 99.2,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 50,
+        "maxSpreadIn": 23.62,
+        "strokeIn": 3.94,
+        "jawConfiguration": "2/3",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Integrated hand pump",
+        "2- or 3-jaw configuration where published"
+      ],
+      "compatibility": [
+        "When a 2-jaw configuration is used on applicable models, manufacturer guidance limits force to 60% of total rated load."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Adjustable Hydraulic Gear Puller table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "uka-60",
+      "model": "UKA-60",
+      "displayName": "UKA-60 Adjustable Hydraulic Gear Puller",
+      "description": "Adjustable hydraulic gear puller with 60 ton capacity and 27.56 in maximum spread.",
+      "images": [],
+      "specifications": {
+        "series": "Adjustable Hydraulic Gear Puller",
+        "weightLb": 220.5,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 60,
+        "maxSpreadIn": 27.56,
+        "strokeIn": 4.72,
+        "jawConfiguration": "3",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Integrated hand pump",
+        "2- or 3-jaw configuration where published"
+      ],
+      "compatibility": [
+        "When a 2-jaw configuration is used on applicable models, manufacturer guidance limits force to 60% of total rated load."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Adjustable Hydraulic Gear Puller table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "uka-80",
+      "model": "UKA-80",
+      "displayName": "UKA-80 Adjustable Hydraulic Gear Puller",
+      "description": "Adjustable hydraulic gear puller with 80 ton capacity and 31.5 in maximum spread.",
+      "images": [],
+      "specifications": {
+        "series": "Adjustable Hydraulic Gear Puller",
+        "weightLb": 264.6,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 80,
+        "maxSpreadIn": 31.5,
+        "strokeIn": 4.72,
+        "jawConfiguration": "3",
+        "operationType": "Hydraulic"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Integrated hand pump",
+        "2- or 3-jaw configuration where published"
+      ],
+      "compatibility": [
+        "When a 2-jaw configuration is used on applicable models, manufacturer guidance limits force to 60% of total rated load."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Adjustable Hydraulic Gear Puller table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttltc-20t",
+      "model": "TTLTC-20T",
+      "displayName": "TTLTC-20T Hydraulic Coupler Puller",
+      "description": "Hydraulic coupler puller rated at 20 tons for controlled coupling removal.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Coupler Puller",
+        "weightLb": 22,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 20,
+        "oilCapacityCm3": 450,
+        "strokeIn": 2.95,
+        "cylinderLengthIn": 11.97,
+        "matchedModuleSpecification": "M27, M30, M32, M36, M42, M48"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "700 bar hand pump",
+        "Custom coupler connector where required"
+      ],
+      "compatibility": [
+        "Connector thread/specification must match the coupling being removed.",
+        "Special connectors can be customized for non-standard couplers."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Coupler Puller table; KSLTC source prefix mapped to ToughTorq TTLTC naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttltc-50t",
+      "model": "TTLTC-50T",
+      "displayName": "TTLTC-50T Hydraulic Coupler Puller",
+      "description": "Hydraulic coupler puller rated at 50 tons for controlled coupling removal.",
+      "images": [],
+      "specifications": {
+        "series": "Hydraulic Coupler Puller",
+        "weightLb": 39.7,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 50,
+        "oilCapacityCm3": 530,
+        "strokeIn": 3.54,
+        "cylinderLengthIn": 14.69,
+        "matchedModuleSpecification": "M42, M48, M56, M60, M64"
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "700 bar hand pump",
+        "Custom coupler connector where required"
+      ],
+      "compatibility": [
+        "Connector thread/specification must match the coupling being removed.",
+        "Special connectors can be customized for non-standard couplers."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon Hydraulic Coupler Puller table; KSLTC source prefix mapped to ToughTorq TTLTC naming"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bhp-152",
+      "model": "BHP-152",
+      "displayName": "BHP-152 Grip Puller Set",
+      "description": "8 ton hydraulic grip puller set supplied as a matched puller system.",
+      "images": [],
+      "specifications": {
+        "series": "Grip Puller Set",
+        "weightLb": 48.5,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 8,
+        "hydraulicCylinder": "RCH-121",
+        "handPump": "P-392",
+        "setWeightLb": 48.5
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Hand pump",
+        "Hollow-plunger hydraulic cylinder",
+        "1.8 m hose",
+        "Pressure gauge",
+        "Gauge adaptor",
+        "Puller components"
+      ],
+      "compatibility": [
+        "Puller jaws, reach, spread, cylinder, and pump must be selected as a matched set for the component being removed."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Grip Puller Set table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bhp-251g",
+      "model": "BHP-251G",
+      "displayName": "BHP-251G Grip Puller Set",
+      "description": "20 ton hydraulic grip puller set supplied as a matched puller system.",
+      "images": [],
+      "specifications": {
+        "series": "Grip Puller Set",
+        "weightLb": 123.5,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 20,
+        "hydraulicCylinder": "RCH-202",
+        "handPump": "P-392",
+        "setWeightLb": 123.5
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Hand pump",
+        "Hollow-plunger hydraulic cylinder",
+        "1.8 m hose",
+        "Pressure gauge",
+        "Gauge adaptor",
+        "Puller components"
+      ],
+      "compatibility": [
+        "Puller jaws, reach, spread, cylinder, and pump must be selected as a matched set for the component being removed."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Grip Puller Set table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bhp-351g",
+      "model": "BHP-351G",
+      "displayName": "BHP-351G Grip Puller Set",
+      "description": "30 ton hydraulic grip puller set supplied as a matched puller system.",
+      "images": [],
+      "specifications": {
+        "series": "Grip Puller Set",
+        "weightLb": 200.6,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 30,
+        "hydraulicCylinder": "RCH-302",
+        "handPump": "P-392",
+        "setWeightLb": 200.6
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Hand pump",
+        "Hollow-plunger hydraulic cylinder",
+        "1.8 m hose",
+        "Pressure gauge",
+        "Gauge adaptor",
+        "Puller components"
+      ],
+      "compatibility": [
+        "Puller jaws, reach, spread, cylinder, and pump must be selected as a matched set for the component being removed."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Grip Puller Set table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bhp-551g",
+      "model": "BHP-551G",
+      "displayName": "BHP-551G Grip Puller Set",
+      "description": "50 ton hydraulic grip puller set supplied as a matched puller system.",
+      "images": [],
+      "specifications": {
+        "series": "Grip Puller Set",
+        "weightLb": 352.7,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 50,
+        "hydraulicCylinder": "RCH-603",
+        "handPump": "P-80",
+        "setWeightLb": 352.7
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Hand pump",
+        "Hollow-plunger hydraulic cylinder",
+        "1.8 m hose",
+        "Pressure gauge",
+        "Gauge adaptor",
+        "Puller components"
+      ],
+      "compatibility": [
+        "Puller jaws, reach, spread, cylinder, and pump must be selected as a matched set for the component being removed."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Grip Puller Set table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bhp-162",
+      "model": "BHP-162",
+      "displayName": "BHP-162 Cross-Bearing Puller Set",
+      "description": "8 ton hydraulic cross-bearing puller set supplied as a matched puller system.",
+      "images": [],
+      "specifications": {
+        "series": "Cross-Bearing Puller Set",
+        "weightLb": 57.3,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 8,
+        "hydraulicCylinder": "RCH-121",
+        "handPump": "P-392",
+        "setWeightLb": 57.3
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Hand pump",
+        "Hollow-plunger hydraulic cylinder",
+        "1.8 m hose",
+        "Pressure gauge",
+        "Gauge adaptor",
+        "Puller components"
+      ],
+      "compatibility": [
+        "Puller jaws, reach, spread, cylinder, and pump must be selected as a matched set for the component being removed."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Cross-Bearing Puller Set table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bhp-261g",
+      "model": "BHP-261G",
+      "displayName": "BHP-261G Cross-Bearing Puller Set",
+      "description": "20 ton hydraulic cross-bearing puller set supplied as a matched puller system.",
+      "images": [],
+      "specifications": {
+        "series": "Cross-Bearing Puller Set",
+        "weightLb": 136.7,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 20,
+        "hydraulicCylinder": "RCH-202",
+        "handPump": "P-392",
+        "setWeightLb": 136.7
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Hand pump",
+        "Hollow-plunger hydraulic cylinder",
+        "1.8 m hose",
+        "Pressure gauge",
+        "Gauge adaptor",
+        "Puller components"
+      ],
+      "compatibility": [
+        "Puller jaws, reach, spread, cylinder, and pump must be selected as a matched set for the component being removed."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Cross-Bearing Puller Set table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bhp-361g",
+      "model": "BHP-361G",
+      "displayName": "BHP-361G Cross-Bearing Puller Set",
+      "description": "30 ton hydraulic cross-bearing puller set supplied as a matched puller system.",
+      "images": [],
+      "specifications": {
+        "series": "Cross-Bearing Puller Set",
+        "weightLb": 266.8,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 30,
+        "hydraulicCylinder": "RCH-302",
+        "handPump": "P-392",
+        "setWeightLb": 266.8
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Hand pump",
+        "Hollow-plunger hydraulic cylinder",
+        "1.8 m hose",
+        "Pressure gauge",
+        "Gauge adaptor",
+        "Puller components"
+      ],
+      "compatibility": [
+        "Puller jaws, reach, spread, cylinder, and pump must be selected as a matched set for the component being removed."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Cross-Bearing Puller Set table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bhp-561g",
+      "model": "BHP-561G",
+      "displayName": "BHP-561G Cross-Bearing Puller Set",
+      "description": "50 ton hydraulic cross-bearing puller set supplied as a matched puller system.",
+      "images": [],
+      "specifications": {
+        "series": "Cross-Bearing Puller Set",
+        "weightLb": 407.9,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 50,
+        "hydraulicCylinder": "RCH-603",
+        "handPump": "P-80",
+        "setWeightLb": 407.9
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Hand pump",
+        "Hollow-plunger hydraulic cylinder",
+        "1.8 m hose",
+        "Pressure gauge",
+        "Gauge adaptor",
+        "Puller components"
+      ],
+      "compatibility": [
+        "Puller jaws, reach, spread, cylinder, and pump must be selected as a matched set for the component being removed."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Cross-Bearing Puller Set table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bhp-1752",
+      "model": "BHP-1752",
+      "displayName": "BHP-1752 Master Puller Set",
+      "description": "8 ton hydraulic master puller set supplied as a matched puller system.",
+      "images": [],
+      "specifications": {
+        "series": "Master Puller Set",
+        "weightLb": 81.6,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 8,
+        "hydraulicCylinder": "RCH-121",
+        "handPump": "P-392",
+        "setWeightLb": 81.6
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Hand pump",
+        "Hollow-plunger hydraulic cylinder",
+        "1.8 m hose",
+        "Pressure gauge",
+        "Gauge adaptor",
+        "Puller components"
+      ],
+      "compatibility": [
+        "Puller jaws, reach, spread, cylinder, and pump must be selected as a matched set for the component being removed."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Master Puller Set table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bhp-2751g",
+      "model": "BHP-2751G",
+      "displayName": "BHP-2751G Master Puller Set",
+      "description": "20 ton hydraulic master puller set supplied as a matched puller system.",
+      "images": [],
+      "specifications": {
+        "series": "Master Puller Set",
+        "weightLb": 198.4,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 20,
+        "hydraulicCylinder": "RCH-202",
+        "handPump": "P-392",
+        "setWeightLb": 198.4
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Hand pump",
+        "Hollow-plunger hydraulic cylinder",
+        "1.8 m hose",
+        "Pressure gauge",
+        "Gauge adaptor",
+        "Puller components"
+      ],
+      "compatibility": [
+        "Puller jaws, reach, spread, cylinder, and pump must be selected as a matched set for the component being removed."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Master Puller Set table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bhp-3751g",
+      "model": "BHP-3751G",
+      "displayName": "BHP-3751G Master Puller Set",
+      "description": "30 ton hydraulic master puller set supplied as a matched puller system.",
+      "images": [],
+      "specifications": {
+        "series": "Master Puller Set",
+        "weightLb": 379.2,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 30,
+        "hydraulicCylinder": "RCH-302",
+        "handPump": "P-392",
+        "setWeightLb": 379.2
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Hand pump",
+        "Hollow-plunger hydraulic cylinder",
+        "1.8 m hose",
+        "Pressure gauge",
+        "Gauge adaptor",
+        "Puller components"
+      ],
+      "compatibility": [
+        "Puller jaws, reach, spread, cylinder, and pump must be selected as a matched set for the component being removed."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Master Puller Set table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "bhp-5751g",
+      "model": "BHP-5751G",
+      "displayName": "BHP-5751G Master Puller Set",
+      "description": "50 ton hydraulic master puller set supplied as a matched puller system.",
+      "images": [],
+      "specifications": {
+        "series": "Master Puller Set",
+        "weightLb": 657,
+        "maxWorkingPressurePsi": 10153,
+        "capacityTons": 50,
+        "hydraulicCylinder": "RCH-603",
+        "handPump": "P-80",
+        "setWeightLb": 657
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "pressure",
+          "label": "Maximum Working Pressure",
+          "value": 10153,
+          "unit": "psi"
+        }
+      ],
+      "accessories": [
+        "Hand pump",
+        "Hollow-plunger hydraulic cylinder",
+        "1.8 m hose",
+        "Pressure gauge",
+        "Gauge adaptor",
+        "Puller components"
+      ],
+      "compatibility": [
+        "Puller jaws, reach, spread, cylinder, and pump must be selected as a matched set for the component being removed."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq Master Puller Set table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    }
+  ],
+  "operatingRequirements": [
+    {
+      "key": "selection",
+      "label": "Tool Selection",
+      "value": "Match component diameter, nut A/F size, required force, reach, spread, available clearance, and removal geometry"
+    },
+    {
+      "key": "hydraulicSystem",
+      "label": "Hydraulic Models",
+      "value": "Use compatible 700 bar / 10,000 psi pumps, hoses, gauges, and couplers where external hydraulic power is required"
+    }
+  ],
+  "accessories": [
+    "Hydraulic hand pumps",
+    "Hollow-plunger cylinders",
+    "Hydraulic hoses",
+    "Pressure gauges",
+    "Gauge adaptors",
+    "Puller jaws and attachments",
+    "Interchangeable splitter heads"
+  ],
+  "compatibility": [
+    "Puller capacity, reach, spread, jaw geometry, and component engagement must match the removal application.",
+    "Nut splitters must be selected by nut A/F dimension and bolt diameter.",
+    "Hydraulic pumps, hoses, cylinders, and splitters must share compatible pressure ratings and connection interfaces."
+  ],
+  "componentGroups": [
+    {
+      "id": "mechanical-nut",
+      "group": "Removal Tool Family",
+      "displayName": "Mechanical Nut Splitters",
+      "description": "Manual splitters for seized and corroded nuts.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon removal-tool catalog tables"
+      ]
+    },
+    {
+      "id": "integral-nut",
+      "group": "Removal Tool Family",
+      "displayName": "Integral Hydraulic Nut Splitters",
+      "description": "Self-contained hydraulic nut splitting tools.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon removal-tool catalog tables"
+      ]
+    },
+    {
+      "id": "separated-nut",
+      "group": "Removal Tool Family",
+      "displayName": "Separated Hydraulic Nut Splitters",
+      "description": "Hydraulic splitter heads used with a separate pump and hose.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon removal-tool catalog tables"
+      ]
+    },
+    {
+      "id": "heavy-nut",
+      "group": "Removal Tool Family",
+      "displayName": "Heavy-Duty Hydraulic Nut Splitters",
+      "description": "High-capacity tri-blade hydraulic nut splitters with interchangeable heads.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon removal-tool catalog tables"
+      ]
+    },
+    {
+      "id": "grip-puller",
+      "group": "Removal Tool Family",
+      "displayName": "Grip Puller Sets",
+      "description": "Hydraulic jaw puller systems for bearings, gears, and mounted components.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon removal-tool catalog tables"
+      ]
+    },
+    {
+      "id": "cross-puller",
+      "group": "Removal Tool Family",
+      "displayName": "Cross-Bearing Puller Sets",
+      "description": "Hydraulic cross-bearing puller systems for controlled component removal.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon removal-tool catalog tables"
+      ]
+    },
+    {
+      "id": "master-puller",
+      "group": "Removal Tool Family",
+      "displayName": "Master Puller Sets",
+      "description": "Complete hydraulic puller sets combining multiple puller configurations.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon removal-tool catalog tables"
+      ]
+    },
+    {
+      "id": "coupler-puller",
+      "group": "Removal Tool Family",
+      "displayName": "Hydraulic Coupler Pullers",
+      "description": "Hydraulic tools for removing shaft-mounted couplings.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon removal-tool catalog tables"
+      ]
+    },
+    {
+      "id": "adjustable-puller",
+      "group": "Removal Tool Family",
+      "displayName": "Adjustable Hydraulic Gear Pullers",
+      "description": "Adjustable 2- and 3-jaw hydraulic pullers for gears and bearings.",
+      "images": [],
+      "specifications": {},
+      "active": true,
+      "public": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "ToughTorq/Kashon removal-tool catalog tables"
+      ]
+    }
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": true,
+  "calibrationApplicable": false,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "2026 ToughTorq removal-tool tables",
+    "ToughTorq/Kashon nut splitter, puller-set, coupler-puller, and adjustable gear-puller tables"
+  ],
+  "lastVerifiedAt": "2026-10-05",
+  "catalogVersion": "2026.10"
+}
