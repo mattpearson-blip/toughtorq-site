@@ -1,0 +1,860 @@
+{
+  "id": "torque-multipliers",
+  "slug": "torque-multipliers",
+  "family": "Torque Multipliers",
+  "displayName": "Manual Torque Multipliers",
+  "shortDescription": "High-output mechanical torque multiplication for industrial bolting without external power.",
+  "longDescription": "ToughTorq manual torque multipliers use planetary gearing to increase operator input torque for large fasteners and high-output bolting. Z Type models prioritize compact confined-space use, while L Type models provide offset geometry for applications where access and reaction clearance are limited.",
+  "images": [],
+  "features": [
+    "Planetary gear train multiplies torque output",
+    "Manual operation without hydraulic, pneumatic, or electric power",
+    "Adjustable reaction foot for application flexibility",
+    "Designed for large-diameter bolts and nuts",
+    "Z Type models suit confined-space applications",
+    "L Type models provide offset access",
+    "Custom configurations available for application requirements"
+  ],
+  "applications": [
+    "Industrial flange bolting",
+    "Heavy equipment maintenance",
+    "Structural bolting",
+    "Large fastener installation",
+    "Restricted-access bolting",
+    "Field maintenance",
+    "Equipment assembly",
+    "Manual high-torque applications"
+  ],
+  "models": [
+    {
+      "id": "ttm10w-4.5",
+      "model": "TTM10W-4.5",
+      "displayName": "TTM10W-4.5 Z Type Manual Torque Multiplier",
+      "description": "Z Type manual torque multiplier with 4.5:1 mechanical ratio and maximum output torque of 738 ft-lb.",
+      "images": [],
+      "specifications": {
+        "series": "Z Type",
+        "maxTorqueFtLb": 738,
+        "nutAfSize": "S30-46",
+        "boltDiameter": "M20-30",
+        "ratio": "4.5:1",
+        "inputSquareIn": "1/2",
+        "outputSquareIn": "1",
+        "weightLb": 5.7
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual mechanical"
+        },
+        {
+          "key": "input",
+          "label": "Input Square",
+          "value": "1/2",
+          "unit": "in"
+        },
+        {
+          "key": "output",
+          "label": "Output Square",
+          "value": "1",
+          "unit": "in"
+        }
+      ],
+      "accessories": [
+        "Reaction equipment",
+        "Impact-rated sockets",
+        "Input torque wrench"
+      ],
+      "compatibility": [
+        "Use an input torque wrench and socket/reaction arrangement appropriate for the selected multiplier, fastener, and required output torque."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 30 / manufacturer manual torque multiplier table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttm20w-12",
+      "model": "TTM20W-12",
+      "displayName": "TTM20W-12 Z Type Manual Torque Multiplier",
+      "description": "Z Type manual torque multiplier with 12:1 mechanical ratio and maximum output torque of 1,475 ft-lb.",
+      "images": [],
+      "specifications": {
+        "series": "Z Type",
+        "maxTorqueFtLb": 1475,
+        "nutAfSize": "S32-55",
+        "boltDiameter": "M22-36",
+        "ratio": "12:1",
+        "inputSquareIn": "1/2",
+        "outputSquareIn": "1",
+        "weightLb": 8.6
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual mechanical"
+        },
+        {
+          "key": "input",
+          "label": "Input Square",
+          "value": "1/2",
+          "unit": "in"
+        },
+        {
+          "key": "output",
+          "label": "Output Square",
+          "value": "1",
+          "unit": "in"
+        }
+      ],
+      "accessories": [
+        "Reaction equipment",
+        "Impact-rated sockets",
+        "Input torque wrench"
+      ],
+      "compatibility": [
+        "Use an input torque wrench and socket/reaction arrangement appropriate for the selected multiplier, fastener, and required output torque."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 30 / manufacturer manual torque multiplier table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttm35w-15",
+      "model": "TTM35W-15",
+      "displayName": "TTM35W-15 Z Type Manual Torque Multiplier",
+      "description": "Z Type manual torque multiplier with 15:1 mechanical ratio and maximum output torque of 2,581 ft-lb.",
+      "images": [],
+      "specifications": {
+        "series": "Z Type",
+        "maxTorqueFtLb": 2581,
+        "nutAfSize": "S46-70",
+        "boltDiameter": "M30-45",
+        "ratio": "15:1",
+        "inputSquareIn": "1/2",
+        "outputSquareIn": "1",
+        "weightLb": 12.1
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual mechanical"
+        },
+        {
+          "key": "input",
+          "label": "Input Square",
+          "value": "1/2",
+          "unit": "in"
+        },
+        {
+          "key": "output",
+          "label": "Output Square",
+          "value": "1",
+          "unit": "in"
+        }
+      ],
+      "accessories": [
+        "Reaction equipment",
+        "Impact-rated sockets",
+        "Input torque wrench"
+      ],
+      "compatibility": [
+        "Use an input torque wrench and socket/reaction arrangement appropriate for the selected multiplier, fastener, and required output torque."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 30 / manufacturer manual torque multiplier table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttm55w-18.5",
+      "model": "TTM55W-18.5",
+      "displayName": "TTM55W-18.5 Z Type Manual Torque Multiplier",
+      "description": "Z Type manual torque multiplier with 18.5:1 mechanical ratio and maximum output torque of 4,057 ft-lb.",
+      "images": [],
+      "specifications": {
+        "series": "Z Type",
+        "maxTorqueFtLb": 4057,
+        "nutAfSize": "S55-80",
+        "boltDiameter": "M36-52",
+        "ratio": "18.5:1",
+        "inputSquareIn": "1/2",
+        "outputSquareIn": "1-1/2",
+        "weightLb": 16.5
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual mechanical"
+        },
+        {
+          "key": "input",
+          "label": "Input Square",
+          "value": "1/2",
+          "unit": "in"
+        },
+        {
+          "key": "output",
+          "label": "Output Square",
+          "value": "1-1/2",
+          "unit": "in"
+        }
+      ],
+      "accessories": [
+        "Reaction equipment",
+        "Impact-rated sockets",
+        "Input torque wrench"
+      ],
+      "compatibility": [
+        "Use an input torque wrench and socket/reaction arrangement appropriate for the selected multiplier, fastener, and required output torque."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 30 / manufacturer manual torque multiplier table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttm75w-20",
+      "model": "TTM75W-20",
+      "displayName": "TTM75W-20 Z Type Manual Torque Multiplier",
+      "description": "Z Type manual torque multiplier with 20:1 mechanical ratio and maximum output torque of 5,532 ft-lb.",
+      "images": [],
+      "specifications": {
+        "series": "Z Type",
+        "maxTorqueFtLb": 5532,
+        "nutAfSize": "S65-90",
+        "boltDiameter": "M42-60",
+        "ratio": "20:1",
+        "inputSquareIn": "1/2",
+        "outputSquareIn": "1-1/2",
+        "weightLb": 22
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual mechanical"
+        },
+        {
+          "key": "input",
+          "label": "Input Square",
+          "value": "1/2",
+          "unit": "in"
+        },
+        {
+          "key": "output",
+          "label": "Output Square",
+          "value": "1-1/2",
+          "unit": "in"
+        }
+      ],
+      "accessories": [
+        "Reaction equipment",
+        "Impact-rated sockets",
+        "Input torque wrench"
+      ],
+      "compatibility": [
+        "Use an input torque wrench and socket/reaction arrangement appropriate for the selected multiplier, fastener, and required output torque."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 30 / manufacturer manual torque multiplier table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttm100w-26.5",
+      "model": "TTM100W-26.5",
+      "displayName": "TTM100W-26.5 Z Type Manual Torque Multiplier",
+      "description": "Z Type manual torque multiplier with 26.5:1 mechanical ratio and maximum output torque of 7,376 ft-lb.",
+      "images": [],
+      "specifications": {
+        "series": "Z Type",
+        "maxTorqueFtLb": 7376,
+        "nutAfSize": "S80-105",
+        "boltDiameter": "M52-72",
+        "ratio": "26.5:1",
+        "inputSquareIn": "1/2",
+        "outputSquareIn": "1-1/2",
+        "weightLb": 37.5
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual mechanical"
+        },
+        {
+          "key": "input",
+          "label": "Input Square",
+          "value": "1/2",
+          "unit": "in"
+        },
+        {
+          "key": "output",
+          "label": "Output Square",
+          "value": "1-1/2",
+          "unit": "in"
+        }
+      ],
+      "accessories": [
+        "Reaction equipment",
+        "Impact-rated sockets",
+        "Input torque wrench"
+      ],
+      "compatibility": [
+        "Use an input torque wrench and socket/reaction arrangement appropriate for the selected multiplier, fastener, and required output torque."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 30 / manufacturer manual torque multiplier table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttm10f-5",
+      "model": "TTM10F-5",
+      "displayName": "TTM10F-5 L Type Manual Torque Multiplier",
+      "description": "L Type manual torque multiplier with 5:1 mechanical ratio and maximum output torque of 738 ft-lb.",
+      "images": [],
+      "specifications": {
+        "series": "L Type",
+        "maxTorqueFtLb": 738,
+        "nutAfSize": "S30-46",
+        "boltDiameter": "M20-30",
+        "ratio": "5:1",
+        "inputSquareIn": "1/2",
+        "outputSquareIn": "1",
+        "weightLb": 5.7
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual mechanical"
+        },
+        {
+          "key": "input",
+          "label": "Input Square",
+          "value": "1/2",
+          "unit": "in"
+        },
+        {
+          "key": "output",
+          "label": "Output Square",
+          "value": "1",
+          "unit": "in"
+        }
+      ],
+      "accessories": [
+        "Reaction equipment",
+        "Impact-rated sockets",
+        "Input torque wrench"
+      ],
+      "compatibility": [
+        "Use an input torque wrench and socket/reaction arrangement appropriate for the selected multiplier, fastener, and required output torque."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 30 / manufacturer manual torque multiplier table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttm20f-13.3",
+      "model": "TTM20F-13.3",
+      "displayName": "TTM20F-13.3 L Type Manual Torque Multiplier",
+      "description": "L Type manual torque multiplier with 13.3:1 mechanical ratio and maximum output torque of 1,475 ft-lb.",
+      "images": [],
+      "specifications": {
+        "series": "L Type",
+        "maxTorqueFtLb": 1475,
+        "nutAfSize": "S32-55",
+        "boltDiameter": "M22-36",
+        "ratio": "13.3:1",
+        "inputSquareIn": "1/2",
+        "outputSquareIn": "1",
+        "weightLb": 8.6
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual mechanical"
+        },
+        {
+          "key": "input",
+          "label": "Input Square",
+          "value": "1/2",
+          "unit": "in"
+        },
+        {
+          "key": "output",
+          "label": "Output Square",
+          "value": "1",
+          "unit": "in"
+        }
+      ],
+      "accessories": [
+        "Reaction equipment",
+        "Impact-rated sockets",
+        "Input torque wrench"
+      ],
+      "compatibility": [
+        "Use an input torque wrench and socket/reaction arrangement appropriate for the selected multiplier, fastener, and required output torque."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 30 / manufacturer manual torque multiplier table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttm35f-16",
+      "model": "TTM35F-16",
+      "displayName": "TTM35F-16 L Type Manual Torque Multiplier",
+      "description": "L Type manual torque multiplier with 16:1 mechanical ratio and maximum output torque of 2,581 ft-lb.",
+      "images": [],
+      "specifications": {
+        "series": "L Type",
+        "maxTorqueFtLb": 2581,
+        "nutAfSize": "S46-70",
+        "boltDiameter": "M30-45",
+        "ratio": "16:1",
+        "inputSquareIn": "1/2",
+        "outputSquareIn": "1",
+        "weightLb": 12.1
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual mechanical"
+        },
+        {
+          "key": "input",
+          "label": "Input Square",
+          "value": "1/2",
+          "unit": "in"
+        },
+        {
+          "key": "output",
+          "label": "Output Square",
+          "value": "1",
+          "unit": "in"
+        }
+      ],
+      "accessories": [
+        "Reaction equipment",
+        "Impact-rated sockets",
+        "Input torque wrench"
+      ],
+      "compatibility": [
+        "Use an input torque wrench and socket/reaction arrangement appropriate for the selected multiplier, fastener, and required output torque."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 30 / manufacturer manual torque multiplier table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttm55f-21.5",
+      "model": "TTM55F-21.5",
+      "displayName": "TTM55F-21.5 L Type Manual Torque Multiplier",
+      "description": "L Type manual torque multiplier with 21.5:1 mechanical ratio and maximum output torque of 4,057 ft-lb.",
+      "images": [],
+      "specifications": {
+        "series": "L Type",
+        "maxTorqueFtLb": 4057,
+        "nutAfSize": "S55-80",
+        "boltDiameter": "M36-52",
+        "ratio": "21.5:1",
+        "inputSquareIn": "1/2",
+        "outputSquareIn": "1-1/2",
+        "weightLb": 16.5
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual mechanical"
+        },
+        {
+          "key": "input",
+          "label": "Input Square",
+          "value": "1/2",
+          "unit": "in"
+        },
+        {
+          "key": "output",
+          "label": "Output Square",
+          "value": "1-1/2",
+          "unit": "in"
+        }
+      ],
+      "accessories": [
+        "Reaction equipment",
+        "Impact-rated sockets",
+        "Input torque wrench"
+      ],
+      "compatibility": [
+        "Use an input torque wrench and socket/reaction arrangement appropriate for the selected multiplier, fastener, and required output torque."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 30 / manufacturer manual torque multiplier table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttm75f-24",
+      "model": "TTM75F-24",
+      "displayName": "TTM75F-24 L Type Manual Torque Multiplier",
+      "description": "L Type manual torque multiplier with 24:1 mechanical ratio and maximum output torque of 5,532 ft-lb.",
+      "images": [],
+      "specifications": {
+        "series": "L Type",
+        "maxTorqueFtLb": 5532,
+        "nutAfSize": "S65-90",
+        "boltDiameter": "M42-60",
+        "ratio": "24:1",
+        "inputSquareIn": "1/2",
+        "outputSquareIn": "1-1/2",
+        "weightLb": 22
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual mechanical"
+        },
+        {
+          "key": "input",
+          "label": "Input Square",
+          "value": "1/2",
+          "unit": "in"
+        },
+        {
+          "key": "output",
+          "label": "Output Square",
+          "value": "1-1/2",
+          "unit": "in"
+        }
+      ],
+      "accessories": [
+        "Reaction equipment",
+        "Impact-rated sockets",
+        "Input torque wrench"
+      ],
+      "compatibility": [
+        "Use an input torque wrench and socket/reaction arrangement appropriate for the selected multiplier, fastener, and required output torque."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 30 / manufacturer manual torque multiplier table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttm100f-32",
+      "model": "TTM100F-32",
+      "displayName": "TTM100F-32 L Type Manual Torque Multiplier",
+      "description": "L Type manual torque multiplier with 32:1 mechanical ratio and maximum output torque of 7,376 ft-lb.",
+      "images": [],
+      "specifications": {
+        "series": "L Type",
+        "maxTorqueFtLb": 7376,
+        "nutAfSize": "S80-105",
+        "boltDiameter": "M52-72",
+        "ratio": "32:1",
+        "inputSquareIn": "1/2",
+        "outputSquareIn": "1-1/2",
+        "weightLb": 37.5
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual mechanical"
+        },
+        {
+          "key": "input",
+          "label": "Input Square",
+          "value": "1/2",
+          "unit": "in"
+        },
+        {
+          "key": "output",
+          "label": "Output Square",
+          "value": "1-1/2",
+          "unit": "in"
+        }
+      ],
+      "accessories": [
+        "Reaction equipment",
+        "Impact-rated sockets",
+        "Input torque wrench"
+      ],
+      "compatibility": [
+        "Use an input torque wrench and socket/reaction arrangement appropriate for the selected multiplier, fastener, and required output torque."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 30 / manufacturer manual torque multiplier table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttm150f-50",
+      "model": "TTM150F-50",
+      "displayName": "TTM150F-50 L Type Manual Torque Multiplier",
+      "description": "L Type manual torque multiplier with 50:1 mechanical ratio and maximum output torque of 11,063 ft-lb.",
+      "images": [],
+      "specifications": {
+        "series": "L Type",
+        "maxTorqueFtLb": 11063,
+        "nutAfSize": "S90-115",
+        "boltDiameter": "M60-80",
+        "ratio": "50:1",
+        "inputSquareIn": "1/2",
+        "outputSquareIn": "2",
+        "weightLb": 55.1
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual mechanical"
+        },
+        {
+          "key": "input",
+          "label": "Input Square",
+          "value": "1/2",
+          "unit": "in"
+        },
+        {
+          "key": "output",
+          "label": "Output Square",
+          "value": "2",
+          "unit": "in"
+        }
+      ],
+      "accessories": [
+        "Reaction equipment",
+        "Impact-rated sockets",
+        "Input torque wrench"
+      ],
+      "compatibility": [
+        "Use an input torque wrench and socket/reaction arrangement appropriate for the selected multiplier, fastener, and required output torque."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 30 / manufacturer manual torque multiplier table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    },
+    {
+      "id": "ttm200f-72",
+      "model": "TTM200F-72",
+      "displayName": "TTM200F-72 L Type Manual Torque Multiplier",
+      "description": "L Type manual torque multiplier with 72:1 mechanical ratio and maximum output torque of 14,751 ft-lb.",
+      "images": [],
+      "specifications": {
+        "series": "L Type",
+        "maxTorqueFtLb": 14751,
+        "nutAfSize": "S105-135",
+        "boltDiameter": "M72-95",
+        "ratio": "72:1",
+        "inputSquareIn": "1/2",
+        "outputSquareIn": "2",
+        "weightLb": 68.3
+      },
+      "dimensions": [],
+      "operatingRequirements": [
+        {
+          "key": "operation",
+          "label": "Operation",
+          "value": "Manual mechanical"
+        },
+        {
+          "key": "input",
+          "label": "Input Square",
+          "value": "1/2",
+          "unit": "in"
+        },
+        {
+          "key": "output",
+          "label": "Output Square",
+          "value": "2",
+          "unit": "in"
+        }
+      ],
+      "accessories": [
+        "Reaction equipment",
+        "Impact-rated sockets",
+        "Input torque wrench"
+      ],
+      "compatibility": [
+        "Use an input torque wrench and socket/reaction arrangement appropriate for the selected multiplier, fastener, and required output torque."
+      ],
+      "downloads": [],
+      "active": true,
+      "public": true,
+      "jamMarketplaceUrl": null,
+      "rentalApplicable": true,
+      "calibrationApplicable": false,
+      "serviceApplicable": true,
+      "verificationStatus": "verified",
+      "sourceReference": [
+        "2026 ToughTorq catalog page 30 / manufacturer manual torque multiplier table"
+      ],
+      "lastVerifiedAt": "2026-10-05"
+    }
+  ],
+  "operatingRequirements": [
+    {
+      "key": "selection",
+      "label": "Selection",
+      "value": "Match required output torque, available input torque, fastener size, square drive, and reaction point to the multiplier"
+    }
+  ],
+  "accessories": [
+    "Input torque wrench",
+    "Impact-rated sockets",
+    "Reaction equipment",
+    "Storage and transport accessories"
+  ],
+  "compatibility": [
+    "Input torque wrench capacity must be appropriate for the selected multiplier ratio and required output torque.",
+    "Input and output square drives must match the selected wrench, sockets, and application.",
+    "Reaction equipment must be positioned against a suitable reaction point."
+  ],
+  "downloads": [],
+  "active": true,
+  "public": true,
+  "jamMarketplaceUrl": "https://jamtorque.com",
+  "rentalApplicable": true,
+  "calibrationApplicable": false,
+  "serviceApplicable": true,
+  "verificationStatus": "verified",
+  "sourceReference": [
+    "2026 ToughTorq catalog page 30 — Manual Torque Multipliers",
+    "ToughTorq/Kashon manual torque multiplier tables"
+  ],
+  "lastVerifiedAt": "2026-10-05",
+  "catalogVersion": "2026.10"
+}
