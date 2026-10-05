@@ -1,317 +1,184 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
-const hoseGroups = [
-  {
-    title: "10,000 PSI Hydraulic Hoses",
-    description:
-      "High-pressure hydraulic hose assemblies for torque wrenches, pumps, cylinders, pullers, and general industrial hydraulic tooling.",
-    applications: [
-      "Hydraulic torque wrenches",
-      "Hydraulic cylinders",
-      "Hydraulic pullers",
-      "Hydraulic spreaders",
-      "General 10,000 PSI tooling",
-    ],
-  },
-  {
-    title: "Twin-Line Torque Wrench Hoses",
-    description:
-      "Dual-line hydraulic hose assemblies for advancing and retracting double-acting hydraulic torque wrench systems.",
-    applications: [
-      "Square-drive hydraulic torque wrenches",
-      "Low-profile cassette torque wrenches",
-      "10,000 PSI torque pumps",
-      "Field bolting systems",
-    ],
-  },
-  {
-    title: "Ultra-High-Pressure Hoses",
-    description:
-      "Specialized hose assemblies for bolt tensioning, hydraulic nuts, and other ultra-high-pressure hydraulic applications.",
-    applications: [
-      "Bolt tensioners",
-      "Hydraulic tensioning nuts",
-      "Bearing assembly hydraulic nuts",
-      "Ultra-high-pressure pumps",
-    ],
-  },
-];
+import { hydraulicHoses } from "@/data/catalog";
 
-const selectionFactors = [
-  "Maximum operating pressure",
-  "Required hose length",
-  "Single-line or twin-line configuration",
-  "Coupler type",
-  "Tool connection",
-  "Pump connection",
-  "Application environment",
-  "Required safety factor",
-];
+export const metadata: Metadata = {
+  title: "Hydraulic Hoses",
+  description:
+    "Technical specifications, pressure ratings, lengths, fittings, applications, and support information for ToughTorq hydraulic hose assemblies.",
+};
 
-const relatedProducts = [
-  {
-    title: "Hydraulic Pumps",
-    href: "/products/hydraulic-pumps",
-  },
-  {
-    title: "Hydraulic Fittings & Couplers",
-    href: "/products/hydraulic-fittings-couplers",
-  },
-  {
-    title: "Hydraulic Torque Wrenches",
-    href: "/products/hydraulic-torque-wrenches",
-  },
-  {
-    title: "Hydraulic Nuts",
-    href: "/products/hydraulic-nuts",
-  },
-];
+function formatNumber(value: unknown) {
+  return typeof value === "number"
+    ? value.toLocaleString("en-US", { maximumFractionDigits: 2 })
+    : String(value ?? "—");
+}
+
+function HoseTable({
+  title,
+  models,
+}: {
+  title: string;
+  models: typeof hydraulicHoses.models;
+}) {
+  return (
+    <div className="mt-10">
+      <h3 className="text-2xl font-semibold text-[#3f4448]">{title}</h3>
+
+      <div className="mt-5 overflow-x-auto rounded-xl border border-[#dddddd]">
+        <table className="min-w-[900px] w-full border-collapse text-left text-sm">
+          <thead className="bg-[#3f4448] text-white">
+            <tr>
+              <th className="px-4 py-4 font-semibold">Model</th>
+              <th className="px-4 py-4 font-semibold">Working Pressure</th>
+              <th className="px-4 py-4 font-semibold">Length</th>
+              <th className="px-4 py-4 font-semibold">Connection</th>
+              <th className="px-4 py-4 font-semibold">ID / Construction</th>
+              <th className="px-4 py-4 font-semibold">Weight</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            {models.map((model, index) => {
+              const s = model.specifications;
+
+              return (
+                <tr
+                  key={model.id}
+                  className={index % 2 === 0 ? "bg-white" : "bg-[#f7f7f7]"}
+                >
+                  <td className="border-t border-[#dddddd] px-4 py-4 font-bold text-[#ed1c24]">
+                    {model.model}
+                  </td>
+                  <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                    {formatNumber(s.maxWorkingPressureBar)} bar
+                    <span className="block text-xs text-[#888888]">
+                      {formatNumber(s.maxWorkingPressurePsi)} psi
+                    </span>
+                  </td>
+                  <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                    {formatNumber(s.lengthM)} m
+                    <span className="block text-xs text-[#888888]">
+                      {formatNumber(s.lengthFt)} ft
+                    </span>
+                  </td>
+                  <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                    {String(s.endFittingThread ?? s.endFitting ?? "—")}
+                  </td>
+                  <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                    {s.insideDiameterMm
+                      ? `${formatNumber(s.insideDiameterMm)} mm ID`
+                      : String(s.construction ?? "—")}
+                  </td>
+                  <td className="border-t border-[#dddddd] px-4 py-4 text-[#555555]">
+                    {s.weightLb ? `${formatNumber(s.weightLb)} lb` : "—"}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
 
 export default function HydraulicHosesPage() {
+  const family = hydraulicHoses;
+  const standard = family.models.filter(
+    (model) => model.specifications.series === "700 Bar Hydraulic Hose"
+  );
+  const uhp = family.models.filter(
+    (model) =>
+      model.specifications.series === "Ultra-High-Pressure Hydraulic Hose"
+  );
+
   return (
     <main className="bg-[#f5f5f5] text-[#2b2b2b]">
-      {/* HERO */}
       <section className="border-b border-[#dedede] bg-white">
         <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-20 lg:px-12">
           <p className="text-sm font-bold uppercase tracking-[0.14em] text-[#ed1c24]">
             Hydraulic Accessories
           </p>
-
-          <h1 className="mt-4 max-w-5xl text-4xl font-bold uppercase leading-[1.05] tracking-tight text-[#3f4448] md:text-6xl">
+          <h1 className="mt-4 text-4xl font-bold uppercase tracking-tight text-[#3f4448] md:text-6xl">
             Hydraulic Hoses
           </h1>
-
           <div className="mt-6 h-[3px] w-16 bg-[#ed1c24]" />
-
           <p className="mt-6 max-w-3xl text-lg leading-8 text-[#444444]">
-            High-pressure and ultra-high-pressure hose assemblies for ToughTorq
-            hydraulic bolting, lifting, tensioning, and maintenance systems.
+            {family.longDescription}
           </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Link
-              href="/request-a-quote?product=Hydraulic%20Hoses"
-              className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
-            >
-              Request a Quote
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <Link href="#technical-data" className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white">
+              View Technical Data
             </Link>
-
-            <Link
-              href="/request-a-quote"
-              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#666666] bg-white px-6 py-3 text-sm font-semibold text-[#333333] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
-            >
-              View Quote Cart →
+            <Link href="#selection" className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444]">
+              Selection Guidance
+            </Link>
+            <Link href="/find-a-distributor" className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444]">
+              Find a Distributor
             </Link>
           </div>
         </div>
       </section>
 
-      {/* HOSE FAMILIES */}
       <section className="border-b border-[#dedede] bg-[#f7f7f7]">
         <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
           <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
             Hose Families
           </p>
-
           <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Select by pressure and application
+            Select by working pressure and connection
           </h2>
-
-          <div className="mt-10 grid gap-6 lg:grid-cols-3">
-            {hoseGroups.map((group) => (
-              <div
-                key={group.title}
-                className="flex flex-col rounded-xl border border-[#dddddd] bg-white p-6 transition hover:border-[#ed1c24]"
-              >
+          <div className="mt-8 grid gap-6 lg:grid-cols-2">
+            {(family.componentGroups ?? []).map((group) => (
+              <article key={group.id} className="rounded-xl border border-[#dddddd] bg-white p-6">
                 <h3 className="text-2xl font-semibold text-[#3f4448]">
-                  {group.title}
+                  {group.displayName}
                 </h3>
-
-                <p className="mt-4 flex-1 leading-7 text-[#555555]">
-                  {group.description}
-                </p>
-
-                <div className="mt-6">
-                  <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#777777]">
-                    Common Applications
-                  </p>
-
-                  <ul className="mt-3 space-y-2">
-                    {group.applications.map((application) => (
-                      <li
-                        key={application}
-                        className="flex gap-3 text-sm text-[#555555]"
-                      >
-                        <span className="font-bold text-[#ed1c24]">✓</span>
-                        <span>{application}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div className="mt-7">
-                  <Link
-                    href={`/request-a-quote?product=${encodeURIComponent(
-                      group.title
-                    )}`}
-                    className="text-sm font-semibold text-[#ed1c24]"
-                  >
-                    Add to Quote Request →
-                  </Link>
-                </div>
-              </div>
+                <p className="mt-4 leading-7 text-[#555555]">{group.description}</p>
+              </article>
             ))}
           </div>
         </div>
       </section>
 
-      {/* HOSE SELECTION */}
-      <section className="border-b border-[#dedede] bg-white">
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 md:px-8 lg:grid-cols-[0.9fr_1.1fr] lg:px-12">
+      <section id="technical-data" className="scroll-mt-24 border-b border-[#dedede] bg-white">
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
+            Technical Data
+          </p>
+          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
+            Verified hose specifications
+          </h2>
+          <HoseTable title="700 Bar Hydraulic Hoses" models={standard} />
+          <HoseTable title="Ultra-High-Pressure Hydraulic Hoses" models={uhp} />
+        </div>
+      </section>
+
+      <section id="selection" className="scroll-mt-24 border-b border-[#dedede] bg-[#f7f7f7]">
+        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
               Hose Selection
             </p>
-
-            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-              Match the hose to the system
-            </h2>
-
-            <p className="mt-5 leading-8 text-[#555555]">
-              Hydraulic hose selection should match the operating pressure,
-              pump, tool, connection type, and application. Ultra-high-pressure
-              tensioning systems require different hose assemblies and fittings
-              than standard 10,000 PSI hydraulic tooling.
-            </p>
-          </div>
-
-          <div className="grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2">
-            {selectionFactors.map((factor) => (
-              <div key={factor} className="bg-[#fafafa] p-5">
-                <p className="font-semibold text-[#444444]">{factor}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* SYSTEM TYPES */}
-      <section className="border-b border-[#dedede] bg-[#f7f7f7]">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Hydraulic Systems
-          </p>
-
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448] md:text-4xl">
-            Common hose configurations
-          </h2>
-
-          <div className="mt-8 grid gap-5 md:grid-cols-3">
-            <div className="rounded-xl border border-[#dddddd] bg-white p-6">
-              <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-                Single Line
-              </p>
-
-              <h3 className="mt-2 text-xl font-semibold text-[#3f4448]">
-                Single-Acting Systems
-              </h3>
-
-              <p className="mt-3 text-sm leading-7 text-[#555555]">
-                Commonly used with single-acting cylinders, pullers, spreaders,
-                and other spring- or load-return hydraulic tooling.
-              </p>
-            </div>
-
-            <div className="rounded-xl border border-[#dddddd] bg-white p-6">
-              <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-                Twin Line
-              </p>
-
-              <h3 className="mt-2 text-xl font-semibold text-[#3f4448]">
-                Double-Acting Systems
-              </h3>
-
-              <p className="mt-3 text-sm leading-7 text-[#555555]">
-                Advance and retract lines support hydraulic torque wrenches and
-                double-acting cylinders.
-              </p>
-            </div>
-
-            <div className="rounded-xl border border-[#dddddd] bg-white p-6">
-              <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-                Ultra High Pressure
-              </p>
-
-              <h3 className="mt-2 text-xl font-semibold text-[#3f4448]">
-                Tensioning Systems
-              </h3>
-
-              <p className="mt-3 text-sm leading-7 text-[#555555]">
-                Specialized hose assemblies connect ultra-high-pressure pumps
-                to bolt tensioners and hydraulic nuts.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* RELATED PRODUCTS */}
-      <section className="border-b border-[#dedede] bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Related Equipment
-          </p>
-
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-            Complete the hydraulic system
-          </h2>
-
-          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {relatedProducts.map((product) => (
-              <Link
-                key={product.title}
-                href={product.href}
-                className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-5 transition hover:border-[#ed1c24]"
-              >
-                <p className="font-semibold text-[#3f4448]">
-                  {product.title}
-                </p>
-
-                <p className="mt-5 text-sm font-semibold text-[#ed1c24]">
-                  View Products →
-                </p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* DOWNLOADS */}
-      <section className="bg-[#f7f7f7]">
-        <div className="mx-auto grid max-w-7xl gap-6 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
-          <div className="rounded-xl border border-[#dddddd] bg-white p-6 md:p-8">
-            <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-              Technical Resources
-            </p>
-
             <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-              Hydraulic Hose Cutsheets
+              Match every connection in the hydraulic system
             </h2>
-
-            <div className="mt-6 space-y-3">
+            <div className="mt-7 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2">
               {[
-                "10,000 PSI Hydraulic Hose Cutsheet",
-                "Twin-Line Torque Wrench Hose Cutsheet",
-                "Ultra-High-Pressure Hose Cutsheet",
+                "Maximum working pressure",
+                "Required length",
+                "End-fitting thread",
+                "Pump connection",
+                "Tool connection",
+                "Application environment",
+                "Temperature exposure",
+                "Coupler standard",
               ].map((item) => (
-                <div
-                  key={item}
-                  className="rounded-lg border border-[#dddddd] bg-[#fafafa] p-4"
-                >
-                  <p className="font-semibold text-[#444444]">{item}</p>
-                  <p className="mt-1 text-sm text-[#777777]">
-                    Download coming soon
-                  </p>
+                <div key={item} className="bg-white p-4">
+                  <p className="font-medium text-[#444444]">{item}</p>
                 </div>
               ))}
             </div>
@@ -319,26 +186,59 @@ export default function HydraulicHosesPage() {
 
           <div className="rounded-xl border border-[#dddddd] bg-white p-6 md:p-8">
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-              Need a Hose Assembly?
+              System Compatibility
             </p>
-
-            <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-              Tell us what it connects to
-            </h2>
-
-            <p className="mt-5 leading-8 text-[#555555]">
-              Include the tool, pump, desired hose length, operating pressure,
-              and connection requirements in your quote request.
-            </p>
-
-            <div className="mt-8">
-              <Link
-                href="/request-a-quote?product=Hydraulic%20Hoses"
-                className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white"
-              >
-                Request a Hose Quote
-              </Link>
+            <div className="mt-6 space-y-4">
+              {family.compatibility.map((item) => (
+                <div key={item} className="flex gap-3 text-sm leading-7 text-[#555555]">
+                  <span className="font-bold text-[#ed1c24]">✓</span>
+                  <span>{item}</span>
+                </div>
+              ))}
             </div>
+
+            <Link href="/products/hydraulic-fittings-couplers" className="mt-7 inline-flex min-h-11 items-center justify-center rounded-lg border border-[#666666] bg-white px-5 py-2 text-sm font-semibold text-[#444444]">
+              View Fittings & Couplers
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section id="downloads" className="border-b border-[#dedede] bg-white">
+        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
+          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">Downloads</p>
+          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
+            Hydraulic hose technical resources
+          </h2>
+          <div className="mt-8 grid gap-4 md:grid-cols-3">
+            {["700 Bar Hose Cutsheet","Ultra-High-Pressure Hose Cutsheet","Hydraulic Hose Selection Guide"].map((title)=>(
+              <div key={title} className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-5">
+                <p className="font-semibold text-[#3f4448]">{title}</p>
+                <p className="mt-2 text-sm text-[#777777]">Download publishing in progress</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#f7f7f7]">
+        <div className="mx-auto grid max-w-7xl gap-6 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
+          <div className="rounded-xl border border-[#dddddd] bg-white p-6 md:p-8">
+            <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">Distribution</p>
+            <h2 className="mt-3 text-2xl font-semibold text-[#3f4448]">Find a ToughTorq distributor</h2>
+            <p className="mt-4 leading-7 text-[#555555]">Connect with the ToughTorq distribution network for hose selection and technical support.</p>
+            <Link href="/find-a-distributor" className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg border border-[#666666] px-5 py-2 text-sm font-semibold text-[#444444]">
+              Find a Distributor
+            </Link>
+          </div>
+
+          <div className="rounded-xl border border-[#dddddd] bg-white p-6 md:p-8">
+            <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">Purchase, Rental & Service</p>
+            <h2 className="mt-3 text-2xl font-semibold text-[#3f4448]">Commercial support through JAM Torque</h2>
+            <p className="mt-4 leading-7 text-[#555555]">For purchasing, hose assemblies, rental support, service, and application assistance in JAM Torque&apos;s supported market, continue to JAMTorque.com.</p>
+            <a href={family.jamMarketplaceUrl ?? "https://jamtorque.com"} target="_blank" rel="noreferrer" className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg bg-[#ed1c24] px-5 py-2 text-sm font-semibold text-white">
+              Visit JAM Torque →
+            </a>
           </div>
         </div>
       </section>
