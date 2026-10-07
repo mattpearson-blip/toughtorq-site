@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { TechnicalDownloads } from "@/components/technical-downloads";
+
 import { hydraulicTorquePumps } from "@/data/catalog";
 
 export const metadata: Metadata = {
@@ -394,48 +396,34 @@ export default function HydraulicPumpsPage() {
             </p>
 
             <p className="mt-4 leading-8 text-[#555555]">
-              Specific pump-to-wrench compatibility will be published as the
-              hydraulic wrench catalog is migrated into the canonical ToughTorq
-              dataset.
+              ToughTorq hydraulic torque wrench specifications are now maintained
+              in the canonical catalog. Match pump pressure, hoses, couplers,
+              connected tool count, reservoir capacity, and duty cycle to the
+              selected wrench system.
             </p>
+
+            <Link
+              href="/products/hydraulic-torque-wrenches"
+              className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg border border-[#666666] bg-white px-5 py-2 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+            >
+              View Hydraulic Torque Wrenches
+            </Link>
           </div>
         </div>
       </section>
 
       {/* DOWNLOADS */}
-      <section
-        id="downloads"
-        className="scroll-mt-24 border-b border-[#dedede] bg-white"
-      >
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Downloads
-          </p>
-
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-            Hydraulic torque pump technical resources
-          </h2>
-
-          <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-            {[
-              "TTQ-BATT-10K-48V Cutsheet",
-              "KLW-2000 Technical Data",
-              "KLW-3000 Technical Data",
-              "KAT-3000 Technical Data",
-            ].map((title) => (
-              <div
-                key={title}
-                className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-5"
-              >
-                <p className="font-semibold text-[#3f4448]">{title}</p>
-                <p className="mt-2 text-sm text-[#777777]">
-                  Download publishing in progress
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <TechnicalDownloads
+        title="Hydraulic torque pump technical resources"
+        downloads={family.downloads}
+        fallbackTitles={[
+          "TTQ-BATT-10K-48V Cutsheet",
+          "KLW-2000 Technical Data",
+          "KLW-3000 Technical Data",
+          "KAT-3000 Technical Data",
+        ]}
+        background="white"
+      />
 
       {/* DISTRIBUTOR + JAM HANDOFF */}
       <section className="bg-[#f7f7f7]">
