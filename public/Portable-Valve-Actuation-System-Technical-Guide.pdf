@@ -1,0 +1,336 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R] /Count 7 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 10 0 R /F2 11 0 R >> >> /Contents 12 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 10 0 R /F2 11 0 R >> >> /Contents 13 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 10 0 R /F2 11 0 R >> >> /Contents 14 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 10 0 R /F2 11 0 R >> >> /Contents 15 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 10 0 R /F2 11 0 R >> >> /Contents 16 0 R >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 10 0 R /F2 11 0 R >> >> /Contents 17 0 R >>
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 10 0 R /F2 11 0 R >> >> /Contents 18 0 R >>
+endobj
+10 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+12 0 obj
+<< /Length 1217 >>
+stream
+BT
+/F1 16 Tf
+30 560 Td
+(ToughTorq Portable Valve Actuation - Power Platforms) Tj
+0 -23 Td
+/F1 8 Tf
+(Portable actuator platforms for battery, pneumatic, gas, and water-network operation) Tj
+0 -32 Td
+/F2 6.6 Tf
+(Platform      Power                Max Torque      Operating Concept                Use                     ) Tj
+0 -12 Td
+(------------------------------------------------------------------------------------------------------------) Tj
+0 -21 Td
+(MC89          Battery              740 ft-lb       Portable, smoke-free battery op~ General PVA platform    ) Tj
+0 -21 Td
+(JA73          Battery              740 ft-lb       High-output portable battery op~ General PVA platform    ) Tj
+0 -21 Td
+(HL83          Pneumatic            740 ft-lb       Compressed-air drive             General PVA platform    ) Tj
+0 -21 Td
+(PY68          Gas                  740 ft-lb       Independent fuel-powered operat~ General PVA platform    ) Tj
+0 -21 Td
+(H2O KIT       Battery-based water~ 630 ft-lb       Underground water-distribution ~ Dedicated water-network~) Tj
+ET
+BT
+/F1 6.8 Tf
+30 24 Td
+(ToughTorq canonical PVA data. Variant-level values remain unpublished where final configuration confirmation is required.) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Length 1040 >>
+stream
+BT
+/F1 16 Tf
+30 560 Td
+(ToughTorq PVA - Actuator Heads) Tj
+0 -23 Td
+/F1 8 Tf
+(Head compatibility is platform- and torque-dependent) Tj
+0 -32 Td
+/F2 6.6 Tf
+(Head                     Description                                          Selection Note                ) Tj
+0 -12 Td
+(------------------------------------------------------------------------------------------------------------) Tj
+0 -21 Td
+(Straight Head            Straight actuator geometry for direct valve access.  Published configuration       ) Tj
+0 -21 Td
+(Right-Angle Head         Right-angle configuration for restricted inline acc~ Variant and torque limits app~) Tj
+0 -21 Td
+(Standard-Duty Banjo Head Hollow/banjo head for compatible rising-stem valve ~ Variant and torque limits app~) Tj
+0 -21 Td
+(Heavy-Duty Banjo Head    Higher-capacity hollow/banjo head for compatible ri~ Variant and torque limits app~) Tj
+ET
+BT
+/F1 6.8 Tf
+30 24 Td
+(ToughTorq canonical PVA data. Variant-level values remain unpublished where final configuration confirmation is required.) Tj
+ET
+endstream
+endobj
+14 0 obj
+<< /Length 1276 >>
+stream
+BT
+/F1 16 Tf
+30 560 Td
+(ToughTorq PVA - Valve Adaptors) Tj
+0 -23 Td
+/F1 8 Tf
+(Valve interfaces selected to match the handwheel or drive geometry) Tj
+0 -32 Td
+/F2 6.6 Tf
+(Adaptor                          Function                                                                ) Tj
+0 -12 Td
+(---------------------------------------------------------------------------------------------------------) Tj
+0 -21 Td
+(Fixed Finger Adaptor             Fixed interface for compatible valve handwheel configurations.          ) Tj
+0 -21 Td
+(Self-Centering Spoke Adaptor     Self-centering interface for handwheel spoke configurations.            ) Tj
+0 -21 Td
+(Square Drive Adaptor             Socket-driven interface for square-drive valve operation.               ) Tj
+0 -21 Td
+(Variable Valve Adaptor           Adjustable interface for varying handwheel and valve configurations.    ) Tj
+0 -21 Td
+(Flat-Spoke Adaptor               Adaptor for compatible flat-spoke valve handwheels.                     ) Tj
+0 -21 Td
+(Tapered-Spoke Adaptor            Adaptor for compatible tapered-spoke valve handwheels.                  ) Tj
+ET
+BT
+/F1 6.8 Tf
+30 24 Td
+(ToughTorq canonical PVA data. Variant-level values remain unpublished where final configuration confirmation is required.) Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Length 1173 >>
+stream
+BT
+/F1 16 Tf
+30 560 Td
+(ToughTorq PVA - Reaction Management) Tj
+0 -23 Td
+/F1 8 Tf
+(Reaction equipment selected around valve position, access, and required torque) Tj
+0 -32 Td
+/F2 6.6 Tf
+(Component                        Function                                                                ) Tj
+0 -12 Td
+(---------------------------------------------------------------------------------------------------------) Tj
+0 -21 Td
+(Reaction Arm                     Reaction support for controlled portable valve operation.               ) Tj
+0 -21 Td
+(Bipod                            Supported reaction configuration for demanding valve positions.         ) Tj
+0 -21 Td
+(Reaction Finger                  Compact reaction interface for specific valve and access configurations.) Tj
+0 -21 Td
+(Articulated Reaction Arm         Articulated reaction support for applications requiring flexible positi~) Tj
+0 -21 Td
+(Custom Mounting Flange           Made-to-order mounting interface for application-specific valve configu~) Tj
+ET
+BT
+/F1 6.8 Tf
+30 24 Td
+(ToughTorq canonical PVA data. Variant-level values remain unpublished where final configuration confirmation is required.) Tj
+ET
+endstream
+endobj
+16 0 obj
+<< /Length 1546 >>
+stream
+BT
+/F1 16 Tf
+30 560 Td
+(ToughTorq PVA - Options & Accessories) Tj
+0 -23 Td
+/F1 8 Tf
+(Power-platform and application-specific accessory selection) Tj
+0 -32 Td
+/F2 6.6 Tf
+(Accessory                    Platform / Use               Function                                          ) Tj
+0 -12 Td
+(------------------------------------------------------------------------------------------------------------) Tj
+0 -21 Td
+(Torque Limiter               Application dependent        Torque-control option used where the actuator/hea~) Tj
+0 -21 Td
+(Extension                    Application dependent        Extension component for applications requiring ad~) Tj
+0 -21 Td
+(Air Hose                     HL83                         Air-supply hose for pneumatic PVA systems.        ) Tj
+0 -21 Td
+(Counter                      Application dependent        Revolution/counting option for supported actuator~) Tj
+0 -21 Td
+(Storage Case                 Application dependent        Protective transport and storage case for PVA com~) Tj
+0 -21 Td
+(Battery Pack                 MC89 / JA73 / H2O kit confi~ Battery power accessory for compatible battery-op~) Tj
+0 -21 Td
+(Universal Joint              Application dependent        Angular-flexibility accessory for supported valve~) Tj
+0 -21 Td
+(Safety Unit                  Application dependent        Safety accessory for supported portable valve act~) Tj
+ET
+BT
+/F1 6.8 Tf
+30 24 Td
+(ToughTorq canonical PVA data. Variant-level values remain unpublished where final configuration confirmation is required.) Tj
+ET
+endstream
+endobj
+17 0 obj
+<< /Length 3169 >>
+stream
+BT
+/F1 16 Tf
+30 560 Td
+(ToughTorq PVA - Published Compatibility Matrix) Tj
+0 -23 Td
+/F1 8 Tf
+(Compatible = published pairing; Conditional = variant/head/torque limits must be checked) Tj
+0 -32 Td
+/F2 6.6 Tf
+(Platform       Component                    Status         Note                                                  ) Tj
+0 -12 Td
+(----------------------------------------------------------------------------------------------------------------) Tj
+0 -21 Td
+(MC89           Straight Head                compatible     Straight-head configurations are published for the MC~) Tj
+0 -21 Td
+(JA73           Straight Head                compatible     Straight-head configurations are published for the JA~) Tj
+0 -21 Td
+(HL83           Straight Head                compatible     Straight-head configurations are published for the HL~) Tj
+0 -21 Td
+(PY68           Straight Head                compatible     Straight-head configurations are published for the PY~) Tj
+0 -21 Td
+(MC89           Right-Angle Head             conditional    Supported with actuator/torque limits; use the applic~) Tj
+0 -21 Td
+(JA73           Right-Angle Head             conditional    Supported with actuator/torque limits; high-torque va~) Tj
+0 -21 Td
+(HL83           Right-Angle Head             conditional    Supported on published HL83 variants; highest-output ~) Tj
+0 -21 Td
+(PY68           Right-Angle Head             conditional    Supported with actuator/torque limits; highest-output~) Tj
+0 -21 Td
+(MC89           Standard-Duty Banjo Head     conditional    Published hollow-head configuration with a maximum he~) Tj
+0 -21 Td
+(JA73           Standard-Duty Banjo Head     conditional    Published on selected variants; maximum head torque l~) Tj
+0 -21 Td
+(HL83           Standard-Duty Banjo Head     conditional    Published only for selected HL83 variants.            ) Tj
+0 -21 Td
+(PY68           Standard-Duty Banjo Head     conditional    Published only for selected PY68 variants.            ) Tj
+0 -21 Td
+(MC89           Heavy-Duty Banjo Head        conditional    Published hollow-head configuration; model and torque~) Tj
+0 -21 Td
+(JA73           Heavy-Duty Banjo Head        conditional    Published on selected variants; model and torque limi~) Tj
+0 -21 Td
+(HL83           Heavy-Duty Banjo Head        conditional    Published on selected variants; model and torque limi~) Tj
+0 -21 Td
+(PY68           Heavy-Duty Banjo Head        conditional    Published on selected variants; model and torque limi~) Tj
+0 -21 Td
+(HL83           Air Hose                     compatible     Pneumatic supply accessory.                           ) Tj
+0 -21 Td
+(MC89           Battery Pack                 compatible     Battery-platform accessory.                           ) Tj
+0 -21 Td
+(JA73           Battery Pack                 compatible     Battery-platform accessory.                           ) Tj
+0 -21 Td
+(H2O KIT        Battery Pack                 compatible     H2O is a battery-based water-network kit configuratio~) Tj
+ET
+BT
+/F1 6.8 Tf
+30 24 Td
+(ToughTorq canonical PVA data. Variant-level values remain unpublished where final configuration confirmation is required.) Tj
+ET
+endstream
+endobj
+18 0 obj
+<< /Length 1234 >>
+stream
+BT
+/F1 16 Tf
+30 560 Td
+(ToughTorq PVA - System Selection) Tj
+0 -23 Td
+/F1 8 Tf
+(Build the complete portable valve actuation package around the application) Tj
+0 -32 Td
+/F1 10.5 Tf
+(Selection Sequence) Tj
+/F1 8 Tf
+0 -18 Td
+(1. Select the power platform for the environment and available utilities.) Tj
+0 -18 Td
+(2. Select the actuator head for the valve geometry and required torque.) Tj
+0 -18 Td
+(3. Match the valve adaptor to the handwheel, stem, socket, or drive interface.) Tj
+0 -18 Td
+(4. Select the reaction method for the actual valve position and surrounding structure.) Tj
+0 -18 Td
+(5. Add extensions, batteries, air supply, counters, storage, and safety options as required.) Tj
+0 -32 Td
+/F1 10.5 Tf
+(Important Limits) Tj
+/F1 8 Tf
+0 -18 Td
+(Right-angle and banjo-head configurations are conditional on actuator variant and torque limits.) Tj
+0 -18 Td
+(H2O is a configured water-network package rather than a general-purpose actuator/head platform.) Tj
+0 -18 Td
+(Variant-level speed, weight, battery, air-consumption, fuel, and dimension data are not published until confirmed.) Tj
+ET
+BT
+/F1 6.8 Tf
+30 24 Td
+(Select the complete actuator, head, adaptor, reaction, and option package for the specific valve application.) Tj
+ET
+endstream
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000151 00000 n 
+0000000290 00000 n 
+0000000429 00000 n 
+0000000568 00000 n 
+0000000707 00000 n 
+0000000846 00000 n 
+0000000985 00000 n 
+0000001124 00000 n 
+0000001195 00000 n 
+0000001264 00000 n 
+0000002533 00000 n 
+0000003625 00000 n 
+0000004953 00000 n 
+0000006178 00000 n 
+0000007776 00000 n 
+0000010997 00000 n 
+trailer
+<< /Size 19 /Root 1 0 R >>
+startxref
+12283
+%%EOF
