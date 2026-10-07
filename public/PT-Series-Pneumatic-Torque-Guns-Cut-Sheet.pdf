@@ -1,0 +1,153 @@
+%PDF-1.4
+% ToughTorq PT Series technical sheet
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 7749 >>
+stream
+1 1 1 rg 0 0 792 612 re f
+0.40 0.40 0.40 rg BT /F2 22 Tf 1 0 0 1 36 568 Tm (TOUGH) Tj ET
+0.93 0.11 0.14 rg BT /F2 22 Tf 1 0 0 1 104 568 Tm (TORQ) Tj ET
+0.25 0.27 0.28 rg BT /F2 10 Tf 1 0 0 1 552 570 Tm (PT SERIES  |  PNEUMATIC TORQUE GUNS) Tj ET
+0.93 0.11 0.14 RG 2 w 36 556 m 756 556 l S
+0.25 0.27 0.28 rg BT /F2 26 Tf 1 0 0 1 36 522 Tm (PT Series Pneumatic Torque Guns) Tj ET
+0.40 0.40 0.40 rg BT /F1 10 Tf 1 0 0 1 36 503 Tm (Continuous non-impact torque for repetitive industrial bolting.) Tj ET
+0.96 0.96 0.96 rg 36 450 136 34 re f
+0.52 0.52 0.52 rg BT /F2 6.5 Tf 1 0 0 1 43 472 Tm (AIR PRESSURE) Tj ET
+0.25 0.27 0.28 rg BT /F2 10 Tf 1 0 0 1 43 458 Tm (6 bar) Tj ET
+0.96 0.96 0.96 rg 180 450 136 34 re f
+0.52 0.52 0.52 rg BT /F2 6.5 Tf 1 0 0 1 187 472 Tm (AIR CONSUMPTION) Tj ET
+0.25 0.27 0.28 rg BT /F2 10 Tf 1 0 0 1 187 458 Tm (600 L/min max) Tj ET
+0.96 0.96 0.96 rg 324 450 136 34 re f
+0.52 0.52 0.52 rg BT /F2 6.5 Tf 1 0 0 1 331 472 Tm (NOISE) Tj ET
+0.25 0.27 0.28 rg BT /F2 10 Tf 1 0 0 1 331 458 Tm (<80 dBA) Tj ET
+0.96 0.96 0.96 rg 468 450 136 34 re f
+0.52 0.52 0.52 rg BT /F2 6.5 Tf 1 0 0 1 475 472 Tm (ACCURACY) Tj ET
+0.25 0.27 0.28 rg BT /F2 10 Tf 1 0 0 1 475 458 Tm (+/-5% std.) Tj ET
+0.96 0.96 0.96 rg 612 450 136 34 re f
+0.52 0.52 0.52 rg BT /F2 6.5 Tf 1 0 0 1 619 472 Tm (REPEATABILITY) Tj ET
+0.25 0.27 0.28 rg BT /F2 10 Tf 1 0 0 1 619 458 Tm (+/-1%) Tj ET
+0.25 0.27 0.28 rg 36 395 557 25 re f
+1 1 1 rg BT /F2 6.7 Tf 1 0 0 1 41 405 Tm (Model) Tj ET
+1 1 1 rg BT /F2 6.7 Tf 1 0 0 1 143 405 Tm (Torque Range \(ft-lb\)) Tj ET
+1 1 1 rg BT /F2 6.7 Tf 1 0 0 1 243 405 Tm (Square \(in\)) Tj ET
+1 1 1 rg BT /F2 6.7 Tf 1 0 0 1 305 405 Tm (Max Speed \(rpm\)) Tj ET
+1 1 1 rg BT /F2 6.7 Tf 1 0 0 1 373 405 Tm (Weight \(lb\)) Tj ET
+1 1 1 rg BT /F2 6.7 Tf 1 0 0 1 433 405 Tm (L \(in\)) Tj ET
+1 1 1 rg BT /F2 6.7 Tf 1 0 0 1 488 405 Tm (E \(in\)) Tj ET
+1 1 1 rg BT /F2 6.7 Tf 1 0 0 1 543 405 Tm (D \(in\)) Tj ET
+0.93 0.11 0.14 rg BT /F2 7.2 Tf 1 0 0 1 41 379 Tm (PT05-350SS) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 143 379 Tm (74-369) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 243 379 Tm (3/4) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 305 379 Tm (50) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 373 379 Tm (8.8) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 433 379 Tm (6.7) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 488 379 Tm (7.3) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 543 379 Tm (2.4) Tj ET
+0.96 0.96 0.96 rg 36 345 557 25 re f
+0.93 0.11 0.14 rg BT /F2 7.2 Tf 1 0 0 1 41 354 Tm (PT10-700SS) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 143 354 Tm (111-738) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 243 354 Tm (3/4) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 305 354 Tm (28) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 373 354 Tm (10.6) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 433 354 Tm (9.8) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 488 354 Tm (7.3) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 543 354 Tm (2.9) Tj ET
+0.93 0.11 0.14 rg BT /F2 7.2 Tf 1 0 0 1 41 329 Tm (PT15-1000SS) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 143 329 Tm (148-1,106) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 243 329 Tm (1) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 305 329 Tm (21) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 373 329 Tm (11.5) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 433 329 Tm (10.2) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 488 329 Tm (7.3) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 543 329 Tm (3.0) Tj ET
+0.96 0.96 0.96 rg 36 295 557 25 re f
+0.93 0.11 0.14 rg BT /F2 7.2 Tf 1 0 0 1 41 304 Tm (PT20-1500SS) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 143 304 Tm (221-1,475) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 243 304 Tm (1) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 305 304 Tm (15) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 373 304 Tm (12.1) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 433 304 Tm (10.2) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 488 304 Tm (7.3) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 543 304 Tm (3.0) Tj ET
+0.93 0.11 0.14 rg BT /F2 7.2 Tf 1 0 0 1 41 279 Tm (PT30-2200SS) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 143 279 Tm (369-2,213) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 243 279 Tm (1) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 305 279 Tm (10) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 373 279 Tm (16.5) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 433 279 Tm (13.4) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 488 279 Tm (7.3) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 543 279 Tm (3.7) Tj ET
+0.96 0.96 0.96 rg 36 245 557 25 re f
+0.93 0.11 0.14 rg BT /F2 7.2 Tf 1 0 0 1 41 254 Tm (PT40-2900SS) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 143 254 Tm (516-2,950) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 243 254 Tm (1-1/2) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 305 254 Tm (7) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 373 254 Tm (20.9) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 433 254 Tm (13.4) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 488 254 Tm (7.3) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 543 254 Tm (3.8) Tj ET
+0.93 0.11 0.14 rg BT /F2 7.2 Tf 1 0 0 1 41 229 Tm (PT60-4400SS) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 143 229 Tm (738-4,426) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 243 229 Tm (1-1/2) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 305 229 Tm (5) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 373 229 Tm (30.9) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 433 229 Tm (15.0) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 488 229 Tm (7.3) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 543 229 Tm (4.1) Tj ET
+0.96 0.96 0.96 rg 36 195 557 25 re f
+0.93 0.11 0.14 rg BT /F2 7.2 Tf 1 0 0 1 41 204 Tm (PT80-6000SS) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 143 204 Tm (1,475-5,900) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 243 204 Tm (1-1/2) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 305 204 Tm (4) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 373 204 Tm (39.7) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 433 204 Tm (15.0) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 488 204 Tm (7.3) Tj ET
+0.25 0.27 0.28 rg BT /F1 7.2 Tf 1 0 0 1 543 204 Tm (4.4) Tj ET
+0.25 0.27 0.28 rg BT /F2 10 Tf 1 0 0 1 620 414 Tm (Key features) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.5 Tf 1 0 0 1 626 396 Tm (- Continuous non-impact torque output) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.5 Tf 1 0 0 1 626 378 Tm (- Compact planetary gearbox) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.5 Tf 1 0 0 1 626 360 Tm (- Seven-vane high-performance air motor) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.5 Tf 1 0 0 1 626 342 Tm (- Single-hand forward/reverse control) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.5 Tf 1 0 0 1 626 324 Tm (- Full reverse torque for loosening) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.5 Tf 1 0 0 1 626 306 Tm (- Optional digital regulation:) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.5 Tf 1 0 0 1 626 288 Tm (-   +/-3% accuracy, +/-1% repeatability) Tj ET
+0.25 0.27 0.28 rg BT /F2 10 Tf 1 0 0 1 620 246 Tm (Typical applications) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.5 Tf 1 0 0 1 626 228 Tm (- Industrial flange bolting) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.5 Tf 1 0 0 1 626 210 Tm (- Power generation maintenance) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.5 Tf 1 0 0 1 626 192 Tm (- Oil & gas service) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.5 Tf 1 0 0 1 626 174 Tm (- Manufacturing and assembly) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.5 Tf 1 0 0 1 626 156 Tm (- Heavy equipment maintenance) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.5 Tf 1 0 0 1 626 138 Tm (- Shutdown and turnaround work) Tj ET
+0.85 0.85 0.85 RG 0.5 w 36 24 m 756 24 l S
+0.40 0.40 0.40 rg BT /F1 7 Tf 1 0 0 1 36 11 Tm (TOUGHTORQ.COM) Tj ET
+0.40 0.40 0.40 rg BT /F1 7 Tf 1 0 0 1 585 11 Tm (Catalog 2026.10 | Manufacturer technical reference) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000047 00000 n 
+0000000096 00000 n 
+0000000153 00000 n 
+0000000289 00000 n 
+0000000359 00000 n 
+0000000434 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+8234
+%%EOF
