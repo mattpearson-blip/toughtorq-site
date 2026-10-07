@@ -5,7 +5,13 @@
   "displayName": "Hydraulic Hoses",
   "shortDescription": "700 bar and ultra-high-pressure hydraulic hose assemblies for bolting, lifting, tensioning, and maintenance systems.",
   "longDescription": "ToughTorq hydraulic hose assemblies connect pumps, tools, cylinders, pullers, flange equipment, torque wrenches, tensioners, and hydraulic nuts. The catalog includes standard 700 bar hoses and ultra-high-pressure hose families rated to 1000, 1800, and 2800 bar, with model-specific lengths and connection threads.",
-  "images": [],
+  "images": [
+    {
+      "src": "/hydraulic-hose-manufacturer.jpg",
+      "alt": "ToughTorq hydraulic hose assembly from manufacturer catalog",
+      "type": "product"
+    }
+  ],
   "features": [
     "700 bar general hydraulic hose range",
     "Ultra-high-pressure hose ratings to 2800 bar",
@@ -32,7 +38,13 @@
       "model": "HX-6-2SP-2",
       "displayName": "HX-6-2SP-2 700 Bar Hydraulic Hose",
       "description": "700 bar hydraulic hose assembly, 1.8 m (5.9 ft) long, for ToughTorq hydraulic tools.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-hose-manufacturer.jpg",
+          "alt": "ToughTorq hydraulic hose assembly from manufacturer catalog",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "700 Bar Hydraulic Hose",
         "maxWorkingPressureBar": 700,
@@ -101,7 +113,13 @@
       "model": "HX-6-2SP-3",
       "displayName": "HX-6-2SP-3 700 Bar Hydraulic Hose",
       "description": "700 bar hydraulic hose assembly, 3 m (9.8 ft) long, for ToughTorq hydraulic tools.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-hose-manufacturer.jpg",
+          "alt": "ToughTorq hydraulic hose assembly from manufacturer catalog",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "700 Bar Hydraulic Hose",
         "maxWorkingPressureBar": 700,
@@ -170,7 +188,13 @@
       "model": "HX-6-2SP-5",
       "displayName": "HX-6-2SP-5 700 Bar Hydraulic Hose",
       "description": "700 bar hydraulic hose assembly, 5 m (16.4 ft) long, for ToughTorq hydraulic tools.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-hose-manufacturer.jpg",
+          "alt": "ToughTorq hydraulic hose assembly from manufacturer catalog",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "700 Bar Hydraulic Hose",
         "maxWorkingPressureBar": 700,
@@ -239,7 +263,13 @@
       "model": "HX-6-2SP-6",
       "displayName": "HX-6-2SP-6 700 Bar Hydraulic Hose",
       "description": "700 bar hydraulic hose assembly, 6 m (19.7 ft) long, for ToughTorq hydraulic tools.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-hose-manufacturer.jpg",
+          "alt": "ToughTorq hydraulic hose assembly from manufacturer catalog",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "700 Bar Hydraulic Hose",
         "maxWorkingPressureBar": 700,
@@ -308,7 +338,13 @@
       "model": "HX-6-2SP-10",
       "displayName": "HX-6-2SP-10 700 Bar Hydraulic Hose",
       "description": "700 bar hydraulic hose assembly, 10 m (32.8 ft) long, for ToughTorq hydraulic tools.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-hose-manufacturer.jpg",
+          "alt": "ToughTorq hydraulic hose assembly from manufacturer catalog",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "700 Bar Hydraulic Hose",
         "maxWorkingPressureBar": 700,
@@ -377,7 +413,13 @@
       "model": "HX-6-2SP-15",
       "displayName": "HX-6-2SP-15 700 Bar Hydraulic Hose",
       "description": "700 bar hydraulic hose assembly, 15 m (49.2 ft) long, for ToughTorq hydraulic tools.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-hose-manufacturer.jpg",
+          "alt": "ToughTorq hydraulic hose assembly from manufacturer catalog",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "700 Bar Hydraulic Hose",
         "maxWorkingPressureBar": 700,
@@ -1390,7 +1432,13 @@
       "group": "Hydraulic Hose Family",
       "displayName": "700 Bar Hydraulic Hoses",
       "description": "General-purpose high-pressure hose assemblies for standard ToughTorq 700 bar hydraulic tooling.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-hose-manufacturer.jpg",
+          "alt": "ToughTorq hydraulic hose assembly from manufacturer catalog",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "modelSeries": "HX-6-2SP",
         "pressureBar": 700
