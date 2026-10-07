@@ -2391,7 +2391,14 @@
     "Reaction-arm selection depends on the torque tool, reaction point, fastener position, and available clearance.",
     "Custom reaction arms may be required where standard reaction geometry cannot safely engage the application."
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "Socket & Reaction Application Guide",
+      "href": "/Socket-Reaction-Application-Guide.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
