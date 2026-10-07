@@ -5,7 +5,13 @@
   "displayName": "PT Series Pneumatic Torque Guns",
   "shortDescription": "Continuous-duty pneumatic torque tools for controlled industrial bolting.",
   "longDescription": "PT Series pneumatic torque guns provide continuous non-impact torque for repetitive industrial bolting. Torque is controlled through regulated air pressure, with full reverse torque available for loosening applications.",
-  "images": [],
+  "images": [
+    {
+      "src": "/pt-series-pneumatic-torque-gun.svg",
+      "alt": "ToughTorq PT Series pneumatic torque gun with air regulator and hose",
+      "type": "product"
+    }
+  ],
   "features": [
     "Continuous non-impact torque output",
     "Compact planetary gearbox",
@@ -34,7 +40,13 @@
       "displayName": "PT05-350SS Pneumatic Torque Gun",
       "sourceModel": "KSPW-05SS",
       "description": "Compact PT Series pneumatic torque gun with a 74–369 ft-lb torque range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/pt-series-pneumatic-torque-gun.svg",
+          "alt": "ToughTorq PT05-350SS pneumatic torque gun",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 74,
         "torqueMaxFtLb": 369,
@@ -100,7 +112,13 @@
       "displayName": "PT10-700SS Pneumatic Torque Gun",
       "sourceModel": "KSPW-10SS",
       "description": "PT Series pneumatic torque gun with a 111–738 ft-lb torque range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/pt-series-pneumatic-torque-gun.svg",
+          "alt": "ToughTorq PT10-700SS pneumatic torque gun",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 111,
         "torqueMaxFtLb": 738,
@@ -166,7 +184,13 @@
       "displayName": "PT15-1000SS Pneumatic Torque Gun",
       "sourceModel": "KSPW-15SS",
       "description": "PT Series pneumatic torque gun with a 148–1,106 ft-lb torque range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/pt-series-pneumatic-torque-gun.svg",
+          "alt": "ToughTorq PT15-1000SS pneumatic torque gun",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 148,
         "torqueMaxFtLb": 1106,
@@ -232,7 +256,13 @@
       "displayName": "PT20-1500SS Pneumatic Torque Gun",
       "sourceModel": "KSPW-20SS",
       "description": "PT Series pneumatic torque gun with a 221–1,475 ft-lb torque range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/pt-series-pneumatic-torque-gun.svg",
+          "alt": "ToughTorq PT20-1500SS pneumatic torque gun",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 221,
         "torqueMaxFtLb": 1475,
@@ -298,7 +328,13 @@
       "displayName": "PT30-2200SS Pneumatic Torque Gun",
       "sourceModel": "KSPW-30SS",
       "description": "PT Series pneumatic torque gun with a 369–2,213 ft-lb torque range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/pt-series-pneumatic-torque-gun.svg",
+          "alt": "ToughTorq PT30-2200SS pneumatic torque gun",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 369,
         "torqueMaxFtLb": 2213,
@@ -364,7 +400,13 @@
       "displayName": "PT40-2900SS Pneumatic Torque Gun",
       "sourceModel": "KSPW-40SS",
       "description": "PT Series pneumatic torque gun with a 516–2,950 ft-lb torque range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/pt-series-pneumatic-torque-gun.svg",
+          "alt": "ToughTorq PT40-2900SS pneumatic torque gun",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 516,
         "torqueMaxFtLb": 2950,
@@ -430,7 +472,13 @@
       "displayName": "PT60-4400SS Pneumatic Torque Gun",
       "sourceModel": "KSPW-60SS",
       "description": "PT Series pneumatic torque gun with a 738–4,426 ft-lb torque range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/pt-series-pneumatic-torque-gun.svg",
+          "alt": "ToughTorq PT60-4400SS pneumatic torque gun",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 738,
         "torqueMaxFtLb": 4426,
@@ -496,7 +544,13 @@
       "displayName": "PT80-6000SS Pneumatic Torque Gun",
       "sourceModel": "KSPW-80SS",
       "description": "PT Series pneumatic torque gun with a 1,475–5,900 ft-lb torque range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/pt-series-pneumatic-torque-gun.svg",
+          "alt": "ToughTorq PT80-6000SS pneumatic torque gun",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 1475,
         "torqueMaxFtLb": 5900,
@@ -583,7 +637,14 @@
     "Optional digital air regulator"
   ],
   "compatibility": [],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "PT Series Pneumatic Torque Gun Cutsheet",
+      "href": "/PT-Series-Pneumatic-Torque-Guns-Cut-Sheet.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
