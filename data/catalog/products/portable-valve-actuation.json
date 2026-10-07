@@ -920,7 +920,14 @@
       ]
     }
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "Portable Valve Actuation System Technical Guide",
+      "href": "/Portable-Valve-Actuation-System-Technical-Guide.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
