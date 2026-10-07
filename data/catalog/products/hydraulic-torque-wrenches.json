@@ -1708,7 +1708,14 @@
     "Low-profile power units accept ratchet links and reducer inserts within their published family.",
     "Hydraulic pump, hose, coupler, wrench pressure rating, and application requirements must be matched as a complete system."
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "Hydraulic Torque Wrench Series Technical Sheet",
+      "href": "/Hydraulic-Torque-Wrench-Series-Technical-Sheet.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
