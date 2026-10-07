@@ -5,7 +5,13 @@
   "displayName": "DMT Series Digital Manual Torque Wrenches",
   "shortDescription": "Electronic torque measurement and controlled manual tightening from 0.75 to 737 ft-lb.",
   "longDescription": "ToughTorq DMT Series digital manual torque wrenches provide electronic torque measurement and controlled tightening for assembly, inspection, verification, maintenance, and field service. The range supports clockwise and counterclockwise operation, optional interchangeable heads, and model-specific torque capacities up to 737 ft-lb.",
-  "images": [],
+  "images": [
+    {
+      "src": "/dmt-series-digital-manual-torque-wrenches.svg",
+      "alt": "ToughTorq DMT Series digital manual torque wrenches",
+      "type": "product"
+    }
+  ],
   "features": [
     "2% accuracy throughout the operating range",
     "Optional interchangeable heads",
@@ -31,7 +37,13 @@
       "model": "TTDMT-20",
       "displayName": "TTDMT-20 Digital Manual Torque Wrench",
       "description": "Digital manual torque wrench rated from 0.75 to 15 ft-lb with 1/4-inch square drive.",
-      "images": [],
+      "images": [
+        {
+          "src": "/dmt-series-digital-manual-torque-wrenches.svg",
+          "alt": "ToughTorq TTDMT-20 digital manual torque wrench",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 0.75,
         "torqueMaxFtLb": 15,
@@ -86,7 +98,13 @@
       "model": "TTDMT-30",
       "displayName": "TTDMT-30 Digital Manual Torque Wrench",
       "description": "Digital manual torque wrench rated from 1 to 22 ft-lb with 1/4-inch square drive.",
-      "images": [],
+      "images": [
+        {
+          "src": "/dmt-series-digital-manual-torque-wrenches.svg",
+          "alt": "ToughTorq TTDMT-30 digital manual torque wrench",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 1,
         "torqueMaxFtLb": 22,
@@ -141,7 +159,13 @@
       "model": "TTDMT-60",
       "displayName": "TTDMT-60 Digital Manual Torque Wrench",
       "description": "Digital manual torque wrench rated from 2 to 44 ft-lb with 3/8-inch square drive.",
-      "images": [],
+      "images": [
+        {
+          "src": "/dmt-series-digital-manual-torque-wrenches.svg",
+          "alt": "ToughTorq TTDMT-60 digital manual torque wrench",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 2,
         "torqueMaxFtLb": 44,
@@ -196,7 +220,13 @@
       "model": "TTDMT-135",
       "displayName": "TTDMT-135 Digital Manual Torque Wrench",
       "description": "Digital manual torque wrench rated from 5 to 100 ft-lb with 3/8-inch square drive.",
-      "images": [],
+      "images": [
+        {
+          "src": "/dmt-series-digital-manual-torque-wrenches.svg",
+          "alt": "ToughTorq TTDMT-135 digital manual torque wrench",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 5,
         "torqueMaxFtLb": 100,
@@ -251,7 +281,13 @@
       "model": "TTDMT-135-L",
       "displayName": "TTDMT-135-L Digital Manual Torque Wrench",
       "description": "Digital manual torque wrench rated from 5 to 100 ft-lb with 1/2-inch square drive.",
-      "images": [],
+      "images": [
+        {
+          "src": "/dmt-series-digital-manual-torque-wrenches.svg",
+          "alt": "ToughTorq TTDMT-135-L digital manual torque wrench",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 5,
         "torqueMaxFtLb": 100,
@@ -306,7 +342,13 @@
       "model": "TTDMT-200",
       "displayName": "TTDMT-200 Digital Manual Torque Wrench",
       "description": "Digital manual torque wrench rated from 7 to 147 ft-lb with 1/2-inch square drive.",
-      "images": [],
+      "images": [
+        {
+          "src": "/dmt-series-digital-manual-torque-wrenches.svg",
+          "alt": "ToughTorq TTDMT-200 digital manual torque wrench",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 7,
         "torqueMaxFtLb": 147,
@@ -361,7 +403,13 @@
       "model": "TTDMT-340",
       "displayName": "TTDMT-340 Digital Manual Torque Wrench",
       "description": "Digital manual torque wrench rated from 12 to 250 ft-lb with 1/2-inch square drive.",
-      "images": [],
+      "images": [
+        {
+          "src": "/dmt-series-digital-manual-torque-wrenches.svg",
+          "alt": "ToughTorq TTDMT-340 digital manual torque wrench",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 12,
         "torqueMaxFtLb": 250,
@@ -416,7 +464,13 @@
       "model": "TTDMT-400",
       "displayName": "TTDMT-400 Digital Manual Torque Wrench",
       "description": "Digital manual torque wrench rated from 14 to 295 ft-lb with 1/2-inch square drive.",
-      "images": [],
+      "images": [
+        {
+          "src": "/dmt-series-digital-manual-torque-wrenches.svg",
+          "alt": "ToughTorq TTDMT-400 digital manual torque wrench",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 14,
         "torqueMaxFtLb": 295,
@@ -471,7 +525,13 @@
       "model": "TTDMT-550",
       "displayName": "TTDMT-550 Digital Manual Torque Wrench",
       "description": "Digital manual torque wrench rated from 18 to 405 ft-lb with 3/4-inch square drive.",
-      "images": [],
+      "images": [
+        {
+          "src": "/dmt-series-digital-manual-torque-wrenches.svg",
+          "alt": "ToughTorq TTDMT-550 digital manual torque wrench",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 18,
         "torqueMaxFtLb": 405,
@@ -526,7 +586,13 @@
       "model": "TTDMT-850",
       "displayName": "TTDMT-850 Digital Manual Torque Wrench",
       "description": "Digital manual torque wrench rated from 30 to 630 ft-lb with 3/4-inch square drive.",
-      "images": [],
+      "images": [
+        {
+          "src": "/dmt-series-digital-manual-torque-wrenches.svg",
+          "alt": "ToughTorq TTDMT-850 digital manual torque wrench",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 30,
         "torqueMaxFtLb": 630,
@@ -581,7 +647,13 @@
       "model": "TTDMT-1000",
       "displayName": "TTDMT-1000 Digital Manual Torque Wrench",
       "description": "Digital manual torque wrench rated from 73 to 737 ft-lb with 3/4-inch square drive.",
-      "images": [],
+      "images": [
+        {
+          "src": "/dmt-series-digital-manual-torque-wrenches.svg",
+          "alt": "ToughTorq TTDMT-1000 digital manual torque wrench",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "torqueMinFtLb": 73,
         "torqueMaxFtLb": 737,
@@ -653,7 +725,14 @@
     "Head and drive selection must match the wrench model and application.",
     "Calibration applicability is tracked for the DMT family because these are measuring torque tools."
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "DMT Series Digital Manual Torque Wrench Cutsheet",
+      "href": "/DMT-Series-Digital-Manual-Torque-Wrenches-Cut-Sheet.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
