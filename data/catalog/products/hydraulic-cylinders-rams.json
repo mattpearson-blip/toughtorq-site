@@ -7062,7 +7062,14 @@
       ]
     }
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "Hydraulic Cylinder Series Technical Guide",
+      "href": "/Hydraulic-Cylinder-Series-Technical-Guide.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
