@@ -1632,7 +1632,14 @@
     "Hydraulic components must share compatible pressure ratings and connection interfaces.",
     "Multiple tensioners may be connected for simultaneous tensioning when the hydraulic system and application are configured accordingly."
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "Bolt Tensioner Series Technical Sheet",
+      "href": "/Bolt-Tensioner-Series-Technical-Sheet.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
