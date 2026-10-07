@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 import { TechnicalDownloads } from "@/components/technical-downloads";
@@ -294,11 +295,25 @@ export default function BoltTensionersPage() {
             Automatic spring-return tensioners
           </h2>
 
-          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
-            Spring-return models cover a broad thread range and are designed
-            for fast repeated operation, quick hydraulic connection, and
-            simultaneous multiple-tool tensioning.
-          </p>
+          <div className="mt-6 grid items-center gap-8 lg:grid-cols-[1fr_340px]">
+            <p className="max-w-3xl leading-8 text-[#555555]">
+              Spring-return models cover a broad thread range and are designed
+              for fast repeated operation, quick hydraulic connection, and
+              simultaneous multiple-tool tensioning.
+            </p>
+
+            {springReturn[0]?.images[0] && (
+              <div className="flex min-h-[240px] items-center justify-center rounded-xl border border-[#dddddd] bg-[#fafafa] p-6">
+                <Image
+                  src={springReturn[0].images[0].src}
+                  alt={springReturn[0].images[0].alt}
+                  width={300}
+                  height={247}
+                  className="max-h-[230px] w-auto object-contain"
+                />
+              </div>
+            )}
+          </div>
 
           <SpringReturnTable models={springReturn} />
         </div>
@@ -314,11 +329,25 @@ export default function BoltTensionersPage() {
             Modular load-return tensioners
           </h2>
 
-          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
-            Load-return models use modular adaptor kits, detachable rotational
-            bridges, twin hydraulic ports, and a piston stroke indicator for
-            demanding threaded connections and multi-tool operation.
-          </p>
+          <div className="mt-6 grid items-center gap-8 lg:grid-cols-[1fr_340px]">
+            <p className="max-w-3xl leading-8 text-[#555555]">
+              Load-return models use modular adaptor kits, detachable rotational
+              bridges, twin hydraulic ports, and a piston stroke indicator for
+              demanding threaded connections and multi-tool operation.
+            </p>
+
+            {loadReturn[0]?.images[0] && (
+              <div className="flex min-h-[240px] items-center justify-center rounded-xl border border-[#dddddd] bg-white p-6">
+                <Image
+                  src={loadReturn[0].images[0].src}
+                  alt={loadReturn[0].images[0].alt}
+                  width={300}
+                  height={243}
+                  className="max-h-[230px] w-auto object-contain"
+                />
+              </div>
+            )}
+          </div>
 
           <LoadReturnTable models={loadReturn} />
         </div>
@@ -334,11 +363,25 @@ export default function BoltTensionersPage() {
             Compact high-capacity tensioning
           </h2>
 
-          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
-            TTE multistage tensioners operate at up to 21,756 psi and combine a
-            compact outside diameter with high pulling capacity for applications
-            where radial clearance is restricted.
-          </p>
+          <div className="mt-6 grid items-center gap-8 lg:grid-cols-[1fr_340px]">
+            <p className="max-w-3xl leading-8 text-[#555555]">
+              TTE multistage tensioners operate at up to 21,756 psi and combine a
+              compact outside diameter with high pulling capacity for applications
+              where radial clearance is restricted.
+            </p>
+
+            {multistage[0]?.images[0] && (
+              <div className="flex min-h-[240px] items-center justify-center rounded-xl border border-[#dddddd] bg-[#fafafa] p-6">
+                <Image
+                  src={multistage[0].images[0].src}
+                  alt={multistage[0].images[0].alt}
+                  width={300}
+                  height={220}
+                  className="max-h-[230px] w-auto object-contain"
+                />
+              </div>
+            )}
+          </div>
 
           <MultistageTable models={multistage} />
         </div>
