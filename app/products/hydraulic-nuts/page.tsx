@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { TechnicalDownloads } from "@/components/technical-downloads";
+
 import { hydraulicNuts } from "@/data/catalog";
 
 export const metadata: Metadata = {
@@ -189,6 +191,13 @@ export default function HydraulicNutsPage() {
             </Link>
 
             <Link
+              href="#downloads"
+              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+            >
+              Downloads
+            </Link>
+
+            <Link
               href="/find-a-distributor"
               className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
             >
@@ -347,38 +356,16 @@ export default function HydraulicNutsPage() {
         </div>
       </section>
 
-      <section
-        id="downloads"
-        className="scroll-mt-24 border-b border-[#dedede] bg-[#f7f7f7]"
-      >
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Downloads
-          </p>
-
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-            Hydraulic nut technical resources
-          </h2>
-
-          <div className="mt-8 grid gap-4 md:grid-cols-3">
-            {[
-              "Upper-Locking Hydraulic Nut Cutsheet",
-              "Bearing Assembly Hydraulic Nut Cutsheet",
-              "Hydraulic Nut Selection Guide",
-            ].map((title) => (
-              <div
-                key={title}
-                className="rounded-xl border border-[#dddddd] bg-white p-5"
-              >
-                <p className="font-semibold text-[#3f4448]">{title}</p>
-                <p className="mt-2 text-sm text-[#777777]">
-                  Download publishing in progress
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <TechnicalDownloads
+        title="Hydraulic nut technical resources"
+        downloads={family.downloads}
+        fallbackTitles={[
+          "Upper-Locking Hydraulic Nut Cutsheet",
+          "Bearing Assembly Hydraulic Nut Cutsheet",
+          "Hydraulic Nut Selection Guide",
+        ]}
+        background="gray"
+      />
 
       <section className="bg-white">
         <div className="mx-auto grid max-w-7xl gap-6 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
