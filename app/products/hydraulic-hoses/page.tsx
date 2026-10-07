@@ -125,6 +125,8 @@ export default function HydraulicHosesPage() {
             </Link>
           </div>
 
+          </div>
+
           {family.images[0] && (
             <div className="flex min-h-[300px] items-center justify-center rounded-2xl border border-[#e2e2e2] bg-[#fafafa] p-8">
               <Image
