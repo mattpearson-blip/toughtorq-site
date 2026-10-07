@@ -42,17 +42,60 @@
         "tankConfigurations": "10K-1-S and 10K-1-L"
       },
       "dimensions": [
-        { "key": "smallWidth", "label": "10K-1-S Width", "value": 11.42, "unit": "in" },
-        { "key": "smallHeight", "label": "10K-1-S Height", "value": 16.93, "unit": "in" },
-        { "key": "smallLength", "label": "10K-1-S Length", "value": 16.14, "unit": "in" },
-        { "key": "largeWidth", "label": "10K-1-L Width", "value": 11.61, "unit": "in" },
-        { "key": "largeHeight", "label": "10K-1-L Height", "value": 19.09, "unit": "in" },
-        { "key": "largeLength", "label": "10K-1-L Length", "value": 17.32, "unit": "in" }
+        {
+          "key": "smallWidth",
+          "label": "10K-1-S Width",
+          "value": 11.42,
+          "unit": "in"
+        },
+        {
+          "key": "smallHeight",
+          "label": "10K-1-S Height",
+          "value": 16.93,
+          "unit": "in"
+        },
+        {
+          "key": "smallLength",
+          "label": "10K-1-S Length",
+          "value": 16.14,
+          "unit": "in"
+        },
+        {
+          "key": "largeWidth",
+          "label": "10K-1-L Width",
+          "value": 11.61,
+          "unit": "in"
+        },
+        {
+          "key": "largeHeight",
+          "label": "10K-1-L Height",
+          "value": 19.09,
+          "unit": "in"
+        },
+        {
+          "key": "largeLength",
+          "label": "10K-1-L Length",
+          "value": 17.32,
+          "unit": "in"
+        }
       ],
       "operatingRequirements": [
-        { "key": "battery", "label": "Battery", "value": "48V / 26 Ah lithium" },
-        { "key": "runtime", "label": "Runtime Per Battery", "value": "1.5–2 hours" },
-        { "key": "pressure", "label": "Maximum Pressure", "value": 10150, "unit": "psi" }
+        {
+          "key": "battery",
+          "label": "Battery",
+          "value": "48V / 26 Ah lithium"
+        },
+        {
+          "key": "runtime",
+          "label": "Runtime Per Battery",
+          "value": "1.5–2 hours"
+        },
+        {
+          "key": "pressure",
+          "label": "Maximum Pressure",
+          "value": 10150,
+          "unit": "psi"
+        }
       ],
       "accessories": [
         "Extra 48V battery",
@@ -64,7 +107,14 @@
         "Designed for hydraulic torque wrench applications up to the pump's rated pressure.",
         "Pump, wrench, hose-set, reservoir, and duty-cycle selection must be matched to the application."
       ],
-      "downloads": [],
+      "downloads": [
+        {
+          "title": "TTQ-BATT-10K-48V Cutsheet",
+          "href": "/TTQ-BATT-10K-48V-Cutsheet.pdf",
+          "type": "cutsheet",
+          "status": "available"
+        }
+      ],
       "active": true,
       "public": true,
       "jamMarketplaceUrl": null,
@@ -97,9 +147,24 @@
       },
       "dimensions": [],
       "operatingRequirements": [
-        { "key": "power", "label": "Motor Power", "value": 1.1, "unit": "kW" },
-        { "key": "remote", "label": "Remote Cable", "value": 6, "unit": "m" },
-        { "key": "reservoir", "label": "Oil Tank Capacity", "value": 5, "unit": "L" }
+        {
+          "key": "power",
+          "label": "Motor Power",
+          "value": 1.1,
+          "unit": "kW"
+        },
+        {
+          "key": "remote",
+          "label": "Remote Cable",
+          "value": 6,
+          "unit": "m"
+        },
+        {
+          "key": "reservoir",
+          "label": "Oil Tank Capacity",
+          "value": 5,
+          "unit": "L"
+        }
       ],
       "accessories": [
         "Hydraulic hose set",
@@ -144,9 +209,24 @@
       },
       "dimensions": [],
       "operatingRequirements": [
-        { "key": "power", "label": "Motor Power", "value": 1.1, "unit": "kW" },
-        { "key": "remote", "label": "Remote Cable", "value": 6, "unit": "m" },
-        { "key": "reservoir", "label": "Oil Tank Capacity", "value": 8, "unit": "L" }
+        {
+          "key": "power",
+          "label": "Motor Power",
+          "value": 1.1,
+          "unit": "kW"
+        },
+        {
+          "key": "remote",
+          "label": "Remote Cable",
+          "value": 6,
+          "unit": "m"
+        },
+        {
+          "key": "reservoir",
+          "label": "Oil Tank Capacity",
+          "value": 8,
+          "unit": "L"
+        }
       ],
       "accessories": [
         "Hydraulic hose set",
@@ -191,9 +271,24 @@
       },
       "dimensions": [],
       "operatingRequirements": [
-        { "key": "air", "label": "Compressed Air", "value": "4–8", "unit": "bar" },
-        { "key": "pressure", "label": "Adjustable Output Pressure", "value": "40–700", "unit": "bar" },
-        { "key": "reservoir", "label": "Oil Tank Capacity", "value": 8, "unit": "L" }
+        {
+          "key": "air",
+          "label": "Compressed Air",
+          "value": "4–8",
+          "unit": "bar"
+        },
+        {
+          "key": "pressure",
+          "label": "Adjustable Output Pressure",
+          "value": "40–700",
+          "unit": "bar"
+        },
+        {
+          "key": "reservoir",
+          "label": "Oil Tank Capacity",
+          "value": 8,
+          "unit": "L"
+        }
       ],
       "accessories": [
         "Hydraulic hose set",
@@ -245,7 +340,20 @@
   "compatibility": [
     "Pump compatibility depends on working pressure, couplers, hoses, connected wrench requirements, and reservoir capacity."
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "TTQ-BATT-10K-48V Cutsheet",
+      "href": "/TTQ-BATT-10K-48V-Cutsheet.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    },
+    {
+      "title": "Hydraulic Torque Pump Series Technical Sheet",
+      "href": "/Hydraulic-Torque-Pump-Series-Technical-Sheet.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
