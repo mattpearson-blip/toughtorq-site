@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { TechnicalDownloads } from "@/components/technical-downloads";
+
 import { socketsReactionArms } from "@/data/catalog";
 
 export const metadata: Metadata = {
@@ -323,38 +325,16 @@ export default function SocketsReactionArmsPage() {
         </div>
       </section>
 
-      <section
-        id="downloads"
-        className="scroll-mt-24 border-b border-[#dedede] bg-[#f7f7f7]"
-      >
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-            Downloads
-          </p>
-
-          <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-            Socket and reaction technical resources
-          </h2>
-
-          <div className="mt-8 grid gap-4 md:grid-cols-3">
-            {[
-              "Torque Wrench Socket Guide",
-              "Socket Dimension Reference",
-              "Reaction Arm Application Guide",
-            ].map((title) => (
-              <div
-                key={title}
-                className="rounded-xl border border-[#dddddd] bg-white p-5"
-              >
-                <p className="font-semibold text-[#3f4448]">{title}</p>
-                <p className="mt-2 text-sm text-[#777777]">
-                  Download publishing in progress
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <TechnicalDownloads
+        title="Socket and reaction technical resources"
+        downloads={family.downloads}
+        fallbackTitles={[
+          "Torque Wrench Socket Guide",
+          "Socket Dimension Reference",
+          "Reaction Arm Application Guide",
+        ]}
+        background="gray"
+      />
 
       <section className="bg-white">
         <div className="mx-auto grid max-w-7xl gap-6 px-4 py-14 md:px-8 lg:grid-cols-2 lg:px-12">
