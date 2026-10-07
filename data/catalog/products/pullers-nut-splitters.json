@@ -2135,7 +2135,14 @@
       ]
     }
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "Puller & Nut Splitter Series Technical Guide",
+      "href": "/Puller-Nut-Splitter-Series-Technical-Guide.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
