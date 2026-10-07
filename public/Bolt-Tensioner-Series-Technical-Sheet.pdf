@@ -1,0 +1,155 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R 5 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 6 0 R /F2 7 0 R >> >> /Contents 8 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 6 0 R /F2 7 0 R >> >> /Contents 9 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 6 0 R /F2 7 0 R >> >> /Contents 10 0 R >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Length 1266 >>
+stream
+BT
+/F1 18 Tf
+36 560 Td
+(ToughTorq Bolt Tensioners - Spring Return Series) Tj
+0 -25 Td
+/F1 9 Tf
+(Automatic spring return | Broad thread coverage | Simultaneous multiple-tool tensioning) Tj
+0 -34 Td
+/F2 7.2 Tf
+(Model        Thread Range       Max Tension         Eff. Area      Stroke       Return    ) Tj
+0 -13 Td
+(------------------------------------------------------------------------------------------) Tj
+0 -22 Td
+(TT-ST1       M24–M27            63,396 lbf          2.92 in2       0.31 in      Spring    ) Tj
+0 -22 Td
+(TT-ST2       M24–M36            101,614 lbf         4.67 in2       0.39 in      Spring    ) Tj
+0 -22 Td
+(TT-ST3       M39–M48            150,847 lbf         6.94 in2       0.39 in      Spring    ) Tj
+0 -22 Td
+(TT-ST4       M39–M48            226,832 lbf         10.43 in2      0.39 in      Spring    ) Tj
+0 -22 Td
+(TT-ST5       M52–M68            345,756 lbf         15.89 in2      0.39 in      Spring    ) Tj
+0 -22 Td
+(TT-ST6       M72–M90            571,914 lbf         26.3 in2       0.47 in      Spring    ) Tj
+0 -22 Td
+(TT-ST7       M90–M100           722,986 lbf         33.23 in2      0.47 in      Spring    ) Tj
+ET
+BT
+/F1 7.5 Tf
+36 28 Td
+(ToughTorq canonical manufacturer data. Values are published only where source-verified.) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Length 1285 >>
+stream
+BT
+/F1 18 Tf
+36 560 Td
+(ToughTorq Bolt Tensioners - Load Return Series) Tj
+0 -25 Td
+/F1 9 Tf
+(Modular adaptor kits | Twin hydraulic ports | 21,756 psi / 150 MPa reference pressure where published) Tj
+0 -34 Td
+/F2 7.2 Tf
+(Model          Thread Range      Max Load           Pressure        Eff. Area     Stroke      Weight    ) Tj
+0 -13 Td
+(--------------------------------------------------------------------------------------------------------) Tj
+0 -22 Td
+(TTGT1-LCB      M16-M30           50,425 lbf         21,756 psi      2.32 in2      0.39 in     6.6 lb    ) Tj
+0 -22 Td
+(TTGT2-LCB      M30-M39           90,261 lbf         21,756 psi      4.15 in2      0.39 in     9 lb      ) Tj
+0 -22 Td
+(TTGT3-LCB      M39-M52           172,856 lbf        21,756 psi      7.95 in2      0.39 in     15.4 lb   ) Tj
+0 -22 Td
+(TTGT4-LCB      M52-M68           329,772 lbf        21,756 psi      15.16 in2     0.39 in     26.9 lb   ) Tj
+0 -22 Td
+(TTGT5-LCB      M68-M80           508,383 lbf        21,756 psi      23.37 in2     0.39 in     41.2 lb   ) Tj
+0 -22 Td
+(TTGT6-LCB      M80-M95           639,604 lbf        21,756 psi      29.41 in2     0.39 in     61.3 lb   ) Tj
+ET
+BT
+/F1 7.5 Tf
+36 28 Td
+(ToughTorq canonical manufacturer data. Values are published only where source-verified.) Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Length 1723 >>
+stream
+BT
+/F1 18 Tf
+36 560 Td
+(ToughTorq Bolt Tensioners - Multistage Series) Tj
+0 -25 Td
+/F1 9 Tf
+(Compact high-capacity tensioning for restricted radial clearance) Tj
+0 -34 Td
+/F2 7.2 Tf
+(Model        Bolt       Max Pull           Pressure        Stroke     Eff.Area     OD         Weight    ) Tj
+0 -13 Td
+(--------------------------------------------------------------------------------------------------------) Tj
+0 -22 Td
+(TTE-24       M24        69,016 lbf         21,756 psi      0.28 in    3.52 in2     2.32 in    11 lb     ) Tj
+0 -22 Td
+(TTE-30       M30        103,637 lbf        21,756 psi      0.28 in    5.3 in2      2.83 in    14.6 lb   ) Tj
+0 -22 Td
+(TTE-33       M33        133,761 lbf        21,756 psi      0.28 in    6.83 in2     3.11 in    17.6 lb   ) Tj
+0 -22 Td
+(TTE-36       M36        152,870 lbf        21,756 psi      0.39 in    7.81 in2     3.33 in    23.6 lb   ) Tj
+0 -22 Td
+(TTE-39       M39        179,847 lbf        21,756 psi      0.39 in    9.19 in2     3.6 in     28.2 lb   ) Tj
+0 -22 Td
+(TTE-42       M42        207,274 lbf        21,756 psi      0.39 in    10.59 in2    3.88 in    35.3 lb   ) Tj
+0 -22 Td
+(TTE-45       M45        244,143 lbf        21,756 psi      0.39 in    12.47 in2    4.21 in    46.3 lb   ) Tj
+0 -22 Td
+(TTE-48       M48        291,352 lbf        21,756 psi      0.39 in    14.89 in2    4.57 in    48.5 lb   ) Tj
+0 -22 Td
+(TTE-56       M56        373,183 lbf        21,756 psi      0.39 in    19.06 in2    5.16 in    52.9 lb   ) Tj
+0 -22 Td
+(TTE-64       M64        528,301 lbf        21,756 psi      0.39 in    29.14 in2    5.82 in    103.6 lb  ) Tj
+ET
+BT
+/F1 7.5 Tf
+36 28 Td
+(ToughTorq canonical manufacturer data. Values are published only where source-verified.) Tj
+ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000000263 00000 n 
+0000000399 00000 n 
+0000000536 00000 n 
+0000000606 00000 n 
+0000000674 00000 n 
+0000001991 00000 n 
+0000003327 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+5102
+%%EOF
