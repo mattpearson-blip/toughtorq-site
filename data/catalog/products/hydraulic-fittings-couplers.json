@@ -5,7 +5,13 @@
   "displayName": "Hydraulic Fittings, Couplers & Controls",
   "shortDescription": "Couplers, manifolds, fittings, gauges, gauge adaptors, and control valves for ToughTorq hydraulic systems.",
   "longDescription": "ToughTorq hydraulic connection components provide pressure-rated interfaces between pumps, hoses, tools, cylinders, tensioning systems, gauges, and multi-tool circuits. The range includes 700 bar quick couplers, ultra-high-pressure couplers, oil manifolds, hydraulic fittings, pressure gauges, gauge adaptors, and hydraulic control valves.",
-  "images": [],
+  "images": [
+    {
+      "src": "/hydraulic-quick-couplers-manufacturer.jpg",
+      "alt": "ToughTorq hydraulic quick coupler assembly from manufacturer catalog",
+      "type": "product"
+    }
+  ],
   "features": [
     "700 bar standard quick-connect couplers",
     "150 MPa and 250 MPa ultra-high-pressure couplers",
@@ -32,7 +38,13 @@
       "model": "KA-NPT3/8\"",
       "displayName": "KA-NPT3/8\" Quick Coupler Set",
       "description": "700 bar quick-connect coupler set with NPT 3/8\" thread and 35 L/min maximum flow.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-quick-couplers-manufacturer.jpg",
+          "alt": "ToughTorq hydraulic quick coupler assembly from manufacturer catalog",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "700 Bar Quick Coupler",
         "malePart": "CH-604",
@@ -75,7 +87,13 @@
       "model": "KA-NPT1/4\"",
       "displayName": "KA-NPT1/4\" Quick Coupler Set",
       "description": "700 bar quick-connect coupler set with NPT 1/4\" thread and 7.6 L/min maximum flow.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-quick-couplers-manufacturer.jpg",
+          "alt": "ToughTorq hydraulic quick coupler assembly from manufacturer catalog",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "700 Bar Quick Coupler",
         "malePart": "AH-603",
@@ -2192,7 +2210,13 @@
       "group": "Hydraulic Accessory Family",
       "displayName": "Quick Couplers",
       "description": "700 bar quick-connect couplers for standard hydraulic tooling.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-quick-couplers-manufacturer.jpg",
+          "alt": "ToughTorq hydraulic quick coupler assembly from manufacturer catalog",
+          "type": "product"
+        }
+      ],
       "specifications": {},
       "active": true,
       "public": true,
