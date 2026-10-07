@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 import { TechnicalDownloads } from "@/components/technical-downloads";
@@ -253,12 +254,26 @@ export default function HydraulicNutsPage() {
             Hydraulic loading with mechanical retention
           </h2>
 
-          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
-            TTNM upper-locking hydraulic nuts operate at up to 21,756 psi and
-            cover M33 through M150 bolt applications. Standard configurations
-            are suitable for temperatures up to 100°C, with special seals
-            available for higher-temperature service.
-          </p>
+          <div className="mt-6 grid items-center gap-8 lg:grid-cols-[1fr_380px]">
+            <p className="max-w-3xl leading-8 text-[#555555]">
+              TTNM upper-locking hydraulic nuts operate at up to 21,756 psi and
+              cover M33 through M150 bolt applications. Standard configurations
+              are suitable for temperatures up to 100°C, with special seals
+              available for higher-temperature service.
+            </p>
+
+            {upperLocking[0]?.images[0] && (
+              <div className="flex min-h-[220px] items-center justify-center rounded-xl border border-[#dddddd] bg-[#fafafa] p-6">
+                <Image
+                  src={upperLocking[0].images[0].src}
+                  alt={upperLocking[0].images[0].alt}
+                  width={370}
+                  height={180}
+                  className="max-h-[200px] w-auto object-contain"
+                />
+              </div>
+            )}
+          </div>
 
           <UpperLockingTable models={upperLocking} />
 
@@ -292,13 +307,27 @@ export default function HydraulicNutsPage() {
             Controlled bearing installation and removal
           </h2>
 
-          <p className="mt-4 max-w-3xl leading-8 text-[#555555]">
-            TTHMV hydraulic nuts thread onto the shaft or sleeve and use
-            ultra-high hydraulic pressure to move bearings and other
-            interference-fit components. Published operating pressure is
-            10,153–21,756 psi, and every model is equipped for connection to a
-            compatible ultra-high-pressure hydraulic pump.
-          </p>
+          <div className="mt-6 grid items-center gap-8 lg:grid-cols-[1fr_340px]">
+            <p className="max-w-3xl leading-8 text-[#555555]">
+              TTHMV hydraulic nuts thread onto the shaft or sleeve and use
+              ultra-high hydraulic pressure to move bearings and other
+              interference-fit components. Published operating pressure is
+              10,153–21,756 psi, and every model is equipped for connection to a
+              compatible ultra-high-pressure hydraulic pump.
+            </p>
+
+            {bearingAssembly[0]?.images[0] && (
+              <div className="flex min-h-[250px] items-center justify-center rounded-xl border border-[#dddddd] bg-white p-6">
+                <Image
+                  src={bearingAssembly[0].images[0].src}
+                  alt={bearingAssembly[0].images[0].alt}
+                  width={285}
+                  height={240}
+                  className="max-h-[230px] w-auto object-contain"
+                />
+              </div>
+            )}
+          </div>
 
           <BearingNutTable models={bearingAssembly} />
         </div>
