@@ -1,0 +1,522 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R] /Count 11 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 14 0 R /F2 15 0 R >> >> /Contents 16 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 14 0 R /F2 15 0 R >> >> /Contents 17 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 14 0 R /F2 15 0 R >> >> /Contents 18 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 14 0 R /F2 15 0 R >> >> /Contents 19 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 14 0 R /F2 15 0 R >> >> /Contents 20 0 R >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 14 0 R /F2 15 0 R >> >> /Contents 21 0 R >>
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 14 0 R /F2 15 0 R >> >> /Contents 22 0 R >>
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 14 0 R /F2 15 0 R >> >> /Contents 23 0 R >>
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 14 0 R /F2 15 0 R >> >> /Contents 24 0 R >>
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 14 0 R /F2 15 0 R >> >> /Contents 25 0 R >>
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 14 0 R /F2 15 0 R >> >> /Contents 26 0 R >>
+endobj
+14 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+16 0 obj
+<< /Length 2229 >>
+stream
+BT
+/F1 14.5 Tf
+26 560 Td
+(ToughTorq General Purpose Single Acting - 1) Tj
+0 -22 Td
+/F1 7.6 Tf
+(Hydraulic cylinder model selection data) Tj
+0 -31 Td
+/F2 6.1 Tf
+(Model           Capacity     Pressure           Stroke      Collapsed     Extended      OD          Special              Weight     ) Tj
+0 -11 Td
+(------------------------------------------------------------------------------------------------------------------------) Tj
+0 -19 Td
+(TTRC-50         5 ton        10,153 psi         0.63 in     1.61 in       2.24 in       2.28 in     -                    2.2 lb     ) Tj
+0 -19 Td
+(TTRC-51         5 ton        10,153 psi         0.98 in     4.33 in       5.31 in       2.28 in     -                    2.2 lb     ) Tj
+0 -19 Td
+(TTRC-53         5 ton        10,153 psi         2.99 in     6.5 in        9.49 in       2.28 in     -                    3.3 lb     ) Tj
+0 -19 Td
+(TTRC-55         5 ton        10,153 psi         5 in        8.46 in       13.46 in      2.28 in     -                    4.2 lb     ) Tj
+0 -19 Td
+(TTRC-57         5 ton        10,153 psi         6.97 in     10.75 in      17.72 in      2.28 in     -                    5.3 lb     ) Tj
+0 -19 Td
+(TTRC-59         5 ton        10,153 psi         9.13 in     12.72 in      21.85 in      2.28 in     -                    6.2 lb     ) Tj
+0 -19 Td
+(TTRC-101        10 ton       10,153 psi         1.02 in     3.5 in        4.53 in       2.24 in     -                    4 lb       ) Tj
+0 -19 Td
+(TTRC-102        10 ton       10,153 psi         2.13 in     4.76 in       6.89 in       2.24 in     -                    5.1 lb     ) Tj
+0 -19 Td
+(TTRC-104        10 ton       10,153 psi         4.13 in     6.73 in       10.87 in      2.24 in     -                    7.3 lb     ) Tj
+0 -19 Td
+(TTRC-106        10 ton       10,153 psi         6.14 in     9.72 in       15.87 in      2.24 in     -                    9.7 lb     ) Tj
+0 -19 Td
+(TTRC-108        10 ton       10,153 psi         7.99 in     11.73 in      19.72 in      2.24 in     -                    11.9 lb    ) Tj
+ET
+BT
+/F1 6.6 Tf
+26 22 Td
+(ToughTorq canonical manufacturer data. Match capacity, stroke, collapsed height, pressure, return method, and all connected hydraulic components.) Tj
+ET
+endstream
+endobj
+17 0 obj
+<< /Length 2229 >>
+stream
+BT
+/F1 14.5 Tf
+26 560 Td
+(ToughTorq General Purpose Single Acting - 2) Tj
+0 -22 Td
+/F1 7.6 Tf
+(Hydraulic cylinder model selection data) Tj
+0 -31 Td
+/F2 6.1 Tf
+(Model           Capacity     Pressure           Stroke      Collapsed     Extended      OD          Special              Weight     ) Tj
+0 -11 Td
+(------------------------------------------------------------------------------------------------------------------------) Tj
+0 -19 Td
+(TTRC-1010       10 ton       10,153 psi         10.12 in    13.74 in      23.86 in      2.24 in     -                    14.1 lb    ) Tj
+0 -19 Td
+(TTRC-1012       10 ton       10,153 psi         11.97 in    15.75 in      27.72 in      2.24 in     -                    15 lb      ) Tj
+0 -19 Td
+(TTRC-1014       10 ton       10,153 psi         14.02 in    17.72 in      31.73 in      2.24 in     -                    18.1 lb    ) Tj
+0 -19 Td
+(TTRC-151        15 ton       10,153 psi         0.98 in     4.88 in       5.87 in       2.72 in     -                    7.3 lb     ) Tj
+0 -19 Td
+(TTRC-152        15 ton       10,153 psi         2.01 in     5.87 in       7.87 in       2.72 in     -                    9 lb       ) Tj
+0 -19 Td
+(TTRC-154        15 ton       10,153 psi         3.98 in     7.87 in       15.79 in      2.72 in     -                    11 lb      ) Tj
+0 -19 Td
+(TTRC-156        15 ton       10,153 psi         5.98 in     10.67 in      16.65 in      2.72 in     -                    15 lb      ) Tj
+0 -19 Td
+(TTRC-158        15 ton       10,153 psi         7.99 in     12.68 in      20.67 in      2.72 in     -                    18.1 lb    ) Tj
+0 -19 Td
+(TTRC-1510       15 ton       10,153 psi         10 in       14.69 in      24.69 in      2.72 in     -                    20.9 lb    ) Tj
+0 -19 Td
+(TTRC-1512       15 ton       10,153 psi         12.01 in    16.65 in      28.66 in      2.72 in     -                    24 lb      ) Tj
+0 -19 Td
+(TTRC-1514       15 ton       10,153 psi         14.02 in    18.66 in      32.68 in      2.72 in     -                    26 lb      ) Tj
+ET
+BT
+/F1 6.6 Tf
+26 22 Td
+(ToughTorq canonical manufacturer data. Match capacity, stroke, collapsed height, pressure, return method, and all connected hydraulic components.) Tj
+ET
+endstream
+endobj
+18 0 obj
+<< /Length 2229 >>
+stream
+BT
+/F1 14.5 Tf
+26 560 Td
+(ToughTorq General Purpose Single Acting - 3) Tj
+0 -22 Td
+/F1 7.6 Tf
+(Hydraulic cylinder model selection data) Tj
+0 -31 Td
+/F2 6.1 Tf
+(Model           Capacity     Pressure           Stroke      Collapsed     Extended      OD          Special              Weight     ) Tj
+0 -11 Td
+(------------------------------------------------------------------------------------------------------------------------) Tj
+0 -19 Td
+(TTRC-251        25 ton       10,153 psi         1.02 in     5.47 in       6.5 in        3.35 in     -                    13 lb      ) Tj
+0 -19 Td
+(TTRC-252        25 ton       10,153 psi         1.97 in     6.5 in        8.46 in       3.35 in     -                    14.1 lb    ) Tj
+0 -19 Td
+(TTRC-254        25 ton       10,153 psi         4.02 in     8.46 in       12.48 in      3.35 in     -                    18.1 lb    ) Tj
+0 -19 Td
+(TTRC-256        25 ton       10,153 psi         6.22 in     10.75 in      16.97 in      3.35 in     -                    22 lb      ) Tj
+0 -19 Td
+(TTRC-258        25 ton       10,153 psi         8.27 in     12.72 in      20.98 in      3.35 in     -                    26.9 lb    ) Tj
+0 -19 Td
+(TTRC-2510       25 ton       10,153 psi         10.28 in    14.72 in      25 in         3.35 in     -                    31.1 lb    ) Tj
+0 -19 Td
+(TTRC-2512       25 ton       10,153 psi         12.24 in    16.73 in      28.98 in      3.35 in     -                    35.9 lb    ) Tj
+0 -19 Td
+(TTRC-2514       25 ton       10,153 psi         14.25 in    18.74 in      32.99 in      3.35 in     -                    39 lb      ) Tj
+0 -19 Td
+(TTRC-308        30 ton       10,153 psi         8.23 in     15.24 in      23.46 in      3.98 in     -                    39.9 lb    ) Tj
+0 -19 Td
+(TTRC-502        50 ton       10,153 psi         2.01 in     6.93 in       8.94 in       5 in        -                    33.1 lb    ) Tj
+0 -19 Td
+(TTRC-504        50 ton       10,153 psi         3.98 in     8.94 in       12.91 in      5 in        -                    42.1 lb    ) Tj
+ET
+BT
+/F1 6.6 Tf
+26 22 Td
+(ToughTorq canonical manufacturer data. Match capacity, stroke, collapsed height, pressure, return method, and all connected hydraulic components.) Tj
+ET
+endstream
+endobj
+19 0 obj
+<< /Length 1494 >>
+stream
+BT
+/F1 14.5 Tf
+26 560 Td
+(ToughTorq General Purpose Single Acting - 4) Tj
+0 -22 Td
+/F1 7.6 Tf
+(Hydraulic cylinder model selection data) Tj
+0 -31 Td
+/F2 6.1 Tf
+(Model           Capacity     Pressure           Stroke      Collapsed     Extended      OD          Special              Weight     ) Tj
+0 -11 Td
+(------------------------------------------------------------------------------------------------------------------------) Tj
+0 -19 Td
+(TTRC-506        50 ton       10,153 psi         6.26 in     11.1 in       17.36 in      5 in        -                    50.9 lb    ) Tj
+0 -19 Td
+(TTRC-5013       50 ton       10,153 psi         13.27 in    18.11 in      31.38 in      5 in        -                    82.9 lb    ) Tj
+0 -19 Td
+(TTRC-756        75 ton       10,153 psi         6.14 in     11.22 in      17.36 in      5.75 in     -                    65 lb      ) Tj
+0 -19 Td
+(TTRC-7513       75 ton       10,153 psi         13.11 in    19.37 in      32.48 in      5.75 in     -                    130.1 lb   ) Tj
+0 -19 Td
+(TTRC-1006       100 ton      10,153 psi         6.61 in     14.06 in      20.67 in      6.97 in     -                    130.1 lb   ) Tj
+0 -19 Td
+(TTRC-10010      100 ton      10,153 psi         10.24 in    17.68 in      27.91 in      6.97 in     -                    160.1 lb   ) Tj
+ET
+BT
+/F1 6.6 Tf
+26 22 Td
+(ToughTorq canonical manufacturer data. Match capacity, stroke, collapsed height, pressure, return method, and all connected hydraulic components.) Tj
+ET
+endstream
+endobj
+20 0 obj
+<< /Length 1769 >>
+stream
+BT
+/F1 14.5 Tf
+26 560 Td
+(ToughTorq RSM Low Height) Tj
+0 -22 Td
+/F1 7.6 Tf
+(Hydraulic cylinder model selection data) Tj
+0 -31 Td
+/F2 6.1 Tf
+(Model           Capacity     Pressure           Stroke      Collapsed     Extended      OD          Special              Weight     ) Tj
+0 -11 Td
+(------------------------------------------------------------------------------------------------------------------------) Tj
+0 -19 Td
+(TTRSM-50        5 ton        10,153 psi         0.24 in     1.26 in       1.5 in        -           -                    2.2 lb     ) Tj
+0 -19 Td
+(TTRSM-100       10 ton       10,153 psi         0.47 in     1.65 in       2.13 in       -           -                    3.1 lb     ) Tj
+0 -19 Td
+(TTRSM-200       20 ton       10,153 psi         0.43 in     2.01 in       2.44 in       -           -                    6.8 lb     ) Tj
+0 -19 Td
+(TTRSM-300       30 ton       10,153 psi         0.51 in     2.28 in       2.8 in        -           -                    9.9 lb     ) Tj
+0 -19 Td
+(TTRSM-500       45 ton       10,153 psi         0.63 in     2.6 in        3.23 in       -           -                    15 lb      ) Tj
+0 -19 Td
+(TTRSM-750       75 ton       10,153 psi         0.63 in     3.11 in       3.74 in       -           -                    24.9 lb    ) Tj
+0 -19 Td
+(TTRSM-1000      100 ton      10,153 psi         0.63 in     3.35 in       3.98 in       -           -                    32 lb      ) Tj
+0 -19 Td
+(TTRSM-1500      150 ton      10,153 psi         0.63 in     3.94 in       4.57 in       -           -                    58 lb      ) Tj
+ET
+BT
+/F1 6.6 Tf
+26 22 Td
+(ToughTorq canonical manufacturer data. Match capacity, stroke, collapsed height, pressure, return method, and all connected hydraulic components.) Tj
+ET
+endstream
+endobj
+21 0 obj
+<< /Length 1328 >>
+stream
+BT
+/F1 14.5 Tf
+26 560 Td
+(ToughTorq RCS Low Height) Tj
+0 -22 Td
+/F1 7.6 Tf
+(Hydraulic cylinder model selection data) Tj
+0 -31 Td
+/F2 6.1 Tf
+(Model           Capacity     Pressure           Stroke      Collapsed     Extended      OD          Special              Weight     ) Tj
+0 -11 Td
+(------------------------------------------------------------------------------------------------------------------------) Tj
+0 -19 Td
+(TTRCS-101       10 ton       10,153 psi         1.5 in      3.46 in       4.96 in       2.72 in     -                    9 lb       ) Tj
+0 -19 Td
+(TTRCS-201       20 ton       10,153 psi         1.77 in     3.86 in       5.63 in       3.62 in     -                    11 lb      ) Tj
+0 -19 Td
+(TTRCS-302       30 ton       10,153 psi         2.44 in     4.61 in       7.05 in       3.98 in     -                    15 lb      ) Tj
+0 -19 Td
+(TTRCS-502       50 ton       10,153 psi         2.36 in     4.8 in        7.17 in       4.88 in     -                    24 lb      ) Tj
+0 -19 Td
+(TTRCS-1002      100 ton      10,153 psi         2.24 in     5.55 in       7.8 in        6.5 in      -                    50 lb      ) Tj
+ET
+BT
+/F1 6.6 Tf
+26 22 Td
+(ToughTorq canonical manufacturer data. Match capacity, stroke, collapsed height, pressure, return method, and all connected hydraulic components.) Tj
+ET
+endstream
+endobj
+22 0 obj
+<< /Length 2224 >>
+stream
+BT
+/F1 14.5 Tf
+26 560 Td
+(ToughTorq Single-Acting Hollow Plunger) Tj
+0 -22 Td
+/F1 7.6 Tf
+(Hydraulic cylinder model selection data) Tj
+0 -31 Td
+/F2 6.1 Tf
+(Model           Capacity     Pressure           Stroke      Collapsed     Extended      OD          Special              Weight     ) Tj
+0 -11 Td
+(------------------------------------------------------------------------------------------------------------------------) Tj
+0 -19 Td
+(TTRCH-120       13 ton       10,153 psi         0.31 in     2.17 in       2.48 in       2.72 in     0.77 in              3.3 lb     ) Tj
+0 -19 Td
+(TTRCH-121       13 ton       10,153 psi         1.65 in     4.72 in       6.38 in       2.72 in     0.77 in              6.2 lb     ) Tj
+0 -19 Td
+(TTRCH-1211      13 ton       10,153 psi         1.65 in     4.72 in       6.38 in       2.72 in     0.77 in              6.2 lb     ) Tj
+0 -19 Td
+(TTRCH-123       13 ton       10,153 psi         2.99 in     7.24 in       10.24 in      2.72 in     0.77 in              9.7 lb     ) Tj
+0 -19 Td
+(TTRCH-202       20 ton       10,153 psi         1.93 in     6.38 in       8.31 in       3.86 in     1.06 in              17 lb      ) Tj
+0 -19 Td
+(TTRCH-206       20 ton       10,153 psi         6.1 in      12.05 in      18.15 in      3.86 in     1.06 in              31.1 lb    ) Tj
+0 -19 Td
+(TTRCH-302       30 ton       10,153 psi         2.52 in     7.01 in       9.53 in       4.49 in     1.31 in              24 lb      ) Tj
+0 -19 Td
+(TTRCH-306       30 ton       10,153 psi         6.1 in      12.99 in      19.09 in      4.49 in     1.31 in              48.1 lb    ) Tj
+0 -19 Td
+(TTRCH-603       60 ton       10,153 psi         2.99 in     9.72 in       12.72 in      6.26 in     2.12 in              61.9 lb    ) Tj
+0 -19 Td
+(TTRCH-606       60 ton       10,153 psi         6.02 in     12.72 in      18.74 in      6.26 in     2.12 in              78 lb      ) Tj
+0 -19 Td
+(TTRCH-1003      100 ton      10,153 psi         2.99 in     10 in         12.99 in      8.35 in     3.11 in              138.9 lb   ) Tj
+ET
+BT
+/F1 6.6 Tf
+26 22 Td
+(ToughTorq canonical manufacturer data. Match capacity, stroke, collapsed height, pressure, return method, and all connected hydraulic components.) Tj
+ET
+endstream
+endobj
+23 0 obj
+<< /Length 2077 >>
+stream
+BT
+/F1 14.5 Tf
+26 560 Td
+(ToughTorq Double-Acting Hollow Plunger) Tj
+0 -22 Td
+/F1 7.6 Tf
+(Hydraulic cylinder model selection data) Tj
+0 -31 Td
+/F2 6.1 Tf
+(Model           Capacity     Pressure           Stroke      Collapsed     Extended      OD          Special              Weight     ) Tj
+0 -11 Td
+(------------------------------------------------------------------------------------------------------------------------) Tj
+0 -19 Td
+(TTRRH-307       30 ton       10,153 psi         7.01 in     12.99 in      20 in         4.49 in     1.31 in              46.3 lb    ) Tj
+0 -19 Td
+(TTRRH-3010      30 ton       10,153 psi         10.16 in    16.97 in      27.13 in      4.49 in     1.31 in              59.5 lb    ) Tj
+0 -19 Td
+(TTRRH-603       60 ton       10,153 psi         3.5 in      9.72 in       13.23 in      6.26 in     2.12 in              61.7 lb    ) Tj
+0 -19 Td
+(TTRRH-606       60 ton       10,153 psi         6.54 in     12.72 in      19.25 in      6.26 in     2.12 in              77.2 lb    ) Tj
+0 -19 Td
+(TTRRH-6010      60 ton       10,153 psi         10.12 in    17.24 in      27.36 in      6.26 in     2.12 in              99.2 lb    ) Tj
+0 -19 Td
+(TTRRH-1001      100 ton      10,153 psi         1.5 in      6.5 in        7.99 in       8.35 in     3.12 in              72.8 lb    ) Tj
+0 -19 Td
+(TTRRH-1003      100 ton      10,153 psi         2.99 in     10 in         12.99 in      8.35 in     3.12 in              134.5 lb   ) Tj
+0 -19 Td
+(TTRRH-1006      100 ton      10,153 psi         6.02 in     13.46 in      19.49 in      8.35 in     3.12 in              174.2 lb   ) Tj
+0 -19 Td
+(TTRRH-10010     100 ton      10,153 psi         10.12 in    18.11 in      28.23 in      8.35 in     3.12 in              233.7 lb   ) Tj
+0 -19 Td
+(TTRRH-1508      150 ton      10,153 psi         7.99 in     13.74 in      21.73 in      9.72 in     3.12 in              244.7 lb   ) Tj
+ET
+BT
+/F1 6.6 Tf
+26 22 Td
+(ToughTorq canonical manufacturer data. Match capacity, stroke, collapsed height, pressure, return method, and all connected hydraulic components.) Tj
+ET
+endstream
+endobj
+24 0 obj
+<< /Length 1822 >>
+stream
+BT
+/F1 14.5 Tf
+26 560 Td
+(ToughTorq Ultra Low Height 1500 Bar) Tj
+0 -22 Td
+/F1 7.6 Tf
+(Ultra-low-height cylinders with published 1,500 bar / 21,756 psi working pressure) Tj
+0 -31 Td
+/F2 6.1 Tf
+(Model           Capacity     Pressure           Stroke      Collapsed     Extended      OD          Special              Weight     ) Tj
+0 -11 Td
+(------------------------------------------------------------------------------------------------------------------------) Tj
+0 -19 Td
+(TTTC-00510      5 ton        21,756 psi         0.39 in     1.18 in       1.57 in       2.36 in     -                    7.9 lb     ) Tj
+0 -19 Td
+(TTTC-01010      10 ton       21,756 psi         0.39 in     1.18 in       1.57 in       2.76 in     -                    9 lb       ) Tj
+0 -19 Td
+(TTTC-02510      25 ton       21,756 psi         0.39 in     1.18 in       1.57 in       3.54 in     -                    10.1 lb    ) Tj
+0 -19 Td
+(TTTC-05510      50 ton       21,756 psi         0.39 in     1.18 in       1.57 in       4.53 in     -                    9.9 lb     ) Tj
+0 -19 Td
+(TTTC-10010      100 ton      21,756 psi         0.39 in     1.18 in       1.57 in       5.67 in     -                    11.5 lb    ) Tj
+0 -19 Td
+(TTTC-12010      120 ton      21,756 psi         0.39 in     1.18 in       1.57 in       6.3 in      -                    13 lb      ) Tj
+0 -19 Td
+(TTTC-15010      150 ton      21,756 psi         0.39 in     1.22 in       1.61 in       6.93 in     -                    18.7 lb    ) Tj
+0 -19 Td
+(TTTC-20010      200 ton      21,756 psi         0.39 in     1.26 in       1.65 in       8.03 in     -                    20.9 lb    ) Tj
+ET
+BT
+/F1 6.6 Tf
+26 22 Td
+(ToughTorq canonical manufacturer data. Match capacity, stroke, collapsed height, pressure, return method, and all connected hydraulic components.) Tj
+ET
+endstream
+endobj
+25 0 obj
+<< /Length 1624 >>
+stream
+BT
+/F1 14.5 Tf
+26 560 Td
+(ToughTorq Pancake Lock Nut) Tj
+0 -22 Td
+/F1 7.6 Tf
+(Hydraulic cylinder model selection data) Tj
+0 -31 Td
+/F2 6.1 Tf
+(Model           Capacity     Pressure           Stroke      Collapsed     Extended      OD          Special              Weight     ) Tj
+0 -11 Td
+(------------------------------------------------------------------------------------------------------------------------) Tj
+0 -19 Td
+(TTCLP-602       60 ton       10,153 psi         1.97 in     4.92 in       6.89 in       5.51 in     Mechanical lock nut  33.1 lb    ) Tj
+0 -19 Td
+(TTCLP-1002      100 ton      10,153 psi         1.97 in     5.39 in       7.36 in       6.89 in     Mechanical lock nut  57.3 lb    ) Tj
+0 -19 Td
+(TTCLP-1602      160 ton      10,153 psi         1.77 in     5.83 in       7.6 in        8.66 in     Mechanical lock nut  97 lb      ) Tj
+0 -19 Td
+(TTCLP-2002      200 ton      10,153 psi         1.77 in     6.1 in        7.87 in       9.65 in     Mechanical lock nut  125.7 lb   ) Tj
+0 -19 Td
+(TTCLP-2502      260 ton      10,153 psi         1.77 in     6.26 in       8.03 in       10.83 in    Mechanical lock nut  163.1 lb   ) Tj
+0 -19 Td
+(TTCLP-4002      400 ton      10,153 psi         1.77 in     7.01 in       8.78 in       13.78 in    Mechanical lock nut  295.4 lb   ) Tj
+0 -19 Td
+(TTCLP-5002      520 ton      10,153 psi         1.77 in     7.56 in       9.33 in       15.75 in    Mechanical lock nut  416.7 lb   ) Tj
+ET
+BT
+/F1 6.6 Tf
+26 22 Td
+(ToughTorq canonical manufacturer data. Match capacity, stroke, collapsed height, pressure, return method, and all connected hydraulic components.) Tj
+ET
+endstream
+endobj
+26 0 obj
+<< /Length 1301 >>
+stream
+BT
+/F1 15 Tf
+30 560 Td
+(ToughTorq Hydraulic Cylinder Selection) Tj
+0 -22 Td
+/F1 8 Tf
+(Select the complete cylinder and hydraulic system around the load and available space) Tj
+0 -34 Td
+/F1 9 Tf
+0 -20 Td
+(Confirm required lifting/pushing/pulling capacity and apply the appropriate engineering safety factor.) Tj
+0 -20 Td
+(Confirm stroke, collapsed height, extended height, outside diameter, and available working clearance.) Tj
+0 -20 Td
+(Select single-acting, double-acting, hollow-plunger, low-height, or lock-nut configuration as required.) Tj
+0 -20 Td
+(Hollow-plunger models add a center-hole requirement for tensioning, pulling, or pass-through applications.) Tj
+0 -20 Td
+(Lock-nut cylinders provide mechanical load-holding capability where published.) Tj
+0 -20 Td
+(Ultra-low-height 1500 bar models require hydraulic components rated for their published system pressure.) Tj
+0 -20 Td
+(Match pump, hose, couplers, gauge, control valves, and fittings to the selected cylinder pressure and connections.) Tj
+0 -20 Td
+(Avoid unsupported side loading unless the selected cylinder explicitly publishes a side-load capability.) Tj
+ET
+BT
+/F1 6.8 Tf
+30 23 Td
+(Selection guidance is derived from the canonical ToughTorq cylinder family. Confirm application-specific loading and hydraulic requirements.) Tj
+ET
+endstream
+endobj
+xref
+0 27
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000180 00000 n 
+0000000319 00000 n 
+0000000458 00000 n 
+0000000597 00000 n 
+0000000736 00000 n 
+0000000875 00000 n 
+0000001014 00000 n 
+0000001153 00000 n 
+0000001293 00000 n 
+0000001433 00000 n 
+0000001573 00000 n 
+0000001713 00000 n 
+0000001784 00000 n 
+0000001853 00000 n 
+0000004134 00000 n 
+0000006415 00000 n 
+0000008696 00000 n 
+0000010242 00000 n 
+0000012063 00000 n 
+0000013443 00000 n 
+0000015719 00000 n 
+0000017848 00000 n 
+0000019722 00000 n 
+0000021398 00000 n 
+trailer
+<< /Size 27 /Root 1 0 R >>
+startxref
+22751
+%%EOF
