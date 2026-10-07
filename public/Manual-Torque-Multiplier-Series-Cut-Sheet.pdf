@@ -1,0 +1,189 @@
+%PDF-1.4
+% ToughTorq manual torque multiplier technical sheet
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 10098 >>
+stream
+1 1 1 rg 0 0 792 612 re f
+0.40 0.40 0.40 rg BT /F2 22 Tf 1 0 0 1 36 568 Tm (TOUGH) Tj ET
+0.93 0.11 0.14 rg BT /F2 22 Tf 1 0 0 1 104 568 Tm (TORQ) Tj ET
+0.25 0.27 0.28 rg BT /F2 10 Tf 1 0 0 1 530 570 Tm (MANUAL TORQUE MULTIPLIERS) Tj ET
+0.93 0.11 0.14 RG 2 w 36 556 m 756 556 l S
+0.25 0.27 0.28 rg BT /F2 25 Tf 1 0 0 1 36 522 Tm (Manual Torque Multiplier Series) Tj ET
+0.40 0.40 0.40 rg BT /F1 10 Tf 1 0 0 1 36 503 Tm (Planetary mechanical torque multiplication for high-output industrial bolting.) Tj ET
+0.25 0.27 0.28 rg BT /F2 11 Tf 1 0 0 1 36 468 Tm (Z Type - compact confined-space multiplier) Tj ET
+0.25 0.27 0.28 rg 36 438 602 20 re f
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 40 445 Tm (Model) Tj ET
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 150 445 Tm (Max Torque) Tj ET
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 235 445 Tm (Nut A/F) Tj ET
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 313 445 Tm (Bolt Dia.) Tj ET
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 388 445 Tm (Ratio) Tj ET
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 460 445 Tm (Input) Tj ET
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 518 445 Tm (Output) Tj ET
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 580 445 Tm (Weight) Tj ET
+0.93 0.11 0.14 rg BT /F2 6.4 Tf 1 0 0 1 40 425 Tm (TTM10W-4.5) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 150 425 Tm (738 ft-lb) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 235 425 Tm (S30-46) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 313 425 Tm (M20-30) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 388 425 Tm (4.5:1) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 460 425 Tm (1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 518 425 Tm (1 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 580 425 Tm (5.7 lb) Tj ET
+0.96 0.96 0.96 rg 36 398 602 20 re f
+0.93 0.11 0.14 rg BT /F2 6.4 Tf 1 0 0 1 40 405 Tm (TTM20W-12) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 150 405 Tm (1,475 ft-lb) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 235 405 Tm (S32-55) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 313 405 Tm (M22-36) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 388 405 Tm (12:1) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 460 405 Tm (1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 518 405 Tm (1 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 580 405 Tm (8.6 lb) Tj ET
+0.93 0.11 0.14 rg BT /F2 6.4 Tf 1 0 0 1 40 385 Tm (TTM35W-15) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 150 385 Tm (2,581 ft-lb) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 235 385 Tm (S46-70) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 313 385 Tm (M30-45) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 388 385 Tm (15:1) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 460 385 Tm (1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 518 385 Tm (1 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 580 385 Tm (12.1 lb) Tj ET
+0.96 0.96 0.96 rg 36 358 602 20 re f
+0.93 0.11 0.14 rg BT /F2 6.4 Tf 1 0 0 1 40 365 Tm (TTM55W-18.5) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 150 365 Tm (4,057 ft-lb) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 235 365 Tm (S55-80) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 313 365 Tm (M36-52) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 388 365 Tm (18.5:1) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 460 365 Tm (1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 518 365 Tm (1-1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 580 365 Tm (16.5 lb) Tj ET
+0.93 0.11 0.14 rg BT /F2 6.4 Tf 1 0 0 1 40 345 Tm (TTM75W-20) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 150 345 Tm (5,532 ft-lb) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 235 345 Tm (S65-90) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 313 345 Tm (M42-60) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 388 345 Tm (20:1) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 460 345 Tm (1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 518 345 Tm (1-1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 580 345 Tm (22 lb) Tj ET
+0.96 0.96 0.96 rg 36 318 602 20 re f
+0.93 0.11 0.14 rg BT /F2 6.4 Tf 1 0 0 1 40 325 Tm (TTM100W-26.5) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 150 325 Tm (7,376 ft-lb) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 235 325 Tm (S80-105) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 313 325 Tm (M52-72) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 388 325 Tm (26.5:1) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 460 325 Tm (1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 518 325 Tm (1-1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 580 325 Tm (37.5 lb) Tj ET
+0.25 0.27 0.28 rg BT /F2 11 Tf 1 0 0 1 36 280 Tm (L Type - offset multiplier geometry) Tj ET
+0.25 0.27 0.28 rg 36 250 602 20 re f
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 40 257 Tm (Model) Tj ET
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 150 257 Tm (Max Torque) Tj ET
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 235 257 Tm (Nut A/F) Tj ET
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 313 257 Tm (Bolt Dia.) Tj ET
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 388 257 Tm (Ratio) Tj ET
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 460 257 Tm (Input) Tj ET
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 518 257 Tm (Output) Tj ET
+1 1 1 rg BT /F2 6.4 Tf 1 0 0 1 580 257 Tm (Weight) Tj ET
+0.93 0.11 0.14 rg BT /F2 6.4 Tf 1 0 0 1 40 237 Tm (TTM10F-5) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 150 237 Tm (738 ft-lb) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 235 237 Tm (S30-46) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 313 237 Tm (M20-30) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 388 237 Tm (5:1) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 460 237 Tm (1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 518 237 Tm (1 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 580 237 Tm (5.7 lb) Tj ET
+0.96 0.96 0.96 rg 36 210 602 20 re f
+0.93 0.11 0.14 rg BT /F2 6.4 Tf 1 0 0 1 40 217 Tm (TTM20F-13.3) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 150 217 Tm (1,475 ft-lb) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 235 217 Tm (S32-55) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 313 217 Tm (M22-36) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 388 217 Tm (13.3:1) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 460 217 Tm (1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 518 217 Tm (1 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 580 217 Tm (8.6 lb) Tj ET
+0.93 0.11 0.14 rg BT /F2 6.4 Tf 1 0 0 1 40 197 Tm (TTM35F-16) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 150 197 Tm (2,581 ft-lb) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 235 197 Tm (S46-70) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 313 197 Tm (M30-45) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 388 197 Tm (16:1) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 460 197 Tm (1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 518 197 Tm (1 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 580 197 Tm (12.1 lb) Tj ET
+0.96 0.96 0.96 rg 36 170 602 20 re f
+0.93 0.11 0.14 rg BT /F2 6.4 Tf 1 0 0 1 40 177 Tm (TTM55F-21.5) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 150 177 Tm (4,057 ft-lb) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 235 177 Tm (S55-80) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 313 177 Tm (M36-52) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 388 177 Tm (21.5:1) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 460 177 Tm (1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 518 177 Tm (1-1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 580 177 Tm (16.5 lb) Tj ET
+0.93 0.11 0.14 rg BT /F2 6.4 Tf 1 0 0 1 40 157 Tm (TTM75F-24) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 150 157 Tm (5,532 ft-lb) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 235 157 Tm (S65-90) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 313 157 Tm (M42-60) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 388 157 Tm (24:1) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 460 157 Tm (1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 518 157 Tm (1-1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 580 157 Tm (22 lb) Tj ET
+0.96 0.96 0.96 rg 36 130 602 20 re f
+0.93 0.11 0.14 rg BT /F2 6.4 Tf 1 0 0 1 40 137 Tm (TTM100F-32) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 150 137 Tm (7,376 ft-lb) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 235 137 Tm (S80-105) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 313 137 Tm (M52-72) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 388 137 Tm (32:1) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 460 137 Tm (1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 518 137 Tm (1-1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 580 137 Tm (37.5 lb) Tj ET
+0.93 0.11 0.14 rg BT /F2 6.4 Tf 1 0 0 1 40 117 Tm (TTM150F-50) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 150 117 Tm (11,063 ft-lb) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 235 117 Tm (S90-115) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 313 117 Tm (M60-80) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 388 117 Tm (50:1) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 460 117 Tm (1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 518 117 Tm (2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 580 117 Tm (55.1 lb) Tj ET
+0.96 0.96 0.96 rg 36 90 602 20 re f
+0.93 0.11 0.14 rg BT /F2 6.4 Tf 1 0 0 1 40 97 Tm (TTM200F-72) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 150 97 Tm (14,751 ft-lb) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 235 97 Tm (S105-135) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 313 97 Tm (M72-95) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 388 97 Tm (72:1) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 460 97 Tm (1/2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 518 97 Tm (2 in) Tj ET
+0.25 0.27 0.28 rg BT /F1 6.4 Tf 1 0 0 1 580 97 Tm (68.3 lb) Tj ET
+0.25 0.27 0.28 rg BT /F2 9.5 Tf 1 0 0 1 36 82 Tm (Selection) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.2 Tf 1 0 0 1 42 66 Tm (Match required output torque, available input torque, fastener size, square drive, and reaction point.) Tj ET
+0.25 0.27 0.28 rg BT /F2 9.5 Tf 1 0 0 1 36 48 Tm (Accessories) Tj ET
+0.40 0.40 0.40 rg BT /F1 7.2 Tf 1 0 0 1 42 33 Tm (Input torque wrench | Impact-rated sockets | Reaction equipment | Storage and transport accessories) Tj ET
+0.85 0.85 0.85 RG 0.5 w 36 19 m 756 19 l S
+0.40 0.40 0.40 rg BT /F1 7 Tf 1 0 0 1 36 7 Tm (TOUGHTORQ.COM) Tj ET
+0.40 0.40 0.40 rg BT /F1 7 Tf 1 0 0 1 585 7 Tm (Catalog 2026.10 | Manufacturer technical reference) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000062 00000 n 
+0000000111 00000 n 
+0000000168 00000 n 
+0000000304 00000 n 
+0000000374 00000 n 
+0000000449 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+10599
+%%EOF

@@ -5,7 +5,18 @@
   "displayName": "Manual Torque Multipliers",
   "shortDescription": "High-output mechanical torque multiplication for industrial bolting without external power.",
   "longDescription": "ToughTorq manual torque multipliers use planetary gearing to increase operator input torque for large fasteners and high-output bolting. Z Type models prioritize compact confined-space use, while L Type models provide offset geometry for applications where access and reaction clearance are limited.",
-  "images": [],
+  "images": [
+    {
+      "src": "/manual-torque-multiplier-z-type.svg",
+      "alt": "ToughTorq Z Type manual torque multiplier",
+      "type": "product"
+    },
+    {
+      "src": "/manual-torque-multiplier-l-type.svg",
+      "alt": "ToughTorq L Type manual torque multiplier",
+      "type": "product"
+    }
+  ],
   "features": [
     "Planetary gear train multiplies torque output",
     "Manual operation without hydraulic, pneumatic, or electric power",
@@ -31,7 +42,13 @@
       "model": "TTM10W-4.5",
       "displayName": "TTM10W-4.5 Z Type Manual Torque Multiplier",
       "description": "Z Type manual torque multiplier with 4.5:1 mechanical ratio and maximum output torque of 738 ft-lb.",
-      "images": [],
+      "images": [
+        {
+          "src": "/manual-torque-multiplier-z-type.svg",
+          "alt": "ToughTorq TTM10W-4.5 Z Type manual torque multiplier",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Z Type",
         "maxTorqueFtLb": 738,
@@ -88,7 +105,13 @@
       "model": "TTM20W-12",
       "displayName": "TTM20W-12 Z Type Manual Torque Multiplier",
       "description": "Z Type manual torque multiplier with 12:1 mechanical ratio and maximum output torque of 1,475 ft-lb.",
-      "images": [],
+      "images": [
+        {
+          "src": "/manual-torque-multiplier-z-type.svg",
+          "alt": "ToughTorq TTM20W-12 Z Type manual torque multiplier",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Z Type",
         "maxTorqueFtLb": 1475,
@@ -145,7 +168,13 @@
       "model": "TTM35W-15",
       "displayName": "TTM35W-15 Z Type Manual Torque Multiplier",
       "description": "Z Type manual torque multiplier with 15:1 mechanical ratio and maximum output torque of 2,581 ft-lb.",
-      "images": [],
+      "images": [
+        {
+          "src": "/manual-torque-multiplier-z-type.svg",
+          "alt": "ToughTorq TTM35W-15 Z Type manual torque multiplier",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Z Type",
         "maxTorqueFtLb": 2581,
@@ -202,7 +231,13 @@
       "model": "TTM55W-18.5",
       "displayName": "TTM55W-18.5 Z Type Manual Torque Multiplier",
       "description": "Z Type manual torque multiplier with 18.5:1 mechanical ratio and maximum output torque of 4,057 ft-lb.",
-      "images": [],
+      "images": [
+        {
+          "src": "/manual-torque-multiplier-z-type.svg",
+          "alt": "ToughTorq TTM55W-18.5 Z Type manual torque multiplier",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Z Type",
         "maxTorqueFtLb": 4057,
@@ -259,7 +294,13 @@
       "model": "TTM75W-20",
       "displayName": "TTM75W-20 Z Type Manual Torque Multiplier",
       "description": "Z Type manual torque multiplier with 20:1 mechanical ratio and maximum output torque of 5,532 ft-lb.",
-      "images": [],
+      "images": [
+        {
+          "src": "/manual-torque-multiplier-z-type.svg",
+          "alt": "ToughTorq TTM75W-20 Z Type manual torque multiplier",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Z Type",
         "maxTorqueFtLb": 5532,
@@ -316,7 +357,13 @@
       "model": "TTM100W-26.5",
       "displayName": "TTM100W-26.5 Z Type Manual Torque Multiplier",
       "description": "Z Type manual torque multiplier with 26.5:1 mechanical ratio and maximum output torque of 7,376 ft-lb.",
-      "images": [],
+      "images": [
+        {
+          "src": "/manual-torque-multiplier-z-type.svg",
+          "alt": "ToughTorq TTM100W-26.5 Z Type manual torque multiplier",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Z Type",
         "maxTorqueFtLb": 7376,
@@ -373,7 +420,13 @@
       "model": "TTM10F-5",
       "displayName": "TTM10F-5 L Type Manual Torque Multiplier",
       "description": "L Type manual torque multiplier with 5:1 mechanical ratio and maximum output torque of 738 ft-lb.",
-      "images": [],
+      "images": [
+        {
+          "src": "/manual-torque-multiplier-l-type.svg",
+          "alt": "ToughTorq TTM10F-5 L Type manual torque multiplier",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "L Type",
         "maxTorqueFtLb": 738,
@@ -430,7 +483,13 @@
       "model": "TTM20F-13.3",
       "displayName": "TTM20F-13.3 L Type Manual Torque Multiplier",
       "description": "L Type manual torque multiplier with 13.3:1 mechanical ratio and maximum output torque of 1,475 ft-lb.",
-      "images": [],
+      "images": [
+        {
+          "src": "/manual-torque-multiplier-l-type.svg",
+          "alt": "ToughTorq TTM20F-13.3 L Type manual torque multiplier",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "L Type",
         "maxTorqueFtLb": 1475,
@@ -487,7 +546,13 @@
       "model": "TTM35F-16",
       "displayName": "TTM35F-16 L Type Manual Torque Multiplier",
       "description": "L Type manual torque multiplier with 16:1 mechanical ratio and maximum output torque of 2,581 ft-lb.",
-      "images": [],
+      "images": [
+        {
+          "src": "/manual-torque-multiplier-l-type.svg",
+          "alt": "ToughTorq TTM35F-16 L Type manual torque multiplier",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "L Type",
         "maxTorqueFtLb": 2581,
@@ -544,7 +609,13 @@
       "model": "TTM55F-21.5",
       "displayName": "TTM55F-21.5 L Type Manual Torque Multiplier",
       "description": "L Type manual torque multiplier with 21.5:1 mechanical ratio and maximum output torque of 4,057 ft-lb.",
-      "images": [],
+      "images": [
+        {
+          "src": "/manual-torque-multiplier-l-type.svg",
+          "alt": "ToughTorq TTM55F-21.5 L Type manual torque multiplier",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "L Type",
         "maxTorqueFtLb": 4057,
@@ -601,7 +672,13 @@
       "model": "TTM75F-24",
       "displayName": "TTM75F-24 L Type Manual Torque Multiplier",
       "description": "L Type manual torque multiplier with 24:1 mechanical ratio and maximum output torque of 5,532 ft-lb.",
-      "images": [],
+      "images": [
+        {
+          "src": "/manual-torque-multiplier-l-type.svg",
+          "alt": "ToughTorq TTM75F-24 L Type manual torque multiplier",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "L Type",
         "maxTorqueFtLb": 5532,
@@ -658,7 +735,13 @@
       "model": "TTM100F-32",
       "displayName": "TTM100F-32 L Type Manual Torque Multiplier",
       "description": "L Type manual torque multiplier with 32:1 mechanical ratio and maximum output torque of 7,376 ft-lb.",
-      "images": [],
+      "images": [
+        {
+          "src": "/manual-torque-multiplier-l-type.svg",
+          "alt": "ToughTorq TTM100F-32 L Type manual torque multiplier",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "L Type",
         "maxTorqueFtLb": 7376,
@@ -715,7 +798,13 @@
       "model": "TTM150F-50",
       "displayName": "TTM150F-50 L Type Manual Torque Multiplier",
       "description": "L Type manual torque multiplier with 50:1 mechanical ratio and maximum output torque of 11,063 ft-lb.",
-      "images": [],
+      "images": [
+        {
+          "src": "/manual-torque-multiplier-l-type.svg",
+          "alt": "ToughTorq TTM150F-50 L Type manual torque multiplier",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "L Type",
         "maxTorqueFtLb": 11063,
@@ -772,7 +861,13 @@
       "model": "TTM200F-72",
       "displayName": "TTM200F-72 L Type Manual Torque Multiplier",
       "description": "L Type manual torque multiplier with 72:1 mechanical ratio and maximum output torque of 14,751 ft-lb.",
-      "images": [],
+      "images": [
+        {
+          "src": "/manual-torque-multiplier-l-type.svg",
+          "alt": "ToughTorq TTM200F-72 L Type manual torque multiplier",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "L Type",
         "maxTorqueFtLb": 14751,
@@ -843,7 +938,14 @@
     "Input and output square drives must match the selected wrench, sockets, and application.",
     "Reaction equipment must be positioned against a suitable reaction point."
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "Manual Torque Multiplier Series Cutsheet",
+      "href": "/Manual-Torque-Multiplier-Series-Cut-Sheet.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
