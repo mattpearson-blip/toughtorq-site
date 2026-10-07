@@ -5,7 +5,18 @@
   "displayName": "Hydraulic Torque Pumps",
   "shortDescription": "Battery, electric, and pneumatic hydraulic power units for ToughTorq torque wrench systems.",
   "longDescription": "ToughTorq hydraulic torque pumps provide portable battery power, electric high-flow operation, and pneumatic power for controlled torque wrench applications. Model selection should account for pressure, flow, reservoir capacity, available power source, connected tools, and required duty cycle.",
-  "images": [],
+  "images": [
+    {
+      "src": "/hydraulic-torque-pump-electric.webp",
+      "alt": "ToughTorq electric hydraulic torque pump",
+      "type": "product"
+    },
+    {
+      "src": "/hydraulic-torque-pump-pneumatic.webp",
+      "alt": "ToughTorq KAT-3000 pneumatic hydraulic torque pump",
+      "type": "product"
+    }
+  ],
   "features": [
     "Hydraulic power options for field, plant, and shutdown bolting work",
     "Battery, electric, and pneumatic power sources",
@@ -132,7 +143,13 @@
       "model": "KLW-2000",
       "displayName": "KLW-2000 Electric Torque Pump",
       "description": "Two-stage electric hydraulic torque pump with air cooling and a 5 L reservoir.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-torque-pump-electric.webp",
+          "alt": "ToughTorq KLW-2000 electric hydraulic torque pump",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "powerSource": "Electric",
         "flowStage1LMin": 7,
@@ -193,7 +210,13 @@
       "model": "KLW-3000",
       "displayName": "KLW-3000 Electric Torque Pump",
       "description": "Three-stage electric hydraulic torque pump with air cooling and an 8 L reservoir.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-torque-pump-electric.webp",
+          "alt": "ToughTorq KLW-3000 electric hydraulic torque pump",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "powerSource": "Electric",
         "flowStage1LMin": 7,
@@ -255,7 +278,13 @@
       "model": "KAT-3000",
       "displayName": "KAT-3000 Pneumatic Torque Pump",
       "description": "Pneumatic hydraulic torque pump with adjustable output pressure and three-stage flow for industrial bolting environments.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-torque-pump-pneumatic.webp",
+          "alt": "ToughTorq KAT-3000 pneumatic hydraulic torque pump",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "powerSource": "Pneumatic",
         "minPressureBar": 40,
