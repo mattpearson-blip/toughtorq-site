@@ -5,7 +5,18 @@
   "displayName": "Hydraulic Nuts",
   "shortDescription": "Upper-locking and bearing-assembly hydraulic nuts for controlled axial loading, retention, installation, and removal.",
   "longDescription": "ToughTorq hydraulic nuts use hydraulic pressure to apply controlled axial force for large-fastener loading and bearing installation or removal. The range includes upper-locking hydraulic nuts for mechanically retained load and ultra-high-pressure bearing-assembly nuts for shafts, tapered seats, bushings, flywheels, propellers, and rotating-equipment maintenance.",
-  "images": [],
+  "images": [
+    {
+      "src": "/hydraulic-nut-upper-locking.webp",
+      "alt": "ToughTorq upper-locking hydraulic nuts",
+      "type": "product"
+    },
+    {
+      "src": "/hydraulic-nut-bearing-assembly.webp",
+      "alt": "ToughTorq hydraulic nut for bearing assembly and removal",
+      "type": "product"
+    }
+  ],
   "features": [
     "Controlled axial loading through hydraulic pressure",
     "Upper-locking models mechanically retain load after pressurization",
@@ -32,7 +43,13 @@
       "model": "TTNM-M33",
       "displayName": "TTNM-M33 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M33 applications with maximum hydraulic load of 48,559 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M33 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M33",
@@ -105,7 +122,13 @@
       "model": "TTNM-M36",
       "displayName": "TTNM-M36 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M36 applications with maximum hydraulic load of 55,303 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M36 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M36",
@@ -178,7 +201,13 @@
       "model": "TTNM-M39",
       "displayName": "TTNM-M39 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M39 applications with maximum hydraulic load of 66,543 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M39 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M39",
@@ -251,7 +280,13 @@
       "model": "TTNM-M42",
       "displayName": "TTNM-M42 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M42 applications with maximum hydraulic load of 76,435 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M42 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M42",
@@ -324,7 +359,13 @@
       "model": "TTNM-M45",
       "displayName": "TTNM-M45 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M45 applications with maximum hydraulic load of 91,272 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M45 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M45",
@@ -397,7 +438,13 @@
       "model": "TTNM-M48",
       "displayName": "TTNM-M48 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M48 applications with maximum hydraulic load of 102,738 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M48 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M48",
@@ -470,7 +517,13 @@
       "model": "TTNM-M52",
       "displayName": "TTNM-M52 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M52 applications with maximum hydraulic load of 124,319 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M52 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M52",
@@ -543,7 +596,13 @@
       "model": "TTNM-M56",
       "displayName": "TTNM-M56 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M56 applications with maximum hydraulic load of 147,475 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M56 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M56",
@@ -616,7 +675,13 @@
       "model": "TTNM-M64",
       "displayName": "TTNM-M64 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M64 applications with maximum hydraulic load of 183,669 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M64 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M64",
@@ -689,7 +754,13 @@
       "model": "TTNM-M68",
       "displayName": "TTNM-M68 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M68 applications with maximum hydraulic load of 226,607 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M68 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M68",
@@ -762,7 +833,13 @@
       "model": "TTNM-M72",
       "displayName": "TTNM-M72 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M72 applications with maximum hydraulic load of 236,274 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M72 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M72",
@@ -835,7 +912,13 @@
       "model": "TTNM-M80",
       "displayName": "TTNM-M80 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M80 applications with maximum hydraulic load of 327,996 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M80 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M80",
@@ -908,7 +991,13 @@
       "model": "TTNM-M90",
       "displayName": "TTNM-M90 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M90 applications with maximum hydraulic load of 388,245 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M90 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M90",
@@ -981,7 +1070,13 @@
       "model": "TTNM-M95",
       "displayName": "TTNM-M95 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M95 applications with maximum hydraulic load of 441,750 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M95 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M95",
@@ -1054,7 +1149,13 @@
       "model": "TTNM-M100",
       "displayName": "TTNM-M100 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M100 applications with maximum hydraulic load of 501,998 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M100 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M100",
@@ -1127,7 +1228,13 @@
       "model": "TTNM-M110",
       "displayName": "TTNM-M110 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M110 applications with maximum hydraulic load of 604,286 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M110 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M110",
@@ -1200,7 +1307,13 @@
       "model": "TTNM-M125",
       "displayName": "TTNM-M125 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M125 applications with maximum hydraulic load of 817,405 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M125 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M125",
@@ -1273,7 +1386,13 @@
       "model": "TTNM-M140",
       "displayName": "TTNM-M140 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M140 applications with maximum hydraulic load of 982,640 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M140 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M140",
@@ -1346,7 +1465,13 @@
       "model": "TTNM-M150",
       "displayName": "TTNM-M150 Upper-Locking Hydraulic Nut",
       "description": "Upper-locking hydraulic nut for M150 applications with maximum hydraulic load of 1,184,294 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-upper-locking.webp",
+          "alt": "ToughTorq TTNM-M150 upper locking hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Upper Locking",
         "boltDiameter": "M150",
@@ -1419,7 +1544,13 @@
       "model": "TTHMV-10E",
       "displayName": "TTHMV-10E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M50x1.5 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-10E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M50x1.5",
@@ -1505,7 +1636,13 @@
       "model": "TTHMV-12E",
       "displayName": "TTHMV-12E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M60x2 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-12E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M60x2",
@@ -1591,7 +1728,13 @@
       "model": "TTHMV-14E",
       "displayName": "TTHMV-14E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M70x2 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-14E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M70x2",
@@ -1677,7 +1820,13 @@
       "model": "TTHMV-16E",
       "displayName": "TTHMV-16E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M80x2 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-16E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M80x2",
@@ -1763,7 +1912,13 @@
       "model": "TTHMV-18E",
       "displayName": "TTHMV-18E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M90x2 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-18E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M90x2",
@@ -1849,7 +2004,13 @@
       "model": "TTHMV-20E",
       "displayName": "TTHMV-20E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M100x2 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-20E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M100x2",
@@ -1935,7 +2096,13 @@
       "model": "TTHMV-22E",
       "displayName": "TTHMV-22E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M110x2 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-22E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M110x2",
@@ -2021,7 +2188,13 @@
       "model": "TTHMV-24E",
       "displayName": "TTHMV-24E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M120x2 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-24E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M120x2",
@@ -2107,7 +2280,13 @@
       "model": "TTHMV-26E",
       "displayName": "TTHMV-26E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M130x2 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-26E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M130x2",
@@ -2193,7 +2372,13 @@
       "model": "TTHMV-28E",
       "displayName": "TTHMV-28E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M140x2 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-28E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M140x2",
@@ -2279,7 +2464,13 @@
       "model": "TTHMV-30E",
       "displayName": "TTHMV-30E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M150x2 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-30E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M150x2",
@@ -2365,7 +2556,13 @@
       "model": "TTHMV-32E",
       "displayName": "TTHMV-32E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M160x3 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-32E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M160x3",
@@ -2451,7 +2648,13 @@
       "model": "TTHMV-34E",
       "displayName": "TTHMV-34E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M170x3 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-34E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M170x3",
@@ -2537,7 +2740,13 @@
       "model": "TTHMV-36E",
       "displayName": "TTHMV-36E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M180x3 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-36E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M180x3",
@@ -2623,7 +2832,13 @@
       "model": "TTHMV-38E",
       "displayName": "TTHMV-38E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M190x3 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-38E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M190x3",
@@ -2709,7 +2924,13 @@
       "model": "TTHMV-40E",
       "displayName": "TTHMV-40E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with M200x3 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-40E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "M200x3",
@@ -2795,7 +3016,13 @@
       "model": "TTHMV-42E",
       "displayName": "TTHMV-42E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with Tr210x4 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-42E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "Tr210x4",
@@ -2881,7 +3108,13 @@
       "model": "TTHMV-44E",
       "displayName": "TTHMV-44E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with Tr220x4 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-44E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "Tr220x4",
@@ -2967,7 +3200,13 @@
       "model": "TTHMV-46E",
       "displayName": "TTHMV-46E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with Tr230x4 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-46E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "Tr230x4",
@@ -3053,7 +3292,13 @@
       "model": "TTHMV-50E",
       "displayName": "TTHMV-50E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with Tr250x4 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-50E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "Tr250x4",
@@ -3139,7 +3384,13 @@
       "model": "TTHMV-56E",
       "displayName": "TTHMV-56E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with Tr280x4 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-56E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "Tr280x4",
@@ -3225,7 +3476,13 @@
       "model": "TTHMV-60E",
       "displayName": "TTHMV-60E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with Tr300x4 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-60E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "Tr300x4",
@@ -3311,7 +3568,13 @@
       "model": "TTHMV-68E",
       "displayName": "TTHMV-68E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with Tr340x5 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-68E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "Tr340x5",
@@ -3397,7 +3660,13 @@
       "model": "TTHMV-76E",
       "displayName": "TTHMV-76E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with Tr380x5 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-76E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "Tr380x5",
@@ -3483,7 +3752,13 @@
       "model": "TTHMV-80E",
       "displayName": "TTHMV-80E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with Tr400x5 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-80E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "Tr400x5",
@@ -3569,7 +3844,13 @@
       "model": "TTHMV-100E",
       "displayName": "TTHMV-100E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with Tr500x5 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-100E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "Tr500x5",
@@ -3655,7 +3936,13 @@
       "model": "TTHMV-142E",
       "displayName": "TTHMV-142E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with Tr710x7 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-142E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "Tr710x7",
@@ -3741,7 +4028,13 @@
       "model": "TTHMV-160E",
       "displayName": "TTHMV-160E Hydraulic Nut for Bearing Assembly",
       "description": "Ultra-high-pressure hydraulic bearing nut with Tr800x7 thread for controlled bearing installation and removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-nut-bearing-assembly.webp",
+          "alt": "ToughTorq TTHMV-160E bearing assembly hydraulic nut",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Assembly",
         "thread": "Tr800x7",
