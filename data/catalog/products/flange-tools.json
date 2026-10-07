@@ -5,7 +5,18 @@
   "displayName": "Flange & Alignment Tools",
   "shortDescription": "Mechanical and hydraulic spreading, alignment, and lifting tools for industrial flange maintenance.",
   "longDescription": "ToughTorq flange tools support controlled flange separation, alignment, lifting, gasket replacement, valve service, and shutdown maintenance. The range includes mechanical and hydraulic wedge spreaders, integral spreaders, mini-gap and zero-gap tools, alignment tools, and compact hydraulic lifting devices.",
-  "images": [],
+  "images": [
+    {
+      "src": "/flange-integral-hydraulic-spreader.webp",
+      "alt": "ToughTorq integral hydraulic flange spreader with wedge accessories",
+      "type": "product"
+    },
+    {
+      "src": "/flange-alignment-tools.webp",
+      "alt": "ToughTorq mechanical and hydraulic flange alignment tools",
+      "type": "product"
+    }
+  ],
   "features": [
     "Mechanical and hydraulic spreading options",
     "Access-gap requirements as low as 2 mm",
@@ -202,7 +213,13 @@
       "model": "FSC-15",
       "displayName": "FSC-15 Integral Hydraulic Flange Spreader",
       "description": "Portable integral hydraulic flange spreader that does not require an external hose and pump.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-integral-hydraulic-spreader.webp",
+          "alt": "ToughTorq FSC-15 integral hydraulic flange spreader",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Integral Hydraulic Flange Spreader",
         "weightLb": 22,
@@ -1034,7 +1051,13 @@
       "group": "Flange Tool Family",
       "displayName": "Integral Hydraulic Flange Spreader",
       "description": "Self-contained hydraulic spreaders that do not require an external pump and hose.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-integral-hydraulic-spreader.webp",
+          "alt": "ToughTorq integral hydraulic flange spreader",
+          "type": "product"
+        }
+      ],
       "specifications": {},
       "active": true,
       "public": true,
@@ -1104,7 +1127,13 @@
       "group": "Flange Tool Family",
       "displayName": "Flange Alignment Tool",
       "description": "Mechanical and hydraulic tools for linear and rotational flange alignment.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-alignment-tools.webp",
+          "alt": "ToughTorq flange alignment tool range",
+          "type": "product"
+        }
+      ],
       "specifications": {},
       "active": true,
       "public": true,
@@ -1128,7 +1157,14 @@
       ]
     }
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "Flange & Alignment Tools Technical Cutsheet",
+      "href": "/Flange-Alignment-Tools-Cut-Sheet.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
