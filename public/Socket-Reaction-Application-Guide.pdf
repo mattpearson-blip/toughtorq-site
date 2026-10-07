@@ -1,0 +1,256 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R 5 0 R 6 0 R 7 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 8 0 R /F2 9 0 R >> >> /Contents 10 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 8 0 R /F2 9 0 R >> >> /Contents 11 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 8 0 R /F2 9 0 R >> >> /Contents 12 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 8 0 R /F2 9 0 R >> >> /Contents 13 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 8 0 R /F2 9 0 R >> >> /Contents 14 0 R >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+10 0 obj
+<< /Length 1669 >>
+stream
+BT
+/F1 16 Tf
+30 560 Td
+(ToughTorq 3/4-Inch Drive Sockets) Tj
+0 -23 Td
+/F1 8 Tf
+(Socket dimensions and published compatible hydraulic wrench models) Tj
+0 -32 Td
+/F2 6.8 Tf
+(Model           Wrench                 Bolt      AF mm     AF in     L1        L2        D1        D2       ) Tj
+0 -12 Td
+(------------------------------------------------------------------------------------------------------------) Tj
+0 -20 Td
+(TX-75-24        TT1XTA                 M16       24 mm     0.94 in   2.13 in   1.26 in   1.57 in   1.57 in  ) Tj
+0 -20 Td
+(TX-75-27        TT1XTA                 M18       27 mm     1.06 in   2.13 in   1.26 in   1.65 in   1.65 in  ) Tj
+0 -20 Td
+(TX-75-30        TT1XTA                 M20       30 mm     1.18 in   2.13 in   1.3 in    1.81 in   1.73 in  ) Tj
+0 -20 Td
+(TX-75-34        TT1XTA                 M22       34 mm     1.34 in   2.13 in   1.26 in   1.89 in   1.73 in  ) Tj
+0 -20 Td
+(TX-75-36        TT1XTA                 M24       36 mm     1.42 in   2.24 in   1.26 in   2.09 in   1.73 in  ) Tj
+0 -20 Td
+(TX-75-41        TT1XTA                 M27       41 mm     1.61 in   2.28 in   1.3 in    2.36 in   1.73 in  ) Tj
+0 -20 Td
+(TX-75-46        TT1XTA                 M30       46 mm     1.81 in   2.48 in   1.5 in    2.6 in    1.73 in  ) Tj
+0 -20 Td
+(TX-75-50        TT1XTA                 M33       50 mm     1.97 in   2.56 in   1.57 in   2.8 in    1.73 in  ) Tj
+0 -20 Td
+(TX-75-55        TT1XTA                 M36       55 mm     2.17 in   2.76 in   1.77 in   3.03 in   2.13 in  ) Tj
+ET
+BT
+/F1 7 Tf
+30 24 Td
+(ToughTorq canonical manufacturer data. Final reaction geometry is application-specific and must be verified at the joint.) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Length 1913 >>
+stream
+BT
+/F1 16 Tf
+30 560 Td
+(ToughTorq 1-Inch Drive Sockets) Tj
+0 -23 Td
+/F1 8 Tf
+(Socket dimensions and published compatible hydraulic wrench models) Tj
+0 -32 Td
+/F2 6.8 Tf
+(Model           Wrench                 Bolt      AF mm     AF in     L1        L2        D1        D2       ) Tj
+0 -12 Td
+(------------------------------------------------------------------------------------------------------------) Tj
+0 -20 Td
+(TX-100-30       TT3XTA                 M20       30 mm     1.18 in   2.32 in   1.26 in   2.13 in   2.13 in  ) Tj
+0 -20 Td
+(TX-100-34       TT3XTA                 M22       34 mm     1.34 in   2.32 in   1.26 in   2.28 in   2.28 in  ) Tj
+0 -20 Td
+(TX-100-36       TT3XTA                 M24       36 mm     1.42 in   2.44 in   1.26 in   2.32 in   2.32 in  ) Tj
+0 -20 Td
+(TX-100-41       TT3XTA                 M27       41 mm     1.61 in   2.56 in   1.5 in    2.64 in   2.13 in  ) Tj
+0 -20 Td
+(TX-100-46       TT3XTA                 M30       46 mm     1.81 in   2.56 in   1.5 in    2.91 in   2.13 in  ) Tj
+0 -20 Td
+(TX-100-50       TT3XTA                 M33       50 mm     1.97 in   2.76 in   1.69 in   3.11 in   2.36 in  ) Tj
+0 -20 Td
+(TX-100-55       TT3XTA                 M36       55 mm     2.17 in   3.15 in   2.05 in   3.31 in   2.36 in  ) Tj
+0 -20 Td
+(TX-100-60       TT3XTA                 M39       60 mm     2.36 in   3.35 in   2.24 in   3.5 in    2.36 in  ) Tj
+0 -20 Td
+(TX-100-65       TT3XTA                 M42       65 mm     2.56 in   3.35 in   2.28 in   3.86 in   2.76 in  ) Tj
+0 -20 Td
+(TX-100-70       TT3XTA                 M45       70 mm     2.76 in   3.54 in   2.44 in   4.09 in   2.76 in  ) Tj
+0 -20 Td
+(TX-100-75       TT3XTA                 M48       75 mm     2.95 in   3.74 in   2.56 in   4.25 in   2.76 in  ) Tj
+ET
+BT
+/F1 7 Tf
+30 24 Td
+(ToughTorq canonical manufacturer data. Final reaction geometry is application-specific and must be verified at the joint.) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Length 2044 >>
+stream
+BT
+/F1 16 Tf
+30 560 Td
+(ToughTorq 1-1/2-Inch Drive Sockets - 1) Tj
+0 -23 Td
+/F1 8 Tf
+(Socket dimensions and published compatible hydraulic wrench models) Tj
+0 -32 Td
+/F2 6.8 Tf
+(Model           Wrench                 Bolt      AF mm     AF in     L1        L2        D1        D2       ) Tj
+0 -12 Td
+(------------------------------------------------------------------------------------------------------------) Tj
+0 -20 Td
+(TX-150-36       TT5XTA / TT8XTA / TT1~ M24       36 mm     1.42 in   3.35 in   1.73 in   2.91 in   2.91 in  ) Tj
+0 -20 Td
+(TX-150-41       TT5XTA / TT8XTA / TT1~ M27       41 mm     1.61 in   3.35 in   1.73 in   2.91 in   2.91 in  ) Tj
+0 -20 Td
+(TX-150-46       TT5XTA / TT8XTA / TT1~ M30       46 mm     1.81 in   3.35 in   1.73 in   2.91 in   2.91 in  ) Tj
+0 -20 Td
+(TX-150-50       TT5XTA / TT8XTA / TT1~ M33       50 mm     1.97 in   3.54 in   1.77 in   3.11 in   3.11 in  ) Tj
+0 -20 Td
+(TX-150-55       TT5XTA / TT8XTA / TT1~ M36       55 mm     2.17 in   3.54 in   1.77 in   3.31 in   3.31 in  ) Tj
+0 -20 Td
+(TX-150-60       TT5XTA / TT8XTA / TT1~ M39       60 mm     2.36 in   3.94 in   1.77 in   3.7 in    3.7 in   ) Tj
+0 -20 Td
+(TX-150-65       TT5XTA / TT8XTA / TT1~ M42       65 mm     2.56 in   3.94 in   1.77 in   3.86 in   3.15 in  ) Tj
+0 -20 Td
+(TX-150-70       TT5XTA / TT8XTA / TT1~ M45       70 mm     2.76 in   4.13 in   1.97 in   4.09 in   3.15 in  ) Tj
+0 -20 Td
+(TX-150-75       TT5XTA / TT8XTA / TT1~ M48       75 mm     2.95 in   4.33 in   1.97 in   4.65 in   3.35 in  ) Tj
+0 -20 Td
+(TX-150-80       TT5XTA / TT8XTA / TT1~ M52       80 mm     3.15 in   4.53 in   2.17 in   4.65 in   3.54 in  ) Tj
+0 -20 Td
+(TX-150-85       TT5XTA / TT8XTA / TT1~ M56       85 mm     3.35 in   4.92 in   2.36 in   5.04 in   3.54 in  ) Tj
+0 -20 Td
+(TX-150-90       TT5XTA / TT8XTA / TT1~ M60       90 mm     3.54 in   4.92 in   2.36 in   5.47 in   3.54 in  ) Tj
+ET
+BT
+/F1 7 Tf
+30 24 Td
+(ToughTorq canonical manufacturer data. Final reaction geometry is application-specific and must be verified at the joint.) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Length 1429 >>
+stream
+BT
+/F1 16 Tf
+30 560 Td
+(ToughTorq 1-1/2-Inch Drive Sockets - 2) Tj
+0 -23 Td
+/F1 8 Tf
+(Socket dimensions and published compatible hydraulic wrench models) Tj
+0 -32 Td
+/F2 6.8 Tf
+(Model           Wrench                 Bolt      AF mm     AF in     L1        L2        D1        D2       ) Tj
+0 -12 Td
+(------------------------------------------------------------------------------------------------------------) Tj
+0 -20 Td
+(TX-150-95       TT5XTA / TT8XTA / TT1~ M64       95 mm     3.74 in   5.12 in   2.56 in   5.47 in   3.54 in  ) Tj
+0 -20 Td
+(TX-150-100      TT5XTA / TT8XTA / TT1~ M68       100 mm    3.94 in   5.31 in   2.76 in   5.67 in   3.54 in  ) Tj
+0 -20 Td
+(TX-150-105      TT5XTA / TT8XTA / TT1~ M72       105 mm    4.13 in   5.31 in   2.76 in   5.87 in   3.54 in  ) Tj
+0 -20 Td
+(TX-150-110      TT5XTA / TT8XTA / TT1~ M76       110 mm    4.33 in   5.31 in   2.76 in   6.22 in   3.54 in  ) Tj
+0 -20 Td
+(TX-150-115      TT5XTA / TT8XTA / TT1~ M80       115 mm    4.53 in   5.31 in   2.76 in   6.26 in   3.54 in  ) Tj
+0 -20 Td
+(TX-150-120      TT5XTA / TT8XTA / TT1~ M85       120 mm    4.72 in   5.31 in   2.76 in   6.61 in   3.74 in  ) Tj
+0 -20 Td
+(TX-150-130      TT5XTA / TT8XTA / TT1~ M90       130 mm    5.12 in   6.1 in    3.66 in   7.44 in   3.54 in  ) Tj
+ET
+BT
+/F1 7 Tf
+30 24 Td
+(ToughTorq canonical manufacturer data. Final reaction geometry is application-specific and must be verified at the joint.) Tj
+ET
+endstream
+endobj
+14 0 obj
+<< /Length 1057 >>
+stream
+BT
+/F1 16 Tf
+30 560 Td
+(ToughTorq Reaction Arm Application Guidance) Tj
+0 -23 Td
+/F1 8 Tf
+(Reaction equipment is selected around the actual bolting geometry) Tj
+0 -35 Td
+/F1 9 Tf
+0 -20 Td
+(Confirm the torque tool model and required output torque.) Tj
+0 -20 Td
+(Identify a structurally suitable reaction point before operating the tool.) Tj
+0 -20 Td
+(Keep the reaction interface stable and aligned with the tool's reaction path.) Tj
+0 -20 Td
+(Confirm clearance around the fastener, wrench body, socket, and reaction arm.) Tj
+0 -20 Td
+(Standard square-drive hydraulic reaction arms can be positioned through 360 degrees.) Tj
+0 -20 Td
+(Custom reaction equipment may be required where standard geometry is unsuitable.) Tj
+0 -20 Td
+(Do not select a generic reaction arm category without checking the actual application.) Tj
+0 -20 Td
+(Match square drive, socket size, fastener size, and wrench compatibility as one system.) Tj
+ET
+BT
+/F1 7 Tf
+30 24 Td
+(ToughTorq technical selection guidance. Do not improvise reaction points or exceed tool/socket ratings.) Tj
+ET
+endstream
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000139 00000 n 
+0000000276 00000 n 
+0000000413 00000 n 
+0000000550 00000 n 
+0000000687 00000 n 
+0000000824 00000 n 
+0000000894 00000 n 
+0000000962 00000 n 
+0000002683 00000 n 
+0000004648 00000 n 
+0000006744 00000 n 
+0000008225 00000 n 
+trailer
+<< /Size 15 /Root 1 0 R >>
+startxref
+9334
+%%EOF
