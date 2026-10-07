@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 import { TechnicalDownloads } from "@/components/technical-downloads";
@@ -99,7 +100,8 @@ export default function HydraulicHosesPage() {
   return (
     <main className="bg-[#f5f5f5] text-[#2b2b2b]">
       <section className="border-b border-[#dedede] bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-20 lg:px-12">
+        <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 md:px-8 md:py-20 lg:grid-cols-[1fr_0.8fr] lg:px-12">
+          <div>
           <p className="text-sm font-bold uppercase tracking-[0.14em] text-[#ed1c24]">
             Hydraulic Accessories
           </p>
@@ -122,6 +124,19 @@ export default function HydraulicHosesPage() {
               Find a Distributor
             </Link>
           </div>
+
+          {family.images[0] && (
+            <div className="flex min-h-[300px] items-center justify-center rounded-2xl border border-[#e2e2e2] bg-[#fafafa] p-8">
+              <Image
+                src={family.images[0].src}
+                alt={family.images[0].alt}
+                width={520}
+                height={520}
+                priority
+                className="h-auto max-h-[360px] w-auto max-w-full object-contain"
+              />
+            </div>
+          )}
         </div>
       </section>
 
@@ -136,6 +151,17 @@ export default function HydraulicHosesPage() {
           <div className="mt-8 grid gap-6 lg:grid-cols-2">
             {(family.componentGroups ?? []).map((group) => (
               <article key={group.id} className="rounded-xl border border-[#dddddd] bg-white p-6">
+                {group.images[0] && (
+                  <div className="mb-5 flex aspect-[16/9] items-center justify-center overflow-hidden rounded-lg border border-[#e5e5e5] bg-[#fafafa] p-4">
+                    <Image
+                      src={group.images[0].src}
+                      alt={group.images[0].alt}
+                      width={420}
+                      height={260}
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
+                )}
                 <h3 className="text-2xl font-semibold text-[#3f4448]">
                   {group.displayName}
                 </h3>
