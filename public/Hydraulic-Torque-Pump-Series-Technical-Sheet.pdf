@@ -1,0 +1,100 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 7 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 8 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+7 0 obj
+<< /Length 1098 >>
+stream
+BT
+/F1 18 Tf
+36 560 Td
+(ToughTorq Hydraulic Torque Pump Series) Tj
+0 -25 Td
+/F1 9 Tf
+(Battery, electric, and pneumatic hydraulic power for controlled bolting) Tj
+0 -34 Td
+/F2 7.2 Tf
+(Model                Power        Pressure         Flow                      Reservoir     Power/Air          Weight     ) Tj
+0 -13 Td
+(------------------------------------------------------------------------------------------------------------) Tj
+0 -23 Td
+(TTQ-BATT-10K-48V     Battery      10,150 psi       1.27 GPM 1st              Small/Large   48V / 26Ah         -          ) Tj
+0 -23 Td
+(KLW-2000             Electric     700 bar          7.0 / 0.7 L/min           5 L           1.1 kW             28 kg      ) Tj
+0 -23 Td
+(KLW-3000             Electric     700 bar          7.0 / 1.6 / 0.8           8 L           1.1 kW             28 kg      ) Tj
+0 -23 Td
+(KAT-3000             Pneumatic    40-700 bar       7@70 / 1.26@300 / .63@700 8 L           4–8 bar air        22 kg      ) Tj
+ET
+BT
+/F1 7.5 Tf
+36 28 Td
+(ToughTorq canonical manufacturer data. Values are published only where source-verified.) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Length 833 >>
+stream
+BT
+/F1 18 Tf
+36 560 Td
+(Hydraulic Torque Pump Selection) Tj
+0 -25 Td
+/F1 9 Tf
+(Match the pump as part of the complete hydraulic bolting system) Tj
+0 -34 Td
+/F1 9 Tf
+0 -18 Td
+(Confirm wrench maximum working pressure and required flow.) Tj
+0 -18 Td
+(Match hydraulic hose and quick-coupler pressure ratings.) Tj
+0 -18 Td
+(Account for number of connected tools and simultaneous operation.) Tj
+0 -18 Td
+(Size reservoir capacity for the selected wrench system and duty cycle.) Tj
+0 -18 Td
+(Confirm available battery, electrical, or compressed-air supply.) Tj
+0 -18 Td
+(Use the canonical ToughTorq hydraulic torque wrench specifications) Tj
+0 -18 Td
+(when matching wrench torque requirements to the selected pump.) Tj
+ET
+BT
+/F1 7.5 Tf
+36 28 Td
+(ToughTorq canonical manufacturer data. Values are published only where source-verified.) Tj
+ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000000393 00000 n 
+0000000463 00000 n 
+0000000531 00000 n 
+0000001680 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+2563
+%%EOF
