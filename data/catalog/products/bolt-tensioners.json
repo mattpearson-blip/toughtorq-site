@@ -5,7 +5,23 @@
   "displayName": "Hydraulic Bolt Tensioners",
   "shortDescription": "Spring-return, load-return, and multistage hydraulic tensioners for controlled bolt preload.",
   "longDescription": "ToughTorq hydraulic bolt tensioners apply axial load directly to the stud for controlled preload on critical bolted joints. The range includes spring-return systems, load-return systems with modular adaptor kits, and compact multistage tensioners for high-capacity applications with restricted radial clearance.",
-  "images": [],
+  "images": [
+    {
+      "src": "/bolt-tensioner-spring-return.webp",
+      "alt": "ToughTorq spring-return hydraulic bolt tensioner",
+      "type": "product"
+    },
+    {
+      "src": "/bolt-tensioner-load-return.webp",
+      "alt": "ToughTorq load-return hydraulic bolt tensioner",
+      "type": "product"
+    },
+    {
+      "src": "/bolt-tensioner-multistage.webp",
+      "alt": "ToughTorq multistage hydraulic bolt tensioners",
+      "type": "product"
+    }
+  ],
   "features": [
     "Direct hydraulic bolt preload",
     "Spring-return, load-return, and multistage configurations",
@@ -32,7 +48,13 @@
       "model": "TT-ST1",
       "displayName": "TT-ST1 Spring-Return Hydraulic Bolt Tensioner",
       "description": "Spring-return bolt tensioner covering M24 through M27 thread applications with maximum tension force of 63,396 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-spring-return.webp",
+          "alt": "ToughTorq TT-ST1 spring return hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Spring Return",
         "metricThreads": [
@@ -85,7 +107,13 @@
       "model": "TT-ST2",
       "displayName": "TT-ST2 Spring-Return Hydraulic Bolt Tensioner",
       "description": "Spring-return bolt tensioner covering M24 through M36 thread applications with maximum tension force of 101,614 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-spring-return.webp",
+          "alt": "ToughTorq TT-ST2 spring return hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Spring Return",
         "metricThreads": [
@@ -144,7 +172,13 @@
       "model": "TT-ST3",
       "displayName": "TT-ST3 Spring-Return Hydraulic Bolt Tensioner",
       "description": "Spring-return bolt tensioner covering M39 through M48 thread applications with maximum tension force of 150,847 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-spring-return.webp",
+          "alt": "ToughTorq TT-ST3 spring return hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Spring Return",
         "metricThreads": [
@@ -201,7 +235,13 @@
       "model": "TT-ST4",
       "displayName": "TT-ST4 Spring-Return Hydraulic Bolt Tensioner",
       "description": "Spring-return bolt tensioner covering M39 through M48 thread applications with maximum tension force of 226,832 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-spring-return.webp",
+          "alt": "ToughTorq TT-ST4 spring return hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Spring Return",
         "metricThreads": [
@@ -258,7 +298,13 @@
       "model": "TT-ST5",
       "displayName": "TT-ST5 Spring-Return Hydraulic Bolt Tensioner",
       "description": "Spring-return bolt tensioner covering M52 through M68 thread applications with maximum tension force of 345,756 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-spring-return.webp",
+          "alt": "ToughTorq TT-ST5 spring return hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Spring Return",
         "metricThreads": [
@@ -317,7 +363,13 @@
       "model": "TT-ST6",
       "displayName": "TT-ST6 Spring-Return Hydraulic Bolt Tensioner",
       "description": "Spring-return bolt tensioner covering M72 through M90 thread applications with maximum tension force of 571,914 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-spring-return.webp",
+          "alt": "ToughTorq TT-ST6 spring return hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Spring Return",
         "metricThreads": [
@@ -376,7 +428,13 @@
       "model": "TT-ST7",
       "displayName": "TT-ST7 Spring-Return Hydraulic Bolt Tensioner",
       "description": "Spring-return bolt tensioner covering M90 through M100 thread applications with maximum tension force of 722,986 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-spring-return.webp",
+          "alt": "ToughTorq TT-ST7 spring return hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Spring Return",
         "metricThreads": [
@@ -431,7 +489,13 @@
       "model": "TTGT1-LCB",
       "displayName": "TTGT1-LCB Load-Return Hydraulic Bolt Tensioner",
       "description": "Load-return bolt tensioner covering M16-M30 with maximum load of 50,425 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-load-return.webp",
+          "alt": "ToughTorq TTGT1-LCB load return hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Load Return",
         "threadRange": "M16-M30",
@@ -517,7 +581,13 @@
       "model": "TTGT2-LCB",
       "displayName": "TTGT2-LCB Load-Return Hydraulic Bolt Tensioner",
       "description": "Load-return bolt tensioner covering M30-M39 with maximum load of 90,261 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-load-return.webp",
+          "alt": "ToughTorq TTGT2-LCB load return hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Load Return",
         "threadRange": "M30-M39",
@@ -601,7 +671,13 @@
       "model": "TTGT3-LCB",
       "displayName": "TTGT3-LCB Load-Return Hydraulic Bolt Tensioner",
       "description": "Load-return bolt tensioner covering M39-M52 with maximum load of 172,856 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-load-return.webp",
+          "alt": "ToughTorq TTGT3-LCB load return hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Load Return",
         "threadRange": "M39-M52",
@@ -686,7 +762,13 @@
       "model": "TTGT4-LCB",
       "displayName": "TTGT4-LCB Load-Return Hydraulic Bolt Tensioner",
       "description": "Load-return bolt tensioner covering M52-M68 with maximum load of 329,772 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-load-return.webp",
+          "alt": "ToughTorq TTGT4-LCB load return hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Load Return",
         "threadRange": "M52-M68",
@@ -771,7 +853,13 @@
       "model": "TTGT5-LCB",
       "displayName": "TTGT5-LCB Load-Return Hydraulic Bolt Tensioner",
       "description": "Load-return bolt tensioner covering M68-M80 with maximum load of 508,383 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-load-return.webp",
+          "alt": "ToughTorq TTGT5-LCB load return hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Load Return",
         "threadRange": "M68-M80",
@@ -855,7 +943,13 @@
       "model": "TTGT6-LCB",
       "displayName": "TTGT6-LCB Load-Return Hydraulic Bolt Tensioner",
       "description": "Load-return bolt tensioner covering M80-M95 with maximum load of 639,604 lbf at 21,756 psi.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-load-return.webp",
+          "alt": "ToughTorq TTGT6-LCB load return hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Load Return",
         "threadRange": "M80-M95",
@@ -939,7 +1033,13 @@
       "model": "TTE-24",
       "displayName": "TTE-24 Multistage Hydraulic Bolt Tensioner",
       "description": "Multistage bolt tensioner for M24 applications with maximum pulling capacity of 69,016 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-multistage.webp",
+          "alt": "ToughTorq TTE-24 multistage hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Multistage",
         "boltDiameter": "M24",
@@ -1006,7 +1106,13 @@
       "model": "TTE-30",
       "displayName": "TTE-30 Multistage Hydraulic Bolt Tensioner",
       "description": "Multistage bolt tensioner for M30 applications with maximum pulling capacity of 103,637 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-multistage.webp",
+          "alt": "ToughTorq TTE-30 multistage hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Multistage",
         "boltDiameter": "M30",
@@ -1073,7 +1179,13 @@
       "model": "TTE-33",
       "displayName": "TTE-33 Multistage Hydraulic Bolt Tensioner",
       "description": "Multistage bolt tensioner for M33 applications with maximum pulling capacity of 133,761 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-multistage.webp",
+          "alt": "ToughTorq TTE-33 multistage hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Multistage",
         "boltDiameter": "M33",
@@ -1140,7 +1252,13 @@
       "model": "TTE-36",
       "displayName": "TTE-36 Multistage Hydraulic Bolt Tensioner",
       "description": "Multistage bolt tensioner for M36 applications with maximum pulling capacity of 152,870 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-multistage.webp",
+          "alt": "ToughTorq TTE-36 multistage hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Multistage",
         "boltDiameter": "M36",
@@ -1207,7 +1325,13 @@
       "model": "TTE-39",
       "displayName": "TTE-39 Multistage Hydraulic Bolt Tensioner",
       "description": "Multistage bolt tensioner for M39 applications with maximum pulling capacity of 179,847 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-multistage.webp",
+          "alt": "ToughTorq TTE-39 multistage hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Multistage",
         "boltDiameter": "M39",
@@ -1274,7 +1398,13 @@
       "model": "TTE-42",
       "displayName": "TTE-42 Multistage Hydraulic Bolt Tensioner",
       "description": "Multistage bolt tensioner for M42 applications with maximum pulling capacity of 207,274 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-multistage.webp",
+          "alt": "ToughTorq TTE-42 multistage hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Multistage",
         "boltDiameter": "M42",
@@ -1341,7 +1471,13 @@
       "model": "TTE-45",
       "displayName": "TTE-45 Multistage Hydraulic Bolt Tensioner",
       "description": "Multistage bolt tensioner for M45 applications with maximum pulling capacity of 244,143 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-multistage.webp",
+          "alt": "ToughTorq TTE-45 multistage hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Multistage",
         "boltDiameter": "M45",
@@ -1408,7 +1544,13 @@
       "model": "TTE-48",
       "displayName": "TTE-48 Multistage Hydraulic Bolt Tensioner",
       "description": "Multistage bolt tensioner for M48 applications with maximum pulling capacity of 291,352 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-multistage.webp",
+          "alt": "ToughTorq TTE-48 multistage hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Multistage",
         "boltDiameter": "M48",
@@ -1475,7 +1617,13 @@
       "model": "TTE-56",
       "displayName": "TTE-56 Multistage Hydraulic Bolt Tensioner",
       "description": "Multistage bolt tensioner for M56 applications with maximum pulling capacity of 373,183 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-multistage.webp",
+          "alt": "ToughTorq TTE-56 multistage hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Multistage",
         "boltDiameter": "M56",
@@ -1542,7 +1690,13 @@
       "model": "TTE-64",
       "displayName": "TTE-64 Multistage Hydraulic Bolt Tensioner",
       "description": "Multistage bolt tensioner for M64 applications with maximum pulling capacity of 528,301 lbf.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bolt-tensioner-multistage.webp",
+          "alt": "ToughTorq TTE-64 multistage hydraulic bolt tensioner",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Multistage",
         "boltDiameter": "M64",
