@@ -1,0 +1,106 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 7 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 8 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+7 0 obj
+<< /Length 793 >>
+stream
+BT
+/F1 18 Tf
+36 560 Td
+(ToughTorq TTQ-BATT-10K-48V) Tj
+0 -25 Td
+/F1 9 Tf
+(48V Lithium Battery Hydraulic Torque Pump) Tj
+0 -34 Td
+/F1 9 Tf
+0 -18 Td
+(Maximum pressure: 10,150 psi) Tj
+0 -18 Td
+(Battery: 48 V / 26 Ah lithium) Tj
+0 -18 Td
+(Motor power: 750 W) Tj
+0 -18 Td
+(First-stage flow: 1.27 GPM) Tj
+0 -18 Td
+(Hydraulic flow: 2-stage) Tj
+0 -18 Td
+(Runtime per battery: 1.5–2 hours) Tj
+0 -18 Td
+(Low-current remote: 20 ft) Tj
+0 -18 Td
+(Stated noise level: <75 dB) Tj
+0 -18 Td
+(Tank configurations: 10K-1-S and 10K-1-L) Tj
+0 -18 Td
+() Tj
+0 -18 Td
+(Designed for cordless hydraulic torque wrench work in the field,) Tj
+0 -18 Td
+(during shutdowns, and at remote job sites.) Tj
+ET
+BT
+/F1 7.5 Tf
+36 28 Td
+(ToughTorq canonical manufacturer data. Values are published only where source-verified.) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Length 689 >>
+stream
+BT
+/F1 18 Tf
+36 560 Td
+(TTQ-BATT-10K-48V Dimensions & System Matching) Tj
+0 -25 Td
+/F1 9 Tf
+(Published small- and large-tank configurations) Tj
+0 -34 Td
+/F2 7.2 Tf
+(Configuration      Width          Height         Length         Application             ) Tj
+0 -13 Td
+(----------------------------------------------------------------------------------------) Tj
+0 -23 Td
+(10K-1-S            11.42 in       16.93 in       16.14 in       Compact field setup     ) Tj
+0 -23 Td
+(10K-1-L            11.61 in       19.09 in       17.32 in       Higher reservoir capaci~) Tj
+ET
+BT
+/F1 7.5 Tf
+36 28 Td
+(ToughTorq canonical manufacturer data. Values are published only where source-verified.) Tj
+ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000000393 00000 n 
+0000000463 00000 n 
+0000000531 00000 n 
+0000001374 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+2113
+%%EOF
