@@ -3843,7 +3843,14 @@
     "Hydraulic power components must be rated for the operating pressure of the selected nut.",
     "Application geometry, available clearance, and retained-load requirements determine whether an upper-locking or bearing-assembly hydraulic nut is appropriate."
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "Hydraulic Nut Series Technical Sheet",
+      "href": "/Hydraulic-Nut-Series-Technical-Sheet.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
