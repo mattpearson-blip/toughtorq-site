@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 import { TechnicalDownloads } from "@/components/technical-downloads";
@@ -92,6 +93,18 @@ export default function HydraulicPumpsPage() {
                 key={model.id}
                 className="rounded-xl border border-[#dddddd] bg-white p-5"
               >
+                {model.images[0] && (
+                  <div className="mb-5 flex aspect-[4/3] items-center justify-center overflow-hidden rounded-lg border border-[#e5e5e5] bg-[#fafafa] p-4">
+                    <Image
+                      src={model.images[0].src}
+                      alt={model.images[0].alt}
+                      width={320}
+                      height={240}
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
+                )}
+
                 <p className="text-sm font-bold text-[#ed1c24]">{model.model}</p>
                 <h3 className="mt-2 text-xl font-semibold text-[#3f4448]">
                   {model.displayName.replace(`${model.model} `, "")}
