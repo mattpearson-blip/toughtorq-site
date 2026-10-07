@@ -2286,7 +2286,14 @@
       ]
     }
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "Hydraulic Fittings & Couplers Technical Guide",
+      "href": "/Hydraulic-Fittings-Couplers-Technical-Guide.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
