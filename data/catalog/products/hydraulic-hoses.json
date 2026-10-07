@@ -1420,7 +1420,14 @@
       ]
     }
   ],
-  "downloads": [],
+  "downloads": [
+    {
+      "title": "Hydraulic Hose Series Technical Sheet",
+      "href": "/Hydraulic-Hose-Series-Technical-Sheet.pdf",
+      "type": "cutsheet",
+      "status": "available"
+    }
+  ],
   "active": true,
   "public": true,
   "jamMarketplaceUrl": "https://jamtorque.com",
