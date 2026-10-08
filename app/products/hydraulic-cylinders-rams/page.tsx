@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 import { TechnicalDownloads } from "@/components/technical-downloads";
@@ -200,6 +201,18 @@ export default function HydraulicCylindersRamsPage() {
                 key={item.id}
                 className="rounded-xl border border-[#dddddd] bg-[#fafafa] p-5"
               >
+                {item.images[0] && (
+                  <div className="mb-5 flex aspect-[4/3] items-center justify-center overflow-hidden rounded-lg border border-[#e5e5e5] bg-white p-4">
+                    <Image
+                      src={item.images[0].src}
+                      alt={item.images[0].alt}
+                      width={420}
+                      height={300}
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
+                )}
+
                 <p className="text-xs font-bold uppercase tracking-[0.1em] text-[#ed1c24]">
                   {item.displayName}
                 </p>
