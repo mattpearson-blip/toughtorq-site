@@ -5,7 +5,23 @@
   "displayName": "Reaction Washer Systems",
   "shortDescription": "Reaction-arm-free bolting interfaces with wedge-locking protection against vibration-induced self-loosening.",
   "longDescription": "ToughTorq Reaction Washers combine a gear-shaped lower washer with a matched dual socket so torque reaction is contained coaxially at the fastener instead of through an external reaction arm. The wedge-locking washer pair helps preserve preload under vibration and dynamic loading while reducing reaction-arm pinch points and surface-contact requirements.",
-  "images": [],
+  "images": [
+    {
+      "src": "/reaction-washer-system.webp",
+      "alt": "ToughTorq Reaction Washer and matched dual socket system",
+      "type": "product"
+    },
+    {
+      "src": "/reaction-washer-pair.webp",
+      "alt": "ToughTorq wedge-locking Reaction Washer pair",
+      "type": "product"
+    },
+    {
+      "src": "/reaction-washer-dual-sockets.webp",
+      "alt": "ToughTorq matched dual sockets for Reaction Washer systems",
+      "type": "product"
+    }
+  ],
   "features": [
     "Reaction-arm-free tightening with a matched dual socket",
     "Wedge-locking anti-loosening principle",
@@ -60,7 +76,13 @@
       "group": "Reaction Washer System",
       "displayName": "Reaction Washer Pair",
       "description": "Gear-shaped wedge-locking washer system that provides the coaxial reaction interface and helps maintain preload under vibration.",
-      "images": [],
+      "images": [
+        {
+          "src": "/reaction-washer-pair.webp",
+          "alt": "ToughTorq wedge-locking Reaction Washer pair",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "designPrinciple": "Wedge-locking anti-loosening system designed in accordance with DIN 25201 principles",
         "material": "1.1191 (C45E)",
@@ -84,7 +106,13 @@
       "group": "Reaction Washer System",
       "displayName": "Matched Dual Socket",
       "description": "Coaxial socket system that engages the fastener and the gear-shaped Reaction Washer profile so reaction torque is contained at the joint.",
-      "images": [],
+      "images": [
+        {
+          "src": "/reaction-washer-dual-sockets.webp",
+          "alt": "ToughTorq matched dual sockets for Reaction Washer systems",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "compatibility": "Matched configurations available for common powered torque tools"
       },
@@ -100,7 +128,13 @@
       "group": "Reaction Washer System",
       "displayName": "Optional Passive-Side Safety Washer",
       "description": "Friction-based backup washer for through-bolt connections where the passive-side nut or bolt head cannot be physically counter-held.",
-      "images": [],
+      "images": [
+        {
+          "src": "/reaction-washer-pair.webp",
+          "alt": "ToughTorq washer pair showing the wedge-locking washer profile",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "function": "Wave-shaped locking ribs on both faces resist passive-side rotation during tightening"
       },
