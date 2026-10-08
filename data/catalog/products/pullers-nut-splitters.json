@@ -5,7 +5,18 @@
   "displayName": "Pullers & Nut Splitters",
   "shortDescription": "Mechanical and hydraulic removal tools for bearings, gears, couplings, and seized fasteners.",
   "longDescription": "ToughTorq removal tooling includes mechanical and hydraulic nut splitters, adjustable hydraulic gear pullers, coupler pullers, and matched hydraulic puller sets for controlled removal of bearings, gears, couplings, and press-fit components.",
-  "images": [],
+  "images": [
+    {
+      "src": "/nut-splitter-integral.webp",
+      "alt": "ToughTorq integral hydraulic nut splitter",
+      "type": "product"
+    },
+    {
+      "src": "/puller-master-set.webp",
+      "alt": "ToughTorq master hydraulic puller set",
+      "type": "product"
+    }
+  ],
   "features": [
     "Mechanical and hydraulic nut splitting",
     "Hydraulic gear and bearing removal",
@@ -168,7 +179,13 @@
       "model": "NI2432",
       "displayName": "NI2432 Integral Hydraulic Nut Splitter",
       "description": "Integral hydraulic nut splitter for 24–32 mm nuts and M16–22 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-integral.webp",
+          "alt": "ToughTorq NI2432 integral hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Integral Hydraulic Nut Splitter",
         "capacityTons": 15,
@@ -202,7 +219,13 @@
       "model": "NI3241",
       "displayName": "NI3241 Integral Hydraulic Nut Splitter",
       "description": "Integral hydraulic nut splitter for 32–41 mm nuts and M22–27 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-integral.webp",
+          "alt": "ToughTorq NI3241 integral hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Integral Hydraulic Nut Splitter",
         "capacityTons": 20,
@@ -236,7 +259,13 @@
       "model": "NI4150",
       "displayName": "NI4150 Integral Hydraulic Nut Splitter",
       "description": "Integral hydraulic nut splitter for 41–50 mm nuts and M27–33 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-integral.webp",
+          "alt": "ToughTorq NI4150 integral hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Integral Hydraulic Nut Splitter",
         "capacityTons": 35,
@@ -1793,7 +1822,13 @@
       "model": "BHP-1752",
       "displayName": "BHP-1752 Master Puller Set",
       "description": "8 ton hydraulic master puller set supplied as a matched puller system.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-master-set.webp",
+          "alt": "ToughTorq BHP-1752 master hydraulic puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Master Puller Set",
         "weightLb": 81.6,
@@ -1841,7 +1876,13 @@
       "model": "BHP-2751G",
       "displayName": "BHP-2751G Master Puller Set",
       "description": "20 ton hydraulic master puller set supplied as a matched puller system.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-master-set.webp",
+          "alt": "ToughTorq BHP-2751G master hydraulic puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Master Puller Set",
         "weightLb": 198.4,
@@ -1889,7 +1930,13 @@
       "model": "BHP-3751G",
       "displayName": "BHP-3751G Master Puller Set",
       "description": "30 ton hydraulic master puller set supplied as a matched puller system.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-master-set.webp",
+          "alt": "ToughTorq BHP-3751G master hydraulic puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Master Puller Set",
         "weightLb": 379.2,
@@ -1937,7 +1984,13 @@
       "model": "BHP-5751G",
       "displayName": "BHP-5751G Master Puller Set",
       "description": "50 ton hydraulic master puller set supplied as a matched puller system.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-master-set.webp",
+          "alt": "ToughTorq BHP-5751G master hydraulic puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Master Puller Set",
         "weightLb": 657,
@@ -2027,7 +2080,13 @@
       "group": "Removal Tool Family",
       "displayName": "Integral Hydraulic Nut Splitters",
       "description": "Self-contained hydraulic nut splitting tools.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-integral.webp",
+          "alt": "ToughTorq integral hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {},
       "active": true,
       "public": true,
@@ -2097,7 +2156,13 @@
       "group": "Removal Tool Family",
       "displayName": "Master Puller Sets",
       "description": "Complete hydraulic puller sets combining multiple puller configurations.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-master-set.webp",
+          "alt": "ToughTorq master hydraulic puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {},
       "active": true,
       "public": true,
