@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 import { TechnicalDownloads } from "@/components/technical-downloads";
@@ -174,6 +175,18 @@ export default function PullersNutSplittersPage() {
                 key={item.id}
                 className="rounded-xl border border-[#dddddd] bg-white p-5"
               >
+                {item.images[0] && (
+                  <div className="mb-5 flex aspect-[4/3] items-center justify-center overflow-hidden rounded-lg border border-[#e5e5e5] bg-[#fafafa] p-4">
+                    <Image
+                      src={item.images[0].src}
+                      alt={item.images[0].alt}
+                      width={420}
+                      height={300}
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
+                )}
+
                 <h3 className="text-lg font-semibold text-[#3f4448]">
                   {item.displayName}
                 </h3>
