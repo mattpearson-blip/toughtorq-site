@@ -15,6 +15,21 @@
       "src": "/flange-alignment-tools.webp",
       "alt": "ToughTorq mechanical and hydraulic flange alignment tools",
       "type": "product"
+    },
+    {
+      "src": "/flange-spreaders.webp",
+      "alt": "ToughTorq flange spreader system",
+      "type": "product"
+    },
+    {
+      "src": "/flange-mechanical-fsw14tm.webp",
+      "alt": "ToughTorq FSW14TM mechanical flange spreader",
+      "type": "product"
+    },
+    {
+      "src": "/flange-external-fsw25te.webp",
+      "alt": "ToughTorq FSW25TE external hydraulic flange spreader",
+      "type": "product"
     }
   ],
   "features": [
@@ -43,7 +58,13 @@
       "model": "FSM-8",
       "displayName": "FSM-8 Mechanical Flange Spreader",
       "description": "Mechanical flange spreader requiring only a 6 mm access gap.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-spreaders.webp",
+          "alt": "ToughTorq FSM-8 Mechanical Flange Spreader",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Flange Spreader",
         "weightLb": 14.3,
@@ -81,7 +102,13 @@
       "model": "FSM-16",
       "displayName": "FSM-16 Dual Mechanical Flange Spreader Set",
       "description": "Dual mechanical flange spreading set with combined 16 ton maximum force.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-spreaders.webp",
+          "alt": "ToughTorq FSM-16 Dual Mechanical Flange Spreader Set",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Flange Spreader",
         "weightLb": 28.7,
@@ -119,7 +146,13 @@
       "model": "FSH-14",
       "displayName": "FSH-14 Hydraulic Flange Spreader",
       "description": "Hydraulic flange spreader with 14 ton maximum force and 6 mm access gap.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-spreaders.webp",
+          "alt": "ToughTorq FSH-14 Hydraulic Flange Spreader",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Flange Spreader",
         "weightLb": 15.4,
@@ -166,7 +199,13 @@
       "model": "FSH-28",
       "displayName": "FSH-28 Dual Hydraulic Flange Spreader Set",
       "description": "Dual hydraulic flange spreader set with combined 28 ton maximum force.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-spreaders.webp",
+          "alt": "ToughTorq FSH-28 Dual Hydraulic Flange Spreader Set",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Flange Spreader",
         "weightLb": 30.9,
@@ -266,7 +305,13 @@
       "model": "FSW14TM",
       "displayName": "FSW14TM Mechanical Flange Spreader",
       "description": "14 ton mechanical flange spreader with removable handle and increased step depth.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-mechanical-fsw14tm.webp",
+          "alt": "ToughTorq FSW14TM Mechanical Flange Spreader",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Mechanical Flange Spreader",
         "weightLb": 28.7,
@@ -305,7 +350,13 @@
       "model": "FSW25TE",
       "displayName": "FSW25TE External Hydraulic Flange Spreader",
       "description": "24 ton external hydraulic flange spreader requiring a 6 mm access gap.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-external-fsw25te.webp",
+          "alt": "ToughTorq FSW25TE External Hydraulic Flange Spreader",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "External Hydraulic Flange Spreader",
         "weightLb": 33.1,
@@ -741,7 +792,13 @@
       "model": "FA1TM",
       "displayName": "FA1TM Mechanical Flange Alignment Tool",
       "description": "Mechanical flange alignment tool for smaller flange bolt-hole applications.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-alignment-tools.webp",
+          "alt": "ToughTorq FA1TM Mechanical Flange Alignment Tool",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Flange Alignment Tool",
         "weightLb": 6.6,
@@ -784,7 +841,13 @@
       "model": "FA4TM",
       "displayName": "FA4TM Mechanical Flange Alignment Tool",
       "description": "4 ton mechanical flange alignment tool for medium flange bolt-hole applications.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-alignment-tools.webp",
+          "alt": "ToughTorq FA4TM Mechanical Flange Alignment Tool",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Flange Alignment Tool",
         "weightLb": 19.8,
@@ -827,7 +890,13 @@
       "model": "FA9TM",
       "displayName": "FA9TM Mechanical Flange Alignment Tool",
       "description": "9 ton mechanical flange alignment tool for large high-pressure flange applications.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-alignment-tools.webp",
+          "alt": "ToughTorq FA9TM Mechanical Flange Alignment Tool",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Flange Alignment Tool",
         "weightLb": 35.3,
@@ -870,7 +939,13 @@
       "model": "FA9TE",
       "displayName": "FA9TE Hydraulic Flange Alignment Tool",
       "description": "9 ton hydraulic flange alignment tool for large high-pressure flange applications.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-alignment-tools.webp",
+          "alt": "ToughTorq FA9TE Hydraulic Flange Alignment Tool",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Flange Alignment Tool",
         "weightLb": 35.3,
@@ -1037,7 +1112,13 @@
       "group": "Flange Tool Family",
       "displayName": "Flange Spreader",
       "description": "Mechanical and hydraulic wedge spreaders for controlled flange separation.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-spreaders.webp",
+          "alt": "ToughTorq flange spreader system",
+          "type": "product"
+        }
+      ],
       "specifications": {},
       "active": true,
       "public": true,
