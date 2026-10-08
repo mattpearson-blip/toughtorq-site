@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 import { TechnicalDownloads } from "@/components/technical-downloads";
@@ -31,9 +32,24 @@ export default function ReactionWashersPage() {
 
           <div className="mt-6 h-[3px] w-16 bg-[#ed1c24]" />
 
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-[#444444]">
-            {family.longDescription}
-          </p>
+          <div className="mt-8 grid items-center gap-8 lg:grid-cols-[1fr_0.8fr]">
+            <p className="max-w-3xl text-lg leading-8 text-[#444444]">
+              {family.longDescription}
+            </p>
+
+            {family.images[0] && (
+              <div className="flex min-h-[260px] items-center justify-center rounded-xl border border-[#e5e5e5] bg-[#fafafa] p-6">
+                <Image
+                  src={family.images[0].src}
+                  alt={family.images[0].alt}
+                  width={560}
+                  height={390}
+                  priority
+                  className="h-auto w-full max-w-[480px] object-contain"
+                />
+              </div>
+            )}
+          </div>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Link
@@ -157,6 +173,18 @@ export default function ReactionWashersPage() {
                 key={component.id}
                 className="rounded-xl border border-[#dddddd] bg-white p-6"
               >
+                {component.images[0] && (
+                  <div className="mb-5 flex aspect-[4/3] items-center justify-center overflow-hidden rounded-lg border border-[#e5e5e5] bg-[#fafafa] p-4">
+                    <Image
+                      src={component.images[0].src}
+                      alt={component.images[0].alt}
+                      width={420}
+                      height={300}
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
+                )}
+
                 <h3 className="text-xl font-semibold text-[#3f4448]">
                   {component.displayName}
                 </h3>
