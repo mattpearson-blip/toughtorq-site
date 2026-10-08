@@ -5,7 +5,18 @@
   "displayName": "Hydraulic Cylinders & Rams",
   "shortDescription": "Industrial hydraulic cylinders for lifting, pushing, pulling, positioning, load holding, and heavy maintenance.",
   "longDescription": "ToughTorq hydraulic cylinders cover general-purpose lifting, low-height applications, hollow-plunger pulling and tensioning, mechanical load holding, high-tonnage lifting, aluminum weight-sensitive applications, telescopic lifting, and stage-lift systems. Cylinder selection should be based on required capacity, stroke, collapsed height, return method, load-holding requirement, pressure, and application geometry.",
-  "images": [],
+  "images": [
+    {
+      "src": "/hydraulic-cylinder-general.webp",
+      "alt": "ToughTorq general-purpose single-acting hydraulic cylinders",
+      "type": "product"
+    },
+    {
+      "src": "/hydraulic-cylinder-hollow.webp",
+      "alt": "ToughTorq single- and double-acting hollow-plunger hydraulic cylinders",
+      "type": "product"
+    }
+  ],
   "features": [
     "Single-acting and double-acting designs",
     "Low-height and ultra-low-height configurations",
@@ -32,7 +43,13 @@
       "model": "TTRC-50",
       "displayName": "TTRC-50 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 5 ton capacity with 0.63 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-50 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 5,
@@ -108,7 +125,13 @@
       "model": "TTRC-51",
       "displayName": "TTRC-51 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 5 ton capacity with 0.98 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-51 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 5,
@@ -184,7 +207,13 @@
       "model": "TTRC-53",
       "displayName": "TTRC-53 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 5 ton capacity with 2.99 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-53 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 5,
@@ -260,7 +289,13 @@
       "model": "TTRC-55",
       "displayName": "TTRC-55 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 5 ton capacity with 5 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-55 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 5,
@@ -336,7 +371,13 @@
       "model": "TTRC-57",
       "displayName": "TTRC-57 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 5 ton capacity with 6.97 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-57 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 5,
@@ -412,7 +453,13 @@
       "model": "TTRC-59",
       "displayName": "TTRC-59 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 5 ton capacity with 9.13 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-59 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 5,
@@ -488,7 +535,13 @@
       "model": "TTRC-101",
       "displayName": "TTRC-101 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 10 ton capacity with 1.02 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-101 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 10,
@@ -564,7 +617,13 @@
       "model": "TTRC-102",
       "displayName": "TTRC-102 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 10 ton capacity with 2.13 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-102 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 10,
@@ -640,7 +699,13 @@
       "model": "TTRC-104",
       "displayName": "TTRC-104 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 10 ton capacity with 4.13 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-104 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 10,
@@ -716,7 +781,13 @@
       "model": "TTRC-106",
       "displayName": "TTRC-106 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 10 ton capacity with 6.14 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-106 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 10,
@@ -792,7 +863,13 @@
       "model": "TTRC-108",
       "displayName": "TTRC-108 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 10 ton capacity with 7.99 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-108 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 10,
@@ -868,7 +945,13 @@
       "model": "TTRC-1010",
       "displayName": "TTRC-1010 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 10 ton capacity with 10.12 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-1010 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 10,
@@ -944,7 +1027,13 @@
       "model": "TTRC-1012",
       "displayName": "TTRC-1012 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 10 ton capacity with 11.97 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-1012 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 10,
@@ -1020,7 +1109,13 @@
       "model": "TTRC-1014",
       "displayName": "TTRC-1014 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 10 ton capacity with 14.02 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-1014 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 10,
@@ -1096,7 +1191,13 @@
       "model": "TTRC-151",
       "displayName": "TTRC-151 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 15 ton capacity with 0.98 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-151 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 15,
@@ -1172,7 +1273,13 @@
       "model": "TTRC-152",
       "displayName": "TTRC-152 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 15 ton capacity with 2.01 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-152 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 15,
@@ -1248,7 +1355,13 @@
       "model": "TTRC-154",
       "displayName": "TTRC-154 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 15 ton capacity with 3.98 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-154 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 15,
@@ -1324,7 +1437,13 @@
       "model": "TTRC-156",
       "displayName": "TTRC-156 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 15 ton capacity with 5.98 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-156 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 15,
@@ -1400,7 +1519,13 @@
       "model": "TTRC-158",
       "displayName": "TTRC-158 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 15 ton capacity with 7.99 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-158 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 15,
@@ -1476,7 +1601,13 @@
       "model": "TTRC-1510",
       "displayName": "TTRC-1510 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 15 ton capacity with 10 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-1510 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 15,
@@ -1552,7 +1683,13 @@
       "model": "TTRC-1512",
       "displayName": "TTRC-1512 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 15 ton capacity with 12.01 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-1512 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 15,
@@ -1628,7 +1765,13 @@
       "model": "TTRC-1514",
       "displayName": "TTRC-1514 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 15 ton capacity with 14.02 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-1514 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 15,
@@ -1704,7 +1847,13 @@
       "model": "TTRC-251",
       "displayName": "TTRC-251 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 25 ton capacity with 1.02 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-251 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 25,
@@ -1780,7 +1929,13 @@
       "model": "TTRC-252",
       "displayName": "TTRC-252 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 25 ton capacity with 1.97 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-252 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 25,
@@ -1856,7 +2011,13 @@
       "model": "TTRC-254",
       "displayName": "TTRC-254 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 25 ton capacity with 4.02 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-254 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 25,
@@ -1932,7 +2093,13 @@
       "model": "TTRC-256",
       "displayName": "TTRC-256 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 25 ton capacity with 6.22 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-256 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 25,
@@ -2008,7 +2175,13 @@
       "model": "TTRC-258",
       "displayName": "TTRC-258 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 25 ton capacity with 8.27 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-258 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 25,
@@ -2084,7 +2257,13 @@
       "model": "TTRC-2510",
       "displayName": "TTRC-2510 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 25 ton capacity with 10.28 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-2510 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 25,
@@ -2160,7 +2339,13 @@
       "model": "TTRC-2512",
       "displayName": "TTRC-2512 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 25 ton capacity with 12.24 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-2512 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 25,
@@ -2236,7 +2421,13 @@
       "model": "TTRC-2514",
       "displayName": "TTRC-2514 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 25 ton capacity with 14.25 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-2514 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 25,
@@ -2312,7 +2503,13 @@
       "model": "TTRC-308",
       "displayName": "TTRC-308 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 30 ton capacity with 8.23 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-308 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 30,
@@ -2388,7 +2585,13 @@
       "model": "TTRC-502",
       "displayName": "TTRC-502 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 50 ton capacity with 2.01 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-502 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 50,
@@ -2464,7 +2667,13 @@
       "model": "TTRC-504",
       "displayName": "TTRC-504 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 50 ton capacity with 3.98 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-504 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 50,
@@ -2540,7 +2749,13 @@
       "model": "TTRC-506",
       "displayName": "TTRC-506 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 50 ton capacity with 6.26 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-506 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 50,
@@ -2616,7 +2831,13 @@
       "model": "TTRC-5013",
       "displayName": "TTRC-5013 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 50 ton capacity with 13.27 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-5013 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 50,
@@ -2692,7 +2913,13 @@
       "model": "TTRC-756",
       "displayName": "TTRC-756 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 75 ton capacity with 6.14 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-756 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 75,
@@ -2768,7 +2995,13 @@
       "model": "TTRC-7513",
       "displayName": "TTRC-7513 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 75 ton capacity with 13.11 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-7513 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 75,
@@ -2844,7 +3077,13 @@
       "model": "TTRC-1006",
       "displayName": "TTRC-1006 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 100 ton capacity with 6.61 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-1006 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 100,
@@ -2920,7 +3159,13 @@
       "model": "TTRC-10010",
       "displayName": "TTRC-10010 General Purpose Single Acting Hydraulic Cylinder",
       "description": "General Purpose Single Acting hydraulic cylinder rated at 100 ton capacity with 10.24 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq TTRC-10010 general-purpose single-acting hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting",
         "capacityTons": 100,
@@ -3936,7 +4181,13 @@
       "model": "TTRCH-120",
       "displayName": "TTRCH-120 Single-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Single-Acting Hollow Plunger hydraulic cylinder rated at 13 ton capacity with 0.31 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRCH-120 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Single-Acting Hollow Plunger",
         "capacityTons": 13,
@@ -4013,7 +4264,13 @@
       "model": "TTRCH-121",
       "displayName": "TTRCH-121 Single-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Single-Acting Hollow Plunger hydraulic cylinder rated at 13 ton capacity with 1.65 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRCH-121 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Single-Acting Hollow Plunger",
         "capacityTons": 13,
@@ -4090,7 +4347,13 @@
       "model": "TTRCH-1211",
       "displayName": "TTRCH-1211 Single-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Single-Acting Hollow Plunger hydraulic cylinder rated at 13 ton capacity with 1.65 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRCH-1211 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Single-Acting Hollow Plunger",
         "capacityTons": 13,
@@ -4167,7 +4430,13 @@
       "model": "TTRCH-123",
       "displayName": "TTRCH-123 Single-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Single-Acting Hollow Plunger hydraulic cylinder rated at 13 ton capacity with 2.99 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRCH-123 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Single-Acting Hollow Plunger",
         "capacityTons": 13,
@@ -4244,7 +4513,13 @@
       "model": "TTRCH-202",
       "displayName": "TTRCH-202 Single-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Single-Acting Hollow Plunger hydraulic cylinder rated at 20 ton capacity with 1.93 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRCH-202 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Single-Acting Hollow Plunger",
         "capacityTons": 20,
@@ -4321,7 +4596,13 @@
       "model": "TTRCH-206",
       "displayName": "TTRCH-206 Single-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Single-Acting Hollow Plunger hydraulic cylinder rated at 20 ton capacity with 6.1 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRCH-206 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Single-Acting Hollow Plunger",
         "capacityTons": 20,
@@ -4398,7 +4679,13 @@
       "model": "TTRCH-302",
       "displayName": "TTRCH-302 Single-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Single-Acting Hollow Plunger hydraulic cylinder rated at 30 ton capacity with 2.52 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRCH-302 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Single-Acting Hollow Plunger",
         "capacityTons": 30,
@@ -4475,7 +4762,13 @@
       "model": "TTRCH-306",
       "displayName": "TTRCH-306 Single-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Single-Acting Hollow Plunger hydraulic cylinder rated at 30 ton capacity with 6.1 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRCH-306 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Single-Acting Hollow Plunger",
         "capacityTons": 30,
@@ -4552,7 +4845,13 @@
       "model": "TTRCH-603",
       "displayName": "TTRCH-603 Single-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Single-Acting Hollow Plunger hydraulic cylinder rated at 60 ton capacity with 2.99 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRCH-603 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Single-Acting Hollow Plunger",
         "capacityTons": 60,
@@ -4629,7 +4928,13 @@
       "model": "TTRCH-606",
       "displayName": "TTRCH-606 Single-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Single-Acting Hollow Plunger hydraulic cylinder rated at 60 ton capacity with 6.02 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRCH-606 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Single-Acting Hollow Plunger",
         "capacityTons": 60,
@@ -4706,7 +5011,13 @@
       "model": "TTRCH-1003",
       "displayName": "TTRCH-1003 Single-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Single-Acting Hollow Plunger hydraulic cylinder rated at 100 ton capacity with 2.99 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRCH-1003 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Single-Acting Hollow Plunger",
         "capacityTons": 100,
@@ -4783,7 +5094,13 @@
       "model": "TTRRH-307",
       "displayName": "TTRRH-307 Double-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Double-Acting Hollow Plunger hydraulic cylinder rated at 30 ton capacity with 7.01 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRRH-307 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Double-Acting Hollow Plunger",
         "capacityTons": 30,
@@ -4861,7 +5178,13 @@
       "model": "TTRRH-3010",
       "displayName": "TTRRH-3010 Double-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Double-Acting Hollow Plunger hydraulic cylinder rated at 30 ton capacity with 10.16 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRRH-3010 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Double-Acting Hollow Plunger",
         "capacityTons": 30,
@@ -4939,7 +5262,13 @@
       "model": "TTRRH-603",
       "displayName": "TTRRH-603 Double-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Double-Acting Hollow Plunger hydraulic cylinder rated at 60 ton capacity with 3.5 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRRH-603 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Double-Acting Hollow Plunger",
         "capacityTons": 60,
@@ -5017,7 +5346,13 @@
       "model": "TTRRH-606",
       "displayName": "TTRRH-606 Double-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Double-Acting Hollow Plunger hydraulic cylinder rated at 60 ton capacity with 6.54 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRRH-606 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Double-Acting Hollow Plunger",
         "capacityTons": 60,
@@ -5095,7 +5430,13 @@
       "model": "TTRRH-6010",
       "displayName": "TTRRH-6010 Double-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Double-Acting Hollow Plunger hydraulic cylinder rated at 60 ton capacity with 10.12 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRRH-6010 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Double-Acting Hollow Plunger",
         "capacityTons": 60,
@@ -5173,7 +5514,13 @@
       "model": "TTRRH-1001",
       "displayName": "TTRRH-1001 Double-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Double-Acting Hollow Plunger hydraulic cylinder rated at 100 ton capacity with 1.5 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRRH-1001 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Double-Acting Hollow Plunger",
         "capacityTons": 100,
@@ -5251,7 +5598,13 @@
       "model": "TTRRH-1003",
       "displayName": "TTRRH-1003 Double-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Double-Acting Hollow Plunger hydraulic cylinder rated at 100 ton capacity with 2.99 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRRH-1003 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Double-Acting Hollow Plunger",
         "capacityTons": 100,
@@ -5329,7 +5682,13 @@
       "model": "TTRRH-1006",
       "displayName": "TTRRH-1006 Double-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Double-Acting Hollow Plunger hydraulic cylinder rated at 100 ton capacity with 6.02 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRRH-1006 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Double-Acting Hollow Plunger",
         "capacityTons": 100,
@@ -5407,7 +5766,13 @@
       "model": "TTRRH-10010",
       "displayName": "TTRRH-10010 Double-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Double-Acting Hollow Plunger hydraulic cylinder rated at 100 ton capacity with 10.12 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRRH-10010 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Double-Acting Hollow Plunger",
         "capacityTons": 100,
@@ -5485,7 +5850,13 @@
       "model": "TTRRH-1508",
       "displayName": "TTRRH-1508 Double-Acting Hollow Plunger Hydraulic Cylinder",
       "description": "Double-Acting Hollow Plunger hydraulic cylinder rated at 150 ton capacity with 7.99 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq TTRRH-1508 hollow-plunger hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Double-Acting Hollow Plunger",
         "capacityTons": 150,
@@ -6762,7 +7133,13 @@
       "group": "Cylinder Series",
       "displayName": "TTRC Series",
       "description": "Spring-return cylinders for lifting, pushing, positioning, and general maintenance at 700 bar.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-general.webp",
+          "alt": "ToughTorq general-purpose single-acting hydraulic cylinders",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "General Purpose Single Acting"
       },
@@ -6810,7 +7187,13 @@
       "group": "Cylinder Series",
       "displayName": "TTRCH Series",
       "description": "Hollow-center spring-return cylinders for pulling, tensioning, and pushing.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq hollow-plunger hydraulic cylinders",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Single-Acting Hollow Plunger"
       },
@@ -6826,7 +7209,13 @@
       "group": "Cylinder Series",
       "displayName": "TTRRH Series",
       "description": "Hollow-center cylinders with hydraulic advance and controlled hydraulic return.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-hollow.webp",
+          "alt": "ToughTorq hollow-plunger hydraulic cylinders",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Double-Acting Hollow Plunger"
       },
