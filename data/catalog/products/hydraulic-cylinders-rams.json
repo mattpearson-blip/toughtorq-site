@@ -15,6 +15,26 @@
       "src": "/hydraulic-cylinder-hollow.webp",
       "alt": "ToughTorq single- and double-acting hollow-plunger hydraulic cylinders",
       "type": "product"
+    },
+    {
+      "src": "/hydraulic-cylinder-rsm-low-height.webp",
+      "alt": "ToughTorq TTRSM low-height hydraulic cylinders",
+      "type": "product"
+    },
+    {
+      "src": "/hydraulic-cylinder-rcs-low-height.webp",
+      "alt": "ToughTorq TTRCS low-height hydraulic cylinders",
+      "type": "product"
+    },
+    {
+      "src": "/hydraulic-cylinder-pancake-lock.webp",
+      "alt": "ToughTorq TTCLP pancake lock-nut hydraulic cylinders",
+      "type": "product"
+    },
+    {
+      "src": "/hydraulic-cylinder-ultra-low-height.webp",
+      "alt": "ToughTorq TTTC ultra-low-height hydraulic cylinder",
+      "type": "product"
     }
   ],
   "features": [
@@ -3241,7 +3261,13 @@
       "model": "TTRSM-50",
       "displayName": "TTRSM-50 RSM Low Height Hydraulic Cylinder",
       "description": "RSM Low Height hydraulic cylinder rated at 5 ton capacity with 0.24 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rsm-low-height.webp",
+          "alt": "ToughTorq TTRSM-50 low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RSM Low Height",
         "capacityTons": 5,
@@ -3311,7 +3337,13 @@
       "model": "TTRSM-100",
       "displayName": "TTRSM-100 RSM Low Height Hydraulic Cylinder",
       "description": "RSM Low Height hydraulic cylinder rated at 10 ton capacity with 0.47 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rsm-low-height.webp",
+          "alt": "ToughTorq TTRSM-100 low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RSM Low Height",
         "capacityTons": 10,
@@ -3381,7 +3413,13 @@
       "model": "TTRSM-200",
       "displayName": "TTRSM-200 RSM Low Height Hydraulic Cylinder",
       "description": "RSM Low Height hydraulic cylinder rated at 20 ton capacity with 0.43 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rsm-low-height.webp",
+          "alt": "ToughTorq TTRSM-200 low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RSM Low Height",
         "capacityTons": 20,
@@ -3451,7 +3489,13 @@
       "model": "TTRSM-300",
       "displayName": "TTRSM-300 RSM Low Height Hydraulic Cylinder",
       "description": "RSM Low Height hydraulic cylinder rated at 30 ton capacity with 0.51 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rsm-low-height.webp",
+          "alt": "ToughTorq TTRSM-300 low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RSM Low Height",
         "capacityTons": 30,
@@ -3521,7 +3565,13 @@
       "model": "TTRSM-500",
       "displayName": "TTRSM-500 RSM Low Height Hydraulic Cylinder",
       "description": "RSM Low Height hydraulic cylinder rated at 45 ton capacity with 0.63 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rsm-low-height.webp",
+          "alt": "ToughTorq TTRSM-500 low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RSM Low Height",
         "capacityTons": 45,
@@ -3591,7 +3641,13 @@
       "model": "TTRSM-750",
       "displayName": "TTRSM-750 RSM Low Height Hydraulic Cylinder",
       "description": "RSM Low Height hydraulic cylinder rated at 75 ton capacity with 0.63 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rsm-low-height.webp",
+          "alt": "ToughTorq TTRSM-750 low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RSM Low Height",
         "capacityTons": 75,
@@ -3661,7 +3717,13 @@
       "model": "TTRSM-1000",
       "displayName": "TTRSM-1000 RSM Low Height Hydraulic Cylinder",
       "description": "RSM Low Height hydraulic cylinder rated at 100 ton capacity with 0.63 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rsm-low-height.webp",
+          "alt": "ToughTorq TTRSM-1000 low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RSM Low Height",
         "capacityTons": 100,
@@ -3731,7 +3793,13 @@
       "model": "TTRSM-1500",
       "displayName": "TTRSM-1500 RSM Low Height Hydraulic Cylinder",
       "description": "RSM Low Height hydraulic cylinder rated at 150 ton capacity with 0.63 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rsm-low-height.webp",
+          "alt": "ToughTorq TTRSM-1500 low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RSM Low Height",
         "capacityTons": 150,
@@ -3801,7 +3869,13 @@
       "model": "TTRCS-101",
       "displayName": "TTRCS-101 RCS Low Height Hydraulic Cylinder",
       "description": "RCS Low Height hydraulic cylinder rated at 10 ton capacity with 1.5 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rcs-low-height.webp",
+          "alt": "ToughTorq TTRCS-101 low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RCS Low Height",
         "capacityTons": 10,
@@ -3877,7 +3951,13 @@
       "model": "TTRCS-201",
       "displayName": "TTRCS-201 RCS Low Height Hydraulic Cylinder",
       "description": "RCS Low Height hydraulic cylinder rated at 20 ton capacity with 1.77 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rcs-low-height.webp",
+          "alt": "ToughTorq TTRCS-201 low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RCS Low Height",
         "capacityTons": 20,
@@ -3953,7 +4033,13 @@
       "model": "TTRCS-302",
       "displayName": "TTRCS-302 RCS Low Height Hydraulic Cylinder",
       "description": "RCS Low Height hydraulic cylinder rated at 30 ton capacity with 2.44 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rcs-low-height.webp",
+          "alt": "ToughTorq TTRCS-302 low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RCS Low Height",
         "capacityTons": 30,
@@ -4029,7 +4115,13 @@
       "model": "TTRCS-502",
       "displayName": "TTRCS-502 RCS Low Height Hydraulic Cylinder",
       "description": "RCS Low Height hydraulic cylinder rated at 50 ton capacity with 2.36 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rcs-low-height.webp",
+          "alt": "ToughTorq TTRCS-502 low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RCS Low Height",
         "capacityTons": 50,
@@ -4105,7 +4197,13 @@
       "model": "TTRCS-1002",
       "displayName": "TTRCS-1002 RCS Low Height Hydraulic Cylinder",
       "description": "RCS Low Height hydraulic cylinder rated at 100 ton capacity with 2.24 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rcs-low-height.webp",
+          "alt": "ToughTorq TTRCS-1002 low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RCS Low Height",
         "capacityTons": 100,
@@ -5934,7 +6032,13 @@
       "model": "TTTC-00510",
       "displayName": "TTTC-00510 Ultra Low Height 1500 Bar Hydraulic Cylinder",
       "description": "Ultra Low Height 1500 Bar hydraulic cylinder rated at 5 ton capacity with 0.39 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-ultra-low-height.webp",
+          "alt": "ToughTorq TTTC-00510 ultra-low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Ultra Low Height 1500 Bar",
         "capacityTons": 5,
@@ -6012,7 +6116,13 @@
       "model": "TTTC-01010",
       "displayName": "TTTC-01010 Ultra Low Height 1500 Bar Hydraulic Cylinder",
       "description": "Ultra Low Height 1500 Bar hydraulic cylinder rated at 10 ton capacity with 0.39 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-ultra-low-height.webp",
+          "alt": "ToughTorq TTTC-01010 ultra-low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Ultra Low Height 1500 Bar",
         "capacityTons": 10,
@@ -6090,7 +6200,13 @@
       "model": "TTTC-02510",
       "displayName": "TTTC-02510 Ultra Low Height 1500 Bar Hydraulic Cylinder",
       "description": "Ultra Low Height 1500 Bar hydraulic cylinder rated at 25 ton capacity with 0.39 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-ultra-low-height.webp",
+          "alt": "ToughTorq TTTC-02510 ultra-low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Ultra Low Height 1500 Bar",
         "capacityTons": 25,
@@ -6168,7 +6284,13 @@
       "model": "TTTC-05510",
       "displayName": "TTTC-05510 Ultra Low Height 1500 Bar Hydraulic Cylinder",
       "description": "Ultra Low Height 1500 Bar hydraulic cylinder rated at 50 ton capacity with 0.39 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-ultra-low-height.webp",
+          "alt": "ToughTorq TTTC-05510 ultra-low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Ultra Low Height 1500 Bar",
         "capacityTons": 50,
@@ -6246,7 +6368,13 @@
       "model": "TTTC-10010",
       "displayName": "TTTC-10010 Ultra Low Height 1500 Bar Hydraulic Cylinder",
       "description": "Ultra Low Height 1500 Bar hydraulic cylinder rated at 100 ton capacity with 0.39 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-ultra-low-height.webp",
+          "alt": "ToughTorq TTTC-10010 ultra-low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Ultra Low Height 1500 Bar",
         "capacityTons": 100,
@@ -6324,7 +6452,13 @@
       "model": "TTTC-12010",
       "displayName": "TTTC-12010 Ultra Low Height 1500 Bar Hydraulic Cylinder",
       "description": "Ultra Low Height 1500 Bar hydraulic cylinder rated at 120 ton capacity with 0.39 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-ultra-low-height.webp",
+          "alt": "ToughTorq TTTC-12010 ultra-low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Ultra Low Height 1500 Bar",
         "capacityTons": 120,
@@ -6402,7 +6536,13 @@
       "model": "TTTC-15010",
       "displayName": "TTTC-15010 Ultra Low Height 1500 Bar Hydraulic Cylinder",
       "description": "Ultra Low Height 1500 Bar hydraulic cylinder rated at 150 ton capacity with 0.39 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-ultra-low-height.webp",
+          "alt": "ToughTorq TTTC-15010 ultra-low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Ultra Low Height 1500 Bar",
         "capacityTons": 150,
@@ -6480,7 +6620,13 @@
       "model": "TTTC-20010",
       "displayName": "TTTC-20010 Ultra Low Height 1500 Bar Hydraulic Cylinder",
       "description": "Ultra Low Height 1500 Bar hydraulic cylinder rated at 200 ton capacity with 0.39 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-ultra-low-height.webp",
+          "alt": "ToughTorq TTTC-20010 ultra-low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Ultra Low Height 1500 Bar",
         "capacityTons": 200,
@@ -6558,7 +6704,13 @@
       "model": "TTCLP-602",
       "displayName": "TTCLP-602 Pancake Lock Nut Hydraulic Cylinder",
       "description": "Pancake Lock Nut hydraulic cylinder rated at 60 ton capacity with 1.97 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-pancake-lock.webp",
+          "alt": "ToughTorq TTCLP-602 pancake lock-nut hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Pancake Lock Nut",
         "capacityTons": 60,
@@ -6636,7 +6788,13 @@
       "model": "TTCLP-1002",
       "displayName": "TTCLP-1002 Pancake Lock Nut Hydraulic Cylinder",
       "description": "Pancake Lock Nut hydraulic cylinder rated at 100 ton capacity with 1.97 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-pancake-lock.webp",
+          "alt": "ToughTorq TTCLP-1002 pancake lock-nut hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Pancake Lock Nut",
         "capacityTons": 100,
@@ -6714,7 +6872,13 @@
       "model": "TTCLP-1602",
       "displayName": "TTCLP-1602 Pancake Lock Nut Hydraulic Cylinder",
       "description": "Pancake Lock Nut hydraulic cylinder rated at 160 ton capacity with 1.77 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-pancake-lock.webp",
+          "alt": "ToughTorq TTCLP-1602 pancake lock-nut hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Pancake Lock Nut",
         "capacityTons": 160,
@@ -6792,7 +6956,13 @@
       "model": "TTCLP-2002",
       "displayName": "TTCLP-2002 Pancake Lock Nut Hydraulic Cylinder",
       "description": "Pancake Lock Nut hydraulic cylinder rated at 200 ton capacity with 1.77 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-pancake-lock.webp",
+          "alt": "ToughTorq TTCLP-2002 pancake lock-nut hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Pancake Lock Nut",
         "capacityTons": 200,
@@ -6870,7 +7040,13 @@
       "model": "TTCLP-2502",
       "displayName": "TTCLP-2502 Pancake Lock Nut Hydraulic Cylinder",
       "description": "Pancake Lock Nut hydraulic cylinder rated at 260 ton capacity with 1.77 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-pancake-lock.webp",
+          "alt": "ToughTorq TTCLP-2502 pancake lock-nut hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Pancake Lock Nut",
         "capacityTons": 260,
@@ -6948,7 +7124,13 @@
       "model": "TTCLP-4002",
       "displayName": "TTCLP-4002 Pancake Lock Nut Hydraulic Cylinder",
       "description": "Pancake Lock Nut hydraulic cylinder rated at 400 ton capacity with 1.77 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-pancake-lock.webp",
+          "alt": "ToughTorq TTCLP-4002 pancake lock-nut hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Pancake Lock Nut",
         "capacityTons": 400,
@@ -7026,7 +7208,13 @@
       "model": "TTCLP-5002",
       "displayName": "TTCLP-5002 Pancake Lock Nut Hydraulic Cylinder",
       "description": "Pancake Lock Nut hydraulic cylinder rated at 520 ton capacity with 1.77 in stroke.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-pancake-lock.webp",
+          "alt": "ToughTorq TTCLP-5002 pancake lock-nut hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Pancake Lock Nut",
         "capacityTons": 520,
@@ -7155,7 +7343,13 @@
       "group": "Cylinder Series",
       "displayName": "TTRSM Series",
       "description": "Very low collapsed-height spring-return cylinders for confined lifting applications.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rsm-low-height.webp",
+          "alt": "ToughTorq TTRSM low-height hydraulic cylinders",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RSM Low Height"
       },
@@ -7171,7 +7365,13 @@
       "group": "Cylinder Series",
       "displayName": "TTRCS Series",
       "description": "Low-profile spring-return cylinders where standard cylinder collapsed height will not fit.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-rcs-low-height.webp",
+          "alt": "ToughTorq TTRCS low-height hydraulic cylinders",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "RCS Low Height"
       },
@@ -7231,7 +7431,13 @@
       "group": "Cylinder Series",
       "displayName": "TTTC Series",
       "description": "Ultra-low-height single-acting load-return cylinders for extremely restricted clearance.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-ultra-low-height.webp",
+          "alt": "ToughTorq TTTC ultra-low-height hydraulic cylinder",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Ultra Low Height 1500 Bar"
       },
@@ -7247,7 +7453,13 @@
       "group": "Cylinder Series",
       "displayName": "TTCLP Series",
       "description": "Low-profile load-return cylinders with mechanical load holding.",
-      "images": [],
+      "images": [
+        {
+          "src": "/hydraulic-cylinder-pancake-lock.webp",
+          "alt": "ToughTorq TTCLP pancake lock-nut hydraulic cylinders",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Pancake Lock Nut"
       },
