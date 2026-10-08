@@ -15,6 +15,41 @@
       "src": "/puller-master-set.webp",
       "alt": "ToughTorq master hydraulic puller set",
       "type": "product"
+    },
+    {
+      "src": "/nut-splitter-mechanical.webp",
+      "alt": "ToughTorq mechanical nut splitter",
+      "type": "product"
+    },
+    {
+      "src": "/nut-splitter-separated.webp",
+      "alt": "ToughTorq separated hydraulic nut splitter",
+      "type": "product"
+    },
+    {
+      "src": "/nut-splitter-heavy-duty.webp",
+      "alt": "ToughTorq heavy-duty hydraulic nut splitter",
+      "type": "product"
+    },
+    {
+      "src": "/puller-adjustable-gear.webp",
+      "alt": "ToughTorq adjustable hydraulic gear puller",
+      "type": "product"
+    },
+    {
+      "src": "/puller-coupler.webp",
+      "alt": "ToughTorq hydraulic coupler puller",
+      "type": "product"
+    },
+    {
+      "src": "/puller-grip-set.webp",
+      "alt": "ToughTorq grip puller set",
+      "type": "product"
+    },
+    {
+      "src": "/puller-cross-bearing-set.webp",
+      "alt": "ToughTorq cross-bearing puller set",
+      "type": "product"
     }
   ],
   "features": [
@@ -43,7 +78,13 @@
       "model": "NT-1",
       "displayName": "NT-1 Mechanical Nut Splitter",
       "description": "Drop-forged mechanical nut splitter for 9–12 mm nut A/F range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-mechanical.webp",
+          "alt": "ToughTorq NT-1 mechanical nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Mechanical Nut Splitter",
         "nutAfSize": "9–12 mm",
@@ -77,7 +118,13 @@
       "model": "NT-2",
       "displayName": "NT-2 Mechanical Nut Splitter",
       "description": "Drop-forged mechanical nut splitter for 12–16 mm nut A/F range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-mechanical.webp",
+          "alt": "ToughTorq NT-2 mechanical nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Mechanical Nut Splitter",
         "nutAfSize": "12–16 mm",
@@ -111,7 +158,13 @@
       "model": "NT-3",
       "displayName": "NT-3 Mechanical Nut Splitter",
       "description": "Drop-forged mechanical nut splitter for 16–22 mm nut A/F range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-mechanical.webp",
+          "alt": "ToughTorq NT-3 mechanical nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Mechanical Nut Splitter",
         "nutAfSize": "16–22 mm",
@@ -145,7 +198,13 @@
       "model": "NT-4",
       "displayName": "NT-4 Mechanical Nut Splitter",
       "description": "Drop-forged mechanical nut splitter for 19–24 mm nut A/F range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-mechanical.webp",
+          "alt": "ToughTorq NT-4 mechanical nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Mechanical Nut Splitter",
         "nutAfSize": "19–24 mm",
@@ -299,7 +358,13 @@
       "model": "NC-1319",
       "displayName": "NC-1319 Separated Hydraulic Nut Splitter",
       "description": "Separated hydraulic nut splitter for 10–19 mm nuts and M6–12 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-separated.webp",
+          "alt": "ToughTorq NC-1319 separated hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Separated Hydraulic Nut Splitter",
         "weightLb": 2.6,
@@ -344,7 +409,13 @@
       "model": "NC-1924",
       "displayName": "NC-1924 Separated Hydraulic Nut Splitter",
       "description": "Separated hydraulic nut splitter for 19–24 mm nuts and M12–16 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-separated.webp",
+          "alt": "ToughTorq NC-1924 separated hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Separated Hydraulic Nut Splitter",
         "weightLb": 5.7,
@@ -389,7 +460,13 @@
       "model": "NC-2432",
       "displayName": "NC-2432 Separated Hydraulic Nut Splitter",
       "description": "Separated hydraulic nut splitter for 24–32 mm nuts and M16–22 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-separated.webp",
+          "alt": "ToughTorq NC-2432 separated hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Separated Hydraulic Nut Splitter",
         "weightLb": 8.8,
@@ -434,7 +511,13 @@
       "model": "NC-3241",
       "displayName": "NC-3241 Separated Hydraulic Nut Splitter",
       "description": "Separated hydraulic nut splitter for 32–41 mm nuts and M22–27 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-separated.webp",
+          "alt": "ToughTorq NC-3241 separated hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Separated Hydraulic Nut Splitter",
         "weightLb": 11.9,
@@ -479,7 +562,13 @@
       "model": "NC-4150",
       "displayName": "NC-4150 Separated Hydraulic Nut Splitter",
       "description": "Separated hydraulic nut splitter for 41–50 mm nuts and M27–33 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-separated.webp",
+          "alt": "ToughTorq NC-4150 separated hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Separated Hydraulic Nut Splitter",
         "weightLb": 22,
@@ -524,7 +613,13 @@
       "model": "NC-5060",
       "displayName": "NC-5060 Separated Hydraulic Nut Splitter",
       "description": "Separated hydraulic nut splitter for 50–60 mm nuts and M33–39 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-separated.webp",
+          "alt": "ToughTorq NC-5060 separated hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Separated Hydraulic Nut Splitter",
         "weightLb": 37.5,
@@ -569,7 +664,13 @@
       "model": "NC-6075",
       "displayName": "NC-6075 Separated Hydraulic Nut Splitter",
       "description": "Separated hydraulic nut splitter for 60–75 mm nuts and M39–48 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-separated.webp",
+          "alt": "ToughTorq NC-6075 separated hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Separated Hydraulic Nut Splitter",
         "weightLb": 75.2,
@@ -614,7 +715,13 @@
       "model": "NS-7080",
       "displayName": "NS-7080 Heavy-Duty Hydraulic Nut Splitter",
       "description": "Heavy-duty spring-return hydraulic nut splitter for 70–80 mm nuts and M45–52 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-heavy-duty.webp",
+          "alt": "ToughTorq NS-7080 heavy-duty hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Heavy-Duty Hydraulic Nut Splitter",
         "weightLb": 81.6,
@@ -661,7 +768,13 @@
       "model": "NS-7085",
       "displayName": "NS-7085 Heavy-Duty Hydraulic Nut Splitter",
       "description": "Heavy-duty spring-return hydraulic nut splitter for 70–85 mm nuts and M45–56 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-heavy-duty.webp",
+          "alt": "ToughTorq NS-7085 heavy-duty hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Heavy-Duty Hydraulic Nut Splitter",
         "weightLb": 81.6,
@@ -708,7 +821,13 @@
       "model": "NS-7095",
       "displayName": "NS-7095 Heavy-Duty Hydraulic Nut Splitter",
       "description": "Heavy-duty spring-return hydraulic nut splitter for 70–95 mm nuts and M45–64 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-heavy-duty.webp",
+          "alt": "ToughTorq NS-7095 heavy-duty hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Heavy-Duty Hydraulic Nut Splitter",
         "weightLb": 86,
@@ -755,7 +874,13 @@
       "model": "NS-70105",
       "displayName": "NS-70105 Heavy-Duty Hydraulic Nut Splitter",
       "description": "Heavy-duty spring-return hydraulic nut splitter for 70–105 mm nuts and M45–72 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-heavy-duty.webp",
+          "alt": "ToughTorq NS-70105 heavy-duty hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Heavy-Duty Hydraulic Nut Splitter",
         "weightLb": 88.2,
@@ -802,7 +927,13 @@
       "model": "NS-110115",
       "displayName": "NS-110115 Heavy-Duty Hydraulic Nut Splitter",
       "description": "Heavy-duty spring-return hydraulic nut splitter for 110–115 mm nuts and M76–80 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-heavy-duty.webp",
+          "alt": "ToughTorq NS-110115 heavy-duty hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Heavy-Duty Hydraulic Nut Splitter",
         "weightLb": 152.1,
@@ -849,7 +980,13 @@
       "model": "NS-110130",
       "displayName": "NS-110130 Heavy-Duty Hydraulic Nut Splitter",
       "description": "Heavy-duty spring-return hydraulic nut splitter for 110–130 mm nuts and M76–90 bolt range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-heavy-duty.webp",
+          "alt": "ToughTorq NS-110130 heavy-duty hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Heavy-Duty Hydraulic Nut Splitter",
         "weightLb": 158.7,
@@ -896,7 +1033,13 @@
       "model": "UKA-3",
       "displayName": "UKA-3 Adjustable Hydraulic Gear Puller",
       "description": "Adjustable hydraulic gear puller with 3 ton capacity and 5.91 in maximum spread.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-adjustable-gear.webp",
+          "alt": "ToughTorq UKA-3 adjustable hydraulic gear puller",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Adjustable Hydraulic Gear Puller",
         "weightLb": 7.7,
@@ -941,7 +1084,13 @@
       "model": "UKA-5",
       "displayName": "UKA-5 Adjustable Hydraulic Gear Puller",
       "description": "Adjustable hydraulic gear puller with 5 ton capacity and 7.87 in maximum spread.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-adjustable-gear.webp",
+          "alt": "ToughTorq UKA-5 adjustable hydraulic gear puller",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Adjustable Hydraulic Gear Puller",
         "weightLb": 15.4,
@@ -986,7 +1135,13 @@
       "model": "UKA-10",
       "displayName": "UKA-10 Adjustable Hydraulic Gear Puller",
       "description": "Adjustable hydraulic gear puller with 10 ton capacity and 9.84 in maximum spread.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-adjustable-gear.webp",
+          "alt": "ToughTorq UKA-10 adjustable hydraulic gear puller",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Adjustable Hydraulic Gear Puller",
         "weightLb": 26.5,
@@ -1031,7 +1186,13 @@
       "model": "UKA-15",
       "displayName": "UKA-15 Adjustable Hydraulic Gear Puller",
       "description": "Adjustable hydraulic gear puller with 15 ton capacity and 13.78 in maximum spread.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-adjustable-gear.webp",
+          "alt": "ToughTorq UKA-15 adjustable hydraulic gear puller",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Adjustable Hydraulic Gear Puller",
         "weightLb": 39.7,
@@ -1076,7 +1237,13 @@
       "model": "UKA-20",
       "displayName": "UKA-20 Adjustable Hydraulic Gear Puller",
       "description": "Adjustable hydraulic gear puller with 20 ton capacity and 15.75 in maximum spread.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-adjustable-gear.webp",
+          "alt": "ToughTorq UKA-20 adjustable hydraulic gear puller",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Adjustable Hydraulic Gear Puller",
         "weightLb": 52.9,
@@ -1121,7 +1288,13 @@
       "model": "UKA-30",
       "displayName": "UKA-30 Adjustable Hydraulic Gear Puller",
       "description": "Adjustable hydraulic gear puller with 30 ton capacity and 17.72 in maximum spread.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-adjustable-gear.webp",
+          "alt": "ToughTorq UKA-30 adjustable hydraulic gear puller",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Adjustable Hydraulic Gear Puller",
         "weightLb": 61.7,
@@ -1166,7 +1339,13 @@
       "model": "UKA-40",
       "displayName": "UKA-40 Adjustable Hydraulic Gear Puller",
       "description": "Adjustable hydraulic gear puller with 40 ton capacity and 19.69 in maximum spread.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-adjustable-gear.webp",
+          "alt": "ToughTorq UKA-40 adjustable hydraulic gear puller",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Adjustable Hydraulic Gear Puller",
         "weightLb": 77.2,
@@ -1211,7 +1390,13 @@
       "model": "UKA-50",
       "displayName": "UKA-50 Adjustable Hydraulic Gear Puller",
       "description": "Adjustable hydraulic gear puller with 50 ton capacity and 23.62 in maximum spread.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-adjustable-gear.webp",
+          "alt": "ToughTorq UKA-50 adjustable hydraulic gear puller",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Adjustable Hydraulic Gear Puller",
         "weightLb": 99.2,
@@ -1256,7 +1441,13 @@
       "model": "UKA-60",
       "displayName": "UKA-60 Adjustable Hydraulic Gear Puller",
       "description": "Adjustable hydraulic gear puller with 60 ton capacity and 27.56 in maximum spread.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-adjustable-gear.webp",
+          "alt": "ToughTorq UKA-60 adjustable hydraulic gear puller",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Adjustable Hydraulic Gear Puller",
         "weightLb": 220.5,
@@ -1301,7 +1492,13 @@
       "model": "UKA-80",
       "displayName": "UKA-80 Adjustable Hydraulic Gear Puller",
       "description": "Adjustable hydraulic gear puller with 80 ton capacity and 31.5 in maximum spread.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-adjustable-gear.webp",
+          "alt": "ToughTorq UKA-80 adjustable hydraulic gear puller",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Adjustable Hydraulic Gear Puller",
         "weightLb": 264.6,
@@ -1346,7 +1543,13 @@
       "model": "TTLTC-20T",
       "displayName": "TTLTC-20T Hydraulic Coupler Puller",
       "description": "Hydraulic coupler puller rated at 20 tons for controlled coupling removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-coupler.webp",
+          "alt": "ToughTorq TTLTC-20T hydraulic coupler puller",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Hydraulic Coupler Puller",
         "weightLb": 22,
@@ -1392,7 +1595,13 @@
       "model": "TTLTC-50T",
       "displayName": "TTLTC-50T Hydraulic Coupler Puller",
       "description": "Hydraulic coupler puller rated at 50 tons for controlled coupling removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-coupler.webp",
+          "alt": "ToughTorq TTLTC-50T hydraulic coupler puller",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Hydraulic Coupler Puller",
         "weightLb": 39.7,
@@ -1438,7 +1647,13 @@
       "model": "BHP-152",
       "displayName": "BHP-152 Grip Puller Set",
       "description": "8 ton hydraulic grip puller set supplied as a matched puller system.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-grip-set.webp",
+          "alt": "ToughTorq BHP-152 grip puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Grip Puller Set",
         "weightLb": 48.5,
@@ -1486,7 +1701,13 @@
       "model": "BHP-251G",
       "displayName": "BHP-251G Grip Puller Set",
       "description": "20 ton hydraulic grip puller set supplied as a matched puller system.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-grip-set.webp",
+          "alt": "ToughTorq BHP-251G grip puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Grip Puller Set",
         "weightLb": 123.5,
@@ -1534,7 +1755,13 @@
       "model": "BHP-351G",
       "displayName": "BHP-351G Grip Puller Set",
       "description": "30 ton hydraulic grip puller set supplied as a matched puller system.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-grip-set.webp",
+          "alt": "ToughTorq BHP-351G grip puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Grip Puller Set",
         "weightLb": 200.6,
@@ -1582,7 +1809,13 @@
       "model": "BHP-551G",
       "displayName": "BHP-551G Grip Puller Set",
       "description": "50 ton hydraulic grip puller set supplied as a matched puller system.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-grip-set.webp",
+          "alt": "ToughTorq BHP-551G grip puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Grip Puller Set",
         "weightLb": 352.7,
@@ -1630,7 +1863,13 @@
       "model": "BHP-162",
       "displayName": "BHP-162 Cross-Bearing Puller Set",
       "description": "8 ton hydraulic cross-bearing puller set supplied as a matched puller system.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-cross-bearing-set.webp",
+          "alt": "ToughTorq BHP-162 cross-bearing puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Cross-Bearing Puller Set",
         "weightLb": 57.3,
@@ -1678,7 +1917,13 @@
       "model": "BHP-261G",
       "displayName": "BHP-261G Cross-Bearing Puller Set",
       "description": "20 ton hydraulic cross-bearing puller set supplied as a matched puller system.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-cross-bearing-set.webp",
+          "alt": "ToughTorq BHP-261G cross-bearing puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Cross-Bearing Puller Set",
         "weightLb": 136.7,
@@ -1726,7 +1971,13 @@
       "model": "BHP-361G",
       "displayName": "BHP-361G Cross-Bearing Puller Set",
       "description": "30 ton hydraulic cross-bearing puller set supplied as a matched puller system.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-cross-bearing-set.webp",
+          "alt": "ToughTorq BHP-361G cross-bearing puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Cross-Bearing Puller Set",
         "weightLb": 266.8,
@@ -1774,7 +2025,13 @@
       "model": "BHP-561G",
       "displayName": "BHP-561G Cross-Bearing Puller Set",
       "description": "50 ton hydraulic cross-bearing puller set supplied as a matched puller system.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-cross-bearing-set.webp",
+          "alt": "ToughTorq BHP-561G cross-bearing puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Cross-Bearing Puller Set",
         "weightLb": 407.9,
@@ -2066,7 +2323,13 @@
       "group": "Removal Tool Family",
       "displayName": "Mechanical Nut Splitters",
       "description": "Manual splitters for seized and corroded nuts.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-mechanical.webp",
+          "alt": "ToughTorq mechanical nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {},
       "active": true,
       "public": true,
@@ -2100,7 +2363,13 @@
       "group": "Removal Tool Family",
       "displayName": "Separated Hydraulic Nut Splitters",
       "description": "Hydraulic splitter heads used with a separate pump and hose.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-separated.webp",
+          "alt": "ToughTorq separated hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {},
       "active": true,
       "public": true,
@@ -2114,7 +2383,13 @@
       "group": "Removal Tool Family",
       "displayName": "Heavy-Duty Hydraulic Nut Splitters",
       "description": "High-capacity tri-blade hydraulic nut splitters with interchangeable heads.",
-      "images": [],
+      "images": [
+        {
+          "src": "/nut-splitter-heavy-duty.webp",
+          "alt": "ToughTorq heavy-duty hydraulic nut splitter",
+          "type": "product"
+        }
+      ],
       "specifications": {},
       "active": true,
       "public": true,
@@ -2128,7 +2403,13 @@
       "group": "Removal Tool Family",
       "displayName": "Grip Puller Sets",
       "description": "Hydraulic jaw puller systems for bearings, gears, and mounted components.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-grip-set.webp",
+          "alt": "ToughTorq grip puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {},
       "active": true,
       "public": true,
@@ -2142,7 +2423,13 @@
       "group": "Removal Tool Family",
       "displayName": "Cross-Bearing Puller Sets",
       "description": "Hydraulic cross-bearing puller systems for controlled component removal.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-cross-bearing-set.webp",
+          "alt": "ToughTorq cross-bearing puller set",
+          "type": "product"
+        }
+      ],
       "specifications": {},
       "active": true,
       "public": true,
@@ -2176,7 +2463,13 @@
       "group": "Removal Tool Family",
       "displayName": "Hydraulic Coupler Pullers",
       "description": "Hydraulic tools for removing shaft-mounted couplings.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-coupler.webp",
+          "alt": "ToughTorq hydraulic coupler puller",
+          "type": "product"
+        }
+      ],
       "specifications": {},
       "active": true,
       "public": true,
@@ -2190,7 +2483,13 @@
       "group": "Removal Tool Family",
       "displayName": "Adjustable Hydraulic Gear Pullers",
       "description": "Adjustable 2- and 3-jaw hydraulic pullers for gears and bearings.",
-      "images": [],
+      "images": [
+        {
+          "src": "/puller-adjustable-gear.webp",
+          "alt": "ToughTorq adjustable hydraulic gear puller",
+          "type": "product"
+        }
+      ],
       "specifications": {},
       "active": true,
       "public": true,
