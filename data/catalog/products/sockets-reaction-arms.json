@@ -5,7 +5,13 @@
   "displayName": "Torque Wrench Sockets & Reaction Solutions",
   "shortDescription": "Heavy-duty sockets, drive accessories, and application-specific reaction solutions for ToughTorq bolting systems.",
   "longDescription": "ToughTorq sockets and reaction equipment complete the mechanical connection between the torque tool, fastener, and reaction point. The published socket range covers 3/4-inch, 1-inch, and 1-1/2-inch square-drive hydraulic wrench applications, while reaction equipment can be selected or customized around tool position and available geometry.",
-  "images": [],
+  "images": [
+    {
+      "src": "/socket-drive-configurations.webp",
+      "alt": "ToughTorq socket, hexagon socket, square drive, hexagonal drive, and castle socket configurations",
+      "type": "product"
+    }
+  ],
   "features": [
     "Socket range matched to published ToughTorq hydraulic wrench models",
     "3/4-inch, 1-inch, and 1-1/2-inch square-drive coverage",
