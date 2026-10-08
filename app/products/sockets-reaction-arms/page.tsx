@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 import { TechnicalDownloads } from "@/components/technical-downloads";
@@ -179,6 +180,18 @@ export default function SocketsReactionArmsPage() {
             published model table below covers the standard square-drive socket
             range for ToughTorq hydraulic torque wrenches.
           </p>
+
+          {family.images[0] && (
+            <div className="mt-8 flex items-center justify-center rounded-xl border border-[#dddddd] bg-white p-6">
+              <Image
+                src={family.images[0].src}
+                alt={family.images[0].alt}
+                width={900}
+                height={260}
+                className="h-auto w-full max-w-4xl object-contain"
+              />
+            </div>
+          )}
 
           <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-5">
             {[
