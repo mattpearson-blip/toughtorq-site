@@ -352,7 +352,13 @@
       "model": "FSW25TI",
       "displayName": "FSW25TI Integral Hydraulic Flange Spreader",
       "description": "24 ton integral hydraulic flange spreader with self-contained hydraulic operation.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-integral-hydraulic-spreader.webp",
+          "alt": "ToughTorq FSW25TI integral hydraulic flange spreader",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Integral Hydraulic Flange Spreader",
         "weightLb": 30.9,
@@ -741,7 +747,13 @@
       "model": "FA1TM",
       "displayName": "FA1TM Mechanical Flange Alignment Tool",
       "description": "Mechanical flange alignment tool for smaller flange bolt-hole applications.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-alignment-tools.webp",
+          "alt": "ToughTorq FA1TM mechanical flange alignment tool",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Flange Alignment Tool",
         "weightLb": 6.6,
@@ -784,7 +796,13 @@
       "model": "FA4TM",
       "displayName": "FA4TM Mechanical Flange Alignment Tool",
       "description": "4 ton mechanical flange alignment tool for medium flange bolt-hole applications.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-alignment-tools.webp",
+          "alt": "ToughTorq FA4TM mechanical flange alignment tool",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Flange Alignment Tool",
         "weightLb": 19.8,
@@ -827,7 +845,13 @@
       "model": "FA9TM",
       "displayName": "FA9TM Mechanical Flange Alignment Tool",
       "description": "9 ton mechanical flange alignment tool for large high-pressure flange applications.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-alignment-tools.webp",
+          "alt": "ToughTorq FA9TM mechanical flange alignment tool",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Flange Alignment Tool",
         "weightLb": 35.3,
@@ -870,7 +894,13 @@
       "model": "FA9TE",
       "displayName": "FA9TE Hydraulic Flange Alignment Tool",
       "description": "9 ton hydraulic flange alignment tool for large high-pressure flange applications.",
-      "images": [],
+      "images": [
+        {
+          "src": "/flange-alignment-tools.webp",
+          "alt": "ToughTorq FA9TE hydraulic flange alignment tool",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Flange Alignment Tool",
         "weightLb": 35.3,
