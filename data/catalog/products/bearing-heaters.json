@@ -43,7 +43,13 @@
       "model": "KHG-12",
       "displayName": "KHG-12 Plate Bearing Heater",
       "description": "Plate bearing heater with 1.32 kW heating power and 60–320 °C operating temperature range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bearing-heater-plate.webp",
+          "alt": "ToughTorq KHG-12 plate bearing heater",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Plate Bearing Heater",
         "ratedVoltageV": "220",
@@ -132,7 +138,13 @@
       "model": "KHG-12P",
       "displayName": "KHG-12P Plate Bearing Heater",
       "description": "Plate bearing heater with 1.32 kW heating power and 30–350 °C operating temperature range.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bearing-heater-plate.webp",
+          "alt": "ToughTorq KHG-12P plate bearing heater",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Plate Bearing Heater",
         "ratedVoltageV": "110/220",
@@ -221,7 +233,13 @@
       "model": "KHG-22",
       "displayName": "KHG-22 Bearing Induction Heater",
       "description": "Induction heater with 2.2 kW power and published bearing capacity up to 15 kg.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bearing-heater-induction.webp",
+          "alt": "ToughTorq KHG-22 bearing induction heater",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Induction Heater",
         "ratedVoltageV": "220",
@@ -316,7 +334,13 @@
       "model": "KHG-40",
       "displayName": "KHG-40 Bearing Induction Heater",
       "description": "Induction heater with 4 kW power and published bearing capacity up to 50 kg.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bearing-heater-induction.webp",
+          "alt": "ToughTorq KHG-40 bearing induction heater",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Induction Heater",
         "ratedVoltageV": "220",
@@ -411,7 +435,13 @@
       "model": "KHG-100",
       "displayName": "KHG-100 Bearing Induction Heater",
       "description": "Induction heater with 10 kW power and published bearing capacity up to 150 kg.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bearing-heater-induction.webp",
+          "alt": "ToughTorq KHG-100 bearing induction heater",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Induction Heater",
         "ratedVoltageV": "Two Phase 380",
@@ -506,7 +536,13 @@
       "model": "KHG-120",
       "displayName": "KHG-120 Bearing Induction Heater",
       "description": "Induction heater with 12 kW power and published bearing capacity up to 350 kg.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bearing-heater-induction.webp",
+          "alt": "ToughTorq KHG-120 bearing induction heater",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Induction Heater",
         "ratedVoltageV": "Two Phase 380",
@@ -601,7 +637,13 @@
       "model": "KHG-150",
       "displayName": "KHG-150 Bearing Induction Heater",
       "description": "Induction heater with 15 kW power and published bearing capacity up to 450 kg.",
-      "images": [],
+      "images": [
+        {
+          "src": "/bearing-heater-induction.webp",
+          "alt": "ToughTorq KHG-150 bearing induction heater",
+          "type": "product"
+        }
+      ],
       "specifications": {
         "series": "Bearing Induction Heater",
         "ratedVoltageV": "Two Phase 380",
