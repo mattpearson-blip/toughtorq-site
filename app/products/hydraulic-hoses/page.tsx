@@ -120,6 +120,9 @@ export default function HydraulicHosesPage() {
             <Link href="#selection" className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444]">
               Selection Guidance
             </Link>
+            <Link href="#downloads" className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444]">
+              Downloads
+            </Link>
             <Link href="/find-a-distributor" className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444]">
               Find a Distributor
             </Link>

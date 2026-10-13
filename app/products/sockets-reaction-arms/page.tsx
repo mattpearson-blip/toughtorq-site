@@ -122,45 +122,67 @@ export default function SocketsReactionArmsPage() {
   return (
     <main className="bg-[#f5f5f5] text-[#2b2b2b]">
       <section className="border-b border-[#dedede] bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-20 lg:px-12">
-          <p className="text-sm font-bold uppercase tracking-[0.14em] text-[#ed1c24]">
-            Bolting Accessories
-          </p>
+        <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 md:px-8 md:py-20 lg:grid-cols-[1fr_0.8fr] lg:px-12">
+          <div>
+            <p className="text-sm font-bold uppercase tracking-[0.14em] text-[#ed1c24]">
+              Bolting Accessories
+            </p>
 
-          <h1 className="mt-4 max-w-5xl text-4xl font-bold uppercase leading-[1.05] tracking-tight text-[#3f4448] md:text-6xl">
-            Sockets
-            <br />
-            & Reaction Arms
-          </h1>
+            <h1 className="mt-4 max-w-5xl text-4xl font-bold uppercase leading-[1.05] tracking-tight text-[#3f4448] md:text-6xl">
+              Sockets
+              <br />
+              & Reaction Arms
+            </h1>
 
-          <div className="mt-6 h-[3px] w-16 bg-[#ed1c24]" />
+            <div className="mt-6 h-[3px] w-16 bg-[#ed1c24]" />
 
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-[#444444]">
-            {family.longDescription}
-          </p>
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-[#444444]">
+              {family.longDescription}
+            </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-            <Link
-              href="#socket-data"
-              className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
-            >
-              View Socket Data
-            </Link>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <Link
+                href="#socket-data"
+                className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
+              >
+                View Socket Data
+              </Link>
 
-            <Link
-              href="#reaction"
-              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
-            >
-              Reaction Guidance
-            </Link>
+              <Link
+                href="#downloads"
+                className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+              >
+                Downloads
+              </Link>
 
-            <Link
-              href="/find-a-distributor"
-              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
-            >
-              Find a Distributor
-            </Link>
+              <Link
+                href="#reaction"
+                className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+              >
+                Reaction Guidance
+              </Link>
+
+              <Link
+                href="/find-a-distributor"
+                className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#777777] bg-white px-6 py-3 text-sm font-semibold text-[#444444] transition hover:border-[#ed1c24] hover:text-[#ed1c24]"
+              >
+                Find a Distributor
+              </Link>
+            </div>
           </div>
+
+          {family.images[0] && (
+            <div className="flex min-h-[300px] items-center justify-center rounded-2xl border border-[#e2e2e2] bg-[#fafafa] p-8">
+              <Image
+                src={family.images[0].src}
+                alt={family.images[0].alt}
+                width={640}
+                height={260}
+                priority
+                className="h-auto max-h-[300px] w-auto max-w-full object-contain"
+              />
+            </div>
+          )}
         </div>
       </section>
 
