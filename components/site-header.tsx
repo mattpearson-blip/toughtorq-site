@@ -156,9 +156,14 @@ export function SiteHeader() {
             </Link>
 
             <div className="invisible absolute left-1/2 top-full w-[980px] -translate-x-1/2 border border-[#dddddd] bg-white opacity-0 shadow-xl transition-all duration-150 group-hover:visible group-hover:opacity-100">
-              <div className="grid grid-cols-3 gap-px bg-[#e5e5e5]">
-                {productGroups.map((group) => (
-                  <div key={group.title} className="bg-white p-6">
+              <div className="grid grid-cols-6 gap-px bg-[#e5e5e5]">
+                {productGroups.map((group, index) => (
+                  <div
+                    key={group.title}
+                    className={`bg-white p-6 ${
+                      index < 3 ? "col-span-2" : "col-span-3"
+                    }`}
+                  >
                     <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
                       {group.title}
                     </p>
