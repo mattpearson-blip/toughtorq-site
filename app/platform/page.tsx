@@ -230,7 +230,7 @@ export default function ResourcesPage() {
                 "Cylinder capacity & stroke",
                 "Bolt tensioning load",
                 "Socket & fastener compatibility",
-                "PVA head & accessory compatibility",
+                "Hydraulic fitting compatibility",
                 "Pump flow & reservoir data",
                 "Dimensions & clearance",
               ].map((item) => (

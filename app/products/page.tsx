@@ -201,45 +201,6 @@ const productGroups = [
     ],
   },
 
-  {
-    title: "Portable Valve Actuation",
-    description:
-      "Dedicated portable valve actuator systems, drive platforms, adaptors, reaction devices, and accessories for industrial valve operation.",
-    items: [
-      {
-        title: "Portable Valve Actuator Systems",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        title: "Battery PVA Systems",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        title: "Pneumatic PVA Systems",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        title: "Gas PVA Systems",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        title: "Water Network PVA Systems",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        title: "PVA Heads & Adaptors",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        title: "PVA Reaction Devices",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        title: "PVA Accessories",
-        href: "/products/valve-actuator-tools",
-      },
-    ],
-  },
 ];
 
 export default function ProductsPage() {
@@ -336,35 +297,6 @@ export default function ProductsPage() {
                 </div>
               </section>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* PVA CALLOUT */}
-      <section className="border-t border-[#dedede] bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <div className="grid gap-8 rounded-xl border border-[#dddddd] bg-[#fafafa] p-6 md:p-8 lg:grid-cols-[1fr_auto] lg:items-center">
-            <div>
-              <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-                Portable Valve Actuation
-              </p>
-
-              <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-                PVA systems are a dedicated product platform
-              </h2>
-
-              <p className="mt-4 max-w-3xl leading-7 text-[#555555]">
-                Configure portable valve actuator systems by power platform,
-                actuator head, valve adaptor, reaction device, and accessories.
-              </p>
-            </div>
-
-            <Link
-              href="/products/valve-actuator-tools"
-              className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white"
-            >
-              Explore PVA Systems
-            </Link>
           </div>
         </div>
       </section>

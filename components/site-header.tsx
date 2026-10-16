@@ -115,43 +115,6 @@ const productGroups = [
     ],
   },
 
-  {
-    title: "Portable Valve Actuation",
-    items: [
-      {
-        title: "Portable Valve Actuator Systems",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        title: "Battery PVA Systems",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        title: "Pneumatic PVA Systems",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        title: "Gas PVA Systems",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        title: "Water Network PVA Systems",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        title: "PVA Heads & Adaptors",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        title: "PVA Reaction Devices",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        title: "PVA Accessories",
-        href: "/products/valve-actuator-tools",
-      },
-    ],
-  },
 ];
 
 export function SiteHeader() {
@@ -223,7 +186,7 @@ export function SiteHeader() {
 
                   <p className="mt-1 text-sm text-[#666666]">
                     Find tooling by torquing, tensioning, lifting, hydraulics,
-                    flange work, maintenance, or portable valve actuation.
+                    flange work, or maintenance.
                   </p>
                 </div>
 

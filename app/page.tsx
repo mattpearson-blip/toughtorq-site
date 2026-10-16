@@ -31,11 +31,6 @@ const primaryCategories = [
     text: "Pullers, nut splitters, gear pullers, and bearing heating equipment.",
     href: "/products",
   },
-  {
-    title: "Portable Valve Actuation",
-    text: "Battery, pneumatic, gas, and water-network PVA systems with dedicated heads, adaptors, reaction devices, and accessories.",
-    href: "/products/valve-actuator-tools",
-  },
 ];
 
 const featuredProducts = [
@@ -58,10 +53,6 @@ const featuredProducts = [
   {
     title: "Hydraulic Cylinders & Rams",
     href: "/products/hydraulic-cylinders-rams",
-  },
-  {
-    title: "Portable Valve Actuator Systems",
-    href: "/products/valve-actuator-tools",
   },
 ];
 
@@ -165,55 +156,6 @@ export default function HomePage() {
                 <span className="text-[#ed1c24]">→</span>
               </Link>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* PVA FEATURE */}
-      <section className="border-b border-[#dedede] bg-[#f7f7f7]">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:px-8 lg:px-12">
-          <div className="grid gap-8 rounded-xl border border-[#dddddd] bg-white p-6 md:p-8 lg:grid-cols-[1fr_auto] lg:items-center">
-            <div>
-              <p className="text-sm font-bold uppercase tracking-[0.12em] text-[#ed1c24]">
-                Portable Valve Actuation
-              </p>
-
-              <h2 className="mt-3 text-3xl font-semibold text-[#3f4448]">
-                Complete PVA systems
-              </h2>
-
-              <p className="mt-4 max-w-3xl leading-7 text-[#555555]">
-                Configure a system by choosing the power platform, actuator
-                head, valve adaptor, reaction device, and accessories required
-                for the application.
-              </p>
-
-              <div className="mt-6 flex flex-wrap gap-2">
-                {[
-                  "Battery PVA",
-                  "Pneumatic PVA",
-                  "Gas PVA",
-                  "Water Network PVA",
-                  "Heads & Adaptors",
-                  "Reaction Devices",
-                  "Accessories",
-                ].map((item) => (
-                  <span
-                    key={item}
-                    className="rounded-full border border-[#dddddd] bg-[#fafafa] px-3 py-2 text-xs font-semibold text-[#555555]"
-                  >
-                    {item}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <Link
-              href="/products/valve-actuator-tools"
-              className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-lg bg-[#ed1c24] px-6 py-3 text-sm font-semibold text-white"
-            >
-              Explore PVA Systems
-            </Link>
           </div>
         </div>
       </section>

@@ -42,9 +42,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Removal & Maintenance
     "/products/pullers-nut-splitters",
     "/products/bearing-heaters",
-
-    // Valve Tools
-    "/products/valve-actuator-tools",
   ];
 
   return routes.map((route) => ({

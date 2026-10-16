@@ -81,39 +81,6 @@ const productLinks = [
       },
     ],
   },
-  {
-    title: "Portable Valve Actuation",
-    links: [
-      {
-        label: "PVA Systems",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        label: "Battery PVA",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        label: "Pneumatic PVA",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        label: "Gas PVA",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        label: "Water Network PVA",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        label: "PVA Heads & Adaptors",
-        href: "/products/valve-actuator-tools",
-      },
-      {
-        label: "PVA Accessories",
-        href: "/products/valve-actuator-tools",
-      },
-    ],
-  },
 ];
 
 const companyLinks = [
@@ -167,8 +134,7 @@ export function SiteFooter() {
 
             <p className="mt-5 max-w-sm text-sm leading-7 text-[#666666]">
               Manufacturer technical authority for ToughTorq industrial torque,
-              bolting, hydraulic, lifting, maintenance, and portable valve
-              actuation equipment.
+              bolting, hydraulic, lifting, and maintenance equipment.
             </p>
 
             <div className="mt-7 flex flex-col gap-3">
@@ -191,7 +157,7 @@ export function SiteFooter() {
           </div>
 
           {/* PRODUCT LINKS */}
-          <div className="grid gap-8 sm:grid-cols-2 xl:grid-cols-4">
+          <div className="grid gap-8 sm:grid-cols-2 xl:grid-cols-3">
             {productLinks.map((group) => (
               <div key={group.title}>
                 <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#ed1c24]">

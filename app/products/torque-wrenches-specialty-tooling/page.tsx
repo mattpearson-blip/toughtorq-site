@@ -80,10 +80,6 @@ const multiplierGroups = [
 
 const specialtyGroups = [
   {
-    title: "Portable Valve Actuator Systems",
-    text: "Portable systems for repetitive valve operation in industrial, utility, and remote applications.",
-  },
-  {
     title: "Reaction Washers",
     text: "Controlled-reaction washer systems designed to reduce external reaction-arm requirements.",
   },
@@ -143,7 +139,7 @@ export default function TorqueWrenchesSpecialtyToolingPage() {
           <div className="mt-6 h-[3px] w-16 bg-[#ed1c24]" />
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-[#444444]">
-            Battery, pneumatic, manual, valve, reaction, flange, pulling, and
+            Battery, pneumatic, manual, reaction, flange, pulling, and
             specialty tools for industrial maintenance and bolting work.
           </p>
 
@@ -305,7 +301,6 @@ export default function TorqueWrenchesSpecialtyToolingPage() {
               "Mechanical Gear Pullers",
               "Hydraulic Gear Pullers",
               "Bearing Induction Heaters",
-              "Valve Actuator Accessories",
               "Reaction Accessories",
               "Custom Tooling",
             ].map((item) => (
@@ -334,7 +329,6 @@ export default function TorqueWrenchesSpecialtyToolingPage() {
                 "Pneumatic Torque Wrench Cutsheet",
                 "Digital Manual Torque Wrench Cutsheet",
                 "Manual Torque Multiplier Cutsheet",
-                "Portable Valve Actuator Cutsheet",
                 "Reaction Washer Technical Data",
                 "Flange Tool Cutsheets",
                 "Puller & Bearing Tool Cutsheets",

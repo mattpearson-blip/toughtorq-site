@@ -12,7 +12,6 @@ import hydraulicTorqueWrenchesJson from "./products/hydraulic-torque-wrenches.js
 import pneumaticTorqueGunsJson from "./products/pneumatic-torque-guns.json";
 import pullersNutSplittersJson from "./products/pullers-nut-splitters.json";
 import reactionWashersJson from "./products/reaction-washers.json";
-import portableValveActuationJson from "./products/portable-valve-actuation.json";
 import torqueMultipliersJson from "./products/torque-multipliers.json";
 import socketsReactionArmsJson from "./products/sockets-reaction-arms.json";
 
@@ -63,9 +62,6 @@ export const manualDigitalTorqueWrenches =
 export const hydraulicTorqueWrenches =
   hydraulicTorqueWrenchesJson as unknown as CatalogProductFamily;
 
-export const portableValveActuation =
-  portableValveActuationJson as unknown as CatalogProductFamily;
-
 export const torqueMultipliers =
   torqueMultipliersJson as unknown as CatalogProductFamily;
 
@@ -88,7 +84,6 @@ export const catalogProducts: CatalogProductFamily[] = [
   manualDigitalTorqueWrenches,
   torqueMultipliers,
   socketsReactionArms,
-  portableValveActuation,
 ];
 
 export const catalog: Omit<CatalogExport, "generatedAt"> = {

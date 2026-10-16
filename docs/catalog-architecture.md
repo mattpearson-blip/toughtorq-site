@@ -112,8 +112,7 @@ The existing quote cart may remain temporarily, but new ToughTorq product archit
 
 1. Pneumatic Torque Guns
 2. Hydraulic Torque Pumps
-3. Portable Valve Actuation
-4. Remaining catalog families
+3. Remaining catalog families
 
 ## Hydraulic torque pump naming
 

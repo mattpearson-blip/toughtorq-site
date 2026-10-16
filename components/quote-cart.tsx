@@ -180,7 +180,7 @@ export default function QuoteCart() {
   |
   | ?product=Battery Torque Guns&model=BT10-700
   |
-  | ?accessory=PVA Torque Limiter
+  | ?accessory=Hydraulic Coupler
   |
   | ?service=Calibration
   |
