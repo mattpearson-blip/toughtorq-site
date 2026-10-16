@@ -260,11 +260,17 @@ export default function TorqueWrenchesSpecialtyToolingPage() {
             Industrial Specialty Tools
           </h2>
 
-          <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {specialtyGroups.map((group) => (
+          <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-6">
+            {specialtyGroups.map((group, index) => (
               <div
                 key={group.title}
-                className="rounded-xl border border-[#dddddd] bg-white p-6 transition hover:border-[#ed1c24]"
+                className={`rounded-xl border border-[#dddddd] bg-white p-6 transition hover:border-[#ed1c24] ${
+                  index < 3 ? "lg:col-span-2" : "lg:col-span-3"
+                } ${
+                  index === specialtyGroups.length - 1
+                    ? "md:col-span-2 lg:col-span-3"
+                    : ""
+                }`}
               >
                 <h3 className="text-xl font-semibold text-[#3f4448]">
                   {group.title}
@@ -290,7 +296,7 @@ export default function TorqueWrenchesSpecialtyToolingPage() {
             Supporting Industrial Equipment
           </h2>
 
-          <div className="mt-8 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-8 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2 lg:grid-cols-12">
             {[
               "Reaction Washers",
               "Hydraulic Pullers",
@@ -303,8 +309,17 @@ export default function TorqueWrenchesSpecialtyToolingPage() {
               "Bearing Induction Heaters",
               "Reaction Accessories",
               "Custom Tooling",
-            ].map((item) => (
-              <div key={item} className="bg-white p-5">
+            ].map((item, index, items) => (
+              <div
+                key={item}
+                className={`bg-white p-5 ${
+                  index < 8 ? "lg:col-span-3" : "lg:col-span-4"
+                } ${
+                  index === items.length - 1
+                    ? "sm:col-span-2 lg:col-span-4"
+                    : ""
+                }`}
+              >
                 <p className="font-semibold text-[#444444]">{item}</p>
               </div>
             ))}
