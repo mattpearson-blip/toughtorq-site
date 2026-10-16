@@ -144,12 +144,18 @@ export default function HomePage() {
             Popular ToughTorq product families
           </h2>
 
-          <div className="mt-8 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2 lg:grid-cols-3">
-            {featuredProducts.map((product) => (
+          <div className="mt-8 grid gap-px overflow-hidden rounded-xl border border-[#dddddd] bg-[#dddddd] sm:grid-cols-2 lg:grid-cols-6">
+            {featuredProducts.map((product, index) => (
               <Link
                 key={product.title}
                 href={product.href}
-                className="flex min-h-[88px] items-center justify-between gap-4 bg-[#fafafa] px-5 py-4 font-semibold text-[#444444] transition hover:bg-white hover:text-[#ed1c24]"
+                className={`flex min-h-[88px] items-center justify-between gap-4 bg-[#fafafa] px-5 py-4 font-semibold text-[#444444] transition hover:bg-white hover:text-[#ed1c24] ${
+                  index < 3 ? "lg:col-span-2" : "lg:col-span-3"
+                } ${
+                  index === featuredProducts.length - 1
+                    ? "sm:col-span-2 lg:col-span-3"
+                    : ""
+                }`}
               >
                 <span>{product.title}</span>
 
