@@ -283,11 +283,16 @@ export default function ProductsPage() {
                 </div>
 
                 <div className="grid flex-1 gap-px bg-[#e0e0e0] sm:grid-cols-2">
-                  {group.items.map((item) => (
+                  {group.items.map((item, index) => (
                     <Link
                       key={`${group.title}-${item.title}`}
                       href={item.href}
-                      className="flex min-h-[76px] items-center justify-between gap-4 bg-[#fafafa] px-5 py-4 text-sm font-semibold text-[#444444] transition hover:bg-white hover:text-[#ed1c24]"
+                      className={`flex min-h-[76px] items-center justify-between gap-4 bg-[#fafafa] px-5 py-4 text-sm font-semibold text-[#444444] transition hover:bg-white hover:text-[#ed1c24] ${
+                        group.items.length % 2 === 1 &&
+                        index === group.items.length - 1
+                          ? "sm:col-span-2"
+                          : ""
+                      }`}
                     >
                       <span>{item.title}</span>
 
