@@ -282,22 +282,30 @@ export default function ProductsPage() {
                   </p>
                 </div>
 
-                <div className="grid flex-1 gap-px bg-[#e0e0e0] sm:grid-cols-2">
-                  {group.items.map((item, index) => (
-                    <Link
-                      key={`${group.title}-${item.title}`}
-                      href={item.href}
-                      className={`flex min-h-[76px] items-center justify-between gap-4 bg-[#fafafa] px-5 py-4 text-sm font-semibold text-[#444444] transition hover:bg-white hover:text-[#ed1c24] ${
-                        group.items.length % 2 === 1 &&
-                        index === group.items.length - 1
-                          ? "sm:col-span-2"
-                          : ""
+                <div className="flex flex-1 flex-col gap-px bg-[#e0e0e0]">
+                  {Array.from(
+                    { length: Math.ceil(group.items.length / 2) },
+                    (_, rowIndex) =>
+                      group.items.slice(rowIndex * 2, rowIndex * 2 + 2)
+                  ).map((row, rowIndex) => (
+                    <div
+                      key={`${group.title}-row-${rowIndex}`}
+                      className={`grid gap-px ${
+                        row.length === 2 ? "sm:grid-cols-2" : "grid-cols-1"
                       }`}
                     >
-                      <span>{item.title}</span>
+                      {row.map((item) => (
+                        <Link
+                          key={`${group.title}-${item.title}`}
+                          href={item.href}
+                          className="flex min-h-[76px] items-center justify-between gap-4 bg-[#fafafa] px-5 py-4 text-sm font-semibold text-[#444444] transition hover:bg-white hover:text-[#ed1c24]"
+                        >
+                          <span>{item.title}</span>
 
-                      <span className="text-[#ed1c24]">→</span>
-                    </Link>
+                          <span className="text-[#ed1c24]">→</span>
+                        </Link>
+                      ))}
+                    </div>
                   ))}
                 </div>
               </section>
