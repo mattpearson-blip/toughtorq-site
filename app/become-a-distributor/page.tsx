@@ -32,18 +32,6 @@ export default function BecomeADistributorPage() {
                 method="POST"
                 className="mt-10 grid gap-4 md:grid-cols-2 md:gap-6"
               >
-                <input
-                  type="hidden"
-                  name="_subject"
-                  value="ToughTorq Distributor Application Submission"
-                />
-                <input
-                  type="hidden"
-                  name="_next"
-                  value="https://toughtorq.com/thank-you"
-                />
-                <input type="hidden" name="_template" value="table" />
-                <input type="hidden" name="_replyto" value="%email%" />
                 <input type="hidden" name="form_type" value="become_a_distributor" />
                 <input
                   type="text"
