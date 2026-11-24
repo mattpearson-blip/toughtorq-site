@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { PageHero } from "@/components/page-hero";
 
-const FORM_ACTION = "https://formsubmit.co/support@toughtorq.com";
+const FORM_ACTION = "/api/form-submit";
 
 export default function FindADistributorPage() {
   return (
@@ -33,18 +33,6 @@ export default function FindADistributorPage() {
                 method="POST"
                 className="mt-10 grid gap-4 md:grid-cols-2 md:gap-6"
               >
-                <input
-                  type="hidden"
-                  name="_subject"
-                  value="ToughTorq Find a Distributor Submission"
-                />
-                <input
-                  type="hidden"
-                  name="_next"
-                  value="https://toughtorq.com/thank-you"
-                />
-                <input type="hidden" name="_template" value="table" />
-                <input type="hidden" name="_replyto" value="%email%" />
                 <input type="hidden" name="form_type" value="find_a_distributor" />
                 <input
                   type="text"
