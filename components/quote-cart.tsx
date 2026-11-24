@@ -669,11 +669,13 @@ export default function QuoteCart() {
         </p>
 
         <form
-          action="https://formsubmit.co/support@toughtorq.com"
+          action="/api/form-submit"
           method="POST"
           onSubmit={handleSubmit}
           className="mt-7 space-y-5"
         >
+          <input type="hidden" name="form_type" value="quote_request" />
+
           <input
             type="hidden"
             name="_subject"
