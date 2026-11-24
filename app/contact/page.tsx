@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { PageHero } from "@/components/page-hero";
 
-const FORM_ACTION = "https://formsubmit.co/support@toughtorq.com";
+const FORM_ACTION = "/api/form-submit";
 
 export default function ContactPage() {
   return (
