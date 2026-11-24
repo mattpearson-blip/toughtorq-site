@@ -678,20 +678,8 @@ export default function QuoteCart() {
 
           <input
             type="hidden"
-            name="_subject"
-            value="New ToughTorq Quote Request"
-          />
-
-          <input
-            type="hidden"
             name="_template"
             value="table"
-          />
-
-          <input
-            type="hidden"
-            name="_next"
-            value="https://toughtorq.com/thank-you"
           />
 
           <input
